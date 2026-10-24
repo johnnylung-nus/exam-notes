@@ -2,6 +2,12 @@
 
 A minimal, mobile-friendly chapter library built with HTML, CSS, and a small amount of vanilla JavaScript. No build tools, framework, or external runtime dependencies. No course notes are included yet.
 
+## Shared tutoring workflow
+
+Every chapter discussion feeds this same website. Read [STUDY_RULES.md](STUDY_RULES.md) for the tutoring agreement and [CHAPTERS.md](CHAPTERS.md) for chapter status and handoffs. [AGENTS.md](AGENTS.md) provides repository instructions for Codex.
+
+For separate chats in the ChatGPT Exam project, add the prepared `EXAM_PROJECT_INSTRUCTIONS.md` (in the parent output folder) to that project's instructions once. A local README does not update ChatGPT project settings. The current source-access and GitHub authentication limitations are recorded in the study agreement.
+
 ## Open the site
 
 Open `index.html` directly in a modern browser. All paths are relative, so the same files work under GitHub Pages at `/exam-notes/`.
