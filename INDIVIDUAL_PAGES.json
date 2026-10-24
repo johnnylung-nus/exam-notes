@@ -1,0 +1,1666 @@
+{
+  "pages": [
+    {
+      "id": "c001",
+      "page": "concepts/c001.html",
+      "title": "Search problem formulation",
+      "words": 661,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c002",
+      "page": "concepts/c002.html",
+      "title": "Breadth-first search",
+      "words": 633,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c003",
+      "page": "concepts/c003.html",
+      "title": "Depth-first search",
+      "words": 641,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c004",
+      "page": "concepts/c004.html",
+      "title": "Uniform-cost search / Dijkstra",
+      "words": 1913,
+      "svgs": 0,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c005",
+      "page": "concepts/c005.html",
+      "title": "A* search",
+      "words": 910,
+      "svgs": 0,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c006",
+      "page": "concepts/c006.html",
+      "title": "Heuristics and admissibility",
+      "words": 683,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c007",
+      "page": "concepts/c007.html",
+      "title": "Hill climbing",
+      "words": 1934,
+      "svgs": 0,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c008",
+      "page": "concepts/c008.html",
+      "title": "Simulated annealing",
+      "words": 710,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c038",
+      "page": "concepts/c038.html",
+      "title": "User-based collaborative filtering",
+      "words": 761,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c039",
+      "page": "concepts/c039.html",
+      "title": "Item-based collaborative filtering",
+      "words": 629,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c040",
+      "page": "concepts/c040.html",
+      "title": "Similarity and rating prediction",
+      "words": 665,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c041",
+      "page": "concepts/c041.html",
+      "title": "Recommendation evaluation",
+      "words": 847,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c042",
+      "page": "concepts/c042.html",
+      "title": "Sparsity and cold start",
+      "words": 788,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c043",
+      "page": "concepts/c043.html",
+      "title": "Matrix factorization",
+      "words": 691,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c044",
+      "page": "concepts/c044.html",
+      "title": "SGD / ALS training",
+      "words": 608,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c045",
+      "page": "concepts/c045.html",
+      "title": "Recommendation overfitting and regularization",
+      "words": 730,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c152",
+      "page": "concepts/c152.html",
+      "title": "PCA, variance, and principal directions",
+      "words": 942,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c153",
+      "page": "concepts/c153.html",
+      "title": "Eigenvalues / eigenvectors and SVD",
+      "words": 721,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c009",
+      "page": "concepts/c009.html",
+      "title": "Deductive reasoning",
+      "words": 649,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c010",
+      "page": "concepts/c010.html",
+      "title": "Abductive reasoning",
+      "words": 631,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c011",
+      "page": "concepts/c011.html",
+      "title": "Inductive reasoning",
+      "words": 686,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c012",
+      "page": "concepts/c012.html",
+      "title": "Forward chaining",
+      "words": 793,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c013",
+      "page": "concepts/c013.html",
+      "title": "Backward chaining",
+      "words": 707,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c014",
+      "page": "concepts/c014.html",
+      "title": "Conflict resolution in rule systems",
+      "words": 742,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c015",
+      "page": "concepts/c015.html",
+      "title": "Case-based reasoning",
+      "words": 632,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c016",
+      "page": "concepts/c016.html",
+      "title": "Bayesian reasoning",
+      "words": 753,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c017",
+      "page": "concepts/c017.html",
+      "title": "First-order / predicate logic",
+      "words": 671,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c018",
+      "page": "concepts/c018.html",
+      "title": "Semantic networks",
+      "words": 750,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c019",
+      "page": "concepts/c019.html",
+      "title": "Frames",
+      "words": 983,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c020",
+      "page": "concepts/c020.html",
+      "title": "Ontologies",
+      "words": 650,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c021",
+      "page": "concepts/c021.html",
+      "title": "Knowledge graph structure and queries",
+      "words": 637,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c022",
+      "page": "concepts/c022.html",
+      "title": "KG traversal and multi-hop queries",
+      "words": 672,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c023",
+      "page": "concepts/c023.html",
+      "title": "TransE embeddings",
+      "words": 722,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c024",
+      "page": "concepts/c024.html",
+      "title": "TransR embeddings",
+      "words": 695,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c025",
+      "page": "concepts/c025.html",
+      "title": "Bilinear / DistMult embeddings",
+      "words": 703,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c026",
+      "page": "concepts/c026.html",
+      "title": "Neural knowledge graph embeddings",
+      "words": 712,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c027",
+      "page": "concepts/c027.html",
+      "title": "Inductive learning and generalization",
+      "words": 657,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c028",
+      "page": "concepts/c028.html",
+      "title": "Decision-tree reasoning",
+      "words": 801,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c029",
+      "page": "concepts/c029.html",
+      "title": "Reasoning-system architecture",
+      "words": 1112,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c030",
+      "page": "concepts/c030.html",
+      "title": "Rules + ML integration",
+      "words": 759,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c031",
+      "page": "concepts/c031.html",
+      "title": "Knowledge graph + LLM integration",
+      "words": 657,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c032",
+      "page": "concepts/c032.html",
+      "title": "Retrieval-augmented generation",
+      "words": 650,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c033",
+      "page": "concepts/c033.html",
+      "title": "Agentic orchestration",
+      "words": 656,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c058",
+      "page": "concepts/c058.html",
+      "title": "Symbolic / connectionist / hybrid AI",
+      "words": 801,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c034",
+      "page": "concepts/c034.html",
+      "title": "Market basket analysis",
+      "words": 871,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c035",
+      "page": "concepts/c035.html",
+      "title": "Association-rule support",
+      "words": 865,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c036",
+      "page": "concepts/c036.html",
+      "title": "Association-rule confidence and lift",
+      "words": 891,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c037",
+      "page": "concepts/c037.html",
+      "title": "Content-based recommendation",
+      "words": 653,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c046",
+      "page": "concepts/c046.html",
+      "title": "Implicit feedback and preferences",
+      "words": 672,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c047",
+      "page": "concepts/c047.html",
+      "title": "Jaccard similarity",
+      "words": 672,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c048",
+      "page": "concepts/c048.html",
+      "title": "Negative sampling",
+      "words": 636,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c049",
+      "page": "concepts/c049.html",
+      "title": "Confidence-weighted implicit MF",
+      "words": 664,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c050",
+      "page": "concepts/c050.html",
+      "title": "Bayesian personalized ranking",
+      "words": 683,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c051",
+      "page": "concepts/c051.html",
+      "title": "Hybrid recommenders",
+      "words": 617,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c052",
+      "page": "concepts/c052.html",
+      "title": "Deep collaborative filtering",
+      "words": 657,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c053",
+      "page": "concepts/c053.html",
+      "title": "Sequence-based recommendation",
+      "words": 691,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c054",
+      "page": "concepts/c054.html",
+      "title": "Graph-based recommendation",
+      "words": 649,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c055",
+      "page": "concepts/c055.html",
+      "title": "Genetic algorithm representation and fitness",
+      "words": 719,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c056",
+      "page": "concepts/c056.html",
+      "title": "GA selection operators",
+      "words": 676,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c057",
+      "page": "concepts/c057.html",
+      "title": "GA crossover and mutation",
+      "words": 652,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c060",
+      "page": "concepts/c060.html",
+      "title": "Natural language understanding",
+      "words": 755,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c061",
+      "page": "concepts/c061.html",
+      "title": "Intent classification",
+      "words": 721,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c063",
+      "page": "concepts/c063.html",
+      "title": "Slot detection and information extraction",
+      "words": 790,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c064",
+      "page": "concepts/c064.html",
+      "title": "Dialogue management and generation",
+      "words": 749,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c065",
+      "page": "concepts/c065.html",
+      "title": "LLM tools and agents",
+      "words": 649,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c062",
+      "page": "concepts/c062.html",
+      "title": "TF-IDF and cosine similarity",
+      "words": 906,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c082",
+      "page": "concepts/c082.html",
+      "title": "RAG and knowledge-graph cognition",
+      "words": 628,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c059",
+      "page": "concepts/c059.html",
+      "title": "Cognitive-system architecture",
+      "words": 913,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c078",
+      "page": "concepts/c078.html",
+      "title": "Multimodal cognition",
+      "words": 664,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c066",
+      "page": "concepts/c066.html",
+      "title": "Vision cognition pipeline",
+      "words": 868,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c067",
+      "page": "concepts/c067.html",
+      "title": "Marr’s three levels",
+      "words": 658,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c068",
+      "page": "concepts/c068.html",
+      "title": "Detection vs segmentation",
+      "words": 789,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c069",
+      "page": "concepts/c069.html",
+      "title": "Visual attention and context",
+      "words": 591,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c070",
+      "page": "concepts/c070.html",
+      "title": "Vision-language models",
+      "words": 658,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c071",
+      "page": "concepts/c071.html",
+      "title": "Audio sampling and coding",
+      "words": 636,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c072",
+      "page": "concepts/c072.html",
+      "title": "Spectrogram and audio features",
+      "words": 610,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c073",
+      "page": "concepts/c073.html",
+      "title": "Speech recognition",
+      "words": 644,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c075",
+      "page": "concepts/c075.html",
+      "title": "Whisper",
+      "words": 573,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c076",
+      "page": "concepts/c076.html",
+      "title": "Wav2Vec self-supervised learning",
+      "words": 617,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c074",
+      "page": "concepts/c074.html",
+      "title": "Text-to-speech",
+      "words": 613,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c077",
+      "page": "concepts/c077.html",
+      "title": "Audio/system evaluation",
+      "words": 692,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c079",
+      "page": "concepts/c079.html",
+      "title": "LLM reasoning and chain of thought",
+      "words": 633,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c080",
+      "page": "concepts/c080.html",
+      "title": "Validity, soundness, and reasoning failure",
+      "words": 800,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c081",
+      "page": "concepts/c081.html",
+      "title": "Soar architecture",
+      "words": 621,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c083",
+      "page": "concepts/c083.html",
+      "title": "Signals, sensors, and sensing pipeline",
+      "words": 748,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c084",
+      "page": "concepts/c084.html",
+      "title": "Sampling and aliasing",
+      "words": 706,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c085",
+      "page": "concepts/c085.html",
+      "title": "Periodic / even / odd signals",
+      "words": 563,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c086",
+      "page": "concepts/c086.html",
+      "title": "Superposition and signal decomposition",
+      "words": 630,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c087",
+      "page": "concepts/c087.html",
+      "title": "Time and frequency representation",
+      "words": 622,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c088",
+      "page": "concepts/c088.html",
+      "title": "Fourier transformation",
+      "words": 635,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c089",
+      "page": "concepts/c089.html",
+      "title": "Filtering and convolution",
+      "words": 626,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c090",
+      "page": "concepts/c090.html",
+      "title": "Signal distributions and statistics",
+      "words": 645,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c091",
+      "page": "concepts/c091.html",
+      "title": "Gaussian mixtures / expectation maximization",
+      "words": 709,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c092",
+      "page": "concepts/c092.html",
+      "title": "Basis vectors and energy compaction",
+      "words": 647,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c093",
+      "page": "concepts/c093.html",
+      "title": "Supervised representation learning",
+      "words": 605,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c094",
+      "page": "concepts/c094.html",
+      "title": "Self-supervised representation learning",
+      "words": 654,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c095",
+      "page": "concepts/c095.html",
+      "title": "Autoencoders and reconstruction",
+      "words": 654,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c096",
+      "page": "concepts/c096.html",
+      "title": "Denoising autoencoders",
+      "words": 663,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c097",
+      "page": "concepts/c097.html",
+      "title": "Contrastive learning",
+      "words": 666,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c098",
+      "page": "concepts/c098.html",
+      "title": "Anomaly detection",
+      "words": 893,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c099",
+      "page": "concepts/c099.html",
+      "title": "Single-modality sensing",
+      "words": 624,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c100",
+      "page": "concepts/c100.html",
+      "title": "Data augmentation for sensors",
+      "words": 615,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c101",
+      "page": "concepts/c101.html",
+      "title": "Multimodal representation and fusion",
+      "words": 745,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c102",
+      "page": "concepts/c102.html",
+      "title": "Spatial / temporal / feature alignment",
+      "words": 657,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c103",
+      "page": "concepts/c103.html",
+      "title": "End-to-end sense-making design",
+      "words": 816,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "extra-hmm",
+      "page": "concepts/extra-hmm.html",
+      "title": "HMM: weekly query patterns",
+      "words": 921,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c104",
+      "page": "concepts/c104.html",
+      "title": "Artificial neuron, weights, bias, activation",
+      "words": 682,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c105",
+      "page": "concepts/c105.html",
+      "title": "Perceptron and linear separability",
+      "words": 646,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c106",
+      "page": "concepts/c106.html",
+      "title": "ADALINE and delta rule",
+      "words": 679,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c107",
+      "page": "concepts/c107.html",
+      "title": "MLP and backpropagation",
+      "words": 738,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c108",
+      "page": "concepts/c108.html",
+      "title": "Activation-function choices",
+      "words": 831,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c109",
+      "page": "concepts/c109.html",
+      "title": "RBF networks",
+      "words": 650,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c110",
+      "page": "concepts/c110.html",
+      "title": "General regression neural networks",
+      "words": 614,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c111",
+      "page": "concepts/c111.html",
+      "title": "Self-organizing maps",
+      "words": 647,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c112",
+      "page": "concepts/c112.html",
+      "title": "CNN convolution, padding, stride",
+      "words": 930,
+      "svgs": 2,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c113",
+      "page": "concepts/c113.html",
+      "title": "Pooling",
+      "words": 599,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c114",
+      "page": "concepts/c114.html",
+      "title": "CNN dimensions and parameter counts",
+      "words": 817,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c163",
+      "page": "concepts/c163.html",
+      "title": "CNN application design",
+      "words": 863,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c115",
+      "page": "concepts/c115.html",
+      "title": "Multi-input / multi-output architectures",
+      "words": 781,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c116",
+      "page": "concepts/c116.html",
+      "title": "Shared layers / encoder architectures",
+      "words": 652,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c117",
+      "page": "concepts/c117.html",
+      "title": "RNN sequence representation",
+      "words": 782,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c118",
+      "page": "concepts/c118.html",
+      "title": "LSTM and stacked recurrent networks",
+      "words": 766,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c119",
+      "page": "concepts/c119.html",
+      "title": "Vanishing / exploding gradients",
+      "words": 659,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c120",
+      "page": "concepts/c120.html",
+      "title": "Xavier / He initialization",
+      "words": 685,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c123",
+      "page": "concepts/c123.html",
+      "title": "Batch normalization",
+      "words": 631,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c124",
+      "page": "concepts/c124.html",
+      "title": "Residual connections",
+      "words": 657,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c121",
+      "page": "concepts/c121.html",
+      "title": "L1 / L2 regularization",
+      "words": 785,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c122",
+      "page": "concepts/c122.html",
+      "title": "Dropout",
+      "words": 629,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c125",
+      "page": "concepts/c125.html",
+      "title": "Transfer learning and fine tuning",
+      "words": 720,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c126",
+      "page": "concepts/c126.html",
+      "title": "Transformer / positional encoding",
+      "words": 610,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c127",
+      "page": "concepts/c127.html",
+      "title": "Self-attention and multi-head attention",
+      "words": 659,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c128",
+      "page": "concepts/c128.html",
+      "title": "Ensemble diversity and voting",
+      "words": 741,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c129",
+      "page": "concepts/c129.html",
+      "title": "Bagging and bootstrap sampling",
+      "words": 645,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c130",
+      "page": "concepts/c130.html",
+      "title": "Random forests and feature importance",
+      "words": 849,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c131",
+      "page": "concepts/c131.html",
+      "title": "Boosting and AdaBoost",
+      "words": 735,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c132",
+      "page": "concepts/c132.html",
+      "title": "Gradient boosting",
+      "words": 625,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c133",
+      "page": "concepts/c133.html",
+      "title": "Mixture of experts / neuro-fuzzy systems",
+      "words": 615,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c134",
+      "page": "concepts/c134.html",
+      "title": "Pattern recognition workflow",
+      "words": 667,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c135",
+      "page": "concepts/c135.html",
+      "title": "Supervised / unsupervised / reinforcement learning",
+      "words": 756,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c136",
+      "page": "concepts/c136.html",
+      "title": "Normalization and preprocessing",
+      "words": 1187,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c137",
+      "page": "concepts/c137.html",
+      "title": "Data splits and cross-validation",
+      "words": 644,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c141",
+      "page": "concepts/c141.html",
+      "title": "Hyperparameter tuning and generalization",
+      "words": 762,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c138",
+      "page": "concepts/c138.html",
+      "title": "Imbalanced data and augmentation",
+      "words": 1025,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c139",
+      "page": "concepts/c139.html",
+      "title": "Confusion matrix and classification metrics",
+      "words": 911,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c140",
+      "page": "concepts/c140.html",
+      "title": "ROC and gain/lift charts",
+      "words": 614,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "extra-svm",
+      "page": "concepts/extra-svm.html",
+      "title": "Support vector machine: margin, scaling and business choice",
+      "words": 884,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c142",
+      "page": "concepts/c142.html",
+      "title": "Linear / logistic regression",
+      "words": 615,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c143",
+      "page": "concepts/c143.html",
+      "title": "K-nearest neighbours",
+      "words": 841,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c144",
+      "page": "concepts/c144.html",
+      "title": "Naive Bayes and conditional independence",
+      "words": 724,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c145",
+      "page": "concepts/c145.html",
+      "title": "Laplace correction",
+      "words": 737,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c146",
+      "page": "concepts/c146.html",
+      "title": "Decision-tree splitting and information gain",
+      "words": 792,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c147",
+      "page": "concepts/c147.html",
+      "title": "Gain ratio / Gini",
+      "words": 691,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c148",
+      "page": "concepts/c148.html",
+      "title": "Tree pruning",
+      "words": 646,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c149",
+      "page": "concepts/c149.html",
+      "title": "Curse of dimensionality",
+      "words": 723,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c150",
+      "page": "concepts/c150.html",
+      "title": "Filter / wrapper / embedded feature selection",
+      "words": 898,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c151",
+      "page": "concepts/c151.html",
+      "title": "Forward / backward / recursive feature selection",
+      "words": 685,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c154",
+      "page": "concepts/c154.html",
+      "title": "Clustering vs classification",
+      "words": 597,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c155",
+      "page": "concepts/c155.html",
+      "title": "Distances and standardization for clustering",
+      "words": 591,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c156",
+      "page": "concepts/c156.html",
+      "title": "K-means and centroid updates",
+      "words": 641,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c157",
+      "page": "concepts/c157.html",
+      "title": "K-means++ initialization",
+      "words": 631,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c158",
+      "page": "concepts/c158.html",
+      "title": "Hierarchical clustering and linkage",
+      "words": 620,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c159",
+      "page": "concepts/c159.html",
+      "title": "Cluster evaluation and number of clusters",
+      "words": 675,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c160",
+      "page": "concepts/c160.html",
+      "title": "Recognition, detection, and segmentation applications",
+      "words": 623,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "c161",
+      "page": "concepts/c161.html",
+      "title": "Generative models / GAN applications",
+      "words": 654,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "c162",
+      "page": "concepts/c162.html",
+      "title": "Deep-learning decision / control applications",
+      "words": 815,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": true,
+      "references": true
+    },
+    {
+      "id": "extra-knowledge-acquisition",
+      "page": "concepts/extra-knowledge-acquisition.html",
+      "title": "Knowledge acquisition: elicitation versus discovery",
+      "words": 981,
+      "svgs": 1,
+      "tables": 3,
+      "calculation": false,
+      "references": true
+    }
+  ],
+  "count": 166,
+  "note": "Existing lecture-linked tutorial bodies separated, with concept-specific mechanism questions and failure headings. Source gaps are retained; not a new full-source accuracy certification."
+}

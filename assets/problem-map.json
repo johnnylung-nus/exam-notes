@@ -29,22 +29,22 @@
       {
         "id": "c060",
         "title": "Natural language understanding",
-        "href": "chapters/chatbot-actions.html#c060"
+        "href": "concepts/c060.html#c060"
       },
       {
         "id": "c061",
         "title": "Intent classification",
-        "href": "chapters/chatbot-actions.html#c061"
+        "href": "concepts/c061.html#c061"
       },
       {
         "id": "c063",
         "title": "Slot detection and information extraction",
-        "href": "chapters/chatbot-actions.html#c063"
+        "href": "concepts/c063.html#c063"
       },
       {
         "id": "c064",
         "title": "Dialogue management and generation",
-        "href": "chapters/chatbot-actions.html#c064"
+        "href": "concepts/c064.html#c064"
       }
     ]
   },
@@ -72,12 +72,12 @@
       {
         "id": "c062",
         "title": "TF-IDF and cosine similarity",
-        "href": "chapters/faq-retrieval.html#c062"
+        "href": "concepts/c062.html#c062"
       },
       {
         "id": "c064",
         "title": "Dialogue management and generation",
-        "href": "chapters/chatbot-actions.html#c064"
+        "href": "concepts/c064.html#c064"
       }
     ]
   },
@@ -113,12 +113,12 @@
       {
         "id": "c019",
         "title": "Frames",
-        "href": "chapters/representing-connected-knowledge.html#c019"
+        "href": "concepts/c019.html#c019"
       },
       {
         "id": "c018",
         "title": "Semantic networks",
-        "href": "chapters/representing-connected-knowledge.html#c018"
+        "href": "concepts/c018.html#c018"
       }
     ]
   },
@@ -142,17 +142,17 @@
       {
         "id": "c020",
         "title": "Ontologies",
-        "href": "chapters/representing-connected-knowledge.html#c020"
+        "href": "concepts/c020.html#c020"
       },
       {
         "id": "c021",
         "title": "Knowledge graph structure and queries",
-        "href": "chapters/representing-connected-knowledge.html#c021"
+        "href": "concepts/c021.html#c021"
       },
       {
         "id": "c022",
         "title": "KG traversal and multi-hop queries",
-        "href": "chapters/representing-connected-knowledge.html#c022"
+        "href": "concepts/c022.html#c022"
       }
     ]
   },
@@ -183,27 +183,27 @@
       {
         "id": "c009",
         "title": "Deductive reasoning",
-        "href": "chapters/rules-evidence-and-explanations.html#c009"
+        "href": "concepts/c009.html#c009"
       },
       {
         "id": "c012",
         "title": "Forward chaining",
-        "href": "chapters/rules-evidence-and-explanations.html#c012"
+        "href": "concepts/c012.html#c012"
       },
       {
         "id": "c013",
         "title": "Backward chaining",
-        "href": "chapters/rules-evidence-and-explanations.html#c013"
+        "href": "concepts/c013.html#c013"
       },
       {
         "id": "c014",
         "title": "Conflict resolution in rule systems",
-        "href": "chapters/rules-evidence-and-explanations.html#c014"
+        "href": "concepts/c014.html#c014"
       },
       {
         "id": "c017",
         "title": "First-order / predicate logic",
-        "href": "chapters/rules-evidence-and-explanations.html#c017"
+        "href": "concepts/c017.html#c017"
       }
     ]
   },
@@ -232,17 +232,17 @@
       {
         "id": "c010",
         "title": "Abductive reasoning",
-        "href": "chapters/rules-evidence-and-explanations.html#c010"
+        "href": "concepts/c010.html#c010"
       },
       {
         "id": "c015",
         "title": "Case-based reasoning",
-        "href": "chapters/rules-evidence-and-explanations.html#c015"
+        "href": "concepts/c015.html#c015"
       },
       {
         "id": "c016",
         "title": "Bayesian reasoning",
-        "href": "chapters/rules-evidence-and-explanations.html#c016"
+        "href": "concepts/c016.html#c016"
       }
     ]
   },
@@ -291,17 +291,17 @@
       {
         "id": "c029",
         "title": "Reasoning-system architecture",
-        "href": "chapters/reasoning-system-design.html#c029"
+        "href": "concepts/c029.html#c029"
       },
       {
         "id": "c030",
         "title": "Rules + ML integration",
-        "href": "chapters/reasoning-system-design.html#c030"
+        "href": "concepts/c030.html#c030"
       },
       {
         "id": "c058",
         "title": "Symbolic / connectionist / hybrid AI",
-        "href": "chapters/reasoning-system-design.html#c058"
+        "href": "concepts/c058.html#c058"
       }
     ]
   },
@@ -330,17 +330,17 @@
       {
         "id": "extra-knowledge-acquisition",
         "title": "Knowledge acquisition",
-        "href": "chapters/knowledge-acquisition.html#extra-knowledge-acquisition"
+        "href": "concepts/extra-knowledge-acquisition.html#extra-knowledge-acquisition"
       },
       {
         "id": "c011",
         "title": "Inductive reasoning",
-        "href": "chapters/rules-evidence-and-explanations.html#c011"
+        "href": "concepts/c011.html#c011"
       },
       {
         "id": "c027",
         "title": "Inductive learning and generalization",
-        "href": "chapters/learning-explainable-predictions.html#c027"
+        "href": "concepts/c027.html#c027"
       }
     ]
   },
@@ -364,17 +364,17 @@
       {
         "id": "c031",
         "title": "Knowledge graph + LLM integration",
-        "href": "chapters/reasoning-system-design.html#c031"
+        "href": "concepts/c031.html#c031"
       },
       {
         "id": "c032",
         "title": "Retrieval-augmented generation",
-        "href": "chapters/reasoning-system-design.html#c032"
+        "href": "concepts/c032.html#c032"
       },
       {
         "id": "c082",
         "title": "RAG and knowledge-graph cognition",
-        "href": "chapters/faq-retrieval.html#c082"
+        "href": "concepts/c082.html#c082"
       }
     ]
   },
@@ -404,22 +404,22 @@
       {
         "id": "c033",
         "title": "Agentic orchestration",
-        "href": "chapters/reasoning-system-design.html#c033"
+        "href": "concepts/c033.html#c033"
       },
       {
         "id": "c065",
         "title": "LLM tools and agents",
-        "href": "chapters/chatbot-actions.html#c065"
+        "href": "concepts/c065.html#c065"
       },
       {
         "id": "c079",
         "title": "LLM reasoning and chain of thought",
-        "href": "chapters/verify-reasoning.html#c079"
+        "href": "concepts/c079.html#c079"
       },
       {
         "id": "c080",
         "title": "Validity, soundness, and reasoning failure",
-        "href": "chapters/verify-reasoning.html#c080"
+        "href": "concepts/c080.html#c080"
       }
     ]
   },
@@ -455,12 +455,12 @@
       {
         "id": "c059",
         "title": "Cognitive-system architecture",
-        "href": "chapters/cognitive-architecture.html#c059"
+        "href": "concepts/c059.html#c059"
       },
       {
         "id": "c081",
         "title": "Soar architecture",
-        "href": "chapters/verify-reasoning.html#c081"
+        "href": "concepts/c081.html#c081"
       }
     ]
   },
@@ -488,12 +488,12 @@
       {
         "id": "extra-hmm",
         "title": "Hidden Markov model",
-        "href": "chapters/weekly-hmm.html#extra-hmm"
+        "href": "concepts/extra-hmm.html#extra-hmm"
       },
       {
         "id": "c090",
         "title": "Signal distributions and statistics",
-        "href": "chapters/sensor-probabilities.html#c090"
+        "href": "concepts/c090.html#c090"
       }
     ]
   },
@@ -520,32 +520,32 @@
       {
         "id": "c001",
         "title": "Search problem formulation",
-        "href": "chapters/search-comparison.html#c001"
+        "href": "concepts/c001.html#c001"
       },
       {
         "id": "c002",
         "title": "Breadth-first search",
-        "href": "chapters/search-comparison.html#c002"
+        "href": "concepts/c002.html#c002"
       },
       {
         "id": "c003",
         "title": "Depth-first search",
-        "href": "chapters/search-comparison.html#c003"
+        "href": "concepts/c003.html#c003"
       },
       {
         "id": "c004",
         "title": "Uniform-cost search / Dijkstra",
-        "href": "chapters/search-comparison.html#c004"
+        "href": "concepts/c004.html#c004"
       },
       {
         "id": "c005",
         "title": "A* search",
-        "href": "chapters/search-comparison.html#c005"
+        "href": "concepts/c005.html#c005"
       },
       {
         "id": "c006",
         "title": "Heuristics and admissibility",
-        "href": "chapters/search-comparison.html#c006"
+        "href": "concepts/c006.html#c006"
       }
     ]
   },
@@ -568,12 +568,12 @@
       {
         "id": "c007",
         "title": "Hill climbing",
-        "href": "chapters/search-comparison.html#c007"
+        "href": "concepts/c007.html#c007"
       },
       {
         "id": "c008",
         "title": "Simulated annealing",
-        "href": "chapters/search-comparison.html#c008"
+        "href": "concepts/c008.html#c008"
       }
     ]
   },
@@ -597,17 +597,17 @@
       {
         "id": "c055",
         "title": "Genetic algorithm representation and fitness",
-        "href": "chapters/optimising-with-genetic-algorithms.html#c055"
+        "href": "concepts/c055.html#c055"
       },
       {
         "id": "c056",
         "title": "GA selection operators",
-        "href": "chapters/optimising-with-genetic-algorithms.html#c056"
+        "href": "concepts/c056.html#c056"
       },
       {
         "id": "c057",
         "title": "GA crossover and mutation",
-        "href": "chapters/optimising-with-genetic-algorithms.html#c057"
+        "href": "concepts/c057.html#c057"
       }
     ]
   },
@@ -640,17 +640,17 @@
       {
         "id": "c034",
         "title": "Market basket analysis",
-        "href": "chapters/basket-to-diagnostic-rules.html#c034"
+        "href": "concepts/c034.html#c034"
       },
       {
         "id": "c035",
         "title": "Association-rule support",
-        "href": "chapters/basket-to-diagnostic-rules.html#c035"
+        "href": "concepts/c035.html#c035"
       },
       {
         "id": "c036",
         "title": "Association-rule confidence and lift",
-        "href": "chapters/basket-to-diagnostic-rules.html#c036"
+        "href": "concepts/c036.html#c036"
       }
     ]
   },
@@ -673,12 +673,12 @@
       {
         "id": "c037",
         "title": "Content-based recommendation",
-        "href": "chapters/recommendations-from-ratings.html#c037"
+        "href": "concepts/c037.html#c037"
       },
       {
         "id": "c051",
         "title": "Hybrid recommenders",
-        "href": "chapters/recommendations-from-behaviour.html#c051"
+        "href": "concepts/c051.html#c051"
       }
     ]
   },
@@ -708,22 +708,22 @@
       {
         "id": "c038",
         "title": "User-based collaborative filtering",
-        "href": "chapters/cf-mf.html#c038"
+        "href": "concepts/c038.html#c038"
       },
       {
         "id": "c039",
         "title": "Item-based collaborative filtering",
-        "href": "chapters/cf-mf.html#c039"
+        "href": "concepts/c039.html#c039"
       },
       {
         "id": "c040",
         "title": "Similarity and rating prediction",
-        "href": "chapters/cf-mf.html#c040"
+        "href": "concepts/c040.html#c040"
       },
       {
         "id": "c042",
         "title": "Sparsity and cold start",
-        "href": "chapters/cf-mf.html#c042"
+        "href": "concepts/c042.html#c042"
       }
     ]
   },
@@ -747,17 +747,17 @@
       {
         "id": "c043",
         "title": "Matrix factorization",
-        "href": "chapters/cf-mf.html#c043"
+        "href": "concepts/c043.html#c043"
       },
       {
         "id": "c044",
         "title": "SGD / ALS training",
-        "href": "chapters/cf-mf.html#c044"
+        "href": "concepts/c044.html#c044"
       },
       {
         "id": "c045",
         "title": "Recommendation overfitting and regularization",
-        "href": "chapters/cf-mf.html#c045"
+        "href": "concepts/c045.html#c045"
       }
     ]
   },
@@ -783,27 +783,27 @@
       {
         "id": "c046",
         "title": "Implicit feedback and preferences",
-        "href": "chapters/recommendations-from-behaviour.html#c046"
+        "href": "concepts/c046.html#c046"
       },
       {
         "id": "c047",
         "title": "Jaccard similarity",
-        "href": "chapters/recommendations-from-behaviour.html#c047"
+        "href": "concepts/c047.html#c047"
       },
       {
         "id": "c048",
         "title": "Negative sampling",
-        "href": "chapters/recommendations-from-behaviour.html#c048"
+        "href": "concepts/c048.html#c048"
       },
       {
         "id": "c049",
         "title": "Confidence-weighted implicit MF",
-        "href": "chapters/recommendations-from-behaviour.html#c049"
+        "href": "concepts/c049.html#c049"
       },
       {
         "id": "c050",
         "title": "Bayesian personalized ranking",
-        "href": "chapters/recommendations-from-behaviour.html#c050"
+        "href": "concepts/c050.html#c050"
       }
     ]
   },
@@ -827,17 +827,17 @@
       {
         "id": "c052",
         "title": "Deep collaborative filtering",
-        "href": "chapters/recommendations-from-behaviour.html#c052"
+        "href": "concepts/c052.html#c052"
       },
       {
         "id": "c053",
         "title": "Sequence-based recommendation",
-        "href": "chapters/recommendations-from-behaviour.html#c053"
+        "href": "concepts/c053.html#c053"
       },
       {
         "id": "c054",
         "title": "Graph-based recommendation",
-        "href": "chapters/recommendations-from-behaviour.html#c054"
+        "href": "concepts/c054.html#c054"
       }
     ]
   },
@@ -865,12 +865,12 @@
       {
         "id": "c041",
         "title": "Recommendation evaluation",
-        "href": "chapters/cf-mf.html#c041"
+        "href": "concepts/c041.html#c041"
       },
       {
         "id": "c045",
         "title": "Recommendation overfitting and regularization",
-        "href": "chapters/cf-mf.html#c045"
+        "href": "concepts/c045.html#c045"
       }
     ]
   },
@@ -913,27 +913,27 @@
       {
         "id": "c066",
         "title": "Vision cognition pipeline",
-        "href": "chapters/vision-decisions.html#c066"
+        "href": "concepts/c066.html#c066"
       },
       {
         "id": "c067",
         "title": "Marr’s three levels",
-        "href": "chapters/vision-decisions.html#c067"
+        "href": "concepts/c067.html#c067"
       },
       {
         "id": "c068",
         "title": "Detection vs segmentation",
-        "href": "chapters/vision-decisions.html#c068"
+        "href": "concepts/c068.html#c068"
       },
       {
         "id": "c069",
         "title": "Visual attention and context",
-        "href": "chapters/vision-decisions.html#c069"
+        "href": "concepts/c069.html#c069"
       },
       {
         "id": "c160",
         "title": "Recognition, detection, and segmentation applications",
-        "href": "chapters/perception-generation-robot-control.html#c160"
+        "href": "concepts/c160.html#c160"
       }
     ]
   },
@@ -956,12 +956,12 @@
       {
         "id": "c070",
         "title": "Vision-language models",
-        "href": "chapters/vision-decisions.html#c070"
+        "href": "concepts/c070.html#c070"
       },
       {
         "id": "c161",
         "title": "Generative models / GAN applications",
-        "href": "chapters/perception-generation-robot-control.html#c161"
+        "href": "concepts/c161.html#c161"
       }
     ]
   },
@@ -989,37 +989,37 @@
       {
         "id": "c071",
         "title": "Audio sampling and coding",
-        "href": "chapters/speech-input.html#c071"
+        "href": "concepts/c071.html#c071"
       },
       {
         "id": "c072",
         "title": "Spectrogram and audio features",
-        "href": "chapters/speech-input.html#c072"
+        "href": "concepts/c072.html#c072"
       },
       {
         "id": "c073",
         "title": "Speech recognition",
-        "href": "chapters/speech-input.html#c073"
+        "href": "concepts/c073.html#c073"
       },
       {
         "id": "c074",
         "title": "Text-to-speech",
-        "href": "chapters/spoken-system-evaluation.html#c074"
+        "href": "concepts/c074.html#c074"
       },
       {
         "id": "c075",
         "title": "Whisper",
-        "href": "chapters/speech-input.html#c075"
+        "href": "concepts/c075.html#c075"
       },
       {
         "id": "c076",
         "title": "Wav2Vec self-supervised learning",
-        "href": "chapters/speech-input.html#c076"
+        "href": "concepts/c076.html#c076"
       },
       {
         "id": "c077",
         "title": "Audio/system evaluation",
-        "href": "chapters/spoken-system-evaluation.html#c077"
+        "href": "concepts/c077.html#c077"
       }
     ]
   },
@@ -1060,37 +1060,37 @@
       {
         "id": "c078",
         "title": "Multimodal cognition",
-        "href": "chapters/cognitive-architecture.html#c078"
+        "href": "concepts/c078.html#c078"
       },
       {
         "id": "c099",
         "title": "Single-modality sensing",
-        "href": "chapters/sensor-decision-design.html#c099"
+        "href": "concepts/c099.html#c099"
       },
       {
         "id": "c101",
         "title": "Multimodal representation and fusion",
-        "href": "chapters/sensor-decision-design.html#c101"
+        "href": "concepts/c101.html#c101"
       },
       {
         "id": "c102",
         "title": "Spatial / temporal / feature alignment",
-        "href": "chapters/sensor-decision-design.html#c102"
+        "href": "concepts/c102.html#c102"
       },
       {
         "id": "c103",
         "title": "End-to-end sense-making design",
-        "href": "chapters/sensor-decision-design.html#c103"
+        "href": "concepts/c103.html#c103"
       },
       {
         "id": "c115",
         "title": "Multi-input / multi-output architectures",
-        "href": "chapters/multiple-inputs-shared-features.html#c115"
+        "href": "concepts/c115.html#c115"
       },
       {
         "id": "c116",
         "title": "Shared layers / encoder architectures",
-        "href": "chapters/multiple-inputs-shared-features.html#c116"
+        "href": "concepts/c116.html#c116"
       }
     ]
   },
@@ -1132,22 +1132,22 @@
       {
         "id": "c083",
         "title": "Signals, sensors, and sensing pipeline",
-        "href": "chapters/sensor-acquisition.html#c083"
+        "href": "concepts/c083.html#c083"
       },
       {
         "id": "c084",
         "title": "Sampling and aliasing",
-        "href": "chapters/sensor-acquisition.html#c084"
+        "href": "concepts/c084.html#c084"
       },
       {
         "id": "c085",
         "title": "Periodic / even / odd signals",
-        "href": "chapters/sensor-acquisition.html#c085"
+        "href": "concepts/c085.html#c085"
       },
       {
         "id": "c136",
         "title": "Normalization and preprocessing",
-        "href": "chapters/valid-pattern-workflow.html#c136"
+        "href": "concepts/c136.html#c136"
       }
     ]
   },
@@ -1172,22 +1172,22 @@
       {
         "id": "c086",
         "title": "Superposition and signal decomposition",
-        "href": "chapters/sensor-acquisition.html#c086"
+        "href": "concepts/c086.html#c086"
       },
       {
         "id": "c087",
         "title": "Time and frequency representation",
-        "href": "chapters/frequency-filtering.html#c087"
+        "href": "concepts/c087.html#c087"
       },
       {
         "id": "c088",
         "title": "Fourier transformation",
-        "href": "chapters/frequency-filtering.html#c088"
+        "href": "concepts/c088.html#c088"
       },
       {
         "id": "c089",
         "title": "Filtering and convolution",
-        "href": "chapters/frequency-filtering.html#c089"
+        "href": "concepts/c089.html#c089"
       }
     ]
   },
@@ -1215,12 +1215,12 @@
       {
         "id": "c090",
         "title": "Signal distributions and statistics",
-        "href": "chapters/sensor-probabilities.html#c090"
+        "href": "concepts/c090.html#c090"
       },
       {
         "id": "c091",
         "title": "Gaussian mixtures / expectation maximization",
-        "href": "chapters/sensor-probabilities.html#c091"
+        "href": "concepts/c091.html#c091"
       }
     ]
   },
@@ -1248,37 +1248,37 @@
       {
         "id": "c092",
         "title": "Basis vectors and energy compaction",
-        "href": "chapters/sensor-representations.html#c092"
+        "href": "concepts/c092.html#c092"
       },
       {
         "id": "c093",
         "title": "Supervised representation learning",
-        "href": "chapters/sensor-representations.html#c093"
+        "href": "concepts/c093.html#c093"
       },
       {
         "id": "c094",
         "title": "Self-supervised representation learning",
-        "href": "chapters/sensor-representations.html#c094"
+        "href": "concepts/c094.html#c094"
       },
       {
         "id": "c095",
         "title": "Autoencoders and reconstruction",
-        "href": "chapters/sensor-representations.html#c095"
+        "href": "concepts/c095.html#c095"
       },
       {
         "id": "c096",
         "title": "Denoising autoencoders",
-        "href": "chapters/sensor-representations.html#c096"
+        "href": "concepts/c096.html#c096"
       },
       {
         "id": "c097",
         "title": "Contrastive learning",
-        "href": "chapters/sensor-representations.html#c097"
+        "href": "concepts/c097.html#c097"
       },
       {
         "id": "c100",
         "title": "Data augmentation for sensors",
-        "href": "chapters/sensor-decision-design.html#c100"
+        "href": "concepts/c100.html#c100"
       }
     ]
   },
@@ -1311,17 +1311,17 @@
       {
         "id": "c098",
         "title": "Anomaly detection",
-        "href": "chapters/sensor-decision-design.html#c098"
+        "href": "concepts/c098.html#c098"
       },
       {
         "id": "c138",
         "title": "Imbalanced data and augmentation",
-        "href": "chapters/rare-events-business-metrics.html#c138"
+        "href": "concepts/c138.html#c138"
       },
       {
         "id": "c149",
         "title": "Curse of dimensionality",
-        "href": "chapters/feature-selection-rare-faults.html#c149"
+        "href": "concepts/c149.html#c149"
       }
     ]
   },
@@ -1350,17 +1350,17 @@
       {
         "id": "c134",
         "title": "Pattern recognition workflow",
-        "href": "chapters/valid-pattern-workflow.html#c134"
+        "href": "concepts/c134.html#c134"
       },
       {
         "id": "c135",
         "title": "Supervised / unsupervised / reinforcement learning",
-        "href": "chapters/valid-pattern-workflow.html#c135"
+        "href": "concepts/c135.html#c135"
       },
       {
         "id": "c154",
         "title": "Clustering vs classification",
-        "href": "chapters/clustering-useful-groups.html#c154"
+        "href": "concepts/c154.html#c154"
       }
     ]
   },
@@ -1395,27 +1395,27 @@
       {
         "id": "c104",
         "title": "Artificial neuron, weights, bias, activation",
-        "href": "chapters/neural-learning.html#c104"
+        "href": "concepts/c104.html#c104"
       },
       {
         "id": "c105",
         "title": "Perceptron and linear separability",
-        "href": "chapters/neural-learning.html#c105"
+        "href": "concepts/c105.html#c105"
       },
       {
         "id": "c106",
         "title": "ADALINE and delta rule",
-        "href": "chapters/neural-learning.html#c106"
+        "href": "concepts/c106.html#c106"
       },
       {
         "id": "c142",
         "title": "Linear / logistic regression",
-        "href": "chapters/simple-prediction-baselines.html#c142"
+        "href": "concepts/c142.html#c142"
       },
       {
         "id": "c143",
         "title": "K-nearest neighbours",
-        "href": "chapters/simple-prediction-baselines.html#c143"
+        "href": "concepts/c143.html#c143"
       }
     ]
   },
@@ -1444,17 +1444,17 @@
       {
         "id": "c144",
         "title": "Naive Bayes and conditional independence",
-        "href": "chapters/bayesian-fault-diagnosis.html#c144"
+        "href": "concepts/c144.html#c144"
       },
       {
         "id": "c145",
         "title": "Laplace correction",
-        "href": "chapters/bayesian-fault-diagnosis.html#c145"
+        "href": "concepts/c145.html#c145"
       },
       {
         "id": "c016",
         "title": "Bayesian reasoning",
-        "href": "chapters/rules-evidence-and-explanations.html#c016"
+        "href": "concepts/c016.html#c016"
       }
     ]
   },
@@ -1488,22 +1488,22 @@
       {
         "id": "c028",
         "title": "Decision-tree reasoning",
-        "href": "chapters/learning-explainable-predictions.html#c028"
+        "href": "concepts/c028.html#c028"
       },
       {
         "id": "c146",
         "title": "Decision-tree splitting and information gain",
-        "href": "chapters/tree-purchase-rules.html#c146"
+        "href": "concepts/c146.html#c146"
       },
       {
         "id": "c147",
         "title": "Gain ratio / Gini",
-        "href": "chapters/tree-purchase-rules.html#c147"
+        "href": "concepts/c147.html#c147"
       },
       {
         "id": "c148",
         "title": "Tree pruning",
-        "href": "chapters/tree-purchase-rules.html#c148"
+        "href": "concepts/c148.html#c148"
       }
     ]
   },
@@ -1544,17 +1544,17 @@
       {
         "id": "c128",
         "title": "Ensemble diversity and voting",
-        "href": "chapters/ensemble-corrections.html#c128"
+        "href": "concepts/c128.html#c128"
       },
       {
         "id": "c129",
         "title": "Bagging and bootstrap sampling",
-        "href": "chapters/ensemble-corrections.html#c129"
+        "href": "concepts/c129.html#c129"
       },
       {
         "id": "c130",
         "title": "Random forests and feature importance",
-        "href": "chapters/ensemble-corrections.html#c130"
+        "href": "concepts/c130.html#c130"
       }
     ]
   },
@@ -1582,12 +1582,12 @@
       {
         "id": "c131",
         "title": "Boosting and AdaBoost",
-        "href": "chapters/ensemble-corrections.html#c131"
+        "href": "concepts/c131.html#c131"
       },
       {
         "id": "c132",
         "title": "Gradient boosting",
-        "href": "chapters/ensemble-corrections.html#c132"
+        "href": "concepts/c132.html#c132"
       }
     ]
   },
@@ -1620,17 +1620,17 @@
       {
         "id": "c149",
         "title": "Curse of dimensionality",
-        "href": "chapters/feature-selection-rare-faults.html#c149"
+        "href": "concepts/c149.html#c149"
       },
       {
         "id": "c150",
         "title": "Filter / wrapper / embedded feature selection",
-        "href": "chapters/feature-selection-rare-faults.html#c150"
+        "href": "concepts/c150.html#c150"
       },
       {
         "id": "c151",
         "title": "Forward / backward / recursive feature selection",
-        "href": "chapters/feature-selection-rare-faults.html#c151"
+        "href": "concepts/c151.html#c151"
       }
     ]
   },
@@ -1662,12 +1662,12 @@
       {
         "id": "c152",
         "title": "PCA, variance, and principal directions",
-        "href": "chapters/svd.html#c152"
+        "href": "concepts/c152.html#c152"
       },
       {
         "id": "c153",
         "title": "Eigenvalues / eigenvectors and SVD",
-        "href": "chapters/svd.html#c153"
+        "href": "concepts/c153.html#c153"
       }
     ]
   },
@@ -1693,27 +1693,27 @@
       {
         "id": "c155",
         "title": "Distances and standardization for clustering",
-        "href": "chapters/clustering-useful-groups.html#c155"
+        "href": "concepts/c155.html#c155"
       },
       {
         "id": "c156",
         "title": "K-means and centroid updates",
-        "href": "chapters/clustering-useful-groups.html#c156"
+        "href": "concepts/c156.html#c156"
       },
       {
         "id": "c157",
         "title": "K-means++ initialization",
-        "href": "chapters/clustering-useful-groups.html#c157"
+        "href": "concepts/c157.html#c157"
       },
       {
         "id": "c158",
         "title": "Hierarchical clustering and linkage",
-        "href": "chapters/clustering-useful-groups.html#c158"
+        "href": "concepts/c158.html#c158"
       },
       {
         "id": "c159",
         "title": "Cluster evaluation and number of clusters",
-        "href": "chapters/clustering-useful-groups.html#c159"
+        "href": "concepts/c159.html#c159"
       }
     ]
   },
@@ -1735,7 +1735,7 @@
       {
         "id": "c111",
         "title": "Self-organizing maps",
-        "href": "chapters/som-customer-map.html#c111"
+        "href": "concepts/c111.html#c111"
       }
     ]
   },
@@ -1769,22 +1769,22 @@
       {
         "id": "c107",
         "title": "MLP and backpropagation",
-        "href": "chapters/neural-learning.html#c107"
+        "href": "concepts/c107.html#c107"
       },
       {
         "id": "c108",
         "title": "Activation-function choices",
-        "href": "chapters/neural-learning.html#c108"
+        "href": "concepts/c108.html#c108"
       },
       {
         "id": "c109",
         "title": "RBF networks",
-        "href": "chapters/local-neural-models.html#c109"
+        "href": "concepts/c109.html#c109"
       },
       {
         "id": "c110",
         "title": "General regression neural networks",
-        "href": "chapters/local-neural-models.html#c110"
+        "href": "concepts/c110.html#c110"
       }
     ]
   },
@@ -1814,22 +1814,22 @@
       {
         "id": "c112",
         "title": "CNN convolution, padding, stride",
-        "href": "chapters/cnn-lean-design.html#c112"
+        "href": "concepts/c112.html#c112"
       },
       {
         "id": "c113",
         "title": "Pooling",
-        "href": "chapters/cnn-lean-design.html#c113"
+        "href": "concepts/c113.html#c113"
       },
       {
         "id": "c114",
         "title": "CNN dimensions and parameter counts",
-        "href": "chapters/cnn-lean-design.html#c114"
+        "href": "concepts/c114.html#c114"
       },
       {
         "id": "c163",
         "title": "CNN application design",
-        "href": "chapters/cnn-lean-design.html#c163"
+        "href": "concepts/c163.html#c163"
       }
     ]
   },
@@ -1858,17 +1858,17 @@
       {
         "id": "c117",
         "title": "RNN sequence representation",
-        "href": "chapters/browsing-sequences.html#c117"
+        "href": "concepts/c117.html#c117"
       },
       {
         "id": "c118",
         "title": "LSTM and stacked recurrent networks",
-        "href": "chapters/browsing-sequences.html#c118"
+        "href": "concepts/c118.html#c118"
       },
       {
         "id": "c115",
         "title": "Multi-input / multi-output architectures",
-        "href": "chapters/multiple-inputs-shared-features.html#c115"
+        "href": "concepts/c115.html#c115"
       }
     ]
   },
@@ -1891,12 +1891,12 @@
       {
         "id": "c126",
         "title": "Transformer / positional encoding",
-        "href": "chapters/transformer-context.html#c126"
+        "href": "concepts/c126.html#c126"
       },
       {
         "id": "c127",
         "title": "Self-attention and multi-head attention",
-        "href": "chapters/transformer-context.html#c127"
+        "href": "concepts/c127.html#c127"
       }
     ]
   },
@@ -1921,22 +1921,22 @@
       {
         "id": "c119",
         "title": "Vanishing / exploding gradients",
-        "href": "chapters/stable-neural-training.html#c119"
+        "href": "concepts/c119.html#c119"
       },
       {
         "id": "c120",
         "title": "Xavier / He initialization",
-        "href": "chapters/stable-neural-training.html#c120"
+        "href": "concepts/c120.html#c120"
       },
       {
         "id": "c123",
         "title": "Batch normalization",
-        "href": "chapters/stable-neural-training.html#c123"
+        "href": "concepts/c123.html#c123"
       },
       {
         "id": "c124",
         "title": "Residual connections",
-        "href": "chapters/stable-neural-training.html#c124"
+        "href": "concepts/c124.html#c124"
       }
     ]
   },
@@ -1970,22 +1970,22 @@
       {
         "id": "c121",
         "title": "L1 / L2 regularization",
-        "href": "chapters/neural-overfitting-transfer.html#c121"
+        "href": "concepts/c121.html#c121"
       },
       {
         "id": "c122",
         "title": "Dropout",
-        "href": "chapters/neural-overfitting-transfer.html#c122"
+        "href": "concepts/c122.html#c122"
       },
       {
         "id": "c125",
         "title": "Transfer learning and fine tuning",
-        "href": "chapters/neural-overfitting-transfer.html#c125"
+        "href": "concepts/c125.html#c125"
       },
       {
         "id": "c141",
         "title": "Hyperparameter tuning and generalization",
-        "href": "chapters/valid-pattern-workflow.html#c141"
+        "href": "concepts/c141.html#c141"
       }
     ]
   },
@@ -2018,17 +2018,17 @@
       {
         "id": "c139",
         "title": "Confusion matrix and classification metrics",
-        "href": "chapters/rare-events-business-metrics.html#c139"
+        "href": "concepts/c139.html#c139"
       },
       {
         "id": "c140",
         "title": "ROC and gain/lift charts",
-        "href": "chapters/rare-events-business-metrics.html#c140"
+        "href": "concepts/c140.html#c140"
       },
       {
         "id": "extra-svm",
         "title": "Support vector machine",
-        "href": "chapters/rare-events-business-metrics.html#extra-svm"
+        "href": "concepts/extra-svm.html#extra-svm"
       }
     ]
   },
@@ -2073,17 +2073,17 @@
       {
         "id": "c136",
         "title": "Normalization and preprocessing",
-        "href": "chapters/valid-pattern-workflow.html#c136"
+        "href": "concepts/c136.html#c136"
       },
       {
         "id": "c137",
         "title": "Data splits and cross-validation",
-        "href": "chapters/valid-pattern-workflow.html#c137"
+        "href": "concepts/c137.html#c137"
       },
       {
         "id": "c141",
         "title": "Hyperparameter tuning and generalization",
-        "href": "chapters/valid-pattern-workflow.html#c141"
+        "href": "concepts/c141.html#c141"
       }
     ]
   },
@@ -2116,17 +2116,17 @@
       {
         "id": "c138",
         "title": "Imbalanced data and augmentation",
-        "href": "chapters/rare-events-business-metrics.html#c138"
+        "href": "concepts/c138.html#c138"
       },
       {
         "id": "c100",
         "title": "Data augmentation for sensors",
-        "href": "chapters/sensor-decision-design.html#c100"
+        "href": "concepts/c100.html#c100"
       },
       {
         "id": "c098",
         "title": "Anomaly detection",
-        "href": "chapters/sensor-decision-design.html#c098"
+        "href": "concepts/c098.html#c098"
       }
     ]
   },
@@ -2160,22 +2160,22 @@
       {
         "id": "c162",
         "title": "Deep-learning decision / control applications",
-        "href": "chapters/perception-generation-robot-control.html#c162"
+        "href": "concepts/c162.html#c162"
       },
       {
         "id": "c135",
         "title": "Supervised / unsupervised / reinforcement learning",
-        "href": "chapters/valid-pattern-workflow.html#c135"
+        "href": "concepts/c135.html#c135"
       },
       {
         "id": "c101",
         "title": "Multimodal representation and fusion",
-        "href": "chapters/sensor-decision-design.html#c101"
+        "href": "concepts/c101.html#c101"
       },
       {
         "id": "c103",
         "title": "End-to-end sense-making design",
-        "href": "chapters/sensor-decision-design.html#c103"
+        "href": "concepts/c103.html#c103"
       }
     ]
   },
@@ -2197,7 +2197,7 @@
       {
         "id": "c133",
         "title": "Mixture of experts / neuro-fuzzy systems",
-        "href": "chapters/ensemble-corrections.html#c133"
+        "href": "concepts/c133.html#c133"
       }
     ]
   },
@@ -2222,22 +2222,22 @@
       {
         "id": "c023",
         "title": "TransE embeddings",
-        "href": "chapters/predicting-missing-graph-links.html#c023"
+        "href": "concepts/c023.html#c023"
       },
       {
         "id": "c024",
         "title": "TransR embeddings",
-        "href": "chapters/predicting-missing-graph-links.html#c024"
+        "href": "concepts/c024.html#c024"
       },
       {
         "id": "c025",
         "title": "Bilinear / DistMult embeddings",
-        "href": "chapters/predicting-missing-graph-links.html#c025"
+        "href": "concepts/c025.html#c025"
       },
       {
         "id": "c026",
         "title": "Neural knowledge graph embeddings",
-        "href": "chapters/predicting-missing-graph-links.html#c026"
+        "href": "concepts/c026.html#c026"
       }
     ]
   }
