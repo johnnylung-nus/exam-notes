@@ -1,6 +1,6 @@
 # Exam notes
 
-A minimal, mobile-friendly chapter library built with HTML, CSS, and a small amount of vanilla JavaScript. No build tools, framework, or external runtime dependencies. No course notes are included yet.
+A minimal, mobile-friendly chapter library built with HTML, CSS, and a small amount of vanilla JavaScript. No build tools, framework, or external runtime dependencies. Two draft revision chapters are available: CF/MF and SVD/PCA. Their lecture-source check is pending.
 
 ## Shared tutoring workflow
 
@@ -36,7 +36,7 @@ Core text, links, formulas, and SVGs work without JavaScript. JavaScript enables
 ## Files
 
 ```text
-index.html              Chapter index (initially empty)
+index.html              Shared chapter index
 chapters/template.html  Reusable chapter structure
 assets/styles.css       Responsive study and A4 print styles
 assets/chapter.js        View, diagram, and print interactions

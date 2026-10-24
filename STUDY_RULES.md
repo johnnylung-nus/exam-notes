@@ -1,6 +1,6 @@
 # Exam study agreement
 
-Last updated: 24 October 2026 (Asia/Singapore).
+Last updated: 25 October 2026 (Asia/Singapore).
 
 ## Purpose
 
@@ -71,5 +71,11 @@ Repository AGENTS.md applies to Codex sessions working in that repository. It do
 
 - The local Exam mirror's `sources/` directory was empty when checked on 24 October 2026. This does not prove the uploaded files are absent from the ChatGPT project; they are not accessible through this mirror in this session.
 - The chat reader returned five recent exchanges from "SVD explanation" and opaque references in place of assistant response bodies. Full SVD/CF/MF coverage is not verified.
-- CF/MF and SVD notes are requested but pending lecture and discussion access. Do not fabricate lecture-aligned notes.
+- CF/MF and SVD drafts were generated at the user’s explicit request to proceed despite unavailable lecture sources. They are standard-concept drafts, not lecture-verified notes. The pages visibly state this; verify against uploaded lectures when access is available.
 - Prior GitHub push failed for authentication. The repository and live site must be checked before claiming synchronization.
+
+## 25 October 2026 update: publishing preference
+
+- The user explicitly authorizes routine generation, website edits, commits, and pushes to `johnnylung-nus/exam-notes` without a separate approval conversation each time. After chapter discussion, update the corresponding chapter and index and push when access permits.
+- Prefer showing the updated webpage and a concise outcome over explaining Git procedures. Do not claim that access is missing merely from an older failure: retry when the user says access has been granted.
+- For this initial CF/MF and SVD generation, proceed with standard-concept draft notes even though lecture access is unavailable. Keep the draft/source status visible; replace external terminology with lecture terminology once verified. This exception does not authorize inventing lecture citations.

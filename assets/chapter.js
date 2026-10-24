@@ -36,3 +36,12 @@ window.addEventListener('afterprint', () => {
   closedDetails.forEach((item) => { item.open = false; });
   closedDetails = [];
 });
+
+const connectionButton = document.querySelector('#toggle-projections');
+const connectionNote = document.querySelector('#projection-note');
+connectionButton?.addEventListener('click', () => {
+  const visible = connectionButton.getAttribute('aria-pressed') !== 'true';
+  connectionButton.setAttribute('aria-pressed', String(visible));
+  connectionButton.textContent = visible ? 'Hide the connection' : 'Show the connection';
+  connectionNote.hidden = !visible;
+});
