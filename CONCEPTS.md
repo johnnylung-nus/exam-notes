@@ -10,7 +10,7 @@ These are tutor-defined study units, not an official count of examinable concept
 - [ ] Breadth-first search — S-MR v064 Day 3 Xavier_26_Aug.pdf, PDF p.25
 - [ ] Depth-first search — S-MR v064 Day 3 Xavier_26_Aug.pdf, PDF p.25
 - [ ] Uniform-cost search / Dijkstra — MR-Day 1_JR_v1.pdf, PDF p.41
-- [ ] A* search — MR Day-4_JR_v1.pdf, PDF p.1
+- [ ] A* search — MR-Day 1_JR_v1.pdf, PDF p.59
 - [ ] Heuristics and admissibility — MR-Day 2_JR_v1.pdf, PDF p.9
 - [ ] Hill climbing — MR-Day 1_JR_v1.pdf, PDF p.69
 - [ ] Simulated annealing — MR Day-4_JR_v1.pdf, PDF p.74
