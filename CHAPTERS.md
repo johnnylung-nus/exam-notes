@@ -7,6 +7,8 @@ Maintain this across chapter chats. Use the lecturer's chapter names and orderin
 | cf-mf | Collaborative filtering / matrix factorization | `chapters/cf-mf.html` | Pending accessible lecture notes and sample paper | Draft generated 25 October 2026 at user request. Standard definitions checked against Google developer references; lecture wording and sample-paper alignment pending. |
 | svd | SVD | `chapters/svd.html` | Pending accessible lecture notes | Draft generated 25 October 2026. Standard SVD/PCA definitions checked against NumPy and scikit-learn documentation; lecture check pending. "SVD explanation" chat ID: `6adbff4f-6618-83ec-9faa-e8d713d05e9f`. Only a partial discussion is readable. |
 
+| astar | A* search | `chapters/astar.html` | MR-Day 1_JR_v1.pdf, PDF pp.61–68 / slides 66–73 | Interactive lecture tree and six selections. Discussion in progress; no mastery claim. |
+
 ## Per-chapter handoff
 
 When a chapter is discussed or updated, record:
@@ -40,3 +42,6 @@ Do not mark an untested concept mastered. Do not record personal details or raw 
 - Covers CF/MF relationship, problem, steps with reasons, worked predictions and errors, sparsity/cold start, evaluation, overfitting remedies, and problem/change/reason answer patterns. Removes unexplained Greek notation.
 - PDF generated at 9.3 pt in two columns; both pages rendered and reviewed. Sources checked: Google recommendation documentation, Surprise MF documentation, scikit-learn metrics and leakage guidance. Lecture-specific validation remains pending.
 - Next discussion: check the step explanations and examples against the actual chapter conversation and lecture wording; revise specific misunderstandings from the user's feedback.
+
+## A* handoff - 25 October 2026
+Based on the A* exchanges in Machine Reasoning chat 01a0e888-799b-76b2-a31f-9bce1f7533bc. Discussed actual g versus estimated h/f; frontier means all waiting nodes; switching branches is not physical backtracking. User requested lecture-style step graphics. Source extraction pp.61–68 checked; sample papers not checked. Next: let user inspect the branch switch and stopping rule. New page uses existing shared styles without redesigning other chapters.

@@ -1,0 +1,65 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>A* search · Exam notes</title><link rel="stylesheet" href="../assets/styles.css"><script src="../assets/chapter.js" defer></script><style>
+#astar-steps{--foreground:#17324d;--background:#fff;--border:#b8c5ce;--viz-series-1:#006a70} .chapter-main{max-width:900px} .chapter section{margin:16px 0} .chapter-heading{margin-bottom:12px} #astar-steps .viz-controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap} #astar-steps p{margin:8px 0} .astar-recap{width:100%;border-collapse:collapse}.astar-recap td,.astar-recap th{padding:5px;text-align:left;border-bottom:1px solid #ddd} .astar-source{font-size:12px} @media print{#astar-steps .viz-controls,#astar-steps [data-status],#astar-steps [data-wait]{display:none} .chapter-heading h1{font-size:18pt} #astar-steps [data-tree]{max-width:650px} .chapter-main,.chapter{padding:0!important} .astar-recap{font-size:9pt} p,li{font-size:9pt} h2{font-size:12pt} section{break-inside:auto!important}} </style></head><body>
+<header class="site-header"><a href="../index.html">Exam notes</a><nav><a href="../index.html">All chapters</a> · <a href="cf-mf.html">CF/MF</a> · <a href="svd.html">SVD/PCA</a> · <a href="astar.html">A*</a></nav></header>
+<div class="view-toolbar"><div class="view-options"><button data-view="study" aria-pressed="true">Study View</button><button data-view="print" aria-pressed="false">A4 Print View</button></div><button id="print-button">Print / Save PDF</button></div>
+<main class="chapter-main"><article class="chapter"><header class="chapter-heading"><h1>A* search: which waiting node next?</h1></header>
+<section><ul><li><b>g</b> = actual accumulated cost from start; <b>h</b> = estimated cost to goal; <b>f = g + h</b> = estimated total through that node.</li><li><b>Frontier / open list</b> = all discovered nodes still waiting to be explored. Select the smallest f across that list.</li><li>“Go back” means <b>switch to a waiting branch</b>, not retrace the route to a fixed splitting point.</li></ul></section>
+<div id="astar-steps">
+  <h3>A* · Arad → Bucharest</h3>
+  <div class="viz-controls"><button type="button" class="btn" data-prev>Previous</button><span data-step></span><button type="button" class="btn btn-primary" data-next>Next</button></div>
+  <p data-status aria-live="polite"></p>
+  <div data-tree></div>
+  <p class="text-small">● Selected now · ○ Waiting (frontier) · ✓ Already expanded · Node values: f = g + h</p>
+  <p data-wait></p>
+  <p class="text-small">Lecture Day 1, PDF pp.61–68 (slides 66–73). Repeated-city branches are omitted from the drawing; their waiting costs remain in the list.</p>
+  <style>
+    #astar-steps [data-tree] svg {display:block;width:100%;overflow:visible}
+    #astar-steps .astar-edge {stroke:var(--border);stroke-width:1.5;fill:none}
+    #astar-steps .astar-label {fill:var(--foreground);font:12px sans-serif}
+    #astar-steps .astar-node {fill:var(--background);stroke:var(--border)}
+    #astar-steps .astar-selected {fill:color-mix(in srgb,var(--viz-series-1) 18%,var(--background));stroke:var(--viz-series-1);stroke-width:2}
+  </style>
+  <script>
+  (()=>{
+    const root=document.getElementById('astar-steps');
+    const nodes=[
+      ['a','Arad',0,366,null,0,1,0],
+      ['t','Timisoara',118,329,'a',118,0,1],['s','Sibiu',140,253,'a',140,1,1],['z','Zerind',75,374,'a',75,2,1],
+      ['f','Fagaras',239,176,'s',99,0,2],['r','Rimnicu Vilcea',220,193,'s',80,1,2],['o','Oradea',291,380,'s',151,2,2],
+      ['p','Pitesti',317,100,'r',97,1,3],['c','Craiova',366,160,'r',146,2,3],
+      ['b1','Bucharest',450,0,'f',211,0,4],['b2','Bucharest',418,0,'p',101,1,4]
+    ];
+    const stages=[
+      ['a',['a'],[], 'Start: select Arad (366).'],
+      ['s',['s','t','z'],['a'],'After Arad: select Sibiu (393), the smallest waiting f.'],
+      ['r',['r','f','t','z','o'],['a','s'],'After Sibiu: select Rimnicu Vilcea (413), just below Fagaras (415).'],
+      ['f',['f','p','t','z','c','o'],['a','s','r'],'Switch branch: Fagaras (415) is lower than Pitesti (417).'],
+      ['p',['p','t','z','b1','c','o'],['a','s','r','f'],'Bucharest found at 450. Continue: Pitesti still has f = 417.'],
+      ['b2',['b2','t','z','b1','c','o'],['a','s','r','f','p'],'Select Bucharest at 418: now the goal has the smallest waiting f. Stop.']
+    ];
+    const extras=[[],[],[['Arad (return)',646]],[['Sibiu (return)',553],['Arad (return)',646]],[['Sibiu (return)',553],['Sibiu via Fagaras',591],['Arad (return)',646]],[['Sibiu (return)',553],['Sibiu via Fagaras',591],['Rimnicu (return)',607],['Craiova via Pitesti',615],['Arad (return)',646]]];
+    let step=0;
+    const $=s=>root.querySelector(s);
+    function render(){
+      const [selected,waiting,done,status]=stages[step];
+      $('[data-prev]').disabled=step===0;$('[data-next]').disabled=step===stages.length-1;
+      $('[data-step]').textContent=`Step ${step+1} / ${stages.length}`;$('[data-status]').textContent=status;
+      const w=$('[data-tree]').getBoundingClientRect().width||700, cell=w/3, h=450, box=Math.min(152,cell-8);
+      const pos=n=>({x:cell*(n[6]+.5),y:38+n[7]*91});
+      const shown=new Set([...waiting,...done]);let svg=`<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="${status}"><title>A star search tree</title>`;
+      nodes.filter(n=>shown.has(n[0])&&n[4]).forEach(n=>{const parent=nodes.find(p=>p[0]===n[4]),a=pos(parent),b=pos(n);svg+=`<path class="astar-edge" d="M${a.x},${a.y+31} L${b.x},${b.y-32}"/><text class="astar-label" x="${(a.x+b.x)/2+5}" y="${(a.y+b.y)/2-2}">${n[5]}</text>`});
+      nodes.filter(n=>shown.has(n[0])).forEach(n=>{const p=pos(n),chosen=n[0]===selected,mark=chosen?'●':done.includes(n[0])?'✓':'○';const name=n[1]==='Rimnicu Vilcea'?['Rimnicu','Vilcea']:[n[1]];svg+=`<g><rect class="astar-node ${chosen?'astar-selected':''}" x="${p.x-box/2}" y="${p.y-31}" width="${box}" height="64" rx="5"/><text class="astar-label" text-anchor="middle" x="${p.x}" y="${p.y-15}">${mark} ${name[0]}</text>${name.length>1?`<text class="astar-label" text-anchor="middle" x="${p.x}" y="${p.y-2}">${name[1]}</text>`:''}<text class="astar-label" text-anchor="middle" x="${p.x}" y="${p.y+13}">${n[2]+n[3]} = ${n[2]}+${n[3]}</text></g>`});
+      svg+='</svg>';$('[data-tree]').innerHTML=svg;
+      const values=waiting.map(id=>{const n=nodes.find(n=>n[0]===id);return[n[1],n[2]+n[3]]}).concat(extras[step]).sort((a,b)=>a[1]-b[1]);
+      $('[data-wait]').textContent='Waiting before selection: '+values.map(([name,f])=>`${name} ${f}`).join(' · ');
+    }
+    $('[data-prev]').onclick=()=>{step--;render()};$('[data-next]').onclick=()=>{step++;render()};
+    window.addEventListener('beforeprint',()=>{step=5;render()}); document.querySelector('[data-view=print]')?.addEventListener('click',()=>{step=5;render()}); new ResizeObserver(render).observe($('[data-tree]'));render();
+  })();
+  </script>
+</div>
+<section><h2>Selection order</h2><table class="astar-recap"><thead><tr><th>Select</th><th>f = g + h</th><th>Why?</th></tr></thead><tbody>
+<tr><td>Arad</td><td>366 = 0 + 366</td><td>Only starting node.</td></tr><tr><td>Sibiu</td><td>393 = 140 + 253</td><td>Below Timisoara 447 and Zerind 449.</td></tr><tr><td>Rimnicu Vilcea</td><td>413 = 220 + 193</td><td>Below Fagaras 415.</td></tr><tr><td>Fagaras</td><td>415 = 239 + 176</td><td>Switch branch: below newly found Pitesti 417.</td></tr><tr><td>Pitesti</td><td>417 = 317 + 100</td><td>Bucharest 450 is found, but 417 is lower.</td></tr><tr><td>Bucharest via Pitesti</td><td>418 = 418 + 0</td><td>Goal is now the lowest waiting f. Stop.</td></tr></tbody></table>
+<p><b>Final route:</b> Arad → Sibiu → Rimnicu Vilcea → Pitesti → Bucharest.<br><b>Actual cost:</b> 140 + 80 + 97 + 101 = <b>418</b>, rather than 450 via Fagaras.</p>
+<p><b>Exam trap:</b> do not stop when the goal is first generated. Here, straight-line distance is the heuristic. The lecture's tree-search optimality condition is that h never overestimates the cheapest remaining cost.</p></section>
+<footer class="astar-source">Source: MR-Day 1_JR_v1.pdf, PDF pp.61–68 (printed slides 66–73); based on this A* discussion. Illustration retains the lecture's tree representation; repeated-city branches are listed but omitted from the drawing. Sample-paper alignment not checked.</footer></article></main></body></html>
