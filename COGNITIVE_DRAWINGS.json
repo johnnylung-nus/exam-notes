@@ -1,0 +1,23 @@
+{
+  "concept": "c059",
+  "new_drawings": 3,
+  "mapping_rows": 11,
+  "sources": [
+    {
+      "file": "Day3 CognitiveSystem.v.5.pdf",
+      "pages": [
+        3,
+        5,
+        46
+      ]
+    },
+    {
+      "file": "ISY5001 Intelligent Reasoning Systems (IRS) sample paper (Nov 2026).pdf",
+      "pages": [
+        18,
+        19
+      ]
+    }
+  ],
+  "status": "Source diagrams visually inspected; original SVG redraws with labelled study mappings, not official marking scheme."
+}
