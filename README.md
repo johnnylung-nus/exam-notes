@@ -89,3 +89,7 @@ assets/styles.css       Responsive study and A4 print styles
 assets/chapter.js        View, diagram, and print interactions
 .nojekyll               Serve plain static files on GitHub Pages
 ```
+
+## Source-linked revision inventory
+
+[Browse the concept checklist](concepts.html): 163 first-pass revision checkpoints across six blocks, linked to 36 core lecture PDFs (2206 pages). These are tutor-defined study units, not an official count of unique examinable concepts. See [CONCEPTS.md](CONCEPTS.md) and [SOURCE_INVENTORY.json](SOURCE_INVENTORY.json). Shared `assets/site.css` controls the index and every chapter shell. Keep navigation and styling consistent when adding chapters.

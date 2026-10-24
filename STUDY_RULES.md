@@ -91,3 +91,9 @@ The README section "Read this before writing any chapter notes" is the shared ch
 - The user has explicitly requested examples in the CF/MF sheet. Continue to avoid unsolicited examples in ordinary tutoring unless requested.
 - The initial generic CF/MF and SVD drafts were not accepted as satisfying the user's exam-note needs. Their existence is not evidence of approved content or an approved template. Rewrite from conversation and lectures as access permits; do not silently treat the old one-off generation exception as permanent.
 - Preserve the user's compact navigation/card references and separate screen/print layouts. Further website redesign remains in the mockup-review phase.
+
+## Source access and common design — 25 October 2026
+
+- The synced Exam mirror is empty, but lecture PDFs were located in the local NUS Semester_1 ISY5001 and ISY5002 course folders through file references in the other Exam chat. Do not keep reporting all lecture materials inaccessible; check the actual source paths. Treat originals as read-only.
+- `CONCEPTS.md` links the first-pass study checkpoints to lecture filenames and PDF pages. The page total covers selected core lecture files only, not the entire uploaded project or all exam material. No claim is made that every checkpoint is a distinct examinable concept.
+- Index and chapter pages must load the same shared site stylesheet and use the same chapter menu. New chapter work must preserve other chats’ additions and update this menu consistently.
