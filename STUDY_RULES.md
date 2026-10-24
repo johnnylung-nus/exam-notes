@@ -72,7 +72,7 @@ Repository AGENTS.md applies to Codex sessions working in that repository. It do
 - The local Exam mirror's `sources/` directory was empty when checked on 24 October 2026. This does not prove the uploaded files are absent from the ChatGPT project; they are not accessible through this mirror in this session.
 - The chat reader returned five recent exchanges from "SVD explanation" and opaque references in place of assistant response bodies. Full SVD/CF/MF coverage is not verified.
 - CF/MF and SVD drafts were generated at the user’s explicit request to proceed despite unavailable lecture sources. They are standard-concept drafts, not lecture-verified notes. The pages visibly state this; verify against uploaded lectures when access is available.
-- Prior GitHub push failed for authentication. The repository and live site must be checked before claiming synchronization.
+- GitHub push and Pages deployment succeeded on 25 October 2026. Live index: https://johnnylung-nus.github.io/exam-notes/ . Continue using this repository and live URL; do not repeat the earlier authentication blocker without new evidence.
 
 ## 25 October 2026 update: publishing preference
 

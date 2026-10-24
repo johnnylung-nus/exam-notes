@@ -18,3 +18,9 @@ When a chapter is discussed or updated, record:
 - Notes file and local/committed/pushed/deployed status, as verified.
 
 Do not mark an untested concept mastered. Do not record personal details or raw chat transcripts here.
+
+## Latest publication
+
+- 25 October 2026: both draft chapters and the index pushed in `f38be80`; GitHub Pages deployment run `40109778105` completed successfully. Live index verified in the browser with both chapter links.
+- Live SVD connection toggle and A4 view checked; local links, anchors, unique IDs, and JavaScript syntax passed checks.
+- Public index: https://johnnylung-nus.github.io/exam-notes/ . Lecture and sample-paper source verification remains pending; do not label these drafts lecture-verified.

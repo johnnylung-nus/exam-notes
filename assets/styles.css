@@ -152,3 +152,6 @@ summary { cursor: pointer; font-weight: 600; min-height: 28px; }
   .chapter tr { break-inside: avoid; }
   .table-scroll { overflow: visible; }
 }
+
+.print-view #toggle-projections { display: none; }
+.print-view #projection-note[hidden] { display: block !important; }
