@@ -1,0 +1,97 @@
+{
+  "checkpoints": 163,
+  "sample_paper_parts": 28,
+  "supplements": [
+    "extra-hmm",
+    "extra-svm"
+  ],
+  "modules": [
+    {
+      "title": "Machine Reasoning",
+      "count": 28
+    },
+    {
+      "title": "Reasoning Systems",
+      "count": 30
+    },
+    {
+      "title": "Cognitive Systems",
+      "count": 24
+    },
+    {
+      "title": "ISSM",
+      "count": 21
+    },
+    {
+      "title": "PRMLS",
+      "count": 30
+    },
+    {
+      "title": "PSUPR",
+      "count": 30
+    }
+  ],
+  "source_flags": [
+    {
+      "id": "c007",
+      "flag": "The deck groups hill climbing and greedy best-first under one label and allows backtracking; retain its specified trace, while distinguishing conventional local and global-frontier variants."
+    },
+    {
+      "id": "c008",
+      "flag": "The supplied MR Day4 p74 names simulated annealing as an escape technique but does not teach its full procedure here; algorithm steps are a clearly identified study elaboration, not a quoted lecture derivation."
+    },
+    {
+      "id": "c025",
+      "flag": "Slide61 states relation-matrix memory grows quadratically with entity count; more precisely full relation matrices scale with embedding dimension squared per relation. Notes retain the cost warning with corrected dependence."
+    },
+    {
+      "id": "c026",
+      "flag": "Slide69 broadly promises unseen-entity handling for neural models; this depends on architecture and available features, so it is not asserted for all models."
+    },
+    {
+      "id": "c036",
+      "flag": "Support and confidence are explicitly taught on Day2 p32; lift is an explanatory extension and was not located as a substantive topic in the inspected foundation pages."
+    },
+    {
+      "id": "c059",
+      "flag": "Exact eleven-box sample-paper diagram is not claimed to be reproduced by these lecture pages."
+    },
+    {
+      "id": "c080",
+      "flag": "Day3 p47 titles validity/soundness but is mainly a problem-formalization prompt; definitions are clarified conservatively, not quoted as a detailed slide explanation."
+    },
+    {
+      "id": "c084",
+      "flag": "Checklist originally points at a sound-anomaly example; sampling principle is in the introduction lecture."
+    },
+    {
+      "id": "c091",
+      "flag": "Lecture p45 contains inconsistent Blue denominators/copied counts. Use correct weighted totals (10.69) and the EM principle, not the erroneous printed arithmetic."
+    },
+    {
+      "id": "c125",
+      "flag": "The indexed page 9 describes an activation transfer function, not transfer learning. No substantive transfer-learning lecture passage was found in the supplied core texts; this is a clearly marked standard-method extension requiring lecture confirmation."
+    },
+    {
+      "id": "c139",
+      "flag": "The parent sample analysis flags inconsistent original-table class counts versus the stated 15.5% purchaser prevalence; preserve the given table and state the label caveat."
+    },
+    {
+      "id": "c152",
+      "flag": "Lecture p32 overstates independence and p62 implies all scores have standard deviation one. Notes correct both while preserving lecture terminology."
+    },
+    {
+      "id": "c153",
+      "flag": "The supplied extracted core lecture text supports PCA eigenvectors/eigenvalues but has no explicit SVD derivation. SVD equivalence is a marked explanatory extension to confirm against the SVD conversation, not attributed to these slides."
+    },
+    {
+      "id": "extra-hmm",
+      "flag": "Exam-required extension: no substantive HMM teaching pages were found in the 36 core lecture texts. This is a proposed coherent architecture, not an official key. The table is incomplete; no numerical HMM probabilities or measured performance are asserted."
+    },
+    {
+      "id": "extra-svm",
+      "flag": "Original sample prevalence and class counts are inconsistent as flagged in the main sample analysis; do not silently relabel the matrix."
+    }
+  ],
+  "validation": "Exact checkpoint coverage; required content fields; lecture filenames and page bounds; question-to-concept routes verified."
+}

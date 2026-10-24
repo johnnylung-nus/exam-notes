@@ -93,3 +93,10 @@ assets/chapter.js        View, diagram, and print interactions
 ## Source-linked revision inventory
 
 [Browse the concept checklist](concepts.html): 163 first-pass revision checkpoints across six blocks, linked to 36 core lecture PDFs (2206 pages). These are tutor-defined study units, not an official count of unique examinable concepts. See [CONCEPTS.md](CONCEPTS.md) and [SOURCE_INVENTORY.json](SOURCE_INVENTORY.json). Shared `assets/site.css` controls the index and every chapter shell. Keep navigation and styling consistent when adding chapters.
+
+
+## Full revision draft request — 25 October 2026
+
+The user explicitly authorized generating all 163 checkpoint notes before individual chapter discussions, plus mapping both sample papers. This supersedes any earlier restriction against drafting undiscussed chapters. These are lecture-based review drafts, not summaries of conversations that have not happened or proof of mastery. Keep subsequent tutoring one concept at a time and update the same pages with the user’s understood wording.
+
+Open notes.html for six teaching blocks and sample-papers.html for 28 question-part maps. HMM and SVM are explicit sample-paper additions beyond the 163 checkpoints. Source gaps and lecture inconsistencies are marked in affected notes. See REVISION_GUIDE.md and REVISION_BUILD.json. The sample discussions are study answers, not official keys; question focus was checked against original papers, including missing 5002 Q2(c). Keep the current compact shared design and routine publish workflow.
