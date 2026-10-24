@@ -51,6 +51,10 @@ Every chapter discussion feeds this same website. Read [STUDY_RULES.md](STUDY_RU
 
 For separate chats in the ChatGPT Exam project, add the prepared `EXAM_PROJECT_INSTRUCTIONS.md` (in the parent output folder) to that project's instructions once. A local README does not update ChatGPT project settings. Current source-access limits and verified publishing status are recorded in the study agreement. GitHub publishing has succeeded; do not repeat a historical authentication blocker without checking current access.
 
+## CF/MF exam cheat sheet
+
+[Read the CF/MF chapter](chapters/cf-mf.html) or [download its 2-page A4 cheat sheet](downloads/cf-mf-cheat-sheet.pdf). It covers steps, worked examples, data problems, evaluation, overfitting remedies, and scenario answer patterns. SVD/PCA is separate. Full chapter-conversation and lecture-source verification are still pending.
+
 ## Open the site
 
 Open `index.html` directly in a modern browser. All paths are relative, so the same files work under GitHub Pages at `/exam-notes/`.
