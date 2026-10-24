@@ -1,6 +1,6 @@
 # Exam tutoring and shared website
 
-Read `STUDY_RULES.md` and `CHAPTERS.md` before tutoring or editing notes. These are the user's standing preferences, not optional style suggestions. New explicit user guidance takes precedence; record changes in these files.
+Read the README section "Read this before writing any chapter notes", `STUDY_RULES.md`, and `CHAPTERS.md` before tutoring or editing notes. These are the user's standing preferences, not optional style suggestions. New explicit user guidance takes precedence; record changes in these files.
 
 - Repository: `johnnylung-nus/exam-notes`. Maintain one shared website with an index and chapter pages. Do not create a separate website for each chat.
 - Use the existing chapter template, stylesheet, and script. Plain HTML/CSS/JavaScript; no framework or build step.
@@ -13,3 +13,7 @@ Read `STUDY_RULES.md` and `CHAPTERS.md` before tutoring or editing notes. These 
 - Check source references, formulas, local links, SVG labels, and print behavior as appropriate. State verification limits honestly.
 - Proceed with routine authorized work without repeated confirmation. Report concrete access blockers. A local commit does not mean GitHub or the live site was updated.
 - Never edit synced project source files. Do not publish lecture PDFs, sample papers, personal information, or complete chat histories to the website by default.
+
+- Use the actual relevant chapter conversation as the basis for the user's exam cheat sheet. Preserve their understood wording and reasoning; correct mistakes and verify against lectures. Never represent generic content as a conversation summary.
+- Keep CF/MF and SVD/PCA separate in chapters and print sheets. Cover the problem, relationships, steps with discussed examples, data issues/remedies, evaluation, and overfitting techniques with reasons.
+- Do not introduce unexplained symbols (including Ω), unfamiliar terms, or a formula table in place of understandable scenario-based reasoning.

@@ -79,3 +79,15 @@ Repository AGENTS.md applies to Codex sessions working in that repository. It do
 - The user explicitly authorizes routine generation, website edits, commits, and pushes to `johnnylung-nus/exam-notes` without a separate approval conversation each time. After chapter discussion, update the corresponding chapter and index and push when access permits.
 - Prefer showing the updated webpage and a concise outcome over explaining Git procedures. Do not claim that access is missing merely from an older failure: retry when the user says access has been granted.
 - For this initial CF/MF and SVD generation, proceed with standard-concept draft notes even though lecture access is unavailable. Keep the draft/source status visible; replace external terminology with lecture terminology once verified. This exception does not authorize inventing lecture citations.
+
+## 25 October 2026 correction: conversation-based exam cheat sheets
+
+The README section "Read this before writing any chapter notes" is the shared checklist for this correction. Read it before creating or revising any chapter.
+
+- Base notes on the actual relevant chapter conversation, in the user's own understandable wording, with specific errors corrected and claims checked against lecture material.
+- Keep CF/MF and SVD/PCA in separate chapters AND separate print sheets. They solve different problems. The user rejected the combined print mockup.
+- Organize the CF/MF cheat sheet around definitions and relationship, recommendation problem, steps with discussed examples, data processing/sparsity remedies, training objective in plain words, evaluation, overfitting prevention, and scenario-based modifications with reasons.
+- No unexplained symbols such as Ω, new jargon, or formula-table substitution for understanding. Formulas require a purpose, symbol definitions, interpretation, and user understanding.
+- The user has explicitly requested examples in the CF/MF sheet. Continue to avoid unsolicited examples in ordinary tutoring unless requested.
+- The initial generic CF/MF and SVD drafts were not accepted as satisfying the user's exam-note needs. Their existence is not evidence of approved content or an approved template. Rewrite from conversation and lectures as access permits; do not silently treat the old one-off generation exception as permanent.
+- Preserve the user's compact navigation/card references and separate screen/print layouts. Further website redesign remains in the mockup-review phase.

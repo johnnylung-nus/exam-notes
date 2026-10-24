@@ -2,11 +2,54 @@
 
 A minimal, mobile-friendly chapter library built with HTML, CSS, and a small amount of vanilla JavaScript. No build tools, framework, or external runtime dependencies. Two draft revision chapters are available: CF/MF and SVD/PCA. Their lecture-source check is pending.
 
+## Read this before writing any chapter notes
+
+These instructions capture the user's corrections in the Exam project conversation on 25 October 2026. They apply across chapter chats. The user wants an exam cheat sheet built from their learning conversation, not an independently written textbook summary or formula table.
+
+### Use the actual chapter conversation
+
+- Read the relevant chapter discussion before summarizing. Preserve the user's own wording, explanations, examples, questions, and reasoning that they understand. Correct the specific mistakes clearly; do not replace everything with the tutor's preferred academic explanation.
+- Check technical accuracy and syllabus scope against the uploaded lecture notes and sample papers. Keep the lecturer's terms and diagram conventions. Conversation determines how to explain; lectures check what is correct and in scope.
+- Record which conversation and source pages were actually read. A chat title, a few recent messages, or opaque content references are not the full discussion. Never claim that generic notes reproduce a conversation that was unavailable.
+- If access is partial, state that limit briefly and preserve it in the chapter handoff. The earlier permission to generate initial standard-concept drafts was a one-off exception, not the default method for later chapter summaries.
+
+### Separate chapters by the problem they solve
+
+- CF/MF belongs in its own recommendation chapter: what CF and MF are, their relationship, and the problem they solve.
+- SVD/PCA belongs in a separate chapter addressing decomposition and dimensionality reduction. Do not combine it with CF/MF in a shared cheat sheet or print page merely because both involve matrices. Cross-reference only a distinction the user has discussed and needs.
+- A common website and presentation style do not mean combining different topics into one chapter.
+
+### Write for scenario-based exam answers
+
+For each chapter, cover the relevant questions in short, understandable points:
+
+1. What is it, how are the related methods connected, and what problem does it solve?
+2. What are the steps? Explain the purpose of each step and carry through an example discussed with the user. The user explicitly requests examples in the CF/MF cheat sheet; this does not authorize unsolicited examples in every tutoring reply.
+3. What data preparation is needed? For CF/MF, address sparse data, missing feedback, and new users/items: problem → consequence → remedy → why it helps.
+4. How is the model trained? Explain the objective or loss in words the user understands; use mathematics only when it helps answer the exam question.
+5. How should it be evaluated? Explain the split, metric, interpretation, and relationship to the task.
+6. How does overfitting appear, how can it be prevented, and why do the relevant techniques help? Use techniques actually taught or discussed, not an unexplained list.
+7. Given a proposed model or flawed setup, what should change and why? Use problem → proposed change → reason. Include architecture or simple analytical calculations only where relevant to the chapter.
+
+### No unexplained notation or terminology
+
+- Do not introduce symbols such as Ω merely to make a formula look formal. Prefer plain wording such as "known training ratings" when that is what the user understands.
+- Include a formula only when needed for the discussed concept or likely exam calculation. Explain every symbol, what the formula does, and how to interpret the result. If the user does not understand a formula, explain it before treating it as established revision material.
+- Prioritize useful reasoning over memorization. A sheet of equations is not an adequate substitute for the explanations, decision steps, and examples above.
+- Be direct when checking understanding: Correct / Incorrect / Partly correct, with the exact issue. Keep tutoring replies short and let the user explain in their own words.
+
+### Design and printing
+
+- Use the user's screenshot references: visible chapter navigation, a second row of views, compact grouped sections, Essential/Deeper controls, and informative diagrams with nearby takeaways.
+- Screen study notes and condensed print sheets have different density needs. Keep each topic's print sheet separate, minimize wasted spacing, use compact diagrams, and verify actual A4 pagination. Do not promise a page count without rendering it.
+- The combined CF/MF + SVD/PCA print mockup was rejected. Its combined-topic layout is not the template for future chapters.
+- Record later corrections in these shared rules and the relevant chapter handoff so the user does not need to repeat them.
+
 ## Shared tutoring workflow
 
 Every chapter discussion feeds this same website. Read [STUDY_RULES.md](STUDY_RULES.md) for the tutoring agreement and [CHAPTERS.md](CHAPTERS.md) for chapter status and handoffs. [AGENTS.md](AGENTS.md) provides repository instructions for Codex.
 
-For separate chats in the ChatGPT Exam project, add the prepared `EXAM_PROJECT_INSTRUCTIONS.md` (in the parent output folder) to that project's instructions once. A local README does not update ChatGPT project settings. The current source-access and GitHub authentication limitations are recorded in the study agreement.
+For separate chats in the ChatGPT Exam project, add the prepared `EXAM_PROJECT_INSTRUCTIONS.md` (in the parent output folder) to that project's instructions once. A local README does not update ChatGPT project settings. Current source-access limits and verified publishing status are recorded in the study agreement. GitHub publishing has succeeded; do not repeat a historical authentication blocker without checking current access.
 
 ## Open the site
 
