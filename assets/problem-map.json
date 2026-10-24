@@ -1,0 +1,2244 @@
+[
+  {
+    "id": "dialogue",
+    "group": "Language & knowledge",
+    "cue": "Slots, state, missing details, follow-up, change a reminder interval",
+    "method": "Intent + slot extraction + dialogue-state management",
+    "condition": "The bot must complete an action across turns. State holds filled slots and what is still needed; a slot alone is not a model.",
+    "flow": "Identify intent → extract slot values → update state → ask for missing values → validate/confirm → execute action.",
+    "change": "Wrong follow-up? Inspect state updates and overwritten slots. Measure intent accuracy, slot extraction and task completion.",
+    "ids": [
+      "c060",
+      "c061",
+      "c063",
+      "c064"
+    ],
+    "aliases": "bot chatbot conversation state slots reminder booking multi turn",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5001 Q1(a)",
+        "href": "sample-papers.html#5001-q1-a"
+      },
+      {
+        "label": "5001 Q1(b)",
+        "href": "sample-papers.html#5001-q1-b"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c060",
+        "title": "Natural language understanding",
+        "href": "chapters/chatbot-actions.html#c060"
+      },
+      {
+        "id": "c061",
+        "title": "Intent classification",
+        "href": "chapters/chatbot-actions.html#c061"
+      },
+      {
+        "id": "c063",
+        "title": "Slot detection and information extraction",
+        "href": "chapters/chatbot-actions.html#c063"
+      },
+      {
+        "id": "c064",
+        "title": "Dialogue management and generation",
+        "href": "chapters/chatbot-actions.html#c064"
+      }
+    ]
+  },
+  {
+    "id": "faq",
+    "group": "Language & knowledge",
+    "cue": "Bot, Q&A, FAQ, approved answers, similar question",
+    "method": "FAQ retrieval: question representation + similarity ranking",
+    "condition": "The answer already exists in an approved question–answer store. A generative model is unnecessary for this requirement.",
+    "flow": "Encode query and stored questions consistently → rank similarity → retrieve linked approved answer → threshold/clarify if weak.",
+    "change": "Wrong near-match? Improve question coverage, representation and threshold; evaluate retrieval relevance and answer correctness.",
+    "ids": [
+      "c062",
+      "c064"
+    ],
+    "aliases": "bot chatbot q&a qa question answer retrieval cosine tf idf",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5001 Q1(b)",
+        "href": "sample-papers.html#5001-q1-b"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c062",
+        "title": "TF-IDF and cosine similarity",
+        "href": "chapters/faq-retrieval.html#c062"
+      },
+      {
+        "id": "c064",
+        "title": "Dialogue management and generation",
+        "href": "chapters/chatbot-actions.html#c064"
+      }
+    ]
+  },
+  {
+    "id": "frames",
+    "group": "Language & knowledge",
+    "cue": "Knowledge representation schema, slots, defaults, inheritance, entities and attributes",
+    "method": "Frames; relate frames with a semantic network",
+    "condition": "The task asks for structured concepts/objects, their fields, values and relationships. A dialogue slot and a frame slot play different roles.",
+    "flow": "Identify entity types → define slots and value types → instances → relations → inheritance/defaults and exceptions.",
+    "change": "Flat lookup loses relationships? Use explicit frames/relations. Check valid values, missing values and contradictory inherited defaults.",
+    "ids": [
+      "c019",
+      "c018"
+    ],
+    "aliases": "knowledge representation schema frame slots inheritance is a part of attribute",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5001 Q1(c)",
+        "href": "sample-papers.html#5001-q1-c"
+      },
+      {
+        "label": "5001 Q2(d)",
+        "href": "sample-papers.html#5001-q2-d"
+      },
+      {
+        "label": "5001 Q2(e)",
+        "href": "sample-papers.html#5001-q2-e"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c019",
+        "title": "Frames",
+        "href": "chapters/representing-connected-knowledge.html#c019"
+      },
+      {
+        "id": "c018",
+        "title": "Semantic networks",
+        "href": "chapters/representing-connected-knowledge.html#c018"
+      }
+    ]
+  },
+  {
+    "id": "ontology",
+    "group": "Language & knowledge",
+    "cue": "Shared vocabulary, type constraints, relationship queries, multi-hop facts",
+    "method": "Ontology + knowledge graph; graph traversal for connected questions",
+    "condition": "Use explicit concepts and relations when the question needs consistent meaning or a path through linked facts.",
+    "flow": "Define types/relations → add entities/triples → validate schema → traverse/query the relevant links.",
+    "change": "Missing facts and inconsistent entity names need cleaning. Distinguish querying stored links from predicting new ones.",
+    "ids": [
+      "c020",
+      "c021",
+      "c022"
+    ],
+    "aliases": "knowledge representation semantic graph triple ontology multi hop",
+    "tasks": "choose design modify evaluate data",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c020",
+        "title": "Ontologies",
+        "href": "chapters/representing-connected-knowledge.html#c020"
+      },
+      {
+        "id": "c021",
+        "title": "Knowledge graph structure and queries",
+        "href": "chapters/representing-connected-knowledge.html#c021"
+      },
+      {
+        "id": "c022",
+        "title": "KG traversal and multi-hop queries",
+        "href": "chapters/representing-connected-knowledge.html#c022"
+      }
+    ]
+  },
+  {
+    "id": "rules",
+    "group": "Language & knowledge",
+    "cue": "IF–THEN, expert rules, known facts, justify a decision",
+    "method": "Rule-based reasoning; forward or backward chaining",
+    "condition": "Forward: facts arrive and consequences are needed. Backward: start with a goal and find supporting facts.",
+    "flow": "Facts + rule base → matching → conflict resolution → fire rule → update working memory → explanation.",
+    "change": "Several rules fire? State a conflict policy. Bad conclusions? Check premises, rule validity and missing/contradictory facts.",
+    "ids": [
+      "c009",
+      "c012",
+      "c013",
+      "c014",
+      "c017"
+    ],
+    "aliases": "deduction expert system production rules inference engine working memory",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5001 Q2(d)",
+        "href": "sample-papers.html#5001-q2-d"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c009",
+        "title": "Deductive reasoning",
+        "href": "chapters/rules-evidence-and-explanations.html#c009"
+      },
+      {
+        "id": "c012",
+        "title": "Forward chaining",
+        "href": "chapters/rules-evidence-and-explanations.html#c012"
+      },
+      {
+        "id": "c013",
+        "title": "Backward chaining",
+        "href": "chapters/rules-evidence-and-explanations.html#c013"
+      },
+      {
+        "id": "c014",
+        "title": "Conflict resolution in rule systems",
+        "href": "chapters/rules-evidence-and-explanations.html#c014"
+      },
+      {
+        "id": "c017",
+        "title": "First-order / predicate logic",
+        "href": "chapters/rules-evidence-and-explanations.html#c017"
+      }
+    ]
+  },
+  {
+    "id": "diagnostic-reasoning",
+    "group": "Language & knowledge",
+    "cue": "Observed symptoms, possible cause, similar previous case",
+    "method": "Abduction / Bayesian reasoning / case-based reasoning",
+    "condition": "Abduction proposes an explanation; Bayes ranks uncertain causes with evidence; case-based reasoning reuses and adapts a similar solved case.",
+    "flow": "State the evidence → list candidate explanations → use the requested evidence model or retrieve/adapt a case → verify.",
+    "change": "An explanation is not proven merely because it fits. Check alternatives, prior assumptions and whether the old case transfers.",
+    "ids": [
+      "c010",
+      "c015",
+      "c016"
+    ],
+    "aliases": "cause diagnosis explanation case adapt uncertainty",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5002 Q2(d)",
+        "href": "sample-papers.html#5002-q2-d"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c010",
+        "title": "Abductive reasoning",
+        "href": "chapters/rules-evidence-and-explanations.html#c010"
+      },
+      {
+        "id": "c015",
+        "title": "Case-based reasoning",
+        "href": "chapters/rules-evidence-and-explanations.html#c015"
+      },
+      {
+        "id": "c016",
+        "title": "Bayesian reasoning",
+        "href": "chapters/rules-evidence-and-explanations.html#c016"
+      }
+    ]
+  },
+  {
+    "id": "kb-architecture",
+    "group": "Language & knowledge",
+    "cue": "Design reasoning solution, components, internal data structures, static lookup replacement",
+    "method": "Knowledge-based architecture; hybrid rules + ML when perception is needed",
+    "condition": "Rules handle explicit knowledge; ML converts noisy observations into usable inputs. A lookup table fits only a fixed, manageable set of complete cases.",
+    "flow": "Inputs → preprocessing/ML → facts/frames → inference engine + knowledge base → decision → explanation and feedback.",
+    "change": "Explain each component’s input/output. Critique lookup for combinations, missing cases, maintenance and lost reasoning.",
+    "ids": [
+      "c029",
+      "c030",
+      "c058"
+    ],
+    "aliases": "architecture design solution knowledge base inference engine hybrid lookup table",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5001 Q2(a)",
+        "href": "sample-papers.html#5001-q2-a"
+      },
+      {
+        "label": "5001 Q2(b)",
+        "href": "sample-papers.html#5001-q2-b"
+      },
+      {
+        "label": "5001 Q2(c)",
+        "href": "sample-papers.html#5001-q2-c"
+      },
+      {
+        "label": "5001 Q2(d)",
+        "href": "sample-papers.html#5001-q2-d"
+      },
+      {
+        "label": "5001 Q2(e)",
+        "href": "sample-papers.html#5001-q2-e"
+      },
+      {
+        "label": "5001 Q2(f)",
+        "href": "sample-papers.html#5001-q2-f"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c029",
+        "title": "Reasoning-system architecture",
+        "href": "chapters/reasoning-system-design.html#c029"
+      },
+      {
+        "id": "c030",
+        "title": "Rules + ML integration",
+        "href": "chapters/reasoning-system-design.html#c030"
+      },
+      {
+        "id": "c058",
+        "title": "Symbolic / connectionist / hybrid AI",
+        "href": "chapters/reasoning-system-design.html#c058"
+      }
+    ]
+  },
+  {
+    "id": "acquisition",
+    "group": "Language & knowledge",
+    "cue": "Acquire expert knowledge, elicit rules, discover patterns from records",
+    "method": "Knowledge elicitation versus inductive learning / discovery",
+    "condition": "Expert interviews and observation elicit existing expertise; labelled or historical data supports discovery. They are complementary sources.",
+    "flow": "Identify knowledge source → elicit/prepare data → represent rule/model → validate with experts and held-out cases → maintain.",
+    "change": "Do not call every data-mining result expert knowledge. Check coverage, bias, exceptions and validation before putting it into the knowledge base.",
+    "ids": [
+      "extra-knowledge-acquisition",
+      "c011",
+      "c027"
+    ],
+    "aliases": "knowledge acquisition elicitation discovery interview expert induction",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5001 Q2(f)",
+        "href": "sample-papers.html#5001-q2-f"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "extra-knowledge-acquisition",
+        "title": "Knowledge acquisition",
+        "href": "chapters/knowledge-acquisition.html#extra-knowledge-acquisition"
+      },
+      {
+        "id": "c011",
+        "title": "Inductive reasoning",
+        "href": "chapters/rules-evidence-and-explanations.html#c011"
+      },
+      {
+        "id": "c027",
+        "title": "Inductive learning and generalization",
+        "href": "chapters/learning-explainable-predictions.html#c027"
+      }
+    ]
+  },
+  {
+    "id": "rag",
+    "group": "Language & knowledge",
+    "cue": "Answer from documents, grounded response, current facts, connected evidence",
+    "method": "Retrieval-augmented generation; KG + LLM if relations matter",
+    "condition": "RAG retrieves evidence before generation; a knowledge graph helps when answering requires explicit entity relationships.",
+    "flow": "Retrieve relevant passages/graph facts → supply context → generate supported answer → verify evidence/citations.",
+    "change": "Hallucination? Inspect retrieval coverage and grounding separately. Retrieval failure is not fixed just by a larger generator.",
+    "ids": [
+      "c031",
+      "c032",
+      "c082"
+    ],
+    "aliases": "rag documents evidence grounded hallucination knowledge graph llm",
+    "tasks": "choose design modify evaluate data",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c031",
+        "title": "Knowledge graph + LLM integration",
+        "href": "chapters/reasoning-system-design.html#c031"
+      },
+      {
+        "id": "c032",
+        "title": "Retrieval-augmented generation",
+        "href": "chapters/reasoning-system-design.html#c032"
+      },
+      {
+        "id": "c082",
+        "title": "RAG and knowledge-graph cognition",
+        "href": "chapters/faq-retrieval.html#c082"
+      }
+    ]
+  },
+  {
+    "id": "agents",
+    "group": "Language & knowledge",
+    "cue": "Call tools, execute a workflow, choose actions, multi-step planning",
+    "method": "LLM tool use / agentic orchestration",
+    "condition": "Use when the system must do actions or coordinate tools, rather than just return text. Define available tools and control boundaries.",
+    "flow": "Interpret goal → choose allowed tool → validate inputs → execute → observe result → update state → stop or escalate.",
+    "change": "Wrong tool/unsafe loop? Add validation, explicit state, stopping conditions and human escalation for consequential actions.",
+    "ids": [
+      "c033",
+      "c065",
+      "c079",
+      "c080"
+    ],
+    "aliases": "agent tools orchestration reasoning chain of thought verify validity soundness",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5001 Q2(i)",
+        "href": "sample-papers.html#5001-q2-i"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c033",
+        "title": "Agentic orchestration",
+        "href": "chapters/reasoning-system-design.html#c033"
+      },
+      {
+        "id": "c065",
+        "title": "LLM tools and agents",
+        "href": "chapters/chatbot-actions.html#c065"
+      },
+      {
+        "id": "c079",
+        "title": "LLM reasoning and chain of thought",
+        "href": "chapters/verify-reasoning.html#c079"
+      },
+      {
+        "id": "c080",
+        "title": "Validity, soundness, and reasoning failure",
+        "href": "chapters/verify-reasoning.html#c080"
+      }
+    ]
+  },
+  {
+    "id": "cognition",
+    "group": "Language & knowledge",
+    "cue": "Cognitive model, perception–memory–reasoning–action, eleven functions",
+    "method": "Cognitive-system architecture; Soar where specified",
+    "condition": "Map functions to scenario inputs, internal representations and outputs. Use the exact framework requested by the question.",
+    "flow": "Perceive → represent in working memory → use knowledge/decision process → act → observe and learn.",
+    "change": "Naming boxes is insufficient: show what flows between them. Eleven-function sample-paper mapping is not interchangeable with Soar.",
+    "ids": [
+      "c059",
+      "c081"
+    ],
+    "aliases": "cognitive architecture eleven entities functions soar memory decision action",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5001 Q2(a)",
+        "href": "sample-papers.html#5001-q2-a"
+      },
+      {
+        "label": "5001 Q2(h)",
+        "href": "sample-papers.html#5001-q2-h"
+      },
+      {
+        "label": "5001 Q2(i)",
+        "href": "sample-papers.html#5001-q2-i"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c059",
+        "title": "Cognitive-system architecture",
+        "href": "chapters/cognitive-architecture.html#c059"
+      },
+      {
+        "id": "c081",
+        "title": "Soar architecture",
+        "href": "chapters/verify-reasoning.html#c081"
+      }
+    ]
+  },
+  {
+    "id": "hmm",
+    "group": "Sequences & signals",
+    "cue": "Hidden state, observations, transition, emission, classify a weekly sequence",
+    "method": "Hidden Markov model (HMM)",
+    "condition": "The system has an unobserved state evolving over time and observations emitted by each state. A sequence label is not itself an observation.",
+    "flow": "Define hidden states and observations → initial/transition/emission probabilities → infer or compare sequence likelihoods.",
+    "change": "Sparse transition counts? Need adequate sequences and stated estimation assumptions. HMM is a sample-paper addition; see source-status note.",
+    "ids": [
+      "extra-hmm",
+      "c090"
+    ],
+    "aliases": "hmm markov hidden state transition emission temporal weekly",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5001 Q1(d)",
+        "href": "sample-papers.html#5001-q1-d"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "extra-hmm",
+        "title": "Hidden Markov model",
+        "href": "chapters/weekly-hmm.html#extra-hmm"
+      },
+      {
+        "id": "c090",
+        "title": "Signal distributions and statistics",
+        "href": "chapters/sensor-probabilities.html#c090"
+      }
+    ]
+  },
+  {
+    "id": "search",
+    "group": "Search & optimisation",
+    "cue": "State space, actions, goal, route, reasoning engine",
+    "method": "Formulate search → BFS / DFS / Dijkstra / A*",
+    "condition": "Equal costs + shallowest path: BFS. Different nonnegative costs: Dijkstra. Useful admissible heuristic + cheapest path: A*. DFS: depth-first exploration, not cheapest-path guarantee.",
+    "flow": "Define state/actions/goal → edge costs → choose frontier ordering → expand/update → stop on the appropriate goal condition.",
+    "change": "Do not confuse visit order with final route. A* needs the heuristic condition; Dijkstra does not handle negative costs with its usual guarantee.",
+    "ids": [
+      "c001",
+      "c002",
+      "c003",
+      "c004",
+      "c005",
+      "c006"
+    ],
+    "aliases": "search route shortest cheapest path g h f heuristic admissible bfs dfs a star dijkstra",
+    "tasks": "choose design modify evaluate data",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c001",
+        "title": "Search problem formulation",
+        "href": "chapters/search-comparison.html#c001"
+      },
+      {
+        "id": "c002",
+        "title": "Breadth-first search",
+        "href": "chapters/search-comparison.html#c002"
+      },
+      {
+        "id": "c003",
+        "title": "Depth-first search",
+        "href": "chapters/search-comparison.html#c003"
+      },
+      {
+        "id": "c004",
+        "title": "Uniform-cost search / Dijkstra",
+        "href": "chapters/search-comparison.html#c004"
+      },
+      {
+        "id": "c005",
+        "title": "A* search",
+        "href": "chapters/search-comparison.html#c005"
+      },
+      {
+        "id": "c006",
+        "title": "Heuristics and admissibility",
+        "href": "chapters/search-comparison.html#c006"
+      }
+    ]
+  },
+  {
+    "id": "local-search",
+    "group": "Search & optimisation",
+    "cue": "Local optimum, stuck, no need for full path, improve a candidate",
+    "method": "Hill climbing; simulated annealing for controlled escape",
+    "condition": "Hill climbing follows the lecture’s heuristic choice. Annealing permits some worse moves early to escape local traps. Neither supplies the usual shortest-path guarantee.",
+    "flow": "Define candidate and evaluation → generate neighbours → choose/accept a move → stop under a stated condition.",
+    "change": "Plateau/local optimum? Restarts or the taught escape strategy; do not claim a guarantee from a heuristic alone.",
+    "ids": [
+      "c007",
+      "c008"
+    ],
+    "aliases": "hill climbing local minimum local maximum plateau annealing",
+    "tasks": "choose design modify evaluate data",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c007",
+        "title": "Hill climbing",
+        "href": "chapters/search-comparison.html#c007"
+      },
+      {
+        "id": "c008",
+        "title": "Simulated annealing",
+        "href": "chapters/search-comparison.html#c008"
+      }
+    ]
+  },
+  {
+    "id": "ga",
+    "group": "Search & optimisation",
+    "cue": "Optimise combinations, chromosome, fitness, selection, crossover, mutation",
+    "method": "Genetic algorithm",
+    "condition": "Use a population of encoded candidates when combinatorial search is difficult and candidate quality can be scored.",
+    "flow": "Encode valid candidate → fitness → selection → crossover → mutation → feasibility check → replacement → stop.",
+    "change": "Premature convergence? Maintain diversity and review mutation/selection pressure. Penalise or repair infeasible candidates; distinguish fitness from raw objective.",
+    "ids": [
+      "c055",
+      "c056",
+      "c057"
+    ],
+    "aliases": "ga genetic algorithm chromosome roulette tournament crossover mutation fitness optimisation optimization",
+    "tasks": "choose design modify evaluate data",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c055",
+        "title": "Genetic algorithm representation and fitness",
+        "href": "chapters/optimising-with-genetic-algorithms.html#c055"
+      },
+      {
+        "id": "c056",
+        "title": "GA selection operators",
+        "href": "chapters/optimising-with-genetic-algorithms.html#c056"
+      },
+      {
+        "id": "c057",
+        "title": "GA crossover and mutation",
+        "href": "chapters/optimising-with-genetic-algorithms.html#c057"
+      }
+    ]
+  },
+  {
+    "id": "basket",
+    "group": "Patterns & recommendations",
+    "cue": "Products bought together, baskets, support, confidence, diagnostic associations",
+    "method": "Association-rule mining",
+    "condition": "Transactions must represent the meaningful co-occurrence unit. For temporal clinical data, define an appropriate patient/time window before mining.",
+    "flow": "Clean/construct baskets → frequent itemsets/support → rules/confidence → filter antecedent/consequent for the task → validate.",
+    "change": "High confidence may reflect a common outcome; assess baseline/lift where taught. A discovered association is not causation.",
+    "ids": [
+      "c034",
+      "c035",
+      "c036"
+    ],
+    "aliases": "market basket support confidence lift association co occurrence temporal",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5001 Q3(b)(i)",
+        "href": "sample-papers.html#5001-q3-b-i"
+      },
+      {
+        "label": "5001 Q3(b)(ii)",
+        "href": "sample-papers.html#5001-q3-b-ii"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c034",
+        "title": "Market basket analysis",
+        "href": "chapters/basket-to-diagnostic-rules.html#c034"
+      },
+      {
+        "id": "c035",
+        "title": "Association-rule support",
+        "href": "chapters/basket-to-diagnostic-rules.html#c035"
+      },
+      {
+        "id": "c036",
+        "title": "Association-rule confidence and lift",
+        "href": "chapters/basket-to-diagnostic-rules.html#c036"
+      }
+    ]
+  },
+  {
+    "id": "content-rec",
+    "group": "Patterns & recommendations",
+    "cue": "Recommend with item attributes, new item, user profile",
+    "method": "Content-based recommendation",
+    "condition": "Match user preferences to item features when useful attributes exist; it does not require similar users.",
+    "flow": "Represent item features → build user profile → score candidate similarity → rank unseen items.",
+    "change": "Overspecialisation? Improve feature coverage or justify a hybrid. New user still needs a profile; new-item attributes must be available.",
+    "ids": [
+      "c037",
+      "c051"
+    ],
+    "aliases": "content based recommendation cold start attributes hybrid",
+    "tasks": "choose design modify evaluate data",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c037",
+        "title": "Content-based recommendation",
+        "href": "chapters/recommendations-from-ratings.html#c037"
+      },
+      {
+        "id": "c051",
+        "title": "Hybrid recommenders",
+        "href": "chapters/recommendations-from-behaviour.html#c051"
+      }
+    ]
+  },
+  {
+    "id": "cf",
+    "group": "Patterns & recommendations",
+    "cue": "Ratings, similar users/items, collaborative filtering, sparse voluntary feedback",
+    "method": "User-based / item-based CF; assess overlap first",
+    "condition": "User-based finds neighbours by shared histories; item-based compares items. Sparse or biased feedback can make either unreliable.",
+    "flow": "Construct observed ratings → similarity on valid overlap → neighbours → weighted prediction → rank eligible unseen items.",
+    "change": "Missing ≠ zero. Check overlap, rating bias and exposure; use content/popularity/onboarding or justified hybrid for cold start.",
+    "ids": [
+      "c038",
+      "c039",
+      "c040",
+      "c042"
+    ],
+    "aliases": "cf collaborative filtering ratings sparse sparsity cold start neighbour similarity",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5001 Q3(c)",
+        "href": "sample-papers.html#5001-q3-c"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c038",
+        "title": "User-based collaborative filtering",
+        "href": "chapters/cf-mf.html#c038"
+      },
+      {
+        "id": "c039",
+        "title": "Item-based collaborative filtering",
+        "href": "chapters/cf-mf.html#c039"
+      },
+      {
+        "id": "c040",
+        "title": "Similarity and rating prediction",
+        "href": "chapters/cf-mf.html#c040"
+      },
+      {
+        "id": "c042",
+        "title": "Sparsity and cold start",
+        "href": "chapters/cf-mf.html#c042"
+      }
+    ]
+  },
+  {
+    "id": "mf",
+    "group": "Patterns & recommendations",
+    "cue": "Missing ratings, latent factors, large sparse rating matrix",
+    "method": "Matrix factorization; SGD / ALS training",
+    "condition": "Learn compact user/item factors from observed interactions. MF is a model-based CF method, not PCA applied blindly to a zero-filled rating matrix.",
+    "flow": "Observed ratings → choose factor count → initialise factors → optimise observed-rating loss + regularisation → predict dot products → rank.",
+    "change": "Overfit? Tune factor count and regularisation on validation; stop training appropriately. New users/items without interactions still need another information source.",
+    "ids": [
+      "c043",
+      "c044",
+      "c045"
+    ],
+    "aliases": "mf matrix factorization factorisation sgd als latent sparse rating",
+    "tasks": "choose design modify evaluate data",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c043",
+        "title": "Matrix factorization",
+        "href": "chapters/cf-mf.html#c043"
+      },
+      {
+        "id": "c044",
+        "title": "SGD / ALS training",
+        "href": "chapters/cf-mf.html#c044"
+      },
+      {
+        "id": "c045",
+        "title": "Recommendation overfitting and regularization",
+        "href": "chapters/cf-mf.html#c045"
+      }
+    ]
+  },
+  {
+    "id": "implicit",
+    "group": "Patterns & recommendations",
+    "cue": "Clicks, views, purchases, implicit feedback, unobserved items",
+    "method": "Confidence-weighted implicit MF / BPR; negative sampling",
+    "condition": "An interaction is positive evidence; no interaction is not a confirmed dislike. BPR targets relative ranking instead of reproducing explicit ratings.",
+    "flow": "Construct preferences/confidence → sample unobserved candidates carefully → train ranking or weighted objective → rank.",
+    "change": "Exposure bias and false negatives matter. Match sampling and ranking evaluation to the actual recommendation setting.",
+    "ids": [
+      "c046",
+      "c047",
+      "c048",
+      "c049",
+      "c050"
+    ],
+    "aliases": "implicit feedback confidence bpr pairwise ranking negative sampling jaccard",
+    "tasks": "choose design modify evaluate data",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c046",
+        "title": "Implicit feedback and preferences",
+        "href": "chapters/recommendations-from-behaviour.html#c046"
+      },
+      {
+        "id": "c047",
+        "title": "Jaccard similarity",
+        "href": "chapters/recommendations-from-behaviour.html#c047"
+      },
+      {
+        "id": "c048",
+        "title": "Negative sampling",
+        "href": "chapters/recommendations-from-behaviour.html#c048"
+      },
+      {
+        "id": "c049",
+        "title": "Confidence-weighted implicit MF",
+        "href": "chapters/recommendations-from-behaviour.html#c049"
+      },
+      {
+        "id": "c050",
+        "title": "Bayesian personalized ranking",
+        "href": "chapters/recommendations-from-behaviour.html#c050"
+      }
+    ]
+  },
+  {
+    "id": "advanced-rec",
+    "group": "Patterns & recommendations",
+    "cue": "Next item, session history, connected users/items, nonlinear preferences",
+    "method": "Sequence / graph / deep collaborative recommendation",
+    "condition": "Sequence: order matters. Graph: user–item and other links matter. Deep model: justified nonlinear interactions and enough data.",
+    "flow": "Identify available history/links → encode → train target prediction/ranking → test on unseen time/users as appropriate.",
+    "change": "Extra complexity is not automatically better. Compare a simpler CF/content baseline; check leakage and serving cost.",
+    "ids": [
+      "c052",
+      "c053",
+      "c054"
+    ],
+    "aliases": "deep recommendation sequential next item graph collaborative",
+    "tasks": "choose design modify evaluate data",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c052",
+        "title": "Deep collaborative filtering",
+        "href": "chapters/recommendations-from-behaviour.html#c052"
+      },
+      {
+        "id": "c053",
+        "title": "Sequence-based recommendation",
+        "href": "chapters/recommendations-from-behaviour.html#c053"
+      },
+      {
+        "id": "c054",
+        "title": "Graph-based recommendation",
+        "href": "chapters/recommendations-from-behaviour.html#c054"
+      }
+    ]
+  },
+  {
+    "id": "rec-eval",
+    "group": "Patterns & recommendations",
+    "cue": "Evaluate recommendations, top-K, predicted rating, overfitting",
+    "method": "RMSE/MAE for rating error; ranking metrics for top-K",
+    "condition": "Choose metrics for the requested output: accurate ratings and a useful ranked list are different goals.",
+    "flow": "Hold out valid interactions → predict/rank without leakage → calculate matched metric → compare baselines and validation trends.",
+    "change": "Training error falls while validation rises? Reduce complexity/regularise. Preserve chronological order for next-item tasks.",
+    "ids": [
+      "c041",
+      "c045"
+    ],
+    "aliases": "recommendation evaluation precision recall rmse mae ndcg ranking top k",
+    "tasks": "choose evaluate modify",
+    "papers": [
+      {
+        "label": "5001 Q3(c)",
+        "href": "sample-papers.html#5001-q3-c"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c041",
+        "title": "Recommendation evaluation",
+        "href": "chapters/cf-mf.html#c041"
+      },
+      {
+        "id": "c045",
+        "title": "Recommendation overfitting and regularization",
+        "href": "chapters/cf-mf.html#c045"
+      }
+    ]
+  },
+  {
+    "id": "vision",
+    "group": "Perception & sensing",
+    "cue": "Image label, object location, bounding boxes, pixel area, segmentation",
+    "method": "Classification / detection / segmentation",
+    "condition": "One image label: classification. Locate/count objects: detection. Pixel-level shape, coverage or area: segmentation.",
+    "flow": "Define required output → label the matching supervision → feature/model pipeline → task-specific evaluation → application decision.",
+    "change": "Bounding boxes cannot directly supply precise occupied area. Check lighting, occlusion, scale and whether errors harm the downstream decision.",
+    "ids": [
+      "c066",
+      "c067",
+      "c068",
+      "c069",
+      "c160"
+    ],
+    "aliases": "vision image object detect detection segmentation area coverage marr attention",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5001 Q1(c)",
+        "href": "sample-papers.html#5001-q1-c"
+      },
+      {
+        "label": "5001 Q2(b)",
+        "href": "sample-papers.html#5001-q2-b"
+      },
+      {
+        "label": "5001 Q2(h)",
+        "href": "sample-papers.html#5001-q2-h"
+      },
+      {
+        "label": "5001 Q2(i)",
+        "href": "sample-papers.html#5001-q2-i"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c066",
+        "title": "Vision cognition pipeline",
+        "href": "chapters/vision-decisions.html#c066"
+      },
+      {
+        "id": "c067",
+        "title": "Marr’s three levels",
+        "href": "chapters/vision-decisions.html#c067"
+      },
+      {
+        "id": "c068",
+        "title": "Detection vs segmentation",
+        "href": "chapters/vision-decisions.html#c068"
+      },
+      {
+        "id": "c069",
+        "title": "Visual attention and context",
+        "href": "chapters/vision-decisions.html#c069"
+      },
+      {
+        "id": "c160",
+        "title": "Recognition, detection, and segmentation applications",
+        "href": "chapters/perception-generation-robot-control.html#c160"
+      }
+    ]
+  },
+  {
+    "id": "vlm",
+    "group": "Perception & sensing",
+    "cue": "Ask about an image, language + scene, generate synthetic images",
+    "method": "Vision-language model; GAN for generation where requested",
+    "condition": "VLM links image content with language. GAN generates samples using generator/discriminator training; it is not a substitute for a precise measurement pipeline.",
+    "flow": "Specify image/text input and desired output → select the matching task model → validate grounded outputs or generated-sample utility.",
+    "change": "Fixed precise measurements may need detection/segmentation. Generated images require checks for diversity, realism and usefulness to the downstream task.",
+    "ids": [
+      "c070",
+      "c161"
+    ],
+    "aliases": "vision language vlm image question gan generative adversarial",
+    "tasks": "choose design modify evaluate data",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c070",
+        "title": "Vision-language models",
+        "href": "chapters/vision-decisions.html#c070"
+      },
+      {
+        "id": "c161",
+        "title": "Generative models / GAN applications",
+        "href": "chapters/perception-generation-robot-control.html#c161"
+      }
+    ]
+  },
+  {
+    "id": "speech",
+    "group": "Perception & sensing",
+    "cue": "Speech to text, spoken bot, multilingual recording, few transcripts",
+    "method": "ASR; Whisper / Wav2Vec as lecture options; TTS for spoken output",
+    "condition": "ASR transcribes speech. TTS speaks text. Wav2Vec learns audio representations with unlabelled speech; a downstream task still needs suitable training.",
+    "flow": "Record/sample → preprocess → speech representation/recognition → NLU/task → response text → TTS if needed.",
+    "change": "Noise/accent/latency? Test target recordings and deployment limits. Measure recognition error separately from task completion and speech quality.",
+    "ids": [
+      "c071",
+      "c072",
+      "c073",
+      "c074",
+      "c075",
+      "c076",
+      "c077"
+    ],
+    "aliases": "speech audio asr whisper wav2vec tts transcription word error rate spectrogram",
+    "tasks": "choose design modify evaluate data",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c071",
+        "title": "Audio sampling and coding",
+        "href": "chapters/speech-input.html#c071"
+      },
+      {
+        "id": "c072",
+        "title": "Spectrogram and audio features",
+        "href": "chapters/speech-input.html#c072"
+      },
+      {
+        "id": "c073",
+        "title": "Speech recognition",
+        "href": "chapters/speech-input.html#c073"
+      },
+      {
+        "id": "c074",
+        "title": "Text-to-speech",
+        "href": "chapters/spoken-system-evaluation.html#c074"
+      },
+      {
+        "id": "c075",
+        "title": "Whisper",
+        "href": "chapters/speech-input.html#c075"
+      },
+      {
+        "id": "c076",
+        "title": "Wav2Vec self-supervised learning",
+        "href": "chapters/speech-input.html#c076"
+      },
+      {
+        "id": "c077",
+        "title": "Audio/system evaluation",
+        "href": "chapters/spoken-system-evaluation.html#c077"
+      }
+    ]
+  },
+  {
+    "id": "multimodal",
+    "group": "Perception & sensing",
+    "cue": "Multiple sensors, camera + sound, conflicting measurements, alignment",
+    "method": "Multimodal fusion + spatial/temporal/feature alignment",
+    "condition": "Combine complementary modalities only after their timing, coordinate frames and representations are compatible.",
+    "flow": "Calibrate/align → encode each modality → choose early/late/intermediate fusion → decision → missing-sensor policy.",
+    "change": "Misaligned timestamps create false associations. Evaluate each modality and fused system; test noise, missing inputs and delay.",
+    "ids": [
+      "c078",
+      "c099",
+      "c101",
+      "c102",
+      "c103",
+      "c115",
+      "c116"
+    ],
+    "aliases": "multimodal fusion alignment sensor synchronise synchronize early late shared encoder multi input",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5002 Q1(d)",
+        "href": "sample-papers.html#5002-q1-d"
+      },
+      {
+        "label": "5002 Q2(b)",
+        "href": "sample-papers.html#5002-q2-b"
+      },
+      {
+        "label": "5002 Q2(c)",
+        "href": "sample-papers.html#5002-q2-c"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c078",
+        "title": "Multimodal cognition",
+        "href": "chapters/cognitive-architecture.html#c078"
+      },
+      {
+        "id": "c099",
+        "title": "Single-modality sensing",
+        "href": "chapters/sensor-decision-design.html#c099"
+      },
+      {
+        "id": "c101",
+        "title": "Multimodal representation and fusion",
+        "href": "chapters/sensor-decision-design.html#c101"
+      },
+      {
+        "id": "c102",
+        "title": "Spatial / temporal / feature alignment",
+        "href": "chapters/sensor-decision-design.html#c102"
+      },
+      {
+        "id": "c103",
+        "title": "End-to-end sense-making design",
+        "href": "chapters/sensor-decision-design.html#c103"
+      },
+      {
+        "id": "c115",
+        "title": "Multi-input / multi-output architectures",
+        "href": "chapters/multiple-inputs-shared-features.html#c115"
+      },
+      {
+        "id": "c116",
+        "title": "Shared layers / encoder architectures",
+        "href": "chapters/multiple-inputs-shared-features.html#c116"
+      }
+    ]
+  },
+  {
+    "id": "sampling",
+    "group": "Sequences & signals",
+    "cue": "Sensor waveform, sample rate, aliasing, units, sign, thresholds",
+    "method": "Acquisition/sampling pipeline + preprocessing checks",
+    "condition": "Represent the physical quantity with stated units, rate and range before any model. Sampling too slowly can make different signals indistinguishable.",
+    "flow": "Define measured variable → sensor and sampling rate → anti-alias filtering → digitise → clean/scale → features.",
+    "change": "Wrong formula scale/sign? Check range, units, baseline and threshold meaning. Information lost to aliasing is not recovered by a bigger model.",
+    "ids": [
+      "c083",
+      "c084",
+      "c085",
+      "c136"
+    ],
+    "aliases": "sensor sampling aliasing nyquist frequency units formula threshold scale sign",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5001 Q2(g)",
+        "href": "sample-papers.html#5001-q2-g"
+      },
+      {
+        "label": "5001 Q3(a)(ii)",
+        "href": "sample-papers.html#5001-q3-a-ii"
+      },
+      {
+        "label": "5002 Q1(e)(ii)",
+        "href": "sample-papers.html#5002-q1-e-ii"
+      },
+      {
+        "label": "5002 Q2(c)",
+        "href": "sample-papers.html#5002-q2-c"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c083",
+        "title": "Signals, sensors, and sensing pipeline",
+        "href": "chapters/sensor-acquisition.html#c083"
+      },
+      {
+        "id": "c084",
+        "title": "Sampling and aliasing",
+        "href": "chapters/sensor-acquisition.html#c084"
+      },
+      {
+        "id": "c085",
+        "title": "Periodic / even / odd signals",
+        "href": "chapters/sensor-acquisition.html#c085"
+      },
+      {
+        "id": "c136",
+        "title": "Normalization and preprocessing",
+        "href": "chapters/valid-pattern-workflow.html#c136"
+      }
+    ]
+  },
+  {
+    "id": "frequency",
+    "group": "Sequences & signals",
+    "cue": "Frequency peaks, periodic components, filter noise, convolution",
+    "method": "Time/frequency representation; Fourier transform + filtering",
+    "condition": "Fourier reveals frequency content; convolution applies a filter. Use the representation that isolates the signal feature the task needs.",
+    "flow": "Decompose/transform signal → inspect frequencies → specify filter → calculate convolution/output → interpret.",
+    "change": "Filtering can remove useful signal too. State what frequencies or structures should be retained and check boundary/sample-rate effects.",
+    "ids": [
+      "c086",
+      "c087",
+      "c088",
+      "c089"
+    ],
+    "aliases": "fourier dft fft frequency time convolution filtering periodic superposition",
+    "tasks": "choose design modify evaluate data",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c086",
+        "title": "Superposition and signal decomposition",
+        "href": "chapters/sensor-acquisition.html#c086"
+      },
+      {
+        "id": "c087",
+        "title": "Time and frequency representation",
+        "href": "chapters/frequency-filtering.html#c087"
+      },
+      {
+        "id": "c088",
+        "title": "Fourier transformation",
+        "href": "chapters/frequency-filtering.html#c088"
+      },
+      {
+        "id": "c089",
+        "title": "Filtering and convolution",
+        "href": "chapters/frequency-filtering.html#c089"
+      }
+    ]
+  },
+  {
+    "id": "mixture",
+    "group": "Sequences & signals",
+    "cue": "Several overlapping populations, soft membership, Gaussian components",
+    "method": "Gaussian mixture model + expectation maximization",
+    "condition": "A mixture models multiple component distributions. EM alternates responsibilities and parameter updates; it does not supply true class labels without evidence.",
+    "flow": "Initialise weights/means/variances → E-step responsibilities → M-step weighted updates → repeat to convergence.",
+    "change": "Initialisation and number of components matter. Inspect likelihood/fit and singular/tiny clusters; lecture arithmetic caveat is flagged in tutorial.",
+    "ids": [
+      "c090",
+      "c091"
+    ],
+    "aliases": "gaussian mixture gmm em expectation maximization responsibility distribution",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5001 Q1(d)",
+        "href": "sample-papers.html#5001-q1-d"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c090",
+        "title": "Signal distributions and statistics",
+        "href": "chapters/sensor-probabilities.html#c090"
+      },
+      {
+        "id": "c091",
+        "title": "Gaussian mixtures / expectation maximization",
+        "href": "chapters/sensor-probabilities.html#c091"
+      }
+    ]
+  },
+  {
+    "id": "representation",
+    "group": "Sequences & signals",
+    "cue": "Compact representation, reconstruct signal, denoise, unlabelled sensor data",
+    "method": "Basis/autoencoder/self-supervised/contrastive representation",
+    "condition": "Basis: decompose signal. Autoencoder: reconstruct input. Denoising: clean from corruption. Contrastive: pull related views together and separate others.",
+    "flow": "Choose learning signal → construct targets/views → encode → reconstruction/contrastive loss → validate downstream utility.",
+    "change": "Low reconstruction loss alone does not prove useful task features. Augmentations must preserve the information needed for the actual task.",
+    "ids": [
+      "c092",
+      "c093",
+      "c094",
+      "c095",
+      "c096",
+      "c097",
+      "c100"
+    ],
+    "aliases": "representation autoencoder denoising contrastive self supervised basis energy compaction",
+    "tasks": "choose design modify evaluate data",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c092",
+        "title": "Basis vectors and energy compaction",
+        "href": "chapters/sensor-representations.html#c092"
+      },
+      {
+        "id": "c093",
+        "title": "Supervised representation learning",
+        "href": "chapters/sensor-representations.html#c093"
+      },
+      {
+        "id": "c094",
+        "title": "Self-supervised representation learning",
+        "href": "chapters/sensor-representations.html#c094"
+      },
+      {
+        "id": "c095",
+        "title": "Autoencoders and reconstruction",
+        "href": "chapters/sensor-representations.html#c095"
+      },
+      {
+        "id": "c096",
+        "title": "Denoising autoencoders",
+        "href": "chapters/sensor-representations.html#c096"
+      },
+      {
+        "id": "c097",
+        "title": "Contrastive learning",
+        "href": "chapters/sensor-representations.html#c097"
+      },
+      {
+        "id": "c100",
+        "title": "Data augmentation for sensors",
+        "href": "chapters/sensor-decision-design.html#c100"
+      }
+    ]
+  },
+  {
+    "id": "anomaly",
+    "group": "Data & evaluation",
+    "cue": "Very few faults, only two anomalies, rare abnormal event",
+    "method": "Anomaly detection with a normal baseline; cautious rare-event evaluation",
+    "condition": "Two anomalies cannot support a credible supervised fault classifier or a robust estimate of fault recall. Use normal patterns and review flagged deviations.",
+    "flow": "Clean normal baseline → fit detector/representation → choose threshold with available validation → flag → investigate/collect labels.",
+    "change": "Do not duplicate two anomalies across splits or claim augmentation creates independent evidence. Report uncertainty and false-alarm burden.",
+    "ids": [
+      "c098",
+      "c138",
+      "c149"
+    ],
+    "aliases": "anomaly outlier two anomalies rare faults only 2 imbalanced",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5002 Q2(a)",
+        "href": "sample-papers.html#5002-q2-a"
+      },
+      {
+        "label": "5002 Q2(c)",
+        "href": "sample-papers.html#5002-q2-c"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c098",
+        "title": "Anomaly detection",
+        "href": "chapters/sensor-decision-design.html#c098"
+      },
+      {
+        "id": "c138",
+        "title": "Imbalanced data and augmentation",
+        "href": "chapters/rare-events-business-metrics.html#c138"
+      },
+      {
+        "id": "c149",
+        "title": "Curse of dimensionality",
+        "href": "chapters/feature-selection-rare-faults.html#c149"
+      }
+    ]
+  },
+  {
+    "id": "model-choice",
+    "group": "Learning & architecture",
+    "cue": "Predict a labelled outcome, discover groups, choose an action by reward",
+    "method": "Supervised / unsupervised / reinforcement learning",
+    "condition": "Known targets: supervised. No target and seek structure: unsupervised. Actions alter future reward: reinforcement learning. Input type and required output narrow the model further.",
+    "flow": "Define target/action and available labels → baseline → suitable features/model → matched validation and metric.",
+    "change": "Do not choose by model name alone. Explain why data, output and constraints fit; check whether the task is ranking, regression or classification.",
+    "ids": [
+      "c134",
+      "c135",
+      "c154"
+    ],
+    "aliases": "choose model method learning labelled unlabeled target reward supervised unsupervised reinforcement",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5002 Q2(b)",
+        "href": "sample-papers.html#5002-q2-b"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c134",
+        "title": "Pattern recognition workflow",
+        "href": "chapters/valid-pattern-workflow.html#c134"
+      },
+      {
+        "id": "c135",
+        "title": "Supervised / unsupervised / reinforcement learning",
+        "href": "chapters/valid-pattern-workflow.html#c135"
+      },
+      {
+        "id": "c154",
+        "title": "Clustering vs classification",
+        "href": "chapters/clustering-useful-groups.html#c154"
+      }
+    ]
+  },
+  {
+    "id": "simple-model",
+    "group": "Learning & architecture",
+    "cue": "Continuous target, probability, straight-line boundary, local neighbours",
+    "method": "Linear/logistic regression, perceptron/ADALINE, KNN",
+    "condition": "Continuous output: regression. Binary probability: logistic. Linear separability limits perceptrons; KNN uses distance and can give neighbour-based scores.",
+    "flow": "Define features/target → scale if distance/optimization needs it → train/choose K → predict → validate.",
+    "change": "Nonlinear boundary or noisy distances? Change representation or model with justification. ADALINE learns using its linear output error, unlike threshold-based perceptron updates.",
+    "ids": [
+      "c104",
+      "c105",
+      "c106",
+      "c142",
+      "c143"
+    ],
+    "aliases": "regression logistic linear perceptron adaline knn nearest neighbour ranked diagnosis",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5001 Q3(a)(i)",
+        "href": "sample-papers.html#5001-q3-a-i"
+      },
+      {
+        "label": "5001 Q3(a)(ii)",
+        "href": "sample-papers.html#5001-q3-a-ii"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c104",
+        "title": "Artificial neuron, weights, bias, activation",
+        "href": "chapters/neural-learning.html#c104"
+      },
+      {
+        "id": "c105",
+        "title": "Perceptron and linear separability",
+        "href": "chapters/neural-learning.html#c105"
+      },
+      {
+        "id": "c106",
+        "title": "ADALINE and delta rule",
+        "href": "chapters/neural-learning.html#c106"
+      },
+      {
+        "id": "c142",
+        "title": "Linear / logistic regression",
+        "href": "chapters/simple-prediction-baselines.html#c142"
+      },
+      {
+        "id": "c143",
+        "title": "K-nearest neighbours",
+        "href": "chapters/simple-prediction-baselines.html#c143"
+      }
+    ]
+  },
+  {
+    "id": "bayes",
+    "group": "Learning & architecture",
+    "cue": "Categorical maintenance records, class counts, posterior, independent features",
+    "method": "Naive Bayes; Laplace correction for zero counts",
+    "condition": "Naive Bayes multiplies class prior by feature likelihoods under conditional independence. A zero likelihood wipes out a score without smoothing.",
+    "flow": "Count priors → count feature likelihoods per class → multiply unnormalised scores → normalise if probabilities requested → choose class.",
+    "change": "Use training counts only; state independence assumption. Add Laplace correction when appropriate; do not silently change the sample counts.",
+    "ids": [
+      "c144",
+      "c145",
+      "c016"
+    ],
+    "aliases": "naive bayes categorical counts probability posterior laplace zero frequency maintenance",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5002 Q2(d)",
+        "href": "sample-papers.html#5002-q2-d"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c144",
+        "title": "Naive Bayes and conditional independence",
+        "href": "chapters/bayesian-fault-diagnosis.html#c144"
+      },
+      {
+        "id": "c145",
+        "title": "Laplace correction",
+        "href": "chapters/bayesian-fault-diagnosis.html#c145"
+      },
+      {
+        "id": "c016",
+        "title": "Bayesian reasoning",
+        "href": "chapters/rules-evidence-and-explanations.html#c016"
+      }
+    ]
+  },
+  {
+    "id": "trees",
+    "group": "Learning & architecture",
+    "cue": "Explain purchase rules, feature split, entropy, information gain, many tiny leaves",
+    "method": "Decision tree; gain ratio/Gini; pruning",
+    "condition": "Trees give conditional rules. Split criteria select a useful partition; pruning limits fragile branches supported by too few cases.",
+    "flow": "Compute impurity → weighted child impurity → split gain → recursive tree → leaf prediction → pruning/validation.",
+    "change": "A high-gain attribute may have many values; compare the taught corrected criterion. Training-perfect tiny leaves suggest overfitting, not guaranteed business value.",
+    "ids": [
+      "c028",
+      "c146",
+      "c147",
+      "c148"
+    ],
+    "aliases": "decision tree entropy information gain gain ratio gini prune pruning explainable",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5001 Q3(a)(i)",
+        "href": "sample-papers.html#5001-q3-a-i"
+      },
+      {
+        "label": "5002 Q1(a)",
+        "href": "sample-papers.html#5002-q1-a"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c028",
+        "title": "Decision-tree reasoning",
+        "href": "chapters/learning-explainable-predictions.html#c028"
+      },
+      {
+        "id": "c146",
+        "title": "Decision-tree splitting and information gain",
+        "href": "chapters/tree-purchase-rules.html#c146"
+      },
+      {
+        "id": "c147",
+        "title": "Gain ratio / Gini",
+        "href": "chapters/tree-purchase-rules.html#c147"
+      },
+      {
+        "id": "c148",
+        "title": "Tree pruning",
+        "href": "chapters/tree-purchase-rules.html#c148"
+      }
+    ]
+  },
+  {
+    "id": "forest",
+    "group": "Learning & architecture",
+    "cue": "Unstable single tree, feature importance, bootstrap, vote",
+    "method": "Bagging / random forest",
+    "condition": "Bagging reduces variance through resampled models. Random forests also randomise feature subsets to diversify trees.",
+    "flow": "Bootstrap training samples → train varied trees → aggregate votes/scores → evaluate → inspect importance cautiously.",
+    "change": "Importance is not causation; correlated features can share importance. Use validation/permutation or the requested criterion and compare a single-tree baseline.",
+    "ids": [
+      "c128",
+      "c129",
+      "c130"
+    ],
+    "aliases": "random forest bagging bootstrap ensemble vote feature importance",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5001 Q3(a)(i)",
+        "href": "sample-papers.html#5001-q3-a-i"
+      },
+      {
+        "label": "5001 Q3(a)(ii)",
+        "href": "sample-papers.html#5001-q3-a-ii"
+      },
+      {
+        "label": "5002 Q1(c)",
+        "href": "sample-papers.html#5002-q1-c"
+      },
+      {
+        "label": "5002 Q1(d)",
+        "href": "sample-papers.html#5002-q1-d"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c128",
+        "title": "Ensemble diversity and voting",
+        "href": "chapters/ensemble-corrections.html#c128"
+      },
+      {
+        "id": "c129",
+        "title": "Bagging and bootstrap sampling",
+        "href": "chapters/ensemble-corrections.html#c129"
+      },
+      {
+        "id": "c130",
+        "title": "Random forests and feature importance",
+        "href": "chapters/ensemble-corrections.html#c130"
+      }
+    ]
+  },
+  {
+    "id": "boost",
+    "group": "Learning & architecture",
+    "cue": "Reweight mistakes, weak learners, AdaBoost, sequential correction",
+    "method": "AdaBoost / gradient boosting",
+    "condition": "AdaBoost adjusts example weights after mistakes; gradient boosting fits the remaining loss-driven error. Learners are sequential, unlike independent bagging.",
+    "flow": "Train weak learner → calculate error/update contribution → reweight or fit residual/gradient → combine → validate.",
+    "change": "Noise/outliers can be overemphasised. Tune learning rate, depth and number of learners; feature importance may reflect several splits across the ensemble.",
+    "ids": [
+      "c131",
+      "c132"
+    ],
+    "aliases": "adaboost boosting gradient boosting weak learner misclassified weights feature importance",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5002 Q1(c)",
+        "href": "sample-papers.html#5002-q1-c"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c131",
+        "title": "Boosting and AdaBoost",
+        "href": "chapters/ensemble-corrections.html#c131"
+      },
+      {
+        "id": "c132",
+        "title": "Gradient boosting",
+        "href": "chapters/ensemble-corrections.html#c132"
+      }
+    ]
+  },
+  {
+    "id": "feature-selection",
+    "group": "Data & evaluation",
+    "cue": "Too many variables, irrelevant inputs, select features, dimensionality harms distance",
+    "method": "Filter / wrapper / embedded selection; forward/backward/RFE",
+    "condition": "Selection keeps original variables. Filter uses a score; wrapper tests model subsets; embedded selection occurs during fitting.",
+    "flow": "Fit selection within each training fold → compare subsets/model performance → choose complexity → evaluate held-out data.",
+    "change": "Selecting with the test labels leaks information. Correlation/ranking alone may miss feature interactions; justify cost and stability.",
+    "ids": [
+      "c149",
+      "c150",
+      "c151"
+    ],
+    "aliases": "feature selection filter wrapper embedded forward backward recursive rfe curse dimensionality",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5002 Q1(c)",
+        "href": "sample-papers.html#5002-q1-c"
+      },
+      {
+        "label": "5002 Q2(c)",
+        "href": "sample-papers.html#5002-q2-c"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c149",
+        "title": "Curse of dimensionality",
+        "href": "chapters/feature-selection-rare-faults.html#c149"
+      },
+      {
+        "id": "c150",
+        "title": "Filter / wrapper / embedded feature selection",
+        "href": "chapters/feature-selection-rare-faults.html#c150"
+      },
+      {
+        "id": "c151",
+        "title": "Forward / backward / recursive feature selection",
+        "href": "chapters/feature-selection-rare-faults.html#c151"
+      }
+    ]
+  },
+  {
+    "id": "pca",
+    "group": "Data & evaluation",
+    "cue": "Correlated variables, fewer dimensions, retain variance, eigenvalues/loadings",
+    "method": "PCA; eigenvectors/eigenvalues and SVD connection",
+    "condition": "PCA transforms features into principal directions ordered by variance. It does not use the target and is different from selecting original columns.",
+    "flow": "Fit centring/scaling on training data → decompose → choose components by stated retained-variance criterion → project → downstream model.",
+    "change": "High variance is not necessarily predictive. Apply the same training transform to validation/test; interpret loadings separately from per-record scores.",
+    "ids": [
+      "c152",
+      "c153"
+    ],
+    "aliases": "pca svd eigenvalue eigenvector loading score variance dimensionality reduction correlated",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5002 Q1(e)(i)",
+        "href": "sample-papers.html#5002-q1-e-i"
+      },
+      {
+        "label": "5002 Q1(e)(ii)",
+        "href": "sample-papers.html#5002-q1-e-ii"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c152",
+        "title": "PCA, variance, and principal directions",
+        "href": "chapters/svd.html#c152"
+      },
+      {
+        "id": "c153",
+        "title": "Eigenvalues / eigenvectors and SVD",
+        "href": "chapters/svd.html#c153"
+      }
+    ]
+  },
+  {
+    "id": "cluster",
+    "group": "Learning & architecture",
+    "cue": "Find segments without labels, centroids, hierarchical groups, choose K",
+    "method": "K-means / K-means++ / hierarchical clustering",
+    "condition": "K-means fits centroid-based groups; hierarchical linkage produces nested groupings. Match distance and shape assumptions to the data.",
+    "flow": "Clean/standardise → distance → fit clusters → inspect updates/dendrogram → choose K/cut → evaluate stability/usefulness.",
+    "change": "Outliers, scale and initialisation can dominate. K-means++ improves seeding, not a guarantee of the globally best clustering.",
+    "ids": [
+      "c155",
+      "c156",
+      "c157",
+      "c158",
+      "c159"
+    ],
+    "aliases": "cluster kmeans k means centroid hierarchy linkage silhouette number k",
+    "tasks": "choose design modify evaluate data",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c155",
+        "title": "Distances and standardization for clustering",
+        "href": "chapters/clustering-useful-groups.html#c155"
+      },
+      {
+        "id": "c156",
+        "title": "K-means and centroid updates",
+        "href": "chapters/clustering-useful-groups.html#c156"
+      },
+      {
+        "id": "c157",
+        "title": "K-means++ initialization",
+        "href": "chapters/clustering-useful-groups.html#c157"
+      },
+      {
+        "id": "c158",
+        "title": "Hierarchical clustering and linkage",
+        "href": "chapters/clustering-useful-groups.html#c158"
+      },
+      {
+        "id": "c159",
+        "title": "Cluster evaluation and number of clusters",
+        "href": "chapters/clustering-useful-groups.html#c159"
+      }
+    ]
+  },
+  {
+    "id": "som",
+    "group": "Learning & architecture",
+    "cue": "Map similar customers to nearby grid cells, topology, winning neuron",
+    "method": "Self-organizing map (SOM)",
+    "condition": "SOM learns a low-dimensional neighbourhood map of input similarity; grid positions are not supervised class labels.",
+    "flow": "Scale inputs → find best-matching unit → update winner and neighbours → shrink learning/neighbourhood → inspect map.",
+    "change": "Check quantisation/topology and practical cluster meaning; do not assume nearby display cells prove a business segment.",
+    "ids": [
+      "c111"
+    ],
+    "aliases": "som self organizing map kohonen topology customer grid",
+    "tasks": "choose design modify evaluate data",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c111",
+        "title": "Self-organizing maps",
+        "href": "chapters/som-customer-map.html#c111"
+      }
+    ]
+  },
+  {
+    "id": "mlp",
+    "group": "Learning & architecture",
+    "cue": "Nonlinear prediction, hidden layer, weights, bias, backpropagation",
+    "method": "Multilayer perceptron; RBF / GRNN for their taught local-response designs",
+    "condition": "MLP learns nonlinear mappings with hidden activations. RBF/GRNN use distances/local responses and require a meaningful scale/width.",
+    "flow": "Specify input/output → hidden representation → forward output/loss → gradients or taught local estimator → update → validate.",
+    "change": "Activation, feature scaling and capacity must suit the problem. Compare the local-model bandwidth and training/serving cost where relevant.",
+    "ids": [
+      "c107",
+      "c108",
+      "c109",
+      "c110"
+    ],
+    "aliases": "mlp neural network backpropagation rbf grnn hidden layer activation nonlinear",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5002 Q1(b)",
+        "href": "sample-papers.html#5002-q1-b"
+      },
+      {
+        "label": "5002 Q2(a)",
+        "href": "sample-papers.html#5002-q2-a"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c107",
+        "title": "MLP and backpropagation",
+        "href": "chapters/neural-learning.html#c107"
+      },
+      {
+        "id": "c108",
+        "title": "Activation-function choices",
+        "href": "chapters/neural-learning.html#c108"
+      },
+      {
+        "id": "c109",
+        "title": "RBF networks",
+        "href": "chapters/local-neural-models.html#c109"
+      },
+      {
+        "id": "c110",
+        "title": "General regression neural networks",
+        "href": "chapters/local-neural-models.html#c110"
+      }
+    ]
+  },
+  {
+    "id": "cnn",
+    "group": "Learning & architecture",
+    "cue": "Image CNN, padding/stride, feature maps, pooling, huge dense layer",
+    "method": "CNN dimensions + parameter accounting; lean architecture",
+    "condition": "Convolutions capture spatial patterns. Count trainable parameters to identify expensive layers rather than guessing that every convolution is the main cost.",
+    "flow": "Track H/W/channels → calculate output sizes → kernel parameters+bias → flatten/dense counts → propose reduction → recheck loss/output.",
+    "change": "Reduce oversized dense layers/channels or use the justified taught design; preserve adequate capacity. Pooling changes spatial size, not learned filter count.",
+    "ids": [
+      "c112",
+      "c113",
+      "c114",
+      "c163"
+    ],
+    "aliases": "cnn convolution padding stride pooling flatten dense parameters architecture lean image",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5002 Q2(a)",
+        "href": "sample-papers.html#5002-q2-a"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c112",
+        "title": "CNN convolution, padding, stride",
+        "href": "chapters/cnn-lean-design.html#c112"
+      },
+      {
+        "id": "c113",
+        "title": "Pooling",
+        "href": "chapters/cnn-lean-design.html#c113"
+      },
+      {
+        "id": "c114",
+        "title": "CNN dimensions and parameter counts",
+        "href": "chapters/cnn-lean-design.html#c114"
+      },
+      {
+        "id": "c163",
+        "title": "CNN application design",
+        "href": "chapters/cnn-lean-design.html#c163"
+      }
+    ]
+  },
+  {
+    "id": "rnn",
+    "group": "Sequences & signals",
+    "cue": "History matters, sequential purchases, time steps, long dependencies",
+    "method": "RNN / LSTM; stacked sequence model where justified",
+    "condition": "Feed ordered feature vectors with a clear time step and target. LSTM helps retain information over longer dependencies; stacking adds capacity, not automatic improvement.",
+    "flow": "Construct sequences → train/validation time split → recurrent states → output head → sequence-aware evaluation.",
+    "change": "Randomly shuffling time points can leak future information. Explain sequence length, masking/padding, output timing and combined static/dynamic inputs.",
+    "ids": [
+      "c117",
+      "c118",
+      "c115"
+    ],
+    "aliases": "rnn lstm recurrent sequence time series history purchase stacked",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5002 Q1(d)",
+        "href": "sample-papers.html#5002-q1-d"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c117",
+        "title": "RNN sequence representation",
+        "href": "chapters/browsing-sequences.html#c117"
+      },
+      {
+        "id": "c118",
+        "title": "LSTM and stacked recurrent networks",
+        "href": "chapters/browsing-sequences.html#c118"
+      },
+      {
+        "id": "c115",
+        "title": "Multi-input / multi-output architectures",
+        "href": "chapters/multiple-inputs-shared-features.html#c115"
+      }
+    ]
+  },
+  {
+    "id": "transformer",
+    "group": "Sequences & signals",
+    "cue": "Attention weights, token context, order, query/key/value",
+    "method": "Transformer with positional encoding and self-attention",
+    "condition": "Attention relates tokens by content; positional information supplies order. Use masking when later tokens must not be visible.",
+    "flow": "Embed tokens + positions → Q/K/V → attention scores/weights → contextual values → output.",
+    "change": "State shape and masking assumptions; contextual similarity is not an explanation of truth. Attention has memory/compute costs for long sequences.",
+    "ids": [
+      "c126",
+      "c127"
+    ],
+    "aliases": "transformer attention q k v query key value positional encoding multi head",
+    "tasks": "choose design modify evaluate data",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c126",
+        "title": "Transformer / positional encoding",
+        "href": "chapters/transformer-context.html#c126"
+      },
+      {
+        "id": "c127",
+        "title": "Self-attention and multi-head attention",
+        "href": "chapters/transformer-context.html#c127"
+      }
+    ]
+  },
+  {
+    "id": "training",
+    "group": "Data & evaluation",
+    "cue": "Loss spikes, gradients vanish/explode, deep model not learning",
+    "method": "Initialisation, gradient diagnosis, normalization/residual connections",
+    "condition": "Distinguish optimization failure from overfitting. Initialisation sets starting scales; residual paths ease deep optimization; batch norm uses training statistics.",
+    "flow": "Inspect inputs/loss/gradients → learning rate and activation → suitable initialisation → training diagnostics → validate fix.",
+    "change": "Use Xavier/He as appropriate to activation; consider clipping for exploding gradients and the taught stable architectures. Avoid changing every setting blindly.",
+    "ids": [
+      "c119",
+      "c120",
+      "c123",
+      "c124"
+    ],
+    "aliases": "vanishing exploding gradient unstable nan loss spike xavier he residual batch normalization",
+    "tasks": "choose design modify evaluate data",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c119",
+        "title": "Vanishing / exploding gradients",
+        "href": "chapters/stable-neural-training.html#c119"
+      },
+      {
+        "id": "c120",
+        "title": "Xavier / He initialization",
+        "href": "chapters/stable-neural-training.html#c120"
+      },
+      {
+        "id": "c123",
+        "title": "Batch normalization",
+        "href": "chapters/stable-neural-training.html#c123"
+      },
+      {
+        "id": "c124",
+        "title": "Residual connections",
+        "href": "chapters/stable-neural-training.html#c124"
+      }
+    ]
+  },
+  {
+    "id": "overfit",
+    "group": "Data & evaluation",
+    "cue": "Training improves, validation worsens, memorisation, limited labelled data",
+    "method": "Regularisation / dropout / early stopping; cautious transfer learning",
+    "condition": "L1/L2 penalise weights; dropout perturbs training units; early stopping chooses validation-supported training duration. These address different sources of overfitting.",
+    "flow": "Verify split/leakage → compare train/validation curves → reduce capacity or regularise → tune on validation → test once.",
+    "change": "Transfer requires compatible source features and careful fine-tuning; source coverage for that checkpoint is flagged. Data augmentation must preserve labels.",
+    "ids": [
+      "c121",
+      "c122",
+      "c125",
+      "c141"
+    ],
+    "aliases": "overfit overfitting generalization memorise dropout l1 l2 early stopping transfer fine tuning",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5002 Q1(a)",
+        "href": "sample-papers.html#5002-q1-a"
+      },
+      {
+        "label": "5002 Q2(a)",
+        "href": "sample-papers.html#5002-q2-a"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c121",
+        "title": "L1 / L2 regularization",
+        "href": "chapters/neural-overfitting-transfer.html#c121"
+      },
+      {
+        "id": "c122",
+        "title": "Dropout",
+        "href": "chapters/neural-overfitting-transfer.html#c122"
+      },
+      {
+        "id": "c125",
+        "title": "Transfer learning and fine tuning",
+        "href": "chapters/neural-overfitting-transfer.html#c125"
+      },
+      {
+        "id": "c141",
+        "title": "Hyperparameter tuning and generalization",
+        "href": "chapters/valid-pattern-workflow.html#c141"
+      }
+    ]
+  },
+  {
+    "id": "metrics",
+    "group": "Data & evaluation",
+    "cue": "High accuracy but misses rare buyers/faults, confusion matrix, business costs",
+    "method": "Confusion-matrix metrics + threshold/cost trade-off",
+    "condition": "Recall measures missed positives; precision measures correctness of positive predictions. Choose based on scenario harm and intervention cost, not accuracy alone.",
+    "flow": "Identify positive class → TP/FP/FN/TN → compute required metrics → apply costs/benefits → compare thresholds/models.",
+    "change": "Class prevalence matters. ROC, gain and lift answer different ranking questions. The sample paper’s inconsistent counts/prevalence are flagged in its answer.",
+    "ids": [
+      "c139",
+      "c140",
+      "extra-svm"
+    ],
+    "aliases": "confusion matrix accuracy precision recall f1 specificity auc roc gain lift svm cost false positive false negative",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5002 Q1(a)",
+        "href": "sample-papers.html#5002-q1-a"
+      },
+      {
+        "label": "5002 Q1(b)",
+        "href": "sample-papers.html#5002-q1-b"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c139",
+        "title": "Confusion matrix and classification metrics",
+        "href": "chapters/rare-events-business-metrics.html#c139"
+      },
+      {
+        "id": "c140",
+        "title": "ROC and gain/lift charts",
+        "href": "chapters/rare-events-business-metrics.html#c140"
+      },
+      {
+        "id": "extra-svm",
+        "title": "Support vector machine",
+        "href": "chapters/rare-events-business-metrics.html#extra-svm"
+      }
+    ]
+  },
+  {
+    "id": "data-split",
+    "group": "Data & evaluation",
+    "cue": "Preprocessing, leakage, small dataset, validation, tune hyperparameters",
+    "method": "Training-only preprocessing + valid splits/cross-validation",
+    "condition": "Fit scaling, imputation, PCA and feature selection using training data only. Split by time/person/group when records are dependent.",
+    "flow": "Choose split unit → train preprocessing/model inside each fold → tune on validation → evaluate untouched test set.",
+    "change": "Prevent duplicates and augmented siblings crossing splits. Report matched metrics and variability; the test set must not drive model choice.",
+    "ids": [
+      "c136",
+      "c137",
+      "c141"
+    ],
+    "aliases": "data processing preprocessing normalization normalisation leakage cross validation split missing data tuning",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5001 Q2(g)",
+        "href": "sample-papers.html#5001-q2-g"
+      },
+      {
+        "label": "5001 Q3(a)(ii)",
+        "href": "sample-papers.html#5001-q3-a-ii"
+      },
+      {
+        "label": "5002 Q1(a)",
+        "href": "sample-papers.html#5002-q1-a"
+      },
+      {
+        "label": "5002 Q1(e)(ii)",
+        "href": "sample-papers.html#5002-q1-e-ii"
+      },
+      {
+        "label": "5002 Q2(c)",
+        "href": "sample-papers.html#5002-q2-c"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c136",
+        "title": "Normalization and preprocessing",
+        "href": "chapters/valid-pattern-workflow.html#c136"
+      },
+      {
+        "id": "c137",
+        "title": "Data splits and cross-validation",
+        "href": "chapters/valid-pattern-workflow.html#c137"
+      },
+      {
+        "id": "c141",
+        "title": "Hyperparameter tuning and generalization",
+        "href": "chapters/valid-pattern-workflow.html#c141"
+      }
+    ]
+  },
+  {
+    "id": "imbalance",
+    "group": "Data & evaluation",
+    "cue": "Rare class, imbalance, augmentation, synthetic samples",
+    "method": "Class weighting / resampling / valid augmentation + matched metrics",
+    "condition": "Choose from taught techniques using actual label counts and error costs; synthetic variants are not independent new evidence.",
+    "flow": "Split original data first → rebalance/augment training only → train → tune threshold → test on realistic prevalence.",
+    "change": "Do not balance the test set to make results look better. With only a couple of positives, label collection/normal-baseline anomaly detection is more defensible.",
+    "ids": [
+      "c138",
+      "c100",
+      "c098"
+    ],
+    "aliases": "imbalance imbalanced rare positive augmentation class weight oversampling undersampling smote",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5002 Q2(a)",
+        "href": "sample-papers.html#5002-q2-a"
+      },
+      {
+        "label": "5002 Q2(c)",
+        "href": "sample-papers.html#5002-q2-c"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c138",
+        "title": "Imbalanced data and augmentation",
+        "href": "chapters/rare-events-business-metrics.html#c138"
+      },
+      {
+        "id": "c100",
+        "title": "Data augmentation for sensors",
+        "href": "chapters/sensor-decision-design.html#c100"
+      },
+      {
+        "id": "c098",
+        "title": "Anomaly detection",
+        "href": "chapters/sensor-decision-design.html#c098"
+      }
+    ]
+  },
+  {
+    "id": "control",
+    "group": "Learning & architecture",
+    "cue": "Robot sorting, actions change environment, reward, safe learning",
+    "method": "Deep reinforcement learning / perception-to-control pipeline",
+    "condition": "Define observable state, allowed actions and reward. If the task is only predicting a supplied label, supervised learning may be sufficient.",
+    "flow": "Sensors → perception/state → policy/action → actuator/environment → reward/next state → learn and evaluate.",
+    "change": "Unsafe exploration? Use simulation, constraints and staged validation. Reward design must discourage shortcuts and reflect task success/safety.",
+    "ids": [
+      "c162",
+      "c135",
+      "c101",
+      "c103"
+    ],
+    "aliases": "robot sorting control reinforcement rl reward policy action architecture",
+    "tasks": "choose design modify evaluate data",
+    "papers": [
+      {
+        "label": "5002 Q2(b)",
+        "href": "sample-papers.html#5002-q2-b"
+      },
+      {
+        "label": "5002 Q2(c)",
+        "href": "sample-papers.html#5002-q2-c"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "c162",
+        "title": "Deep-learning decision / control applications",
+        "href": "chapters/perception-generation-robot-control.html#c162"
+      },
+      {
+        "id": "c135",
+        "title": "Supervised / unsupervised / reinforcement learning",
+        "href": "chapters/valid-pattern-workflow.html#c135"
+      },
+      {
+        "id": "c101",
+        "title": "Multimodal representation and fusion",
+        "href": "chapters/sensor-decision-design.html#c101"
+      },
+      {
+        "id": "c103",
+        "title": "End-to-end sense-making design",
+        "href": "chapters/sensor-decision-design.html#c103"
+      }
+    ]
+  },
+  {
+    "id": "experts",
+    "group": "Learning & architecture",
+    "cue": "Different operating regimes, specialist models, fuzzy rules",
+    "method": "Mixture of experts / neuro-fuzzy model",
+    "condition": "Use specialist predictors with an explicit gating/combining rule; fuzzy membership handles degrees rather than an unqualified hard class switch.",
+    "flow": "Define regimes/features → experts/rules → gate or membership → combine outputs → validate per regime.",
+    "change": "Check under-covered regimes, gate mistakes and interpretability; extra experts add parameters and need enough data.",
+    "ids": [
+      "c133"
+    ],
+    "aliases": "mixture experts moe gating neuro fuzzy membership regimes",
+    "tasks": "choose design modify evaluate data",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c133",
+        "title": "Mixture of experts / neuro-fuzzy systems",
+        "href": "chapters/ensemble-corrections.html#c133"
+      }
+    ]
+  },
+  {
+    "id": "kg-prediction",
+    "group": "Language & knowledge",
+    "cue": "Predict a missing relation, entity embedding, relation-specific projection",
+    "method": "TransE / TransR / bilinear or neural KG embeddings",
+    "condition": "Stored graph queries retrieve known facts; embeddings score plausible missing links. TransR uses relation-specific projections; bilinear models score entity interactions.",
+    "flow": "Represent entities/relations → positive and corrupted training triples → fit the taught score/loss → rank candidate links → validate filtered ranking.",
+    "change": "Match relation patterns and capacity. Symmetric scoring cannot represent all directional relations; unseen entities require suitable features or retraining, not a blanket guarantee.",
+    "ids": [
+      "c023",
+      "c024",
+      "c025",
+      "c026"
+    ],
+    "aliases": "knowledge graph embedding missing link transe transr distmult bilinear neural rescal",
+    "tasks": "choose design modify evaluate data",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c023",
+        "title": "TransE embeddings",
+        "href": "chapters/predicting-missing-graph-links.html#c023"
+      },
+      {
+        "id": "c024",
+        "title": "TransR embeddings",
+        "href": "chapters/predicting-missing-graph-links.html#c024"
+      },
+      {
+        "id": "c025",
+        "title": "Bilinear / DistMult embeddings",
+        "href": "chapters/predicting-missing-graph-links.html#c025"
+      },
+      {
+        "id": "c026",
+        "title": "Neural knowledge graph embeddings",
+        "href": "chapters/predicting-missing-graph-links.html#c026"
+      }
+    ]
+  }
+]
