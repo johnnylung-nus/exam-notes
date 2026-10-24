@@ -1,15 +1,9 @@
-# Revision notes handoff
+# Continue the Exam tutorials
 
-163 checkpoint notes in six teaching blocks; 28 mapped sample-paper parts; HMM and SVM are explicit additions beyond the checklist. All are drafts for review, not an official marking scheme or proof of understanding.
+Read README.md, AGENTS.md and STUDY_RULES.md first. The user rejected the previous shallow cards and six lecture-block navigation. index.html and concepts.html are the same searchable concept index. Every concept opens an anchored tutorial inside a problem-led chapter; sample-papers.html maps each question part to those exact anchors. Existing Search, CF/MF and SVD/PCA chapters belong inside this index.
 
-## Continue in another Exam chat
+Do not recreate the old All notes catalogue. Keep mechanistic explanations, concrete worked tables/calculations, meaningful original diagrams, model-selection comparisons, failure → cause → change → reason, evaluation, and exam-ready answers. Use the actual discussion when accessible; never claim an inaccessible conversation was read. Keep lecture terms; explain every necessary symbol. Preserve specific source gaps.
 
-Read AGENTS.md, STUDY_RULES.md and CHAPTERS.md, then the relevant note and lecture pages. Read the actual relevant chapter conversation if accessible; never claim conversation access from this handoff alone. Preserve the user’s wording, correct mistakes directly, and update the same website. Keep explanations short, scenario-based and lecture-grounded. No automatic examples during tutoring unless requested; examples in these batch revision drafts were authorized by the all-notes request.
+The user explicitly authorized reorganizing and replacing earlier generated pages, routinely committing and publishing changes. Preserve concurrent chapter work through current-file inspection and hash checks. Lecture originals and synced sources remain read-only. Sample-paper discussions are reasoned study answers, not official marking keys; do not publish personal history or raw source documents.
 
-Use original lecture sources and 5001_SAMPLE_QA.md / 5002_SAMPLE_QA.md as discussion references, not official answer keys. Do not republish raw papers, personal scores or private history. Question maps also checked against original papers; 5002 Q2(c) was missing from the supplied discussion and is marked as new analysis.
-
-Routine website edits, commits and pushes are authorized. Keep the shared compact design. Other chats may edit this repository: stage only your files, preserve their changes.
-
-## Source fidelity
-
-Page references are 1-based PDF pages. Specific source gaps and lecture mistakes appear beside affected notes. Keep them visible until verified. The 163 units are a first-pass tutor grouping, not an official unique-concept count. See REVISION_BUILD.json for coverage and flags.
+See TUTORIAL_BUILD.json for exact concept-to-chapter routes. The old six notes/ URLs are compatibility redirects to the index. Future tutoring stays short and one concept at a time while the same detailed pages accumulate corrected takeaways.

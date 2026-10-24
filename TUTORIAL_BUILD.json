@@ -1,0 +1,655 @@
+{
+  "concepts": 163,
+  "additions": 3,
+  "tutorial_sections": 166,
+  "chapters": 44,
+  "sample_question_parts": 28,
+  "routes": {
+    "c001": "chapters/search-comparison.html#c001",
+    "c002": "chapters/search-comparison.html#c002",
+    "c003": "chapters/search-comparison.html#c003",
+    "c004": "chapters/search-comparison.html#c004",
+    "c005": "chapters/search-comparison.html#c005",
+    "c006": "chapters/search-comparison.html#c006",
+    "c007": "chapters/search-comparison.html#c007",
+    "c008": "chapters/search-comparison.html#c008",
+    "c038": "chapters/cf-mf.html#c038",
+    "c039": "chapters/cf-mf.html#c039",
+    "c040": "chapters/cf-mf.html#c040",
+    "c041": "chapters/cf-mf.html#c041",
+    "c042": "chapters/cf-mf.html#c042",
+    "c043": "chapters/cf-mf.html#c043",
+    "c044": "chapters/cf-mf.html#c044",
+    "c045": "chapters/cf-mf.html#c045",
+    "c152": "chapters/svd.html#c152",
+    "c153": "chapters/svd.html#c153",
+    "c009": "chapters/rules-evidence-and-explanations.html#c009",
+    "c010": "chapters/rules-evidence-and-explanations.html#c010",
+    "c011": "chapters/rules-evidence-and-explanations.html#c011",
+    "c012": "chapters/rules-evidence-and-explanations.html#c012",
+    "c013": "chapters/rules-evidence-and-explanations.html#c013",
+    "c014": "chapters/rules-evidence-and-explanations.html#c014",
+    "c015": "chapters/rules-evidence-and-explanations.html#c015",
+    "c016": "chapters/rules-evidence-and-explanations.html#c016",
+    "c017": "chapters/rules-evidence-and-explanations.html#c017",
+    "c018": "chapters/representing-connected-knowledge.html#c018",
+    "c019": "chapters/representing-connected-knowledge.html#c019",
+    "c020": "chapters/representing-connected-knowledge.html#c020",
+    "c021": "chapters/representing-connected-knowledge.html#c021",
+    "c022": "chapters/representing-connected-knowledge.html#c022",
+    "c023": "chapters/predicting-missing-graph-links.html#c023",
+    "c024": "chapters/predicting-missing-graph-links.html#c024",
+    "c025": "chapters/predicting-missing-graph-links.html#c025",
+    "c026": "chapters/predicting-missing-graph-links.html#c026",
+    "c027": "chapters/learning-explainable-predictions.html#c027",
+    "c028": "chapters/learning-explainable-predictions.html#c028",
+    "c029": "chapters/reasoning-system-design.html#c029",
+    "c030": "chapters/reasoning-system-design.html#c030",
+    "c031": "chapters/reasoning-system-design.html#c031",
+    "c032": "chapters/reasoning-system-design.html#c032",
+    "c033": "chapters/reasoning-system-design.html#c033",
+    "c058": "chapters/reasoning-system-design.html#c058",
+    "c034": "chapters/basket-to-diagnostic-rules.html#c034",
+    "c035": "chapters/basket-to-diagnostic-rules.html#c035",
+    "c036": "chapters/basket-to-diagnostic-rules.html#c036",
+    "c037": "chapters/recommendations-from-ratings.html#c037",
+    "c046": "chapters/recommendations-from-behaviour.html#c046",
+    "c047": "chapters/recommendations-from-behaviour.html#c047",
+    "c048": "chapters/recommendations-from-behaviour.html#c048",
+    "c049": "chapters/recommendations-from-behaviour.html#c049",
+    "c050": "chapters/recommendations-from-behaviour.html#c050",
+    "c051": "chapters/recommendations-from-behaviour.html#c051",
+    "c052": "chapters/recommendations-from-behaviour.html#c052",
+    "c053": "chapters/recommendations-from-behaviour.html#c053",
+    "c054": "chapters/recommendations-from-behaviour.html#c054",
+    "c055": "chapters/optimising-with-genetic-algorithms.html#c055",
+    "c056": "chapters/optimising-with-genetic-algorithms.html#c056",
+    "c057": "chapters/optimising-with-genetic-algorithms.html#c057",
+    "c060": "chapters/chatbot-actions.html#c060",
+    "c061": "chapters/chatbot-actions.html#c061",
+    "c063": "chapters/chatbot-actions.html#c063",
+    "c064": "chapters/chatbot-actions.html#c064",
+    "c065": "chapters/chatbot-actions.html#c065",
+    "c062": "chapters/faq-retrieval.html#c062",
+    "c082": "chapters/faq-retrieval.html#c082",
+    "c059": "chapters/cognitive-architecture.html#c059",
+    "c078": "chapters/cognitive-architecture.html#c078",
+    "c066": "chapters/vision-decisions.html#c066",
+    "c067": "chapters/vision-decisions.html#c067",
+    "c068": "chapters/vision-decisions.html#c068",
+    "c069": "chapters/vision-decisions.html#c069",
+    "c070": "chapters/vision-decisions.html#c070",
+    "c071": "chapters/speech-input.html#c071",
+    "c072": "chapters/speech-input.html#c072",
+    "c073": "chapters/speech-input.html#c073",
+    "c075": "chapters/speech-input.html#c075",
+    "c076": "chapters/speech-input.html#c076",
+    "c074": "chapters/spoken-system-evaluation.html#c074",
+    "c077": "chapters/spoken-system-evaluation.html#c077",
+    "c079": "chapters/verify-reasoning.html#c079",
+    "c080": "chapters/verify-reasoning.html#c080",
+    "c081": "chapters/verify-reasoning.html#c081",
+    "c083": "chapters/sensor-acquisition.html#c083",
+    "c084": "chapters/sensor-acquisition.html#c084",
+    "c085": "chapters/sensor-acquisition.html#c085",
+    "c086": "chapters/sensor-acquisition.html#c086",
+    "c087": "chapters/frequency-filtering.html#c087",
+    "c088": "chapters/frequency-filtering.html#c088",
+    "c089": "chapters/frequency-filtering.html#c089",
+    "c090": "chapters/sensor-probabilities.html#c090",
+    "c091": "chapters/sensor-probabilities.html#c091",
+    "c092": "chapters/sensor-representations.html#c092",
+    "c093": "chapters/sensor-representations.html#c093",
+    "c094": "chapters/sensor-representations.html#c094",
+    "c095": "chapters/sensor-representations.html#c095",
+    "c096": "chapters/sensor-representations.html#c096",
+    "c097": "chapters/sensor-representations.html#c097",
+    "c098": "chapters/sensor-decision-design.html#c098",
+    "c099": "chapters/sensor-decision-design.html#c099",
+    "c100": "chapters/sensor-decision-design.html#c100",
+    "c101": "chapters/sensor-decision-design.html#c101",
+    "c102": "chapters/sensor-decision-design.html#c102",
+    "c103": "chapters/sensor-decision-design.html#c103",
+    "extra-hmm": "chapters/weekly-hmm.html#extra-hmm",
+    "c104": "chapters/neural-learning.html#c104",
+    "c105": "chapters/neural-learning.html#c105",
+    "c106": "chapters/neural-learning.html#c106",
+    "c107": "chapters/neural-learning.html#c107",
+    "c108": "chapters/neural-learning.html#c108",
+    "c109": "chapters/local-neural-models.html#c109",
+    "c110": "chapters/local-neural-models.html#c110",
+    "c111": "chapters/som-customer-map.html#c111",
+    "c112": "chapters/cnn-lean-design.html#c112",
+    "c113": "chapters/cnn-lean-design.html#c113",
+    "c114": "chapters/cnn-lean-design.html#c114",
+    "c163": "chapters/cnn-lean-design.html#c163",
+    "c115": "chapters/multiple-inputs-shared-features.html#c115",
+    "c116": "chapters/multiple-inputs-shared-features.html#c116",
+    "c117": "chapters/browsing-sequences.html#c117",
+    "c118": "chapters/browsing-sequences.html#c118",
+    "c119": "chapters/stable-neural-training.html#c119",
+    "c120": "chapters/stable-neural-training.html#c120",
+    "c123": "chapters/stable-neural-training.html#c123",
+    "c124": "chapters/stable-neural-training.html#c124",
+    "c121": "chapters/neural-overfitting-transfer.html#c121",
+    "c122": "chapters/neural-overfitting-transfer.html#c122",
+    "c125": "chapters/neural-overfitting-transfer.html#c125",
+    "c126": "chapters/transformer-context.html#c126",
+    "c127": "chapters/transformer-context.html#c127",
+    "c128": "chapters/ensemble-corrections.html#c128",
+    "c129": "chapters/ensemble-corrections.html#c129",
+    "c130": "chapters/ensemble-corrections.html#c130",
+    "c131": "chapters/ensemble-corrections.html#c131",
+    "c132": "chapters/ensemble-corrections.html#c132",
+    "c133": "chapters/ensemble-corrections.html#c133",
+    "c134": "chapters/valid-pattern-workflow.html#c134",
+    "c135": "chapters/valid-pattern-workflow.html#c135",
+    "c136": "chapters/valid-pattern-workflow.html#c136",
+    "c137": "chapters/valid-pattern-workflow.html#c137",
+    "c141": "chapters/valid-pattern-workflow.html#c141",
+    "c138": "chapters/rare-events-business-metrics.html#c138",
+    "c139": "chapters/rare-events-business-metrics.html#c139",
+    "c140": "chapters/rare-events-business-metrics.html#c140",
+    "extra-svm": "chapters/rare-events-business-metrics.html#extra-svm",
+    "c142": "chapters/simple-prediction-baselines.html#c142",
+    "c143": "chapters/simple-prediction-baselines.html#c143",
+    "c144": "chapters/bayesian-fault-diagnosis.html#c144",
+    "c145": "chapters/bayesian-fault-diagnosis.html#c145",
+    "c146": "chapters/tree-purchase-rules.html#c146",
+    "c147": "chapters/tree-purchase-rules.html#c147",
+    "c148": "chapters/tree-purchase-rules.html#c148",
+    "c149": "chapters/feature-selection-rare-faults.html#c149",
+    "c150": "chapters/feature-selection-rare-faults.html#c150",
+    "c151": "chapters/feature-selection-rare-faults.html#c151",
+    "c154": "chapters/clustering-useful-groups.html#c154",
+    "c155": "chapters/clustering-useful-groups.html#c155",
+    "c156": "chapters/clustering-useful-groups.html#c156",
+    "c157": "chapters/clustering-useful-groups.html#c157",
+    "c158": "chapters/clustering-useful-groups.html#c158",
+    "c159": "chapters/clustering-useful-groups.html#c159",
+    "c160": "chapters/perception-generation-robot-control.html#c160",
+    "c161": "chapters/perception-generation-robot-control.html#c161",
+    "c162": "chapters/perception-generation-robot-control.html#c162",
+    "extra-knowledge-acquisition": "chapters/knowledge-acquisition.html#extra-knowledge-acquisition"
+  },
+  "chapters_index": [
+    {
+      "slug": "search-comparison",
+      "title": "Search: define the problem, choose the next state",
+      "concept_ids": [
+        "c001",
+        "c002",
+        "c003",
+        "c004",
+        "c005",
+        "c006",
+        "c007",
+        "c008"
+      ],
+      "problem": "Which state should be explored next, and when is a solution good enough?",
+      "existing": true
+    },
+    {
+      "slug": "cf-mf",
+      "title": "Collaborative filtering & matrix factorization",
+      "concept_ids": [
+        "c038",
+        "c039",
+        "c040",
+        "c041",
+        "c042",
+        "c043",
+        "c044",
+        "c045"
+      ],
+      "problem": "Use incomplete interaction histories to recommend suitable unseen items.",
+      "existing": true
+    },
+    {
+      "slug": "svd",
+      "title": "PCA & SVD: reduce dimensions without confusing the quantities",
+      "concept_ids": [
+        "c152",
+        "c153"
+      ],
+      "problem": "Represent data with fewer directions, calculate scores, and justify retained information.",
+      "existing": true
+    },
+    {
+      "slug": "rules-evidence-and-explanations",
+      "title": "How does a system reach and explain a conclusion?",
+      "concept_ids": [
+        "c009",
+        "c010",
+        "c011",
+        "c012",
+        "c013",
+        "c014",
+        "c015",
+        "c016",
+        "c017"
+      ],
+      "problem": "Distinguish deduction, hypotheses, learning and analogy; design explainable inference without confusing storage with reasoning."
+    },
+    {
+      "slug": "representing-connected-knowledge",
+      "title": "How do we represent and query domain knowledge?",
+      "concept_ids": [
+        "c018",
+        "c019",
+        "c020",
+        "c021",
+        "c022"
+      ],
+      "problem": "Choose frames, networks, ontology or KG to match the question and show actual data structures and query paths."
+    },
+    {
+      "slug": "predicting-missing-graph-links",
+      "title": "How can we predict a missing relationship?",
+      "concept_ids": [
+        "c023",
+        "c024",
+        "c025",
+        "c026"
+      ],
+      "problem": "Explain embedding scores, relation patterns, missing evidence and model trade-offs."
+    },
+    {
+      "slug": "learning-explainable-predictions",
+      "title": "How do historical cases become reliable predictions?",
+      "concept_ids": [
+        "c027",
+        "c028"
+      ],
+      "problem": "Define examples, labels, tree decisions and a leakage-safe evaluation rather than memorising past outcomes."
+    },
+    {
+      "slug": "reasoning-system-design",
+      "title": "How do we design a complete reasoning system?",
+      "concept_ids": [
+        "c029",
+        "c030",
+        "c031",
+        "c032",
+        "c033",
+        "c058"
+      ],
+      "problem": "Connect representations, inference, retrieval, models, rules and tools with explicit responsibilities and validated outputs."
+    },
+    {
+      "slug": "basket-to-diagnostic-rules",
+      "title": "How do records become useful association rules?",
+      "concept_ids": [
+        "c034",
+        "c035",
+        "c036"
+      ],
+      "problem": "Choose basket unit, preserve past/current roles, calculate evidence and filter rules for the target task."
+    },
+    {
+      "slug": "recommendations-from-ratings",
+      "title": "How do we recommend from preferences and sparse ratings?",
+      "concept_ids": [
+        "c037"
+      ],
+      "problem": "Explain content matching, neighbourhood CF and MF; handle missingness, evaluate and control overfitting without merging with SVD/PCA."
+    },
+    {
+      "slug": "recommendations-from-behaviour",
+      "title": "How do we recommend from clicks, sessions and relationships?",
+      "concept_ids": [
+        "c046",
+        "c047",
+        "c048",
+        "c049",
+        "c050",
+        "c051",
+        "c052",
+        "c053",
+        "c054"
+      ],
+      "problem": "Interpret implicit evidence, train rankings and use hybrids/sequences/graphs only where their information addresses a real weakness."
+    },
+    {
+      "slug": "optimising-with-genetic-algorithms",
+      "title": "How can a population search improve a feasible plan?",
+      "concept_ids": [
+        "c055",
+        "c056",
+        "c057"
+      ],
+      "problem": "Encode candidates, define fitness, trace selection/recombination/mutation and balance diversity against useful structure."
+    },
+    {
+      "slug": "chatbot-actions",
+      "title": "Chatbot: understand a request and complete the action",
+      "concept_ids": [
+        "c060",
+        "c061",
+        "c063",
+        "c064",
+        "c065"
+      ],
+      "problem": "How does an employee request become the correct action, including missing details and follow-up turns?"
+    },
+    {
+      "slug": "faq-retrieval",
+      "title": "FAQ: find the approved answer to a similar question",
+      "concept_ids": [
+        "c062",
+        "c082"
+      ],
+      "problem": "How can EyeCoach reuse the specialist’s existing questions and answers without inventing an answer?"
+    },
+    {
+      "slug": "cognitive-architecture",
+      "title": "From observed evidence to a useful decision",
+      "concept_ids": [
+        "c059",
+        "c078"
+      ],
+      "problem": "What belongs in a complete cognitive-system architecture, and what passes between its components?"
+    },
+    {
+      "slug": "vision-decisions",
+      "title": "Vision: detect, measure and interpret a scene",
+      "concept_ids": [
+        "c066",
+        "c067",
+        "c068",
+        "c069",
+        "c070"
+      ],
+      "problem": "What must the camera system extract before it can make a justified judgement?"
+    },
+    {
+      "slug": "speech-input",
+      "title": "Speech input: recordings to words and representations",
+      "concept_ids": [
+        "c071",
+        "c072",
+        "c073",
+        "c075",
+        "c076"
+      ],
+      "problem": "How do audio capture and speech models affect whether a voice request is understood correctly?"
+    },
+    {
+      "slug": "spoken-system-evaluation",
+      "title": "Spoken responses and complete-system evaluation",
+      "concept_ids": [
+        "c074",
+        "c077"
+      ],
+      "problem": "Can users understand and complete the task, beyond a good component score?"
+    },
+    {
+      "slug": "verify-reasoning",
+      "title": "Reasoning: verify the state, steps and conclusion",
+      "concept_ids": [
+        "c079",
+        "c080",
+        "c081"
+      ],
+      "problem": "How do we distinguish a plausible explanation from a legal, goal-reaching solution?"
+    },
+    {
+      "slug": "sensor-acquisition",
+      "title": "Choose sensors and preserve the signal",
+      "concept_ids": [
+        "c083",
+        "c084",
+        "c085",
+        "c086"
+      ],
+      "problem": "What should be measured, how often, and what useful structure is in the readings?"
+    },
+    {
+      "slug": "frequency-filtering",
+      "title": "Reveal frequencies and remove unwanted components",
+      "concept_ids": [
+        "c087",
+        "c088",
+        "c089"
+      ],
+      "problem": "Which representation or filter reveals the event without destroying useful information?"
+    },
+    {
+      "slug": "sensor-probabilities",
+      "title": "Use distributions to classify and explain sensor data",
+      "concept_ids": [
+        "c090",
+        "c091"
+      ],
+      "problem": "How do observations support competing causes, including hidden group memberships?"
+    },
+    {
+      "slug": "sensor-representations",
+      "title": "Learn useful features from limited labelled data",
+      "concept_ids": [
+        "c092",
+        "c093",
+        "c094",
+        "c095",
+        "c096",
+        "c097"
+      ],
+      "problem": "Which information should a representation preserve, and how is it learned and evaluated?"
+    },
+    {
+      "slug": "sensor-decision-design",
+      "title": "Build robust sensing decisions from real streams",
+      "concept_ids": [
+        "c098",
+        "c099",
+        "c100",
+        "c101",
+        "c102",
+        "c103"
+      ],
+      "problem": "How do windows, augmentation, alignment and fusion produce a reliable action?"
+    },
+    {
+      "slug": "weekly-hmm",
+      "title": "HMM: classify weekly query patterns",
+      "concept_ids": [
+        "extra-hmm"
+      ],
+      "problem": "How do hidden daily states explain observed query counts and distinguish the two work-pattern classes?"
+    },
+    {
+      "slug": "neural-learning",
+      "title": "How neural models learn a prediction",
+      "concept_ids": [
+        "c104",
+        "c105",
+        "c106",
+        "c107",
+        "c108"
+      ],
+      "problem": "Choose a suitable nonlinear model, trace a forward/backward update, and match output/loss to the target."
+    },
+    {
+      "slug": "local-neural-models",
+      "title": "Local similarity: RBF and GRNN",
+      "concept_ids": [
+        "c109",
+        "c110"
+      ],
+      "problem": "Predict from local support while choosing centers, smoothing and manageable model size."
+    },
+    {
+      "slug": "som-customer-map",
+      "title": "Discover an organized map of unlabeled profiles",
+      "concept_ids": [
+        "c111"
+      ],
+      "problem": "Explain winner-and-neighbor learning and interpret a map without inventing known classes."
+    },
+    {
+      "slug": "cnn-lean-design",
+      "title": "Build and audit a lean image classifier",
+      "concept_ids": [
+        "c112",
+        "c113",
+        "c114",
+        "c163"
+      ],
+      "problem": "Track feature-map shapes, expose the expensive Dense tail and justify a label-compatible lean redesign."
+    },
+    {
+      "slug": "multiple-inputs-shared-features",
+      "title": "Combine sources and compare paired observations",
+      "concept_ids": [
+        "c115",
+        "c116"
+      ],
+      "problem": "Choose modality branches, shared encoders and target-specific heads without mixing incompatible evidence."
+    },
+    {
+      "slug": "browsing-sequences",
+      "title": "Predict purchase from ordered sessions",
+      "concept_ids": [
+        "c117",
+        "c118"
+      ],
+      "problem": "Represent events, preserve valid history and combine a sequence score with earlier models without leakage."
+    },
+    {
+      "slug": "stable-neural-training",
+      "title": "Diagnose unstable or stalled neural training",
+      "concept_ids": [
+        "c119",
+        "c120",
+        "c123",
+        "c124"
+      ],
+      "problem": "Match gradient, initialization, normalization and residual remedies to the observed optimization failure."
+    },
+    {
+      "slug": "neural-overfitting-transfer",
+      "title": "Learn from limited labels without memorizing them",
+      "concept_ids": [
+        "c121",
+        "c122",
+        "c125"
+      ],
+      "problem": "Distinguish weight penalties, dropout and cautious representation reuse; validate the resulting trade-off."
+    },
+    {
+      "slug": "transformer-context",
+      "title": "Combine context while respecting sequence order",
+      "concept_ids": [
+        "c126",
+        "c127"
+      ],
+      "problem": "Explain attention calculations, positional information and future-token masking in plain language."
+    },
+    {
+      "slug": "ensemble-corrections",
+      "title": "Combine models that make different mistakes",
+      "concept_ids": [
+        "c128",
+        "c129",
+        "c130",
+        "c131",
+        "c132",
+        "c133"
+      ],
+      "problem": "Distinguish independent bootstrap voting, sequential correction and input-dependent expert routing."
+    },
+    {
+      "slug": "valid-pattern-workflow",
+      "title": "Construct a valid prediction-time workflow",
+      "concept_ids": [
+        "c134",
+        "c135",
+        "c136",
+        "c137",
+        "c141"
+      ],
+      "problem": "Define feedback, prepare valid inputs, split related cases correctly and select settings by generalization."
+    },
+    {
+      "slug": "rare-events-business-metrics",
+      "title": "Detect rare valuable events and choose by cost",
+      "concept_ids": [
+        "c138",
+        "c139",
+        "c140",
+        "extra-svm"
+      ],
+      "problem": "Avoid the accuracy trap; calculate recall, precision, lift and the error-cost case for a linear SVM or NN."
+    },
+    {
+      "slug": "simple-prediction-baselines",
+      "title": "Numeric targets, purchase probabilities and neighbors",
+      "concept_ids": [
+        "c142",
+        "c143"
+      ],
+      "problem": "Choose and interpret simple regression or local-neighbor predictions before increasing complexity."
+    },
+    {
+      "slug": "bayesian-fault-diagnosis",
+      "title": "Diagnose faults from conditional sensor evidence",
+      "concept_ids": [
+        "c144",
+        "c145"
+      ],
+      "problem": "Calculate prior-times-likelihood scores, normalize posteriors and repair zero-count estimates consistently."
+    },
+    {
+      "slug": "tree-purchase-rules",
+      "title": "Explain and improve purchase decision rules",
+      "concept_ids": [
+        "c146",
+        "c147",
+        "c148"
+      ],
+      "problem": "Calculate split quality, avoid identifier memorization and choose pruning by validated consequences."
+    },
+    {
+      "slug": "feature-selection-rare-faults",
+      "title": "Too many features and too few abnormal examples",
+      "concept_ids": [
+        "c149",
+        "c150",
+        "c151"
+      ],
+      "problem": "Reduce unsupported complexity without confusing duplicated rows with independent fault coverage."
+    },
+    {
+      "slug": "clustering-useful-groups",
+      "title": "Discover, update and validate meaningful groups",
+      "concept_ids": [
+        "c154",
+        "c155",
+        "c156",
+        "c157",
+        "c158",
+        "c159"
+      ],
+      "problem": "Choose similarity, trace K-means/hierarchical updates and defend useful stable clusters rather than arbitrary labels."
+    },
+    {
+      "slug": "perception-generation-robot-control",
+      "title": "From image evidence to safe physical decisions",
+      "concept_ids": [
+        "c160",
+        "c161",
+        "c162"
+      ],
+      "problem": "Distinguish recognition/localization/generation and connect perception to policy, safety checks and reward."
+    },
+    {
+      "slug": "knowledge-acquisition",
+      "title": "Build knowledge: ask specialists or learn from records?",
+      "concept_ids": [
+        "extra-knowledge-acquisition"
+      ],
+      "problem": "Compare knowledge sources and their application-specific strengths and limitations before building the reasoning system."
+    }
+  ],
+  "content_validation": "Each concept has mechanism explanations, worked table, scenario decisions, failure-cause-remedy-why analysis and specific answer guidance."
+}

@@ -51,3 +51,13 @@ User requested Hill Climbing and Dijkstra graphics plus slide 74 summary. Added 
 Validation: calculated expected selections/costs; next/previous/method reset passed. Final trees rendered and visually checked at 736px and 280px. Actual browser A4 pagination has not been verified; no page-count claim.
 User-requested reminder: Dijkstra is uninformed; Hill Climbing and A* are informed because they use h. Added to the screen/print comparison table (Day 1 PDF p.71 / slide 76).
 User-highlighted exam cue: Search = Reasoning Engine. Added exact wording plus State space + Actions + Goal + Evaluation, sourced to Day 1 PDF p.71 / slide 76; applies to this search framing, not a claim that all reasoning is search.
+Added requested summary of State/state space, Actions, Goal and Evaluation; distinguished goal achievement from solution quality and connected evaluation to g/h/g+h. Source Day 1 PDF pp.27,30,71. Saved locally; publication remains pending after automatic approval review failed due to a usage limit.
+
+
+## Tutorial rebuild — user correction, 25 October 2026
+
+The user rejected shallow checkpoint cards and browsing by lecture block. This supersedes the earlier all-notes structure. index.html (also concepts.html) is the searchable concept index. Every checkpoint opens a worked tutorial section inside a coherent problem-led chapter. Existing search, CF/MF and SVD/PCA pages are part of this same index, not separate privileged notes. notes.html is a compatibility copy of the index; former block pages point to the index.
+
+Required depth: explain what the method does and why; trace a concrete worked example/calculation; show a meaningful mechanism diagram where useful; compare scenario choices; explain data/components/loss/evaluation as relevant; diagnose failure → cause → change → reason; give specific exam answer guidance. Do not recreate short generic cards or pad pages with repeated boilerplate.
+
+Use sample questions as navigation tests: 5001 Q1(a) → intent/slots (dialogue state if relevant); Q1(b) → FAQ retrieval with representation, ranking, threshold/fallback and approved answer. These are related components but different questions. Map every part to the exact chapter section, not a broad lecture module. Preserve source gaps and distinguish proposed answers from official keys. The user authorized reorganizing/replacing previous generated pages. Keep future tutoring short and update these detailed pages with the user’s understood wording.
