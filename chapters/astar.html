@@ -58,7 +58,7 @@
   })();
   </script>
 </div>
-<section><h2>Selection order</h2><table class="astar-recap"><thead><tr><th>Select</th><th>f = g + h</th><th>Why?</th></tr></thead><tbody>
+<p><a href="search-comparison.html">Compare with Hill Climbing and Dijkstra →</a></p><section><h2>Selection order</h2><table class="astar-recap"><thead><tr><th>Select</th><th>f = g + h</th><th>Why?</th></tr></thead><tbody>
 <tr><td>Arad</td><td>366 = 0 + 366</td><td>Only starting node.</td></tr><tr><td>Sibiu</td><td>393 = 140 + 253</td><td>Below Timisoara 447 and Zerind 449.</td></tr><tr><td>Rimnicu Vilcea</td><td>413 = 220 + 193</td><td>Below Fagaras 415.</td></tr><tr><td>Fagaras</td><td>415 = 239 + 176</td><td>Switch branch: below newly found Pitesti 417.</td></tr><tr><td>Pitesti</td><td>417 = 317 + 100</td><td>Bucharest 450 is found, but 417 is lower.</td></tr><tr><td>Bucharest via Pitesti</td><td>418 = 418 + 0</td><td>Goal is now the lowest waiting f. Stop.</td></tr></tbody></table>
 <p><b>Final route:</b> Arad → Sibiu → Rimnicu Vilcea → Pitesti → Bucharest.<br><b>Actual cost:</b> 140 + 80 + 97 + 101 = <b>418</b>, rather than 450 via Fagaras.</p>
 <p><b>Exam trap:</b> do not stop when the goal is first generated. Here, straight-line distance is the heuristic. The lecture's tree-search optimality condition is that h never overestimates the cheapest remaining cost.</p></section>

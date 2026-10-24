@@ -45,3 +45,7 @@ Do not mark an untested concept mastered. Do not record personal details or raw 
 
 ## A* handoff - 25 October 2026
 Based on the A* exchanges in Machine Reasoning chat 01a0e888-799b-76b2-a31f-9bce1f7533bc. Discussed actual g versus estimated h/f; frontier means all waiting nodes; switching branches is not physical backtracking. User requested lecture-style step graphics. Source extraction pp.61–68 checked; sample papers not checked. Next: let user inspect the branch switch and stopping rule. New page uses existing shared styles without redesigning other chapters.
+
+## Search comparison extension - 25 October 2026
+User requested Hill Climbing and Dijkstra graphics plus slide 74 summary. Added chapters/search-comparison.html, linked from A* and the index. Same Machine Reasoning discussion; read PDF p.41, pp.51–58, pp.61–69 and visually checked map p.52 and comparison p.69. Hill Climbing follows the deck's best-child version; its broader greedy-best-first label is explicitly distinguished. Dijkstra trace independently calculated from lecture map: 13 selections through Bucharest, final cost 418; Hill Climbing 4 selections, cost 450. Source slide trace vs derived trace labelled. Next: user review of g-only versus h-only choices and selection order versus final route.
+Validation: calculated expected selections/costs; next/previous/method reset passed. Final trees rendered and visually checked at 736px and 280px. Actual browser A4 pagination has not been verified; no page-count claim.
