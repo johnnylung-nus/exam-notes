@@ -1,0 +1,305 @@
+{
+  "draft": false,
+  "sections": [
+    "Machine Reasoning",
+    "Reasoning Systems",
+    "Cognitive Systems",
+    "PSUPR",
+    "PRMLS",
+    "ISSM"
+  ],
+  "lecture_files": 36,
+  "concepts": 166,
+  "mapped_lecture_concepts": 164,
+  "questions": 330,
+  "quiz_concepts": 165,
+  "source_pending": [
+    "c125"
+  ],
+  "supplements": [
+    {
+      "conceptId": "extra-hmm",
+      "scope": "sample-paper",
+      "note": "No substantive HMM lecture explanation found in core36; original sample Q1(d) pp6–7 explicitly requires it. Two questions are provided as paper-based practice, not lecture-certified."
+    },
+    {
+      "conceptId": "c125",
+      "scope": "source-unverified",
+      "note": "The original page9 match was activation transfer function,not transfer learning. No substantive transfer-learning/fine-tuning passage was verified in the supplied core lecture extracts. No quiz generated;current page is explicitly an extension."
+    }
+  ],
+  "explanation_hashes": {
+    "c001": "0daceac6a8abf4ec4b6c3104adcf33fb710d477869d1723e82939ecde37318fe",
+    "c002": "78377313f51182c78a85bd66e25b2107bcaa3861ebf1b4d1b61b30378761ce41",
+    "c003": "a3f947b8c96bc235df99e1ab1c9c1d908e011ad3e0db0b3f0d045a631efd3bab",
+    "c004": "aec09a3adadf80007bef1eb73598d389529711a0fc0e848fb2c05df8e3684466",
+    "c005": "09ce3c0c0a3595bf53fe2109a9f6740696c4f6aee04c947707811f3549d1c76d",
+    "c006": "65e29451ec09f4f2e14b60e476d8e37b11c0d756d2779e9a970e78139276b63e",
+    "c007": "e8da1775b28f42412efb8a1e430fa973e3a073516afca877b0c155e32a155d63",
+    "c008": "e617cdc52692f2fac632fb5fd685073b3f57bc373b9c78a029b1afb3c9aa80dd",
+    "c038": "d1310eba8502af8a74b9c7ad771610f119fd81920c5343e9560c93641d83e3ad",
+    "c039": "19ab5d035291e2d4f4a516a389f4fdf21871e0908d5daa88d943656f8b596cc0",
+    "c040": "e41011446918c1180c2e411f8ac15854998b441b29df88ab9604faeb5dd92033",
+    "c041": "7c25a832148fadaa92689a74699aa2240d848bdb14e8e9a437bd5629c00ee8e0",
+    "c042": "85a3e9ee54075331c4afeb6eeb781d5caeadcd03a1a38d73f395e99a6d2250e4",
+    "c043": "3c6b602a1e2b565a59cd15b903305c60ab795dd491b5a39122d922d98ec66d0f",
+    "c044": "ab8c0ee47974f0430119cb95c6dea610e6aaf1090c288afcb1987aa401f5779b",
+    "c045": "ae16896291b28edf8a0c945bfa0a40f84013b69b931261b37506b883d1fd321d",
+    "c152": "7a46b375e95b5109d53f3fdf3bf0e36ba65cf4a279de0d8f1d145cde9795db8b",
+    "c153": "0f8ddea5b1a7a5abfa85b3f65f49c1b818c3fd1ed3464fe2525f86ca011ce532",
+    "c009": "4f77e3f7c8bbe7b89ff6bc0a04d9faed95b1fb4014662c6d1d65922b98ab4207",
+    "c010": "179b20af9da13a2d3fceaf7720f362682ddd1197cb5f54ce7338a246067267ba",
+    "c011": "ff9a246b880cf383b1bc40cc3c807e88ac941144558208e8daab06d53d229c44",
+    "c012": "a550e7be7302f02e36b3c6af8e9fbab521c76024cc1d4a88cec3eea28a52ac03",
+    "c013": "9f9cdee462e70993eb4b40bb3c4349ed7d3cd36045ef3b02181994256c79116f",
+    "c014": "1e3539dce9cfc02abdbd4dcae0d75f5b2688a3cc2a06f55a6e18b1af10245809",
+    "c015": "90481058278bb0de05ad6713b2e6bcbbdf7b59f06c7dd31e492be1ee1b564cc9",
+    "c016": "4ae18296669e766c89a0d3e86b71dcc03c24eb1b0b6b039c65c2470055197830",
+    "c017": "260cafc2e108274d133470023a86809528e2bd1ad01cfd6177456a0498f4bf74",
+    "c018": "ad7fb00a12bc4ff2c678e857540edda2f696aae9c61358557164965ef83531a3",
+    "c019": "5512a69b2aa43aa8c465d9248b7049de93f2ee1409959dc004f1b793e6b4c521",
+    "c020": "89f7afba91cd4697e065142fcd87721db4b1d3964276dfe14c55bfe4e932ec13",
+    "c021": "a70796839089d076695dd100fa0ffbc20c66f4482d8ae6d13ef64e5c7de7d158",
+    "c022": "da86774423b4812a4cdaf1e58ac7dba270736a4bad648476a6c307537803f6ef",
+    "c023": "611833a73e4d3b17567020fe278372c32c9add1d19dc2cedfba3e852661d46fb",
+    "c024": "ac1974369d6dabfbd55818cb547a47a4a570ce91aea53d5c71956835184b4d8f",
+    "c025": "bfe33bc4e3e6a2550d250de45931e5e5acd298c014aac4b7712188a801048dc7",
+    "c026": "785126de6e95bfab1d74d82bbb8af3beaaac5c2e0b70f9b21bf8733591c45eb4",
+    "c027": "09e940dcbd69ad7d615254e1d72254f3559f118c3583ba2d4392b114d371d4e1",
+    "c028": "69c3d8a3d369cd4aa200e426d2764970e9272177caf9385e8f11eb627724eb04",
+    "c029": "ac58841571e6a7fb82caa748ee3ad351598d83ef1f33e8730c6c9fb10946e53b",
+    "c030": "7d8d8fb60aa2cc9c6f825eeb5cc208e878f8fd3ad7374a60f2a58567f35cde78",
+    "c031": "11f1125e45f9d8bab40f6ddab843a9d112320de09bf4b12b9a9f5605c51f188c",
+    "c032": "1ee0b748c71c9265bcdd51c59d3ae0b5170a0361709ecbaa09fe0c6359279ea5",
+    "c033": "e0b31f6a92f849dd37e3974ad92a19ef46ca061af7ad361d2efb1c33a114cdc8",
+    "c058": "605905532b32250396622dae64e7cc9e20dac393a37c44c3e6f54c414c393d10",
+    "c034": "8f9f3efd54f3007cc2eb794d4d4c4f952698210cd888ed3bf1425f993423da22",
+    "c035": "27bf8cd6f17fde0f8ad16837bf0c209ecb8c1f3082c06ce710917265f51e69c4",
+    "c036": "ce87a7277341bc7f62f59a0f7bc1329b8ccccf2fd429f3a862957a82603706b9",
+    "c037": "1e1af3fc240e74aff53900fc6538bcceaefd6c0d91c40de7151b17b32f918a16",
+    "c046": "04165b7617bc6b02868c2fe5e2be185f7e50f69ba0e9d3c7eff801e9e91c3c73",
+    "c047": "a252a6cf51b4cbace5511ac7cf8c391777646b3a218e09925c41f730a682f96b",
+    "c048": "dbab7e6b0b09791853a74ef332a9a1a8a010cda3255c81c1eb192c5f03295e19",
+    "c049": "542e7facf796997e8886a09a2381d55b90c02b7a919835dcfb5478f7741c8de1",
+    "c050": "165dac93ddee9f396cf8ce57be45b6085034ac2d5ec3ffc9e32cc6009f10ef9f",
+    "c051": "adb6f277fb4bcf129a57326bdfaeb9ba901baebe91f6de26d2e6d627c2a8aa4e",
+    "c052": "81589ac1fb00ab8b6a35b54c86e92916138747f573f259de47b22344e2b08add",
+    "c053": "45b0f200469ed56d94ed6e58e733336447b1f149ae5683b3a4e7af4a489c02a7",
+    "c054": "147b8286c1a170028c49d249fde6d5ab4253c34d8fa1a1e47e7de7667b4e81c4",
+    "c055": "bd5713c2864e4ffc8d1e3c69403dfeb5b56dde7b0e80854fb37497eb81a6c666",
+    "c056": "e45594c7c6877d369a1fa6b9371ed32168b1faa13513bba955cd8570e4adb171",
+    "c057": "35b3c8c204c95bae9069bd807a4c6d9837d601fb2db89ab83546b5918f4bebd3",
+    "c060": "e9b0b34c9025a14b3307d979baa65e3852e8af55e485d24a03a52362789b8092",
+    "c061": "8a16e26cf9a0b4e198e0add302414dc7ed07456cdcae65b8d4272c74881bcada",
+    "c063": "f2349eae636cb5cefd55c1eff2f08113bd5d43efbc59c427960f6581f8b5368b",
+    "c064": "62164b2d1df9cb31ba7de91b61488c5e080dcb3bbfbeb62cb4314cd305a1ed00",
+    "c065": "85598d30f7c3d804c45d0e853020a447c0e63cdb28081cc69e3b7f603ce7ce64",
+    "c062": "9e154642a437bf35864ceffa2ebc7b726ecaed87e29c81e62d08d130bf163afb",
+    "c082": "9d2cf7a00726bbc1dfea97c3c2973121f4e57f48b6627c5685c3d8f0aaa4655d",
+    "c059": "1a13ee3a45801ba4d9a5e06a452aad153f533c1ac564e28dad1ffd266c00d212",
+    "c078": "4fe702c1a1c286ae495110cf876259f109ba36bf2dfedc9b5a830407e63a2196",
+    "c066": "c504b446f9a5ea36a2becd8a69e6a9b5853797a5975baac645e2a6b72fe3f064",
+    "c067": "8c31a540de323d9d99f20f761eb5c7d3c6efe01dbd0d36e972e5c126e942e671",
+    "c068": "45e530d7aeeb305db81a6c543e40142b46c765eeadbb7875085c150bd266d8c8",
+    "c069": "627f900ede68eb3efd7ceb09439e55d2938e62eaa9a863049f6f5899da0de46c",
+    "c070": "6e6f18e9dc21582a6f841b9f8132f21448b2eec0dfc7279cbc8921e19b0e510b",
+    "c071": "aa2a87f7e0cb1585630d4eb8803c2b113ce299816e04f5db7bdb82d5737c3c95",
+    "c072": "896f097bf8f484955cf11a45dc9cf4d79500bb56994f016291fc8432f234b95f",
+    "c073": "d67f5cbd02951c06a664896e7621e231e6fa42233e7b9c386fdfcecac30943ec",
+    "c075": "02096260a7f3973797b2569b16f5d6bf5cdf0a205587c26c00c512f45a7a3a95",
+    "c076": "f263e54c293ca5738e242f3a0a3ddac015a8ab085d44a28014b6fa28fcdd02e6",
+    "c074": "0f1ea2523d79ab00fa620df5c7552f53050e0eab0859a1abab71339de8ba6a2e",
+    "c077": "02f043c2af60886e3e10a1131f9b37c80458a4c010543b5904ad3525a3d61121",
+    "c079": "8f0744f1deb06094ea45bb09b8250d2038b6e92113ac6b89ec16c00c217574b0",
+    "c080": "aa6087a94d3f92c45b5b4f859d45026f8ae61fb59b5a9e53ef11b1a58e7919e0",
+    "c081": "cc5c4d3773c5123d0af809892a8baed7f6ca24ccb39ec14d2792e22db6fc1c2b",
+    "c083": "b3a935e871c8e1c91bda36eb7104a4604d4414a562b090ee9ec48ea598672fe8",
+    "c084": "3bfda28bf567eb2bb09d5d5525f686d69f3efbf77783f171884db4d3efc0d327",
+    "c085": "29f98cc55dff950980a4ccc065c3191363e0d70bf1d0ca138dab78bd20ef6c1d",
+    "c086": "1c9841e222a6eee85a9625b8f9e5d987b7d2abc8d52f0ac637de531f6fac7afc",
+    "c087": "d9e8e0012107e7fe5d0fdc546143156e3393267cdfc3fcb0d747ec1fcfd239d6",
+    "c088": "f443dcc138a36b0c970ec07999d74f517e9af0003c97e49afdfd423cabf8f9d6",
+    "c089": "8e7bb1fb67afa39cff0d478f5ca9c4c8463cb9291dab04f4f1733542db445088",
+    "c090": "53d122158740508b3ff78e9de96bcaa41d4dc63813093971629eb899882d8446",
+    "c091": "c3e97f9e7de281fa5d02601af074a343fc756006d305655a4674fcc44da7e3bd",
+    "c092": "f82d087ae883d101a3764a6dbd217483d2a003d52f8f78bbaf72c7a9a2893e41",
+    "c093": "66efefd2d85c9e55095ee367c370e2a8682d5dbd468a4a557e4fff615a5b760c",
+    "c094": "8c0c52df892eba9c669cdc49997683b4b595116a78ed9d833c36dcafdfa7c4c0",
+    "c095": "06cb1ffe7aeac7b537a5bcbe5cfb30b34094e8a70e18550fcf28f6b8a949878a",
+    "c096": "2db36bc6f428e159accea34c778f8222965c916918ed659de31fa6de2c006307",
+    "c097": "8357dcdd22baedd88cce8aae77fecb117eb57373659de74b7ebd5225ee347737",
+    "c098": "d15f63224471813dae2b2a81cb425697c9abc4f5f641014c385e19a452996ed0",
+    "c099": "e2d8f1f2fe6f18c036fddc5b36b9bacc60dd37ac8adf30a662eeca08568ea0f7",
+    "c100": "154aa42177e1a206f3d07349af04c04d977667ebd36e1826303a6da541ce145b",
+    "c101": "4e438f499d254b5a72b86581011e2f10571ab1042d59f75119af7023ef23993a",
+    "c102": "a9c02fc49fa39638e47653b883eb3edad4ffa08bc318103e19b013a8e2a01727",
+    "c103": "3497f97443c0e5f67644dcf9e3eb11a00ac615e14a7148e01e526ee3413db5a9",
+    "extra-hmm": "102fc1347ed93732e30106e7efff8654f525cbb0edaf81de3c6d561928f4aab5",
+    "c104": "04a739cba3bd88e7087c83fe7229eb55f0ac611923fe0d67b729f1c1dfec821c",
+    "c105": "708523a15c7f3d847460e86df1388ff758d15e55de155c9856c0613405e2aed1",
+    "c106": "e93028b1a9d09293d774bcfce5a7cd1b97e06ae932c40ef7786aff448f4382bb",
+    "c107": "833e378796afaf134d5be3cf3874f26199980a9365137e00bfb1981940aac4fc",
+    "c108": "ea4923360b14aa91f53876b01a580ec6e66660d7064d91fefee11641ef215281",
+    "c109": "1abbb0bd60eb6a0f1688c5fb16660d393968ccc9efd2cb8b9cf8ec461fc6627d",
+    "c110": "c2a666c4d52136df2d1b4529d1e367d0bd0be39be5feadd51724585d2178be75",
+    "c111": "4f5737acd8bea44e2b0fbf717d2706bb418b50a1cbd6e9f19258d39d8efbaaa0",
+    "c112": "d08c4b68f309d79ad4546a66bf94641c4a6ae54aae2b2b6fd92f87a9e5ca5428",
+    "c113": "b1d751eaf40ef9dfde5290821d3ec160769466b115d1efef6fd115b42703a752",
+    "c114": "8eac605377fde27d3c761ffe8d7b41e7b04fba0b1a5234ef90aa792587d46db9",
+    "c163": "dcfc1a64f988e51b35a9c0e581a9f7ab5452fae06e8c562c9eca78fa7a273bf1",
+    "c115": "3514876dae3b80478478f9718a25a22c47e4412b10c944258bde629ff9371fc6",
+    "c116": "a3e8eb26d78aa021670d84db0518924bc5658226985b619b6ad92b77963ceaf5",
+    "c117": "f28c36dc53b7317ab4d0dc7bef4ad277818a770f272cdfbaf9be65453cee410f",
+    "c118": "1d1d6cac77560985a465701f31163bb73cc95e8e3df8cc601cefe2feb358e453",
+    "c119": "bacca2a293626d40a4758879bdfd78cd52ebb492d6ccd38f2f1f5198e3db3538",
+    "c120": "681d93fc534fc1eef4d913796d9598000f5bae4645f5484c42c876526541e4d6",
+    "c123": "1318dd3599fb86718516c7d7cbde8dfdd3ae70c5cafb3d0ce03a883ffc4a04d8",
+    "c124": "02673e71bfc12b842371d31db716c83444a696ea2d5ecfdafe8bf180d333a3d7",
+    "c121": "f44c2038d68e93965bc81dde2f1a821624d478bbeae328af63f1810b2873eb9f",
+    "c122": "b6cfc536c07b206aedc016780ecd287d04cb4b8eb8abf77fccdd693a99c495a3",
+    "c125": "2c7e029b36c8e1b2392fbb463cc380a9ee01f3f40beb40649d9d6b538b975c3f",
+    "c126": "9e18a1dd7b5b54c4298a642d62287345b32296cab92a98ca55197e938b262000",
+    "c127": "5523221da0af0a5073ea922f8dc117739ff9c06eb84cfc5b8093faff6acec355",
+    "c128": "301532006dbaa90968f69bbdb33fd96f379a8bf24d8f576d148ca720b6d7b15b",
+    "c129": "03b37383e6ab8596ddbb3eb11fdaa546d87f54e0641347a8fad9ce44f99ab83c",
+    "c130": "4b3c7786c858668b47fb8acf95dffb13610a5e40d9ddd64aa8548730976fd498",
+    "c131": "cb6da5ff654d33880aa359803def6c094cf62abcffe9d1c60ac4eeb7103f8f3f",
+    "c132": "0e11a1632bf27b378a07584feb6f6d4bcc502abec1a3843729ba4ec55a956125",
+    "c133": "8f21f8a76e3307f2091a7e342efcaaa75a697dda29afe7c29eb78fc91819c1ef",
+    "c134": "a347d6db34f9d98e00429f7f4aa82c8be4cb66781839e1583f2a61d7f8ec1f2b",
+    "c135": "0f170c4d52b42ddae5e5839b08c328f0cb384fd2c5310664561e07a9d04764f4",
+    "c136": "0cd37f80e479d1601142d56f9e63c5c391a1c8029aacf1675280e8d4158d36cb",
+    "c137": "065ad4c493d5a3e3c654428a44dacfa775931f663cc07924280ef77f0e5fe8fe",
+    "c141": "089804c3d8b007593319f31250066452d8eb3fa53be2adf67b9733f604d39415",
+    "c138": "5d6748bcc5100308a4cce78b3e1c98e47aaccd30bd27acaf9795891da82f8be5",
+    "c139": "75657c365b7786b2e4a2ac21e7b1c75f7c79c4ec417ae550a8ba7dc7a3ec2127",
+    "c140": "0a6285697c05aaa7a60fac929f5af3f15edffc20cc5fc4dff4f602cc1ef74b96",
+    "extra-svm": "0dc4acd152acb90814cb3320ce67d3ba45a9d6c6af5d64259547262f34f0d9fd",
+    "c142": "10aa553faf88af491608ef589767e092c2a65d6cc4c373741a6ff34eb79107e7",
+    "c143": "48dabf7a3c3d933b12f69c267264a280e4cca402b72b510af4f8523fd4833d02",
+    "c144": "1f27c42b53dad2aaae71ce27c2fde9706c78ee021c2b532759677c29a2d8deed",
+    "c145": "51a4c9155a92fbe8ad0a31be681677823a2c88fecf9c51cf3da33ef145e65b37",
+    "c146": "3ccc2ccc7321e4929be929955dc52acbf81d105a106e7f61f7ed545fb55b581f",
+    "c147": "0eb302a28309c0e0f51c4ebfeb4b80b5b158612fe61664b250c9ac631cef41e5",
+    "c148": "d270c16bad7284cb917bdc3dc76bd43435be705f18c4ace984b01cde25fd18c2",
+    "c149": "5fa021a15ff1e361f7ca609ddb6a8e96b1e89ba0a7d9a618d2622f91ed44a113",
+    "c150": "ec501ce7ddd944ba5f50aa5c91164c9bf993fd24d399706f24879405c292801b",
+    "c151": "8a4abdb6f37f3a6ede0232bedcc5379f8414c8dbfca6c54114ab7eef24955cb5",
+    "c154": "a62d8eee6b16b85c142ef62de38dd0917d98afb8c4a5e01c1b4ce28b7ba59f40",
+    "c155": "5620efd932563996884b4fe39556dc13a72d3ef44427a48c38a3c7e0a8401888",
+    "c156": "a0fc301a7457345fe7b347ca5cfa91e071007bfd789ab665448473d18e15af47",
+    "c157": "a184dc83fc7e06e875953301258e868ff1081fae75950572e792bf7f9a23b106",
+    "c158": "26e8847ab2708bd9f249d45223c63b4dd3deb0e458d151edb65fb16f1132773c",
+    "c159": "41f03eb5b2b59d33fdf9f83dc6bbbee14ba5693740addcc87f889633d6460601",
+    "c160": "b92c97f19cf74d30780714a08be8fecf2de1a0da8c3dbd832debccb8b9c5ea27",
+    "c161": "263678b678507252f46e580c72fb3aa90d1d829dcf7d0ddc893b2a862ae980ba",
+    "c162": "6ddd0dcc551104ba748192e51a9b66bae2d80d38792b09eb08c3ccb4452be8fc",
+    "extra-knowledge-acquisition": "336d198431446145c8597e4610e8d835e8d135088e916049c448ff0580ebe34d"
+  },
+  "scope_notes": [
+    {
+      "concept_id": "c008",
+      "gap": "Detailed simulated-annealing acceptance/cooling procedure is a study extension, not substantively taught in the inspected lecture. Quizzes test only the explicitly stated local-minimum/optimisation role.",
+      "sources": [
+        {
+          "file": "MR Day-4_JR_v1.pdf",
+          "pages": [
+            74
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c036",
+      "gap": "Lift was not located as substantive foundation teaching; quizzes cover supported support/confidence and do not test lift.",
+      "sources": [
+        {
+          "file": "day2.pdf",
+          "pages": [
+            32,
+            33
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c007",
+      "gap": "Deck groups hill climbing and greedy best-first; question states exact retention rule rather than silently imposing another variant.",
+      "sources": [
+        {
+          "file": "MR-Day 1_JR_v1.pdf",
+          "pages": [
+            51,
+            69
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c025",
+      "gap": "RESCAL slide61 memory scaling statement is imprecise; no question tests that erroneous scaling claim.",
+      "sources": [
+        {
+          "file": "S-MR v064 Day 3 Xavier_26_Aug.pdf",
+          "pages": [
+            61
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c026",
+      "gap": "Neural KG unseen-node generalisation is architecture-dependent; questions restrict the supported claim to GraphSAGE aggregation.",
+      "sources": [
+        {
+          "file": "S-MR v064 Day 3 Xavier_26_Aug.pdf",
+          "pages": [
+            69,
+            78
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "extra-hmm",
+      "scope": "sample-paper",
+      "status": "separate-supplement",
+      "reason": "No substantive HMM lecture explanation found in core36; original sample Q1(d) pp6–7 explicitly requires it. Two questions are provided as paper-based practice, not lecture-certified.",
+      "sources": [
+        {
+          "file": "ISY5001 Intelligent Reasoning Systems (IRS) sample paper (Nov 2026).pdf",
+          "pages": [
+            6,
+            7
+          ]
+        }
+      ],
+      "quiz_ids": [
+        "quiz-extra-hmm-01",
+        "quiz-extra-hmm-02"
+      ]
+    },
+    {
+      "concept_id": "c059",
+      "scope": "sample-paper-detail",
+      "status": "not-quizzed-as-lecture",
+      "reason": "The exact eleven-role inactive-learning sample diagram is specific to original paper pp18–19. Lecture quizzes instead test general information/reasoning/learning distinctions from actual lecture pages."
+    },
+    {
+      "concept_id": "c080",
+      "scope": "sample-paper-detail",
+      "status": "not-quizzed-as-lecture",
+      "reason": "The30-percent pupil comparison formula is sample-specific and ambiguous. Lecture quizzes instead test formal goal representation and legal transition verification from Day3 jug material."
+    },
+    {
+      "concept_id": "c125",
+      "status": "source-unverified",
+      "reason": "The original page9 match was activation transfer function,not transfer learning. No substantive transfer-learning/fine-tuning passage was verified in the supplied core lecture extracts. No quiz generated;current page is explicitly an extension."
+    },
+    {
+      "concept_id": "c153",
+      "status": "partial-source-scope",
+      "reason": "Two questions assess verified lecture PCA directions,eigenvalues and projection only. No SVD-specific assessment was generated because the extracted lecture did not verify the SVD derivation."
+    }
+  ]
+}
