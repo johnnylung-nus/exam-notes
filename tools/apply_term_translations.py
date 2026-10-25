@@ -9,6 +9,8 @@ import csv,re,json
 def rebuild(root):
     root=Path(root)
     rows=list(csv.DictReader((root/'downloads/TERM_TRANSLATIONS.csv').open(encoding='utf-8-sig',newline='')))
+    expansions={a.strip():r.get('Full form','').strip() for r in rows if r.get('Enabled','yes').strip().lower() not in {'no','false','0'} and r.get('Full form','').strip() for a in r.get('Abbreviations','').split(';') if a.strip()}
+    expansion_lookup={a.lower():v for a,v in expansions.items()}
     aliases={};hints={}
     for row in rows:
         if row['Enabled'].strip().lower() in {'no','false','0'}:continue
@@ -20,10 +22,10 @@ def rebuild(root):
             if not term:continue
             if term in aliases and aliases[term]!=name:raise ValueError('Overlapping variant: '+term)
             aliases[term]=name
-    pattern=re.compile(r'(?<![\w-])('+'|'.join(re.escape(x) for x in sorted(aliases,key=len,reverse=True))+r')(?![\w-])',re.I)
+    pattern=re.compile(r'(?<![\w-])('+'|'.join(re.escape(x) for x in sorted(set(aliases)|set(expansion_lookup),key=len,reverse=True))+r')(?![\w-])',re.I)
     strip=re.compile(r'<span class="term-zh" lang="zh-Hant">.*?</span>',re.S)
     class Annotator(HTMLParser):
-        def __init__(self):super().__init__(convert_charrefs=False);self.out=[];self.stack=[];self.seen=set();self.count=0
+        def __init__(self):super().__init__(convert_charrefs=False);self.out=[];self.stack=[];self.seen=set();self.expanded=set();self.count=0
         def handle_starttag(self,t,a):
             self.out.append(self.get_starttag_text())
             if t not in {'br','hr','img','input','meta','link','source','wbr','area','base','embed','param','col'}:self.stack.append((t,dict(a)))
@@ -36,11 +38,17 @@ def rebuild(root):
             eligible=any(t=='article' for t,a in self.stack) and not any(t in {'script','style','svg','nav','button','code','pre'} or 'lecture-reference' in a.get('class','') or 'topic-related' in a.get('class','') for t,a in self.stack)
             if eligible:
                 def sub(m):
-                    family=aliases[m[0].lower()]
-                    if family in self.seen:return m[0]
-                    self.seen.add(family);self.count+=1
+                    key=m[0].lower();family=aliases.get(key);parts=[]
+                    if key in expansion_lookup and key not in self.expanded:
+                        full=expansion_lookup[key]
+                        if not re.match(r'^\s*[(（]\s*'+re.escape(full),s[m.end():],re.I):parts.append(full)
+                        self.expanded.add(key)
+                    if family and family not in self.seen:
+                        parts.append(hints[family]);self.seen.add(family)
+                    if not parts:return m[0]
+                    self.count+=1
                     from html import escape
-                    return m[0]+'<span class="term-zh" lang="zh-Hant">（'+escape(hints[family])+'）</span>'
+                    return m[0]+'<span class="term-zh" lang="zh-Hant">（'+escape('；'.join(parts))+'）</span>'
                 s=pattern.sub(sub,s)
             self.out.append(s)
         def handle_entityref(self,n):self.out.append('&'+n+';')

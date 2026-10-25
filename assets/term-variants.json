@@ -22,7 +22,8 @@
   ],
   [
     "alternating least squares",
-    "als"
+    "als",
+    "ALS"
   ],
   [
     "analogy",
@@ -100,6 +101,10 @@
     "Bayesian networks"
   ],
   [
+    "Bayesian personalized ranking",
+    "BPR"
+  ],
+  [
     "between-cluster",
     "inter-cluster"
   ],
@@ -164,12 +169,18 @@
     "clickstream data"
   ],
   [
+    "clinical signs",
+    "patient signs",
+    "other patient signs"
+  ],
+  [
     "co-rated",
     "co rated"
   ],
   [
     "collaborative filtering",
-    "cf"
+    "cf",
+    "CF"
   ],
   [
     "concatenation",
@@ -197,7 +208,8 @@
   ],
   [
     "constraint satisfaction problem",
-    "csp"
+    "csp",
+    "CSP"
   ],
   [
     "constraints",
@@ -359,6 +371,10 @@
     "expand"
   ],
   [
+    "expectation maximization",
+    "EM"
+  ],
+  [
     "expert system",
     "expert systems"
   ],
@@ -490,7 +506,8 @@
   ],
   [
     "hidden Markov model",
-    "hmm"
+    "hmm",
+    "HMM"
   ],
   [
     "hidden states",
@@ -561,7 +578,8 @@
   ],
   [
     "knowledge base",
-    "knowledge bases"
+    "knowledge bases",
+    "KB"
   ],
   [
     "knowledge graph",
@@ -586,7 +604,8 @@
   ],
   [
     "least constraining value",
-    "lcv"
+    "lcv",
+    "LCV"
   ],
   [
     "linear",
@@ -632,7 +651,8 @@
   ],
   [
     "matrix factorization",
-    "mf"
+    "mf",
+    "MF"
   ],
   [
     "mean-centred",
@@ -640,7 +660,8 @@
   ],
   [
     "minimum remaining values",
-    "mrv"
+    "mrv",
+    "MRV"
   ],
   [
     "MLP",
@@ -764,7 +785,8 @@
   ],
   [
     "principal component analysis",
-    "pca"
+    "pca",
+    "PCA"
   ],
   [
     "prior",
@@ -813,11 +835,16 @@
   ],
   [
     "recurrent neural network",
+    "RNN",
     "recurrent neural networks"
   ],
   [
     "redundancy",
     "redundant"
+  ],
+  [
+    "reinforcement learning",
+    "RL"
   ],
   [
     "relations",
@@ -885,17 +912,13 @@
     "signal"
   ],
   [
-    "clinical signs",
-    "patient signs",
-    "other patient signs"
-  ],
-  [
     "simulation",
     "simulator"
   ],
   [
     "singular value decomposition",
-    "svd"
+    "svd",
+    "SVD"
   ],
   [
     "slack variables",
@@ -939,7 +962,8 @@
   ],
   [
     "stochastic gradient descent",
-    "sgd"
+    "sgd",
+    "SGD"
   ],
   [
     "subbands",
@@ -955,7 +979,8 @@
   ],
   [
     "support vector machine",
-    "svm"
+    "svm",
+    "SVM"
   ],
   [
     "support vectors",
@@ -976,6 +1001,10 @@
   [
     "tensor",
     "tensors"
+  ],
+  [
+    "text-to-speech",
+    "TTS"
   ],
   [
     "time step",
