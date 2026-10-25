@@ -126,3 +126,8 @@ At the first prose/heading use of a technical abbreviation on EACH concept page,
 ## Printable glossary — 25 October 2026
 
 `glossary.html` is the user's searchable, printable English–Chinese exam glossary, linked from the shared navigation. It displays one row per enabled term family, with full English expansions beside abbreviations and compact Chinese hints. It has an A4 portrait two-column print stylesheet; screen controls/navigation do not print. A search filters the printable entries; Show all restores the complete glossary. `tools/generate_glossary.py` generates it from downloads/TERM_TRANSLATIONS.csv and is called by the translation rebuilder. Keep this page synchronized whenever editing terminology. Do not claim an exact printed page count without actual print pagination. Preserve existing concept explanations and reviewed/quiz/print-selection browser state.
+
+
+## Resume lecture outline — 26 October 2026
+
+On ordinary Lecture order visits, use saved Reviewed ticks to expand only the first unfinished lecture and its parent section; collapse completed/other lectures. Do not hard-code MR Day 1 open. Explicit concept, quiz or anchor links take precedence. This changes only the initial outline view, never Reviewed ticks, quiz results or exam-pack selections. Do not automatically collapse the current lecture while the user is ticking concepts.
