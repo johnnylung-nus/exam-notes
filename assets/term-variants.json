@@ -1,0 +1,162 @@
+[
+  [
+    "heuristics",
+    "heuristic"
+  ],
+  [
+    "admissibility",
+    "admissible"
+  ],
+  [
+    "consistency",
+    "consistent"
+  ],
+  [
+    "backtracking",
+    "backtrack"
+  ],
+  [
+    "constraint satisfaction problem",
+    "csp"
+  ],
+  [
+    "minimum remaining values",
+    "mrv"
+  ],
+  [
+    "least constraining value",
+    "lcv"
+  ],
+  [
+    "hard constraints",
+    "hard constraint"
+  ],
+  [
+    "soft constraints",
+    "soft constraint"
+  ],
+  [
+    "constraints",
+    "constraint"
+  ],
+  [
+    "variables",
+    "variable"
+  ],
+  [
+    "collaborative filtering",
+    "cf"
+  ],
+  [
+    "matrix factorization",
+    "mf"
+  ],
+  [
+    "latent factors",
+    "latent factor"
+  ],
+  [
+    "sparsity",
+    "sparse"
+  ],
+  [
+    "stochastic gradient descent",
+    "sgd"
+  ],
+  [
+    "alternating least squares",
+    "als"
+  ],
+  [
+    "principal component analysis",
+    "pca"
+  ],
+  [
+    "singular value decomposition",
+    "svd"
+  ],
+  [
+    "eigenvalues",
+    "eigenvalue"
+  ],
+  [
+    "eigenvectors",
+    "eigenvector"
+  ],
+  [
+    "mean-centred",
+    "mean-centered"
+  ],
+  [
+    "semantic networks",
+    "semantic network"
+  ],
+  [
+    "ontologies",
+    "ontology"
+  ],
+  [
+    "embeddings",
+    "embedding"
+  ],
+  [
+    "decision-tree",
+    "decision tree"
+  ],
+  [
+    "retrieval-augmented generation",
+    "rag"
+  ],
+  [
+    "association-rule",
+    "association rules"
+  ],
+  [
+    "slots",
+    "slot"
+  ],
+  [
+    "signals",
+    "signal"
+  ],
+  [
+    "sensors",
+    "sensor"
+  ],
+  [
+    "fourier transformation",
+    "fourier transform"
+  ],
+  [
+    "distributions",
+    "distribution"
+  ],
+  [
+    "autoencoders",
+    "autoencoder"
+  ],
+  [
+    "hidden markov model",
+    "hmm"
+  ],
+  [
+    "fine tuning",
+    "fine-tuning"
+  ],
+  [
+    "hyperparameters",
+    "hyperparameter"
+  ],
+  [
+    "support vector machine",
+    "svm"
+  ],
+  [
+    "k-nearest neighbours",
+    "k-nearest neighbors"
+  ],
+  [
+    "features",
+    "feature"
+  ]
+]
