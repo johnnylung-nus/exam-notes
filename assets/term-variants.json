@@ -1,79 +1,137 @@
 [
   [
-    "heuristics",
-    "heuristic"
+    "abductive reasoning",
+    "abduction"
+  ],
+  [
+    "activation function",
+    "activation"
   ],
   [
     "admissibility",
     "admissible"
   ],
   [
-    "consistency",
-    "consistent"
+    "alternating least squares",
+    "als"
+  ],
+  [
+    "analogy",
+    "analogical reasoning"
+  ],
+  [
+    "antecedent",
+    "antecedents"
+  ],
+  [
+    "ASR",
+    "automatic speech recognition"
+  ],
+  [
+    "association-rule",
+    "association rules"
+  ],
+  [
+    "audio channel",
+    "audio channels"
+  ],
+  [
+    "autoencoders",
+    "autoencoder"
+  ],
+  [
+    "axis",
+    "axes"
   ],
   [
     "backtracking",
     "backtrack"
   ],
   [
-    "constraint satisfaction problem",
-    "csp"
+    "Bayes' theorem",
+    "Bayes theorem",
+    "Bayes’ theorem"
   ],
   [
-    "minimum remaining values",
-    "mrv"
+    "Bayesian network",
+    "BN",
+    "Bayesian networks"
   ],
   [
-    "least constraining value",
-    "lcv"
+    "case-based reasoning",
+    "CBR"
   ],
   [
-    "hard constraints",
-    "hard constraint"
+    "chunking",
+    "chunks"
   ],
   [
-    "soft constraints",
-    "soft constraint"
+    "citation",
+    "citations"
   ],
   [
-    "constraints",
-    "constraint"
-  ],
-  [
-    "variables",
-    "variable"
+    "class",
+    "classes"
   ],
   [
     "collaborative filtering",
     "cf"
   ],
   [
-    "matrix factorization",
-    "mf"
+    "concatenation",
+    "concatenate"
   ],
   [
-    "latent factors",
-    "latent factor"
+    "conditional probability",
+    "conditionals"
   ],
   [
-    "sparsity",
-    "sparse"
+    "consequent",
+    "consequents"
   ],
   [
-    "stochastic gradient descent",
-    "sgd"
+    "consistency",
+    "consistent"
   ],
   [
-    "alternating least squares",
-    "als"
+    "constraint satisfaction problem",
+    "csp"
   ],
   [
-    "principal component analysis",
-    "pca"
+    "constraints",
+    "constraint"
   ],
   [
-    "singular value decomposition",
-    "svd"
+    "CPT",
+    "CPTs",
+    "conditional probability table",
+    "conditional probability tables"
+  ],
+  [
+    "DAG",
+    "directed acyclic graph",
+    "directed acyclic graphs"
+  ],
+  [
+    "data frame",
+    "dataframe"
+  ],
+  [
+    "decision tree",
+    "decision tree",
+    "decision-tree"
+  ],
+  [
+    "diarization",
+    "speaker diarization"
+  ],
+  [
+    "distributions",
+    "distribution"
+  ],
+  [
+    "dot product",
+    "dot"
   ],
   [
     "eigenvalues",
@@ -84,79 +142,226 @@
     "eigenvector"
   ],
   [
-    "mean-centred",
-    "mean-centered"
+    "element-wise product",
+    "elementwise product"
   ],
   [
-    "semantic networks",
-    "semantic network"
-  ],
-  [
-    "ontologies",
-    "ontology"
-  ],
-  [
+    "embedding",
+    "embedding",
     "embeddings",
-    "embedding"
+    "vector representation",
+    "embedding representation"
   ],
   [
-    "decision-tree",
-    "decision tree"
-  ],
-  [
-    "retrieval-augmented generation",
-    "rag"
-  ],
-  [
-    "association-rule",
-    "association rules"
-  ],
-  [
-    "slots",
-    "slot"
-  ],
-  [
-    "signals",
-    "signal"
-  ],
-  [
-    "sensors",
-    "sensor"
-  ],
-  [
-    "fourier transformation",
-    "fourier transform"
-  ],
-  [
-    "distributions",
-    "distribution"
-  ],
-  [
-    "autoencoders",
-    "autoencoder"
-  ],
-  [
-    "hidden markov model",
-    "hmm"
+    "features",
+    "feature"
   ],
   [
     "fine tuning",
     "fine-tuning"
   ],
   [
+    "forward propagation",
+    "feedforward"
+  ],
+  [
+    "Fourier transformation",
+    "fourier transform"
+  ],
+  [
+    "frames",
+    "frame"
+  ],
+  [
+    "hallucination",
+    "hallucinations"
+  ],
+  [
+    "hard constraints",
+    "hard constraint"
+  ],
+  [
+    "heuristic",
+    "heuristics"
+  ],
+  [
+    "hidden layer",
+    "hidden layers"
+  ],
+  [
+    "hidden Markov model",
+    "hmm"
+  ],
+  [
     "hyperparameters",
     "hyperparameter"
+  ],
+  [
+    "hypothesis",
+    "hypotheses"
+  ],
+  [
+    "inference",
+    "infer",
+    "inferences"
+  ],
+  [
+    "K-nearest neighbours",
+    "k-nearest neighbors",
+    "KNN",
+    "K-nearest neighbors"
+  ],
+  [
+    "labels",
+    "label",
+    "ground truth"
+  ],
+  [
+    "latent factors",
+    "latent factor"
+  ],
+  [
+    "least constraining value",
+    "lcv"
+  ],
+  [
+    "linear",
+    "linear layer"
+  ],
+  [
+    "loss function",
+    "objective function",
+    "loss",
+    "cost function"
+  ],
+  [
+    "MAE",
+    "mean absolute error"
+  ],
+  [
+    "matrix factorization",
+    "mf"
+  ],
+  [
+    "mean-centred",
+    "mean-centered"
+  ],
+  [
+    "minimum remaining values",
+    "mrv"
+  ],
+  [
+    "MLP",
+    "multilayer perceptron"
+  ],
+  [
+    "MSE",
+    "mean squared error"
+  ],
+  [
+    "nonlinear",
+    "non-linear"
+  ],
+  [
+    "one-hot encoding",
+    "one hot encoding"
+  ],
+  [
+    "ontology",
+    "ontology",
+    "ontologies"
+  ],
+  [
+    "planning agent",
+    "planning agents"
+  ],
+  [
+    "posterior",
+    "posteriors"
+  ],
+  [
+    "premises",
+    "premise"
+  ],
+  [
+    "principal component analysis",
+    "pca"
+  ],
+  [
+    "prior",
+    "priors"
+  ],
+  [
+    "projection",
+    "PCA projection"
+  ],
+  [
+    "RAG",
+    "rag",
+    "retrieval-augmented generation"
+  ],
+  [
+    "ReLU",
+    "rectified linear unit"
+  ],
+  [
+    "semantic",
+    "semantics"
+  ],
+  [
+    "semantic network",
+    "semantic networks"
+  ],
+  [
+    "sensors",
+    "sensor"
+  ],
+  [
+    "signals",
+    "signal"
+  ],
+  [
+    "singular value decomposition",
+    "svd"
+  ],
+  [
+    "slots",
+    "slot"
+  ],
+  [
+    "soft constraints",
+    "soft constraint"
+  ],
+  [
+    "sparsity",
+    "sparse"
+  ],
+  [
+    "standardization",
+    "Z-score scaling"
+  ],
+  [
+    "stochastic gradient descent",
+    "sgd"
   ],
   [
     "support vector machine",
     "svm"
   ],
   [
-    "k-nearest neighbours",
-    "k-nearest neighbors"
+    "tensor",
+    "tensors"
   ],
   [
-    "features",
-    "feature"
+    "utterances",
+    "utterance"
+  ],
+  [
+    "variables",
+    "variable"
+  ],
+  [
+    "vector database",
+    "vector DB"
   ]
 ]
