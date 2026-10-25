@@ -63,6 +63,8 @@ def rebuild(root):
         if out!=original:p.write_text(out,encoding='utf-8');changed+=1
     (root/'assets/term-translations.json').write_text(json.dumps(hints,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     (root/'assets/term-variants.json').write_text(json.dumps([[r['Term']]+[x.strip() for x in r['Variants'].split(';') if x.strip()] for r in rows if r['Variants'].strip()],ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    import runpy
+    runpy.run_path(str(root/'tools/generate_glossary.py'))['generate'](root)
     print(json.dumps({'term_families':len(hints),'changed_pages':changed,'hints':total}))
 
 if __name__=='__main__':rebuild(Path(__file__).resolve().parents[1])
