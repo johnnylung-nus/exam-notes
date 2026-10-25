@@ -1,5 +1,5 @@
 {
-  "assetVersion": "901229079c",
+  "assetVersion": "b6e32f400b",
   "groups": [
     {
       "id": "machine-reasoning",
@@ -90,6 +90,26 @@
                 68
               ],
               "note": ""
+            },
+            {
+              "conceptId": "extra-csp",
+              "pages": [
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89
+              ],
+              "note": "Added source CSP workshop, map-colouring backtracking and N-Queens."
             }
           ]
         },
@@ -3547,6 +3567,14 @@
       "quizScope": "sample-paper",
       "quizGap": "",
       "quizNote": ""
+    },
+    "extra-csp": {
+      "title": "CSP: variables, domains, constraints and backtracking",
+      "url": "concepts/extra-csp.html#extra-csp",
+      "quizCount": 3,
+      "quizScope": "lecture",
+      "quizGap": "",
+      "quizNote": "Hard/soft distinction links Day 1 CSP to Reasoning Systems day3.pdf p.53; the timetable is an original application."
     }
   },
   "supplements": [

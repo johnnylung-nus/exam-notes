@@ -1659,8 +1659,18 @@
       "tables": 3,
       "calculation": false,
       "references": true
+    },
+    {
+      "id": "extra-csp",
+      "page": "concepts/extra-csp.html",
+      "title": "CSP: variables, domains, constraints and backtracking",
+      "words": 1793,
+      "svgs": 2,
+      "tables": 5,
+      "calculation": true,
+      "references": true
     }
   ],
-  "count": 166,
+  "count": 167,
   "note": "Existing lecture-linked tutorial bodies separated, with concept-specific mechanism questions and failure headings. Source gaps are retained; not a new full-source accuracy certification."
 }

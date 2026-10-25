@@ -9,10 +9,10 @@
     "ISSM"
   ],
   "lecture_files": 36,
-  "concepts": 166,
-  "mapped_lecture_concepts": 164,
-  "questions": 330,
-  "quiz_concepts": 165,
+  "concepts": 167,
+  "mapped_lecture_concepts": 165,
+  "questions": 333,
+  "quiz_concepts": 166,
   "source_pending": [
     "c125"
   ],
@@ -194,7 +194,8 @@
     "c160": "b92c97f19cf74d30780714a08be8fecf2de1a0da8c3dbd832debccb8b9c5ea27",
     "c161": "263678b678507252f46e580c72fb3aa90d1d829dcf7d0ddc893b2a862ae980ba",
     "c162": "6ddd0dcc551104ba748192e51a9b66bae2d80d38792b09eb08c3ccb4452be8fc",
-    "extra-knowledge-acquisition": "336d198431446145c8597e4610e8d835e8d135088e916049c448ff0580ebe34d"
+    "extra-knowledge-acquisition": "336d198431446145c8597e4610e8d835e8d135088e916049c448ff0580ebe34d",
+    "extra-csp": "a533a7c2458ecb79e08535df069f5efd4e3ba5196b54be58b54f9ed700cfa744"
   },
   "scope_notes": [
     {

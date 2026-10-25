@@ -1,5 +1,27 @@
 [
   {
+    "id": "csp",
+    "group": "Search & optimisation",
+    "cue": "Assign rooms/times/colours, choose values subject to rules, shared resources, hard/soft constraints",
+    "method": "Constraint satisfaction problem (CSP) + backtracking",
+    "condition": "Need a complete compatible assignment. Identify variables, their domains and hard rules; soft preferences rank feasible solutions.",
+    "flow": "Extract unknown decisions → domains → hard rules and soft preferences → assign/check → undo and retry → verify all constraints.",
+    "change": "Many dead ends? MRV, least constraining value and early domain checks. Restore pruned domains when undoing. First feasible is not necessarily soft-optimal.",
+    "ids": [
+      "extra-csp"
+    ],
+    "aliases": "csp constraint satisfaction variable domain constraints hard soft backtracking backtrack map colouring coloring n queens timetable scheduling allocation MRV",
+    "tasks": "choose design modify evaluate data",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "extra-csp",
+        "title": "CSP: variables, domains, constraints and backtracking",
+        "href": "concepts/extra-csp.html#extra-csp"
+      }
+    ]
+  },
+  {
     "id": "dialogue",
     "group": "Language & knowledge",
     "cue": "Slots, state, missing details, follow-up, change a reminder interval",

@@ -168,3 +168,5 @@ The former lecture-block card catalogue is retired. Each link opens a detailed c
 - [Wav2Vec self-supervised learning](chapters/speech-input.html#c076)
 - [Whisper](chapters/speech-input.html#c075)
 - [Xavier / He initialization](chapters/stable-neural-training.html#c120)
+
+- [CSP: variables, domains, hard/soft constraints and backtracking](concepts/extra-csp.html#extra-csp) — MR Day 1 PDF pp.76–89.

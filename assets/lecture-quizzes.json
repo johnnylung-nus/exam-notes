@@ -10667,5 +10667,105 @@
     "source_status": "paper-based supplement",
     "scope": "sample-paper",
     "signature": "7c80b7b88a1b"
+  },
+  {
+    "id": "extra-csp-q1",
+    "concept_id": "extra-csp",
+    "prompt": "Schedule exams A and B into morning/afternoon slots. Their student counts are fixed; they share students. Which formulation identifies decisions and a hard rule correctly?",
+    "options": [
+      "Student counts are decision variables; their domain is the rooms.",
+      "T_A and T_B are variables with domain {morning,afternoon}; T_A ≠ T_B is hard.",
+      "Morning is the variable; exam A is its numeric domain.",
+      "Both exams should prefer morning, so a simultaneous assignment is always valid."
+    ],
+    "answer": 1,
+    "explanations": [
+      "The counts are given inputs, not choices in this scenario.",
+      "The unknown times are variables, the slots are values, and shared students prohibit overlap.",
+      "A slot is a possible assigned value; it does not identify the per-exam decision.",
+      "A preference cannot override the mandatory shared-student constraint."
+    ],
+    "sources": [
+      {
+        "file": "MR-Day 1_JR_v1.pdf",
+        "pages": [
+          76,
+          77,
+          89
+        ]
+      }
+    ],
+    "kind": "application",
+    "scope": "lecture",
+    "signature": "073f5642e726"
+  },
+  {
+    "id": "extra-csp-q2",
+    "concept_id": "extra-csp",
+    "prompt": "In the lecture map, SW=R, SE=R, NE=G, NW=B leaves CS with no legal colour. With order SW,SE,NE,NW,CS and colours R,G,B, NW has no untried legal value. What should backtracking do next?",
+    "options": [
+      "Ignore CS because four regions are already coloured.",
+      "Erase every assignment and forbid red permanently.",
+      "Undo NW, then return to NE and try its next legal value, restoring domains appropriately.",
+      "Keep NW=B and assign any colour to CS because it is the last variable."
+    ],
+    "answer": 2,
+    "explanations": [
+      "A CSP solution must assign every variable consistently.",
+      "Backtracking retains earlier assignments until their alternatives must be reconsidered; red is not globally forbidden.",
+      "When NW is exhausted, the next earlier decision is NE; NE=B is the next legal alternative under the retained assignments.",
+      "Completing the variable list cannot justify violating an adjacency constraint."
+    ],
+    "sources": [
+      {
+        "file": "MR-Day 1_JR_v1.pdf",
+        "pages": [
+          77,
+          78,
+          79,
+          80,
+          81
+        ]
+      }
+    ],
+    "kind": "diagnosis",
+    "scope": "lecture",
+    "signature": "56b35c5b2de7"
+  },
+  {
+    "id": "extra-csp-q3",
+    "concept_id": "extra-csp",
+    "prompt": "Two exams share students, so they must use different times. Both merely prefer morning. A clash-free schedule leaves one exam in the afternoon. How should it be assessed?",
+    "options": [
+      "Invalid because every soft preference is compulsory.",
+      "It is hard-feasible, with one unmet morning preference; compare preference scores only among feasible schedules.",
+      "A simultaneous morning schedule is better because it satisfies both preferences.",
+      "Feasibility is guaranteed to imply that every preference is satisfied."
+    ],
+    "answer": 1,
+    "explanations": [
+      "Soft preferences can remain unmet without invalidating an otherwise feasible assignment.",
+      "The shared-student rule determines validity; the preference score ranks valid alternatives.",
+      "The clash violates a hard rule, regardless of how many preferences it meets.",
+      "Hard feasibility and preference satisfaction are different tests."
+    ],
+    "sources": [
+      {
+        "file": "MR-Day 1_JR_v1.pdf",
+        "pages": [
+          76,
+          89
+        ]
+      },
+      {
+        "file": "day3.pdf",
+        "pages": [
+          53
+        ]
+      }
+    ],
+    "kind": "comparison",
+    "scope": "lecture",
+    "signature": "16d04cb4f2b4"
   }
 ]
