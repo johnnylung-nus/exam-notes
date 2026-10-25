@@ -1664,9 +1664,9 @@
       "id": "extra-csp",
       "page": "concepts/extra-csp.html",
       "title": "CSP: variables, domains, constraints and backtracking",
-      "words": 1793,
-      "svgs": 2,
-      "tables": 5,
+      "words": 2421,
+      "svgs": 3,
+      "tables": 7,
       "calculation": true,
       "references": true
     }
