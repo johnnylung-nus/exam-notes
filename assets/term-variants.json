@@ -1,11 +1,16 @@
 [
   [
     "abductive reasoning",
-    "abduction"
+    "abduction",
+    "abductive"
   ],
   [
     "activation function",
     "activation"
+  ],
+  [
+    "adaptation",
+    "adapt"
   ],
   [
     "admissibility",
@@ -24,12 +29,33 @@
     "antecedents"
   ],
   [
+    "artificial intelligence",
+    "AI"
+  ],
+  [
     "ASR",
     "automatic speech recognition"
   ],
   [
+    "assertion",
+    "assertions"
+  ],
+  [
+    "assignment",
+    "assignments"
+  ],
+  [
     "association-rule",
-    "association rules"
+    "association rules",
+    "association rule"
+  ],
+  [
+    "asymmetric",
+    "asymmetry"
+  ],
+  [
+    "attribute",
+    "attributes"
   ],
   [
     "audio channel",
@@ -40,8 +66,16 @@
     "autoencoder"
   ],
   [
+    "autonomous",
+    "autonomy"
+  ],
+  [
     "axis",
     "axes"
+  ],
+  [
+    "backpropagation",
+    "BP"
   ],
   [
     "backtracking",
@@ -58,8 +92,32 @@
     "Bayesian networks"
   ],
   [
+    "between-cluster",
+    "inter-cluster"
+  ],
+  [
+    "bootstrap",
+    "bootstrapping"
+  ],
+  [
+    "bounding box",
+    "bounding boxes"
+  ],
+  [
+    "breadth-first search",
+    "BFS"
+  ],
+  [
+    "case base",
+    "case-base"
+  ],
+  [
     "case-based reasoning",
     "CBR"
+  ],
+  [
+    "causation",
+    "causal"
   ],
   [
     "chunking",
@@ -74,6 +132,10 @@
     "classes"
   ],
   [
+    "co-rated",
+    "co rated"
+  ],
+  [
     "collaborative filtering",
     "cf"
   ],
@@ -84,6 +146,14 @@
   [
     "conditional probability",
     "conditionals"
+  ],
+  [
+    "confidence",
+    "rule confidence"
+  ],
+  [
+    "conjunction",
+    "conjunctive"
   ],
   [
     "consequent",
@@ -102,10 +172,34 @@
     "constraint"
   ],
   [
+    "contradiction",
+    "contradictions"
+  ],
+  [
+    "convergence",
+    "converge"
+  ],
+  [
+    "correlation",
+    "correlated"
+  ],
+  [
+    "corruption",
+    "corrupted"
+  ],
+  [
+    "counterexample",
+    "counterexamples"
+  ],
+  [
     "CPT",
     "CPTs",
     "conditional probability table",
     "conditional probability tables"
+  ],
+  [
+    "cycle",
+    "cycles"
   ],
   [
     "DAG",
@@ -117,13 +211,49 @@
     "dataframe"
   ],
   [
+    "data-driven",
+    "data driven"
+  ],
+  [
     "decision tree",
-    "decision tree",
-    "decision-tree"
+    "decision-tree",
+    "DT"
+  ],
+  [
+    "deduction",
+    "deductive"
+  ],
+  [
+    "deep neural network",
+    "DNN"
+  ],
+  [
+    "depth-first search",
+    "DFS"
+  ],
+  [
+    "derivative",
+    "derivatives"
+  ],
+  [
+    "DFT",
+    "discrete Fourier transform"
   ],
   [
     "diarization",
     "speaker diarization"
+  ],
+  [
+    "discrete",
+    "discretization"
+  ],
+  [
+    "discriminative",
+    "discriminant"
+  ],
+  [
+    "distribution shift",
+    "domain shift"
   ],
   [
     "distributions",
@@ -147,18 +277,69 @@
   ],
   [
     "embedding",
-    "embedding",
     "embeddings",
     "vector representation",
     "embedding representation"
+  ],
+  [
+    "entities",
+    "entity"
+  ],
+  [
+    "expansion",
+    "expand"
+  ],
+  [
+    "expert system",
+    "expert systems"
+  ],
+  [
+    "explicit",
+    "explicitly"
+  ],
+  [
+    "F1 score",
+    "F1-score"
+  ],
+  [
+    "fact",
+    "facts"
+  ],
+  [
+    "false negative",
+    "FN"
+  ],
+  [
+    "false positive",
+    "FP"
+  ],
+  [
+    "feasible",
+    "feasibility"
+  ],
+  [
+    "feature map",
+    "feature maps"
   ],
   [
     "features",
     "feature"
   ],
   [
+    "feedforward network",
+    "feedforward networks"
+  ],
+  [
+    "FFT",
+    "fast Fourier transform"
+  ],
+  [
     "fine tuning",
     "fine-tuning"
+  ],
+  [
+    "flatten",
+    "flattening"
   ],
   [
     "forward propagation",
@@ -173,12 +354,50 @@
     "frame"
   ],
   [
+    "fully connected",
+    "dense layer"
+  ],
+  [
+    "Gaussian",
+    "normal distribution"
+  ],
+  [
+    "general regression neural networks",
+    "GRNN",
+    "general regression neural network"
+  ],
+  [
+    "generative",
+    "generation"
+  ],
+  [
+    "genetic algorithm",
+    "GA"
+  ],
+  [
+    "goal-driven",
+    "goal driven"
+  ],
+  [
+    "graph neural network",
+    "GNN",
+    "graph neural networks"
+  ],
+  [
+    "grounding",
+    "grounded"
+  ],
+  [
     "hallucination",
     "hallucinations"
   ],
   [
     "hard constraints",
     "hard constraint"
+  ],
+  [
+    "head entity",
+    "head"
   ],
   [
     "heuristic",
@@ -193,6 +412,18 @@
     "hmm"
   ],
   [
+    "hidden states",
+    "hidden state"
+  ],
+  [
+    "high-pass",
+    "high pass"
+  ],
+  [
+    "holdout",
+    "held-out"
+  ],
+  [
     "hyperparameters",
     "hyperparameter"
   ],
@@ -201,15 +432,46 @@
     "hypotheses"
   ],
   [
+    "implicit",
+    "implicitly"
+  ],
+  [
+    "independent",
+    "independence"
+  ],
+  [
+    "induction",
+    "inductive"
+  ],
+  [
     "inference",
     "infer",
     "inferences"
   ],
   [
+    "invariant",
+    "invariance"
+  ],
+  [
+    "IoU",
+    "intersection over union"
+  ],
+  [
+    "itemset",
+    "itemsets"
+  ],
+  [
     "K-nearest neighbours",
     "k-nearest neighbors",
-    "KNN",
-    "K-nearest neighbors"
+    "KNN"
+  ],
+  [
+    "knowledge base",
+    "knowledge bases"
+  ],
+  [
+    "knowledge graph",
+    "KG"
   ],
   [
     "labels",
@@ -221,6 +483,10 @@
     "latent factor"
   ],
   [
+    "leaf",
+    "leaves"
+  ],
+  [
     "least constraining value",
     "lcv"
   ],
@@ -229,14 +495,34 @@
     "linear layer"
   ],
   [
+    "linear discriminant analysis",
+    "LDA"
+  ],
+  [
+    "logit",
+    "logits"
+  ],
+  [
     "loss function",
     "objective function",
     "loss",
     "cost function"
   ],
   [
+    "low-pass",
+    "low pass"
+  ],
+  [
+    "machine learning",
+    "ML"
+  ],
+  [
     "MAE",
     "mean absolute error"
+  ],
+  [
+    "masking",
+    "masked"
   ],
   [
     "matrix factorization",
@@ -255,12 +541,51 @@
     "multilayer perceptron"
   ],
   [
+    "modality",
+    "modalities"
+  ],
+  [
     "MSE",
     "mean squared error"
   ],
   [
+    "Naive Bayes",
+    "NB"
+  ],
+  [
+    "natural language processing",
+    "NLP"
+  ],
+  [
+    "natural language understanding",
+    "NLU"
+  ],
+  [
+    "negative samples",
+    "negative sample"
+  ],
+  [
+    "neighbour aggregation",
+    "neighbor aggregation"
+  ],
+  [
+    "neural network",
+    "NN",
+    "neural networks",
+    "ANN",
+    "artificial neural network"
+  ],
+  [
     "nonlinear",
     "non-linear"
+  ],
+  [
+    "Nyquist theorem",
+    "Nyquist-Shannon"
+  ],
+  [
+    "observed ratings",
+    "known ratings"
   ],
   [
     "one-hot encoding",
@@ -268,16 +593,31 @@
   ],
   [
     "ontology",
-    "ontology",
     "ontologies"
+  ],
+  [
+    "optimizer",
+    "optimiser"
+  ],
+  [
+    "out-of-bag",
+    "OOB"
   ],
   [
     "planning agent",
     "planning agents"
   ],
   [
+    "positive samples",
+    "positive sample"
+  ],
+  [
     "posterior",
     "posteriors"
+  ],
+  [
+    "predicate",
+    "predicates"
   ],
   [
     "premises",
@@ -296,13 +636,66 @@
     "PCA projection"
   ],
   [
+    "quantization",
+    "quantisation"
+  ],
+  [
     "RAG",
-    "rag",
     "retrieval-augmented generation"
+  ],
+  [
+    "random forests",
+    "RF",
+    "random forest"
+  ],
+  [
+    "RDF",
+    "resource description framework"
+  ],
+  [
+    "recurrent neural network",
+    "recurrent neural networks"
+  ],
+  [
+    "redundancy",
+    "redundant"
+  ],
+  [
+    "relations",
+    "relation"
+  ],
+  [
+    "relevance",
+    "relevant"
   ],
   [
     "ReLU",
     "rectified linear unit"
+  ],
+  [
+    "representation",
+    "representations"
+  ],
+  [
+    "reranking",
+    "rerank"
+  ],
+  [
+    "retrieve",
+    "retrieved"
+  ],
+  [
+    "rule-based system",
+    "rule-based systems"
+  ],
+  [
+    "sampling rate",
+    "sample rate"
+  ],
+  [
+    "self-organizing maps",
+    "SOM",
+    "self-organizing map"
   ],
   [
     "semantic",
@@ -317,12 +710,20 @@
     "sensor"
   ],
   [
+    "sequence",
+    "sequences"
+  ],
+  [
     "signals",
     "signal"
   ],
   [
     "singular value decomposition",
     "svd"
+  ],
+  [
+    "slack variables",
+    "slack variable"
   ],
   [
     "slots",
@@ -337,6 +738,14 @@
     "sparse"
   ],
   [
+    "spectral",
+    "spectrum"
+  ],
+  [
+    "split",
+    "splitting"
+  ],
+  [
     "standardization",
     "Z-score scaling"
   ],
@@ -345,12 +754,76 @@
     "sgd"
   ],
   [
+    "successor",
+    "successors"
+  ],
+  [
+    "support",
+    "rule support"
+  ],
+  [
     "support vector machine",
     "svm"
   ],
   [
+    "support vectors",
+    "support vector"
+  ],
+  [
+    "symmetry",
+    "symmetric"
+  ],
+  [
+    "tail entity",
+    "tail"
+  ],
+  [
     "tensor",
     "tensors"
+  ],
+  [
+    "time step",
+    "timestep"
+  ],
+  [
+    "top-k",
+    "top K"
+  ],
+  [
+    "trade-off",
+    "tradeoff"
+  ],
+  [
+    "transaction",
+    "transactions"
+  ],
+  [
+    "transformation",
+    "transformations"
+  ],
+  [
+    "triples",
+    "triple"
+  ],
+  [
+    "true negative",
+    "TN"
+  ],
+  [
+    "true positive",
+    "TP"
+  ],
+  [
+    "true positive rate",
+    "TPR"
+  ],
+  [
+    "truncated",
+    "truncation"
+  ],
+  [
+    "uniform-cost search",
+    "UCS"
   ],
   [
     "utterances",
@@ -363,5 +836,17 @@
   [
     "vector database",
     "vector DB"
+  ],
+  [
+    "weak learner",
+    "weak learners"
+  ],
+  [
+    "weighted vote",
+    "weighted voting"
+  ],
+  [
+    "within-cluster",
+    "intra-cluster"
   ]
 ]
