@@ -2,6 +2,7 @@
 A* search,,A星搜尋,yes
 abductive reasoning,abduction; abductive,溯因；由現象尋找合理解釋,yes
 accuracy,,準確率,yes
+acoustic,,聲學的；與聲音量測有關,yes
 actions,,動作,yes
 activation function,activation,激活函數；轉換神經元輸出,yes
 adaptation,adapt,調適；修改以配合新情境,yes
@@ -10,6 +11,7 @@ adversarial,,對抗式；兩方以競爭目標學習,yes
 agent,,代理,yes
 agentic orchestration,,代理流程協調,yes
 agglomerative,,凝聚式,yes
+aggregated,aggregate,彙總；把多筆資料合併成統計值,yes
 aliasing,,混疊,yes
 alignment,,對齊,yes
 AllDiff,,所有值互異,yes
@@ -18,6 +20,7 @@ amplitude,,振幅；訊號大小,yes
 analogy,analogical reasoning,類比；由相似案例推想,yes
 annealing,,退火,yes
 anomaly detection,,異常偵測,yes
+anomaly diagnosis,,異常診斷；找出異常原因,yes
 antecedent,antecedents,前件；IF條件,yes
 arc consistency,,弧一致性,yes
 architecture,,架構,yes
@@ -26,7 +29,9 @@ artificial neuron,,人工神經元,yes
 ASR,automatic speech recognition,自動語音辨識,yes
 assertion,assertions,斷言；明確提出的知識陳述,yes
 assignment,assignments,賦值；為變數選定一個值,yes
+association mining,,關聯探勘；尋找項目共同出現的規律,yes
 association-rule,association rules; association rule,關聯規則；哪些項目常一起出現,yes
+assumptions,assumption,假設；答案依賴但題目未明說的條件,yes
 asymmetric,asymmetry,非對稱；交換方向不一定相同,yes
 attention,,注意力,yes
 attention weights,,注意力權重；對不同位置分配的比重,yes
@@ -56,16 +61,22 @@ between-cluster,inter-cluster,群間；不同群之間的關係,yes
 bias,,偏置／偏差；須看語境,yes
 bilinear,,雙線性,yes
 binary cross-entropy,,二元交叉熵；二分類損失,yes
+bins,bin,分箱；直方圖的數值區間，本題也可指分類收集箱,yes
 bit depth,,位元深度；每個取樣的量化精度,yes
+Boolean,boolean value,布林值；真或假,yes
 boosting,,提升法,yes
 bootstrap,bootstrapping,自助抽樣；從原資料有放回抽樣,yes
 bootstrap sampling,,自助抽樣,yes
+bounce rate,BounceRate,跳出率；進站後未觸發其他請求便離開的比例,yes
 bounding box,bounding boxes,邊界框；框出物件位置,yes
 branching factor,,分支數,yes
 breadth-first search,BFS,廣度優先搜尋,yes
+calibration,calibrated,校準；令量測或機率對應實際意義,yes
 candidate generation,,候選產生；先找值得評分的項目,yes
+Carryback,,回帶殘料；卸料後仍黏留在輸送帶的物料,yes
 case base,case-base,案例庫；儲存可重用的案例,yes
 case-based reasoning,CBR,案例推理；找舊案例再調整,yes
+categorical,categorical features,類別型；值代表類別,yes
 categorical cross-entropy,,類別交叉熵；多類分類損失,yes
 causation,causal,因果；一者造成另一者變化,yes
 centroid,,群中心,yes
@@ -78,6 +89,7 @@ class,classes,類別；分類目標,yes
 class weights,,類別權重；調整各類錯誤的代價,yes
 classification,,分類；預測類別,yes
 classification metrics,,分類評估指標,yes
+clickstream,clickstream data,點擊軌跡；依次瀏覽與操作的記錄,yes
 clustering,,分群,yes
 CNN,,卷積神經網路,yes
 co-rated,co rated,共同評分；兩者都評過的項目,yes
@@ -101,6 +113,7 @@ consistency,consistent,一致性,yes
 constraint propagation,,約束傳播；以限制縮小其他候選值,yes
 constraint satisfaction problem,csp,約束滿足問題,yes
 constraints,constraint,約束條件,yes
+constriction,,收縮；瞳孔變小,yes
 content-based,,以內容為基礎,yes
 context window,,上下文視窗；一次可處理的詞元範圍,yes
 continuous,,連續；可在範圍內連續變化,yes
@@ -119,12 +132,14 @@ cross-entropy,,交叉熵,yes
 cross-modal,,跨模態；不同資料形式之間,yes
 cross-validation,,交叉驗證,yes
 crossover,,交配重組,yes
+cumulative explained variance,cumulative explained-variance,累積解釋變異；保留成分合計涵蓋的變化,yes
 curse of dimensionality,,維度災難,yes
 cycle,cycles,循環；路徑返回已到過的狀態,yes
 DAG,directed acyclic graph; directed acyclic graphs,有向無環圖,yes
 data augmentation,,資料增強,yes
 data frame,dataframe,資料表；有列與欄的結構,yes
 data leakage,,資料洩漏,yes
+data mining,,資料探勘；從資料找有用模式,yes
 data pipeline,,資料流程；由輸入到輸出的處理鏈,yes
 data-driven,data driven,資料驅動；由已知資料出發,yes
 DBSCAN,,密度分群；把密集樣本連成群,yes
@@ -137,15 +152,20 @@ deep learning,,深度學習,yes
 deep neural network,DNN,深層神經網路,yes
 deliberation,,審議；比較選擇後決定,yes
 delta rule,,差值學習規則,yes
+demographic data,demographic,人口屬性資料；如年齡與職業,yes
 dendrogram,,樹狀圖；顯示群合併層次,yes
 denoising,,去雜訊,yes
 depth-first search,DFS,深度優先搜尋,yes
 derivative,derivatives,導數；輸入微變時輸出改變多少,yes
+derived variable,derived variables,衍生變數；由現有欄位計算,yes
 detection,,偵測,yes
 DFT,discrete Fourier transform,離散傅立葉轉換,yes
+diagnoses,diagnosis,診斷；判斷可能的疾病或故障原因,yes
 dialogue management,,對話管理,yes
 dialogue state,,對話狀態,yes
 diarization,speaker diarization,說話者分段；誰在何時說話,yes
+differential diagnoses,differential diagnosis,鑑別診斷；列出可能解釋症狀的候選疾病,yes
+dilation,,擴張；瞳孔變大,yes
 dimensionality,,維度；描述資料所需的座標數,yes
 dimensionality reduction,,降維,yes
 discrete,discretization,離散；取分開的數值或時點,yes
@@ -158,12 +178,14 @@ diversification,,多樣化,yes
 diversity,,多樣性,yes
 domains,,可選值集合,yes
 dot product,dot,內積；逐項相乘後相加,yes
+downstream,downstream model,後續階段；使用前一步結果的模型或流程,yes
 dropout,,隨機停用神經元,yes
 dying ReLU,,ReLU失活；長期輸出零,yes
 early fusion,,早期融合；先合併輸入或特徵,yes
 early stopping,,提前停止,yes
 eigenvalues,eigenvalue,特徵值,yes
 eigenvectors,eigenvector,特徵向量,yes
+elapsed time,,已經過的時間；本次與過往事件的時間差,yes
 element-wise product,elementwise product,逐元素相乘；不加總,yes
 elicitation,,向專家擷取知識,yes
 elitism,,保留優良解,yes
@@ -176,12 +198,15 @@ ensemble,,集成學習,yes
 entities,entity,實體；被描述的對象,yes
 entity linking,,實體連結；把名稱對應至正確實體,yes
 entropy,,熵,yes
+environmental stimuli,stimuli; stimulus,環境刺激；系統感測到的外界變化,yes
 epoch,,完整訓練輪次,yes
 equivalence,,等價；兩者互相成立,yes
+ergonomics,ergonomic,人體工學；讓工作環境配合人體需要,yes
 Euclidean,,歐氏,yes
 evaluation,,評估,yes
 even signals,,偶訊號,yes
 evidence,,證據；已觀察到的資訊,yes
+exit rate,ExitRate,離開率；某頁瀏覽中作為該次造訪最後一頁的比例,yes
 expansion,expand,展開；產生節點的後續候選,yes
 expectation maximization,,期望最大化,yes
 expert system,expert systems,專家系統；用領域知識推理,yes
@@ -198,11 +223,12 @@ false negative,FN,假負例；正類誤判為負,yes
 false positive,FP,假正例；負類誤判為正,yes
 feasible,feasibility,可行；符合所有硬性條件,yes
 feature extraction,,特徵擷取；轉出有用描述,yes
-feature importance,,特徵重要性,yes
+feature importance,variable importance,變數重要性；模型使用該特徵的相對程度,yes
 feature map,feature maps,特徵圖；某層輸出的空間表示,yes
 feature scaling,,特徵縮放；令數值尺度可比較,yes
 feature selection,,特徵選擇,yes
 feature space,,特徵空間；以特徵作座標的空間,yes
+feature vector,feature vectors,特徵向量；一個樣本的數值描述,yes
 features,feature,特徵；描述樣本的屬性,yes
 feedforward network,feedforward networks,前饋網路；訊息由前往後傳,yes
 FFT,fast Fourier transform,快速傅立葉轉換,yes
@@ -216,6 +242,7 @@ forward chaining,,前向推理；由資料推向結論,yes
 forward checking,,前向檢查,yes
 forward propagation,feedforward,前向傳播；由輸入算至輸出,yes
 Fourier transformation,fourier transform,傅立葉轉換,yes
+frame-based,frame-based systems,框架式；以具欄位與關係的記錄表示知識,yes
 frames,frame,框架；附欄位的知識記錄,yes
 frequency,,頻率,yes
 frequency domain,,頻域；看各頻率成分,yes
@@ -237,11 +264,13 @@ Gini,,基尼不純度,yes
 global optimum,,全域最優解,yes
 goal test,,目標檢驗,yes
 goal-driven,goal driven,目標驅動；由要達成的結論倒推,yes
+gold standard,,黃金標準；用作比較的參考基準,yes
 gradient,,梯度,yes
 gradient boosting,,梯度提升,yes
 gradient descent,,梯度下降；沿降低損失的方向更新,yes
 graph neural network,GNN; graph neural networks,圖神經網路,yes
 greedy,,貪婪式,yes
+gripper,,夾爪；機器人抓取物件的部件,yes
 grounding,grounded,依據來源；使輸出有可核對支持,yes
 hallucination,hallucinations,幻覺；生成無依據內容,yes
 hard constraints,hard constraint,硬性約束,yes
@@ -254,6 +283,7 @@ hidden states,hidden state,隱藏狀態；序列模型保留的內部資訊,yes
 hierarchical clustering,,階層式分群,yes
 high-pass,high pass,高通；保留高頻,yes
 hill climbing,,爬山法,yes
+histogram,histograms,直方圖；統計各數值區間的出現次數,yes
 hit rate,,命中率,yes
 holdout,held-out,留出資料；未參與該階段訓練,yes
 hybrid,,混合式,yes
@@ -287,14 +317,19 @@ intent classification,,意圖分類,yes
 interpolation,,內插；估算已知點之間的值,yes
 invariant,invariance,不變性；指定變化下結果不變,yes
 IoU,intersection over union,交並比；重疊區除以聯集區,yes
+iris,,虹膜；圍繞瞳孔的有色部分,yes
+is-a,,是一種；類別繼承關係,yes
 item-based,,以項目為基礎,yes
 itemset,itemsets,項目集；一組共同考察的項目,yes
+joint angles,joint angle,關節角度；機械臂各關節的姿態,yes
+justify,justification; justifications,給出理由；用情境與證據支持選擇,yes
 K-means,,K平均分群,yes
 K-nearest neighbours,k-nearest neighbors; KNN,K近鄰；參考最接近的K個樣本,yes
 kernel,,核函數,yes
 knowledge acquisition,,知識擷取,yes
 knowledge base,knowledge bases,知識庫；供推理查用的知識,yes
-knowledge discovery,,知識探索,yes
+knowledge discovery,,知識探索；從資料找規律,yes
+knowledge elicitation,,知識引出；向專家詢問並整理知識,yes
 knowledge graph,KG,知識圖譜,yes
 knowledge representation,,知識表示,yes
 L1,,L1懲罰；以權重絕對值作限制,yes
@@ -307,6 +342,7 @@ latent factors,latent factor,潛在因子,yes
 latent space,,潛在空間；模型學得的表示空間,yes
 leaf,leaves,葉節點；決策樹的最終輸出,yes
 leaky ReLU,,洩漏式ReLU；負區保留小斜率,yes
+lean model,lean deep learning model,精簡模型；控制參數、儲存與運算量,yes
 learning rate,,學習率,yes
 least constraining value,lcv,最少限制值,yes
 least squares,,最小平方法；最小化誤差平方總和,yes
@@ -319,6 +355,7 @@ linear separability,,線性可分性,yes
 link prediction,,連結預測；推測圖譜缺少的關係,yes
 linkage,,連結準則；計算群與群的距離,yes
 LLM,,大型語言模型,yes
+loadings,loading,負荷量；原特徵對主成分的係數,yes
 local optimum,,局部最優解,yes
 local search,,局部搜尋,yes
 logistic regression,,邏輯斯迴歸,yes
@@ -335,6 +372,7 @@ many-to-many,,多對多,yes
 many-to-one,,多對一,yes
 margin,,分類間隔,yes
 market basket analysis,,購物籃分析,yes
+mask,masks,遮罩；標示哪些位置應使用或忽略,yes
 masking,masked,遮蔽；故意隱去部分輸入,yes
 matrix factorization,mf,矩陣分解,yes
 mean,,均值；平均數,yes
@@ -345,6 +383,7 @@ message passing,,訊息傳遞；節點間交換資訊,yes
 mini-batch,,小批次,yes
 minimum remaining values,mrv,最少剩餘值,yes
 missing values,,缺失值,yes
+Mistracking,,輸送帶跑偏；未沿正確位置運行,yes
 mixture of experts,,專家混合模型,yes
 MLP,multilayer perceptron,多層感知器；多層前饋神經網路,yes
 modality,modalities,模態；資料形式如語音或影像,yes
@@ -352,12 +391,14 @@ modus ponens,,肯定前件；A且A→B所以B,yes
 momentum,,動量；累積更新方向減少震盪,yes
 monotonic,,單調推理；新知不撤回舊結論,yes
 most constrained variable,,選擇最少的變數,yes
+movement envelope,,運動包絡範圍；機械臂可能佔用或到達的空間,yes
 MSE,mean squared error,均方誤差；誤差平方後平均,yes
 multi-head attention,,多頭注意力,yes
 multi-hop,,多跳,yes
 multi-input,,多輸入,yes
 multi-output,,多輸出,yes
 multiclass,,多類別,yes
+multicollinearity,,多重共線性；多個輸入高度線性相關,yes
 multimodal,,多模態,yes
 multimodal cognition,,多模態認知,yes
 mutation,,突變,yes
@@ -375,6 +416,7 @@ noise,,雜訊；干擾有效訊息的成分,yes
 nonlinear,non-linear,非線性；不能只用線性關係表示,yes
 normalization,,正規化；此處縮放至固定範圍,yes
 novelty,,新穎性,yes
+numerical,numeric,數值型；以數量表示,yes
 Nyquist theorem,Nyquist-Shannon,奈奎斯特取樣條件；取樣須足夠快以避免混疊,yes
 object,,客體；三元組終點,yes
 object detection,,物件偵測；辨識種類及位置,yes
@@ -388,23 +430,32 @@ optimal,,最優,yes
 optimality,,最優性,yes
 optimizer,optimiser,最佳化器；按梯度更新參數,yes
 oracle,,標註來源；提供答案供查詢,yes
+orientation,orientations,朝向；物件旋轉的方向,yes
 orthogonal,,正交,yes
 orthonormal,,正交歸一；互相垂直且長度為1,yes
 out-of-bag,OOB,袋外；該模型抽樣未用到的資料,yes
 outliers,,離群值,yes
 output gate,,輸出閘；決定輸出多少記憶資訊,yes
 output layer,,輸出層；產生預測,yes
+output shape,,輸出形狀；各維度的大小,yes
 overfitting,,過度擬合,yes
 oversampling,,過度抽樣；增加少數類樣本,yes
+pad,padded,補齊；把不同長度輸入補至所需長度,yes
 padding,,填充,yes
+page value,PageValue,頁面價值；題目定義的頁面平均經濟價值,yes
+pain points,pain point,痛點；使用者目前面對的困難,yes
 parameter counts,,參數數量,yes
 parameters,,參數,yes
+part-of,,是其一部分；組成關係,yes
 path cost,,路徑成本,yes
 pattern recognition,,模式辨識,yes
+PC scores,PC score,主成分分數；樣本投影後的新座標,yes
+perceive,perceive function,感測；接收環境輸入,yes
 perception,,感知；由輸入理解環境,yes
 perceptron,,感知器,yes
 periodic,,週期性,yes
 phase,,相位；週期中的相對位置,yes
+physics-based,,基於物理；模擬運動、接觸等物理規律,yes
 pipeline,,處理流程,yes
 planning agent,planning agents,規劃代理；找達成目標的步驟,yes
 plateau,,平臺區,yes
@@ -421,6 +472,8 @@ precision@k,,前K項精確率,yes
 predicate,predicates,謂詞；描述性質或關係,yes
 predicate logic,,謂詞邏輯,yes
 prediction,,預測,yes
+predictive maintenance,,預測性維護；依狀態資料預先安排檢修,yes
+predictor variables,predictors; predictor,預測輸入變數,yes
 premises,premise,前提；推理的依據,yes
 preprocessing,,前處理,yes
 pretext task,,前置任務；用自造目標學表徵,yes
@@ -434,8 +487,12 @@ procedural knowledge,,程序性知識；知道怎樣做,yes
 projection,PCA projection,投影；轉到選定方向的座標,yes
 prompt,,提示詞,yes
 propositional logic,,命題邏輯,yes
+pros and cons,,優缺點；好處與限制,yes
 provenance,,來源脈絡；資料從哪裡來,yes
 pruning,,剪枝,yes
+pupil,pupils,瞳孔；眼睛中央讓光進入的開口,yes
+purchase intention,purchasing intention,購買意向；是否打算完成購買,yes
+qualitative,qualitative properties,定性的；用類別或描述而非數值表達,yes
 quantifier,,量詞,yes
 quantization,quantisation,量化；把連續幅度映成有限數值,yes
 query vector,,查詢向量；用來找相關內容,yes
@@ -443,7 +500,9 @@ RAG,retrieval-augmented generation,檢索增強生成；先找資料再作答,ye
 random forests,RF; random forest,隨機森林,yes
 rank,,秩；矩陣獨立資訊的維度數,yes
 ranking,,排序,yes
+RAPD,relative afferent pupillary defect,相對傳入性瞳孔缺損；本題比較雙眼對光反應,yes
 rating prediction,,評分預測,yes
+raw data,,原始資料；未轉成有意義描述的輸入,yes
 RBF,,徑向基底函數,yes
 RDF,resource description framework,資源描述框架；以三元組表示資料,yes
 reasoning,,推理,yes
@@ -451,6 +510,7 @@ reasoning engine,,推理引擎；套用知識得結論,yes
 reasoning-system architecture,,推理系統架構,yes
 recall,,召回率,yes
 recall@k,,前K項召回率,yes
+recognize,recognise,辨識；從資料找出物件或模式,yes
 recommendation,,推薦,yes
 recommender,,推薦系統,yes
 reconstruction,,重建,yes
@@ -458,6 +518,7 @@ reconstruction error,,重建誤差；還原值與原資料的差距,yes
 recurrent neural network,recurrent neural networks,循環神經網路,yes
 recursive feature selection,,遞迴特徵選擇,yes
 redundancy,redundant,冗餘；資訊重複,yes
+referral urgency,,轉介急切程度,yes
 regression,,迴歸；預測連續數值,yes
 regularization,,正則化,yes
 regularizer,,正則項；限制模型複雜度的懲罰,yes
@@ -472,8 +533,10 @@ reranking,rerank,重新排序；再評估候選相關性,yes
 resampling,,重新取樣；改變取樣率,yes
 residual,,殘差,yes
 residual connections,,殘差連接,yes
+retention,,留存；讓使用者持續或再次使用,yes
 retrieval,,檢索,yes
 retrieve,retrieved,檢索；找出相關資料,yes
+revenue,,營收；本題欄位指是否完成購買,yes
 reward,,獎勵,yes
 RGB,,紅綠藍色彩通道,yes
 RGB-D,,彩色加深度影像,yes
@@ -482,6 +545,7 @@ RNN,,循環神經網路,yes
 ROC,,接收者操作特徵曲線,yes
 roulette wheel,,輪盤選擇,yes
 rule-based system,rule-based systems,規則式系統,yes
+ruleset,rule set,規則集；一組可使用的規則,yes
 sampling,,取樣,yes
 sampling rate,sample rate,取樣率；每秒取樣次數,yes
 schema,,知識結構,yes
@@ -499,14 +563,17 @@ sense-making,,情境理解,yes
 sensitivity,,敏感度；找出正類的比例,yes
 sensors,sensor,感測器,yes
 sequence,sequences,序列；有先後順序的資料,yes
+session,sessions,工作階段；一次連續造訪的記錄,yes
 shared layers,,共用層,yes
 sigmoid,,S形函數,yes
 signal decomposition,,訊號分解,yes
 signals,signal,訊號,yes
+clinical signs,patient signs;other patient signs,體徵；檢查或量測得到的表現,yes
 silhouette,,輪廓係數,yes
 silhouette score,,輪廓分數；比較群內緊密與群間分離,yes
 similarity,,相似度,yes
 simulated annealing,,模擬退火,yes
+simulation,simulator,模擬；先在虛擬環境測試或學習,yes
 single-modality,,單一模態,yes
 singular value decomposition,svd,奇異值分解,yes
 singular values,,奇異值,yes
@@ -521,17 +588,22 @@ soundness,,推論健全性,yes
 SPARQL,,圖譜查詢語言,yes
 sparsity,sparse,稀疏性,yes
 spatial,,空間的,yes
+spatial-domain,spatial domain,空間域；本題指原始訊號數值的分布表示,yes
 specificity,,特異度,yes
 spectral,spectrum,頻譜；各頻率成分的分布,yes
 spectrogram,,頻譜圖,yes
 speech recognition,,語音辨識,yes
 split,splitting,切分；按條件分開資料,yes
+stacking,,堆疊集成；用另一模型整合各模型預測,yes
+stakeholders,stakeholder,持份者；受系統影響或參與的人,yes
 standard deviation,,標準差；資料分散程度,yes
 standardization,Z-score scaling,標準化；減均值再除標準差,yes
 state space,,狀態空間,yes
+static look-up table,static lookup table,靜態查表；依預先列好的對應找答案,yes
 stochastic gradient descent,sgd,隨機梯度下降,yes
 stride,,步幅,yes
 structured data,,結構化資料；有固定欄位與格式,yes
+subbands,subband,子頻帶；把頻率範圍再分成小段,yes
 subject,,主體；三元組起點,yes
 successor,successors,後繼狀態；一次動作可到達的狀態,yes
 superposition,,疊加,yes
@@ -542,8 +614,10 @@ support vector machine,svm,支援向量機,yes
 support vectors,support vector,支援向量；決定分類邊界的關鍵樣本,yes
 symbolic,,符號式,yes
 symmetry,symmetric,對稱；交換方向仍相同,yes
+symptoms,symptom,症狀；患者感受到的不適,yes
 tail entity,tail,尾實體；關係終點,yes
 tanh,,雙曲正切函數,yes
+target leakage,,目標洩漏；輸入混入預測時不應知道的答案資訊,yes
 temperature,,溫度,yes
 temporal,,時間的,yes
 tensor,tensors,張量；多維數值陣列,yes
@@ -557,8 +631,10 @@ token,,詞元,yes
 top-k,top K,前K項；保留排名最高的K個,yes
 tournament selection,,競賽選擇,yes
 trade-off,tradeoff,取捨；改善一項可能犧牲另一項,yes
+trainable params,trainable parameters,可訓練參數；會在訓練中更新的數值,yes
 training,,訓練,yes
 training set,,訓練集,yes
+trajectory,trajectories,軌跡；物件隨時間移動的路徑,yes
 transaction,transactions,交易；關聯分析的一筆共同出現記錄,yes
 transfer learning,,遷移學習,yes
 transformation,transformations,變換；把資料轉成另一表示,yes
@@ -567,6 +643,7 @@ transitions,,狀態轉移,yes
 transpose,,轉置,yes
 traversal,,遍歷,yes
 tree pruning,,決策樹剪枝,yes
+triage,triaging,分流；判斷處理或轉介的急切程度,yes
 triples,triple,三元組；主體、關係、客體,yes
 true negative,TN,真負例；負類判對,yes
 true positive,TP,真正例；正類判對,yes
@@ -574,6 +651,7 @@ true positive rate,TPR,真正率；正類找出的比例,yes
 truncated,truncation,截斷；只保留部分成分,yes
 uncertainty,,不確定性,yes
 underfitting,,擬合不足,yes
+underlying factors,underlying factor,潛在因素；表面特徵背後的共同變化,yes
 undersampling,,欠抽樣；減少多數類樣本,yes
 unification,,合一,yes
 uniform-cost search,UCS,一致成本搜尋；先選累積成本最低者,yes
@@ -587,10 +665,12 @@ vanishing gradients,,梯度消失,yes
 variables,variable,變數,yes
 variance,,變異數,yes
 vector database,vector DB,向量資料庫；按向量相似度找資料,yes
+vibration,,振動；來回震動的訊號,yes
 vision-language models,,視覺語言模型,yes
 visited set,,已訪問集合；記住處理過的狀態,yes
 visual attention,,視覺注意力,yes
 voting,,投票,yes
+wavelet transformation,wavelet transform,小波轉換；分析不同尺度下的訊號變化,yes
 weak learner,weak learners,弱學習器；略優於基準的模型,yes
 weight decay,,權重衰減；限制權重持續增大,yes
 weighted vote,weighted voting,加權投票,yes

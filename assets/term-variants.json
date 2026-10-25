@@ -17,6 +17,10 @@
     "admissible"
   ],
   [
+    "aggregated",
+    "aggregate"
+  ],
+  [
     "alternating least squares",
     "als"
   ],
@@ -48,6 +52,10 @@
     "association-rule",
     "association rules",
     "association rule"
+  ],
+  [
+    "assumptions",
+    "assumption"
   ],
   [
     "asymmetric",
@@ -96,8 +104,20 @@
     "inter-cluster"
   ],
   [
+    "bins",
+    "bin"
+  ],
+  [
+    "Boolean",
+    "boolean value"
+  ],
+  [
     "bootstrap",
     "bootstrapping"
+  ],
+  [
+    "bounce rate",
+    "BounceRate"
   ],
   [
     "bounding box",
@@ -108,12 +128,20 @@
     "BFS"
   ],
   [
+    "calibration",
+    "calibrated"
+  ],
+  [
     "case base",
     "case-base"
   ],
   [
     "case-based reasoning",
     "CBR"
+  ],
+  [
+    "categorical",
+    "categorical features"
   ],
   [
     "causation",
@@ -130,6 +158,10 @@
   [
     "class",
     "classes"
+  ],
+  [
+    "clickstream",
+    "clickstream data"
   ],
   [
     "co-rated",
@@ -198,6 +230,10 @@
     "conditional probability tables"
   ],
   [
+    "cumulative explained variance",
+    "cumulative explained-variance"
+  ],
+  [
     "cycle",
     "cycles"
   ],
@@ -228,6 +264,10 @@
     "DNN"
   ],
   [
+    "demographic data",
+    "demographic"
+  ],
+  [
     "depth-first search",
     "DFS"
   ],
@@ -236,12 +276,24 @@
     "derivatives"
   ],
   [
+    "derived variable",
+    "derived variables"
+  ],
+  [
     "DFT",
     "discrete Fourier transform"
   ],
   [
+    "diagnoses",
+    "diagnosis"
+  ],
+  [
     "diarization",
     "speaker diarization"
+  ],
+  [
+    "differential diagnoses",
+    "differential diagnosis"
   ],
   [
     "discrete",
@@ -264,6 +316,10 @@
     "dot"
   ],
   [
+    "downstream",
+    "downstream model"
+  ],
+  [
     "eigenvalues",
     "eigenvalue"
   ],
@@ -284,6 +340,19 @@
   [
     "entities",
     "entity"
+  ],
+  [
+    "environmental stimuli",
+    "stimuli",
+    "stimulus"
+  ],
+  [
+    "ergonomics",
+    "ergonomic"
+  ],
+  [
+    "exit rate",
+    "ExitRate"
   ],
   [
     "expansion",
@@ -318,8 +387,16 @@
     "feasibility"
   ],
   [
+    "feature importance",
+    "variable importance"
+  ],
+  [
     "feature map",
     "feature maps"
+  ],
+  [
+    "feature vector",
+    "feature vectors"
   ],
   [
     "features",
@@ -348,6 +425,10 @@
   [
     "Fourier transformation",
     "fourier transform"
+  ],
+  [
+    "frame-based",
+    "frame-based systems"
   ],
   [
     "frames",
@@ -420,6 +501,10 @@
     "high pass"
   ],
   [
+    "histogram",
+    "histograms"
+  ],
+  [
     "holdout",
     "held-out"
   ],
@@ -461,6 +546,15 @@
     "itemsets"
   ],
   [
+    "joint angles",
+    "joint angle"
+  ],
+  [
+    "justify",
+    "justification",
+    "justifications"
+  ],
+  [
     "K-nearest neighbours",
     "k-nearest neighbors",
     "KNN"
@@ -487,6 +581,10 @@
     "leaves"
   ],
   [
+    "lean model",
+    "lean deep learning model"
+  ],
+  [
     "least constraining value",
     "lcv"
   ],
@@ -497,6 +595,10 @@
   [
     "linear discriminant analysis",
     "LDA"
+  ],
+  [
+    "loadings",
+    "loading"
   ],
   [
     "logit",
@@ -519,6 +621,10 @@
   [
     "MAE",
     "mean absolute error"
+  ],
+  [
+    "mask",
+    "masks"
   ],
   [
     "masking",
@@ -580,6 +686,10 @@
     "non-linear"
   ],
   [
+    "numerical",
+    "numeric"
+  ],
+  [
     "Nyquist theorem",
     "Nyquist-Shannon"
   ],
@@ -600,8 +710,32 @@
     "optimiser"
   ],
   [
+    "orientation",
+    "orientations"
+  ],
+  [
     "out-of-bag",
     "OOB"
+  ],
+  [
+    "pad",
+    "padded"
+  ],
+  [
+    "page value",
+    "PageValue"
+  ],
+  [
+    "pain points",
+    "pain point"
+  ],
+  [
+    "PC scores",
+    "PC score"
+  ],
+  [
+    "perceive",
+    "perceive function"
   ],
   [
     "planning agent",
@@ -620,6 +754,11 @@
     "predicates"
   ],
   [
+    "predictor variables",
+    "predictors",
+    "predictor"
+  ],
+  [
     "premises",
     "premise"
   ],
@@ -636,6 +775,18 @@
     "PCA projection"
   ],
   [
+    "pupil",
+    "pupils"
+  ],
+  [
+    "purchase intention",
+    "purchasing intention"
+  ],
+  [
+    "qualitative",
+    "qualitative properties"
+  ],
+  [
     "quantization",
     "quantisation"
   ],
@@ -649,8 +800,16 @@
     "random forest"
   ],
   [
+    "RAPD",
+    "relative afferent pupillary defect"
+  ],
+  [
     "RDF",
     "resource description framework"
+  ],
+  [
+    "recognize",
+    "recognise"
   ],
   [
     "recurrent neural network",
@@ -689,6 +848,10 @@
     "rule-based systems"
   ],
   [
+    "ruleset",
+    "rule set"
+  ],
+  [
     "sampling rate",
     "sample rate"
   ],
@@ -714,8 +877,21 @@
     "sequences"
   ],
   [
+    "session",
+    "sessions"
+  ],
+  [
     "signals",
     "signal"
+  ],
+  [
+    "clinical signs",
+    "patient signs",
+    "other patient signs"
+  ],
+  [
+    "simulation",
+    "simulator"
   ],
   [
     "singular value decomposition",
@@ -738,6 +914,10 @@
     "sparse"
   ],
   [
+    "spatial-domain",
+    "spatial domain"
+  ],
+  [
     "spectral",
     "spectrum"
   ],
@@ -746,12 +926,24 @@
     "splitting"
   ],
   [
+    "stakeholders",
+    "stakeholder"
+  ],
+  [
     "standardization",
     "Z-score scaling"
   ],
   [
+    "static look-up table",
+    "static lookup table"
+  ],
+  [
     "stochastic gradient descent",
     "sgd"
+  ],
+  [
+    "subbands",
+    "subband"
   ],
   [
     "successor",
@@ -774,6 +966,10 @@
     "symmetric"
   ],
   [
+    "symptoms",
+    "symptom"
+  ],
+  [
     "tail entity",
     "tail"
   ],
@@ -794,12 +990,24 @@
     "tradeoff"
   ],
   [
+    "trainable params",
+    "trainable parameters"
+  ],
+  [
+    "trajectory",
+    "trajectories"
+  ],
+  [
     "transaction",
     "transactions"
   ],
   [
     "transformation",
     "transformations"
+  ],
+  [
+    "triage",
+    "triaging"
   ],
   [
     "triples",
@@ -822,6 +1030,10 @@
     "truncation"
   ],
   [
+    "underlying factors",
+    "underlying factor"
+  ],
+  [
     "uniform-cost search",
     "UCS"
   ],
@@ -836,6 +1048,10 @@
   [
     "vector database",
     "vector DB"
+  ],
+  [
+    "wavelet transformation",
+    "wavelet transform"
   ],
   [
     "weak learner",
