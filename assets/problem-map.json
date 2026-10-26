@@ -258,7 +258,7 @@
     "id": "diagnostic-reasoning",
     "group": "Language & knowledge",
     "cue": "Observed symptoms, possible cause, similar previous case",
-    "method": "Abduction / Bayesian reasoning / case-based reasoning",
+    "method": "Abduction / Probabilistic Reasoning: Bayesian Inference / case-based reasoning",
     "condition": "Abduction proposes an explanation; Bayes ranks uncertain causes with evidence; case-based reasoning reuses and adapts a similar solved case.",
     "flow": "State the evidence → list candidate explanations → use the requested evidence model or retrieve/adapt a case → verify.",
     "change": "An explanation is not proven merely because it fits. Check alternatives, prior assumptions and whether the old case transfers.",
@@ -288,7 +288,7 @@
       },
       {
         "id": "c016",
-        "title": "Bayesian reasoning",
+        "title": "Probabilistic Reasoning: Bayesian Inference",
         "href": "concepts/c016.html#c016"
       }
     ]
@@ -1500,7 +1500,7 @@
       },
       {
         "id": "c016",
-        "title": "Bayesian reasoning",
+        "title": "Probabilistic Reasoning: Bayesian Inference",
         "href": "concepts/c016.html#c016"
       }
     ]

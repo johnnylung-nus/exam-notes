@@ -56,7 +56,7 @@ batch size,,批次大小；每次更新用的樣本數,,,yes
 Bayes' theorem,Bayes theorem; Bayes’ theorem,貝氏定理；用證據更新機率,,,yes
 Bayesian network,BN; Bayesian networks,貝氏網路；機率依賴關係圖,BN,Bayesian Network,yes
 Bayesian personalized ranking,BPR,貝氏個人化排序,BPR,Bayesian Personalized Ranking,yes
-Bayesian reasoning,,貝氏推理,,,yes
+Probabilistic Reasoning: Bayesian Inference,Bayesian inference,機率推理：貝氏推論,,,yes
 beam search,,束搜尋,,,yes
 benchmark,,比較基準；共同測試標準,,,yes
 between-cluster,inter-cluster,群間；不同群之間的關係,,,yes
