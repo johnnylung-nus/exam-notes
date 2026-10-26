@@ -1,5 +1,27 @@
 [
   {
+    "id": "bayesian-network",
+    "group": "Language & knowledge",
+    "cue": "Bayesian network, DAG, CPT, multiple dependent uncertain variables, priors, evidence, alarm/burglary",
+    "method": "Bayesian Networks — directed graph + conditional probability tables",
+    "condition": "Need a probabilistic model with dependencies between several variables; the structure and local probabilities must be specified.",
+    "flow": "Define variables/states → justify parent links → root priors and child CPTs → identify query/evidence → multiply factors, sum hidden states and normalize.",
+    "change": "A graph without CPTs is incomplete. Do not reverse a conditional probability or impose Naive Bayes independence unless justified.",
+    "ids": [
+      "extra-bayesian-network"
+    ],
+    "aliases": "BN belief network conditional independence burglary earthquake alarm John Mary posterior",
+    "tasks": "choose design calculate",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "extra-bayesian-network",
+        "title": "Bayesian Networks",
+        "href": "concepts/extra-bayesian-network.html#extra-bayesian-network"
+      }
+    ]
+  },
+  {
     "id": "semantic-drawing",
     "group": "Language & knowledge",
     "cue": "Semantic network reasoning: inheritance, graph traversal, shared properties, specific exceptions, follow relationships",

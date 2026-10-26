@@ -1719,6 +1719,16 @@
       "tables": 1,
       "calculation": false,
       "references": true
+    },
+    {
+      "id": "extra-bayesian-network",
+      "page": "concepts/extra-bayesian-network.html",
+      "title": "Bayesian Networks",
+      "words": 24896,
+      "svgs": 0,
+      "tables": 4,
+      "calculation": true,
+      "references": true
     }
   ],
   "count": 167,

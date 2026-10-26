@@ -170,5 +170,6 @@
   "extra-constraint-representation": "concepts/extra-constraint-representation.html#extra-constraint-representation",
   "extra-probabilistic-representation": "concepts/extra-probabilistic-representation.html#extra-probabilistic-representation",
   "extra-case-representation": "concepts/extra-case-representation.html#extra-case-representation",
-  "extra-vector-representation": "concepts/extra-vector-representation.html#extra-vector-representation"
+  "extra-vector-representation": "concepts/extra-vector-representation.html#extra-vector-representation",
+  "extra-bayesian-network": "concepts/extra-bayesian-network.html#extra-bayesian-network"
 }

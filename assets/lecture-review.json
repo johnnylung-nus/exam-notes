@@ -290,6 +290,26 @@
                 67
               ],
               "note": ""
+            },
+            {
+              "conceptId": "extra-bayesian-network",
+              "pages": [
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84
+              ],
+              "note": "Original network, CPTs, joint probability, Bayesian inference and Naive Bayes comparison."
             }
           ]
         },
@@ -3654,6 +3674,14 @@
       "quizCount": 0,
       "quizScope": "lecture",
       "quizGap": "Use the linked method’s knowledge check.",
+      "quizNote": ""
+    },
+    "extra-bayesian-network": {
+      "title": "Bayesian Networks",
+      "url": "concepts/extra-bayesian-network.html#extra-bayesian-network",
+      "quizCount": 0,
+      "quizScope": "lecture",
+      "quizGap": "Dedicated network explanation and worked lecture inference.",
       "quizNote": ""
     }
   },

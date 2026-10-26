@@ -267,3 +267,8 @@ Use the exact heading **Used Cases:** on knowledge-representation pages. Do not 
 ## Complete representation sequence — 26 October 2026
 
 MR Day 2 must explicitly include Constraint-Based Representation (PDF p.54), Probabilistic Representation (p.55), Case-Based Representation (p.56), and Vector / Embedding Representation (p.57) AFTER Ontologies and BEFORE Knowledge Graphs (p.58). Each now has its own representation page with original lecture image, format, meanings and Used Cases. These describe knowledge representation; the linked CSP/backtracking, Bayesian inference and case-based reasoning pages explain the associated procedures. Their representation-format and Used Cases content was moved to the canonical representation pages rather than rewritten in multiple places; old anchors link onward. Maintain the complete lecture order and Previous/Next links across this sequence.
+
+
+## Bayesian Networks restored — 26 October 2026
+
+Bayesian Networks is a substantive MR Day 2 lecture topic, PDF pp.71–84; it must not be omitted or treated as only a mention under Bayesian inference/probabilistic representation. Canonical page: concepts/extra-bayesian-network.html. Includes original p.72 network/CPT slide, DAG/CPT concepts, root priors, false complements, joint factorization, the burglary-given-JohnCalls calculation, distinction from Naive Bayes, design/learning and scenario use. Full calculation from given CPTs gives about1.63%; the lecture displayed intermediate approximations give about1.62%. Preserve and explain this rounding distinction. Day2 order places it after the p.67 decision-tree topic, following the source order. Do not describe the comparison to medical designs as a compulsory exam solution; use the actual question requirements.
