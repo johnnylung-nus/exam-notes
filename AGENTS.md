@@ -213,3 +213,8 @@ Mentioning AUC or warning it is not profit is not enough. c140 must define ROC a
 ## Editorial cleanup applied — 26 October 2026
 
 Do not merely acknowledge requests to improve exam notes: make concrete edits. Repeated additions had bloated ROC/AUC and Naive Bayes. Removed repeated generic choice/design/model-answer sections and duplicate arithmetic while retaining the core explanation, symbolic formula/definitions, one full worked example, important limitations and exact source references. Contents navigation is regenerated from retained sections, with legacy anchor targets preserved. Semantic Networks, Frames, Ontologies and Bayesian Networks were checked for their distinct core teaching order; do not add a common boilerplate template back to make pages look uniform. Further edits should replace or consolidate an existing explanation where possible instead of appending another summary of the same idea.
+
+
+## Avoid repeated Day 2/3 review entries — 26 October 2026
+
+MR Day3 starts with a recap of Knowledge Graph structure (c021, PDF pp.8,10) and Ontologies (c020,p.10), already studied in Day2. Remove those two duplicate checklist rows from Day3; retain their source locations as recapReferences metadata. Day3 review starts at KG traversal and multi-hop queries, then TransE, TransR, DistMult and neural graph embeddings. Preserve the existing single concept pages and saved Reviewed state. Do not present a recap as another new topic to study/print.

@@ -327,21 +327,6 @@
           "pageCount": 121,
           "entries": [
             {
-              "conceptId": "c021",
-              "pages": [
-                8,
-                10
-              ],
-              "note": ""
-            },
-            {
-              "conceptId": "c020",
-              "pages": [
-                10
-              ],
-              "note": ""
-            },
-            {
               "conceptId": "c022",
               "pages": [
                 19,
@@ -407,6 +392,23 @@
                 78,
                 79,
                 80
+              ],
+              "note": ""
+            }
+          ],
+          "recapReferences": [
+            {
+              "conceptId": "c021",
+              "pages": [
+                8,
+                10
+              ],
+              "note": ""
+            },
+            {
+              "conceptId": "c020",
+              "pages": [
+                10
               ],
               "note": ""
             }
