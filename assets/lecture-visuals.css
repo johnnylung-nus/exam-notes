@@ -11,3 +11,5 @@
 
 
 .lecture-original img{max-width:100%;height:auto}.lecture-original{break-inside:avoid}@media print{.lecture-original img{width:auto!important;max-width:100%!important;max-height:70mm;object-fit:contain}.additional-practice[data-screen-only]{display:none!important}}
+
+.representation-code{font-family:"Cascadia Mono",Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere;background:#f2eee5;padding:10px;border-left:3px solid #167566;font-size:13px;line-height:1.5}.representation-format{break-inside:avoid}@media print{.representation-code{font-size:8pt;line-height:1.3;padding:2mm}.representation-format{break-inside:auto}}

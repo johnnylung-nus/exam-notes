@@ -232,3 +232,8 @@ Checked original 5001 sample: Q1(c) requests frame schema, Q2(c–d) request arc
 ## Example placement — 26 October 2026
 
 Keep Canary/Bird/Animal with Ontologies c020 for the user’s revision. Semantic Networks c018 uses the lecturer’s original Mary/John/Persons/Mammals diagram and matching worked discussion. Do not mix the Canary example back into that page. The source comparison slide shows several representations; do not imply subclass hierarchies are theoretically exclusive to ontologies.
+
+
+## Knowledge representation: examinable output formats — 26 October 2026
+
+For every knowledge-representation form, include the format the student must DRAW or WRITE, not merely its definition or suitability. The overview now links ten format sections: logic/predicates and symbols; IF–THEN rules; semantic-network nodes/labelled edges; frame records/slots/fillers/inheritance; ontology classes/properties/axioms; CSP variables/domains/constraints; probabilistic nodes/dependencies/conditional probabilities; case records; vector representations; and knowledge-graph triples. Each has a concrete lecture-linked structure, symbol definitions and short exam-production instructions. Original lecture slides are included at the existing detail pages, with exact PDF/printed-slide references. Preserve what the slide actually supplies; mark any instantiation, extra field or missing numerical table rather than inventing lecture facts. Vector representation is explained in the overview rather than incorrectly linked as if neural graph embeddings were its complete explanation.
