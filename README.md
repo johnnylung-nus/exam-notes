@@ -278,3 +278,8 @@ The website's value is extracting the IMPORTANT CONCEPTS from lecture material, 
 ## Explain ROC AUC explicitly — 26 October 2026
 
 Mentioning AUC or warning it is not profit is not enough. c140 must define ROC axes and threshold sweep, area under the curve, positive-versus-negative pairwise ranking (ties half), interpretation of1/0.5 and a numerical example; distinguish ranking from accuracy and probability calibration. Original reference is MR Day2 PDF p.90 / printed91, now included in lecture order. The tiny pairwise example is explicitly original teaching data.
+
+
+## Editorial cleanup applied — 26 October 2026
+
+Do not merely acknowledge requests to improve exam notes: make concrete edits. Repeated additions had bloated ROC/AUC and Naive Bayes. Removed repeated generic choice/design/model-answer sections and duplicate arithmetic while retaining the core explanation, symbolic formula/definitions, one full worked example, important limitations and exact source references. Contents navigation is regenerated from retained sections, with legacy anchor targets preserved. Semantic Networks, Frames, Ontologies and Bayesian Networks were checked for their distinct core teaching order; do not add a common boilerplate template back to make pages look uniform. Further edits should replace or consolidate an existing explanation where possible instead of appending another summary of the same idea.
