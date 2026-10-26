@@ -9,3 +9,5 @@
 /* Native MathML: selectable, offline, compact, and printable. */
 .typeset-formula{white-space:normal;overflow-x:auto;overflow-wrap:normal;font-size:22px;padding:10px 4px}.typeset-formula math{font-family:"Cambria Math","STIX Two Math",serif;font-size:1em;min-width:max-content;margin:0 auto}.formula-key dt{font-family:"Cambria Math",system-ui,serif}.formula-usage{font-size:12px;margin:7px 0;padding:7px 9px;background:#f0ede4;border-left:2px solid #a48c56}.bayes-labels{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:12px;margin:8px 0}.bayes-labels b{color:#315b91}@media(max-width:600px){.typeset-formula{font-size:19px}.formula-key{grid-template-columns:minmax(65px,auto) 1fr}}@media print{.typeset-formula{font-size:11pt!important;overflow:visible;break-inside:avoid}.typeset-formula math{font-size:1em;min-width:0}.formula-usage{font-size:7.5pt}.bayes-labels{font-size:7.5pt}}
 
+
+.lecture-original img{max-width:100%;height:auto}.lecture-original{break-inside:avoid}@media print{.lecture-original img{width:auto!important;max-width:100%!important;max-height:70mm;object-fit:contain}.additional-practice[data-screen-only]{display:none!important}}

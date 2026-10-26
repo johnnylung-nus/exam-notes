@@ -1,0 +1,674 @@
+{
+  "imported_clues": 88,
+  "sources": [
+    "5001_CHEATSHEET.md",
+    "5002_CHEATSHEET.md",
+    "5002_CONCEPT_REFERENCE.md"
+  ],
+  "mappings": [
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Expert IF–THEN decisions",
+      "ids": [
+        "c012",
+        "c013",
+        "c029"
+      ]
+    },
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Objects with properties / defaults",
+      "ids": [
+        "c019"
+      ]
+    },
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Find path / plan moves",
+      "ids": [
+        "c001",
+        "c002",
+        "c003",
+        "c004",
+        "c005"
+      ]
+    },
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Assign values under constraints",
+      "ids": [
+        "extra-csp"
+      ]
+    },
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Evidence changes probabilities",
+      "ids": [
+        "c016"
+      ]
+    },
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Independent feature classifier",
+      "ids": [
+        "c144"
+      ]
+    },
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Hidden state over time",
+      "ids": [
+        "extra-hmm"
+      ]
+    },
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Reuse similar solved cases",
+      "ids": [
+        "c015"
+      ]
+    },
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Entity relationships / graph queries",
+      "ids": [
+        "c021",
+        "c022"
+      ]
+    },
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Predict missing graph links",
+      "ids": [
+        "c023",
+        "c024",
+        "c025"
+      ]
+    },
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Learn from graph neighbours",
+      "ids": [
+        "c026"
+      ]
+    },
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Items occur together / baskets",
+      "ids": [
+        "c034",
+        "c035",
+        "c036"
+      ]
+    },
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Recommend from item descriptions",
+      "ids": [
+        "c037"
+      ]
+    },
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Similar users / items",
+      "ids": [
+        "c038",
+        "c039"
+      ]
+    },
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Sparse ratings latent factors",
+      "ids": [
+        "c043"
+      ]
+    },
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Search candidate solutions / optimise",
+      "ids": [
+        "c055",
+        "c056",
+        "c057"
+      ]
+    },
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Intent and parameters from text",
+      "ids": [
+        "c061",
+        "c060"
+      ]
+    },
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Retrieve approved answer",
+      "ids": [
+        "c062"
+      ]
+    },
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Retrieve evidence then generate",
+      "ids": [
+        "c032"
+      ]
+    },
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Sense →reason →act",
+      "ids": [
+        "c064",
+        "c033"
+      ]
+    },
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Build knowledge: experts versus data",
+      "ids": [
+        "extra-knowledge-acquisition"
+      ]
+    },
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Retrieve then rank recommendations",
+      "ids": [
+        "c051"
+      ]
+    },
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Probability rule versus independent-feature classifier",
+      "ids": [
+        "c144"
+      ]
+    },
+    {
+      "source": "5001_CHEATSHEET.md",
+      "cue": "Rule conditions and inferred result / LHS–RHS",
+      "ids": [
+        "c034",
+        "c035",
+        "c036"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Labelled table; explainable rules",
+      "ids": [
+        "c028",
+        "c146"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Similar labelled cases",
+      "ids": [
+        "c143"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Independent feature classifier",
+      "ids": [
+        "c144"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Maximum-margin classification",
+      "ids": [
+        "extra-svm"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Numeric target",
+      "ids": [
+        "c142"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Binary probability",
+      "ids": [
+        "c142"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Reduce tree instability",
+      "ids": [
+        "c129"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Many diverse trees",
+      "ids": [
+        "c130"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Sequentially emphasise errors",
+      "ids": [
+        "c131"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Combine model predictions",
+      "ids": [
+        "c128"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Reduce dimensions / variance",
+      "ids": [
+        "c152",
+        "c153"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Reduce dimensions using labels",
+      "ids": [
+        "c150"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Find groups without labels",
+      "ids": [
+        "c156"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Nested groups",
+      "ids": [
+        "c158"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Irregular groups / noise",
+      "ids": [
+        "c154",
+        "c159"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "General nonlinear prediction",
+      "ids": [
+        "c107"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Image spatial patterns",
+      "ids": [
+        "c112",
+        "c114",
+        "c163"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Reuse trained image network",
+      "ids": [
+        "c124",
+        "c125"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Ordered data / sequence",
+      "ids": [
+        "c117",
+        "c118"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Longer sequence memory",
+      "ids": [
+        "c118"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Sequence with gates",
+      "ids": [
+        "c118"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Attention across sequence",
+      "ids": [
+        "c126",
+        "c127"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Map neighbourhoods visually",
+      "ids": [
+        "c111"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Reconstruction / anomaly",
+      "ids": [
+        "c095",
+        "c098"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Soft clusters",
+      "ids": [
+        "c091"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Align sequences at different speeds",
+      "ids": [
+        "c102"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Frequency content",
+      "ids": [
+        "c088",
+        "c089"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Multiple data types",
+      "ids": [
+        "c101",
+        "c102"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Actions and rewards",
+      "ids": [
+        "c162"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Generate synthetic samples",
+      "ids": [
+        "c161"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Remove weak input columns",
+      "ids": [
+        "c150",
+        "c151"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Learn plus fuzzy rules",
+      "ids": [
+        "c133"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Robot sorting architecture / hardware and reward feedback",
+      "ids": [
+        "c162"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Lecture perception–grasp–throw diagram",
+      "ids": [
+        "c162"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Lecture FIFA deep-RL loop",
+      "ids": [
+        "c162"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Cross-entropy loss / confidence versus accuracy",
+      "ids": [
+        "c107"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Binary versus categorical cross-entropy / lecture formula",
+      "ids": [
+        "c107"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "DNN layer purposes / zero-parameter layers",
+      "ids": [
+        "c107"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Dense weights +biases / parameter formula",
+      "ids": [
+        "c107"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Embedding /sequence /fusion layer purposes",
+      "ids": [
+        "c107"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Conv2D kernel parameters / output shape",
+      "ids": [
+        "c112",
+        "c114",
+        "c163"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Whole-network parameter total / reduction",
+      "ids": [
+        "c112",
+        "c114",
+        "c163"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "PCA numeric PC scores →classifier input",
+      "ids": [
+        "c152",
+        "c153"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "PCA familiar loan-factor slide / lecture p52",
+      "ids": [
+        "c152",
+        "c153"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "PCA loading plot / lecture p53",
+      "ids": [
+        "c152",
+        "c153"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "PCA Kaiser, variance, scree / lecture pp54–58",
+      "ids": [
+        "c152",
+        "c153"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "PCA communality / lecture p59",
+      "ids": [
+        "c152",
+        "c153"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Distance-based hidden units / Gaussian responses",
+      "ids": [
+        "c109"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Normalised weighted numeric prediction",
+      "ids": [
+        "c110"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Case weights versus learner weights",
+      "ids": [
+        "c131"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Interpret PC loadings / choose variance threshold",
+      "ids": [
+        "c152",
+        "c153"
+      ]
+    },
+    {
+      "source": "5002_CHEATSHEET.md",
+      "cue": "Image brand/type/value heads",
+      "ids": [
+        "c112",
+        "c114",
+        "c163"
+      ]
+    },
+    {
+      "source": "5002_CONCEPT_REFERENCE.md",
+      "cue": "Interpret a decision tree / common characteristics",
+      "ids": [
+        "c028",
+        "c146"
+      ]
+    },
+    {
+      "source": "5002_CONCEPT_REFERENCE.md",
+      "cue": "Compare classifiers for a business objective",
+      "ids": [
+        "c139",
+        "extra-svm"
+      ]
+    },
+    {
+      "source": "5002_CONCEPT_REFERENCE.md",
+      "cue": "Compare feature importance",
+      "ids": [
+        "c130",
+        "c131"
+      ]
+    },
+    {
+      "source": "5002_CONCEPT_REFERENCE.md",
+      "cue": "Use importance for further modelling",
+      "ids": [
+        "c150",
+        "c151"
+      ]
+    },
+    {
+      "source": "5002_CONCEPT_REFERENCE.md",
+      "cue": "Design a sequence predictor",
+      "ids": [
+        "c118"
+      ]
+    },
+    {
+      "source": "5002_CONCEPT_REFERENCE.md",
+      "cue": "How does sequence model output probability?",
+      "ids": [
+        "c118"
+      ]
+    },
+    {
+      "source": "5002_CONCEPT_REFERENCE.md",
+      "cue": "Describe training data / preprocessing",
+      "ids": [
+        "c136",
+        "c137"
+      ]
+    },
+    {
+      "source": "5002_CONCEPT_REFERENCE.md",
+      "cue": "Choose/interpret PCA components",
+      "ids": [
+        "c152",
+        "c153"
+      ]
+    },
+    {
+      "source": "5002_CONCEPT_REFERENCE.md",
+      "cue": "Design/critique CNN",
+      "ids": [
+        "c163"
+      ]
+    },
+    {
+      "source": "5002_CONCEPT_REFERENCE.md",
+      "cue": "Recommend an approach for rare anomalies",
+      "ids": [
+        "c098"
+      ]
+    },
+    {
+      "source": "5002_CONCEPT_REFERENCE.md",
+      "cue": "Propose reward-driven action learning",
+      "ids": [
+        "c162"
+      ]
+    },
+    {
+      "source": "5002_CONCEPT_REFERENCE.md",
+      "cue": "Calculate Naive Bayes",
+      "ids": [
+        "c144"
+      ]
+    }
+  ]
+}

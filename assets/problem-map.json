@@ -1,5 +1,45 @@
 [
   {
+    "id": "semantic-drawing",
+    "group": "Language & knowledge",
+    "cue": "Draw entities and relationships: nodes, labelled links, MemberOf, SubsetOf, is-a, inheritance",
+    "method": "Semantic network / knowledge graph; distinguish frame schema and architecture requests",
+    "condition": "Use a network for entity/class relationships; a question explicitly asking for frames requires frames and slots.",
+    "flow": "Extract entities/classes → draw nodes → label directed relations → add properties → test one inference and any exception.",
+    "change": "MemberOf is individual-to-class; SubsetOf is class-to-class. Do not reverse a relation or confuse is-a with part-of.",
+    "ids": [
+      "c018",
+      "c019",
+      "extra-knowledge-representation"
+    ],
+    "aliases": "semantic graph diagram drawing knowledge representation schema inheritance membership",
+    "tasks": "draw design compare",
+    "papers": [
+      "5001 Q1(c): frames, not a semantic-network requirement"
+    ],
+    "revisionSources": [
+      "5001_SAMPLE_QA.md",
+      "Practice_Papers/5001_PRACTICE_B.md (generated practice)"
+    ],
+    "concepts": [
+      {
+        "id": "c018",
+        "title": "Semantic networks",
+        "href": "concepts/c018.html#c018"
+      },
+      {
+        "id": "c019",
+        "title": "Frames",
+        "href": "concepts/c019.html#c019"
+      },
+      {
+        "id": "extra-knowledge-representation",
+        "title": "Forms of Knowledge Representation",
+        "href": "concepts/extra-knowledge-representation.html#extra-knowledge-representation"
+      }
+    ]
+  },
+  {
     "id": "knowledge-forms",
     "group": "Language & knowledge",
     "cue": "Choose a knowledge representation: facts, rules, slots, inheritance, uncertainty, past cases, vectors or linked entities",
@@ -35,7 +75,7 @@
     "ids": [
       "extra-csp"
     ],
-    "aliases": "csp constraint satisfaction variable domain constraints hard soft backtracking backtrack map colouring coloring n queens timetable scheduling allocation MRV",
+    "aliases": "csp constraint satisfaction variable domain constraints hard soft backtracking backtrack map colouring coloring n queens timetable scheduling allocation MRV Assign values under constraints",
     "tasks": "choose design modify evaluate data",
     "papers": [],
     "concepts": [
@@ -44,6 +84,12 @@
         "title": "CSP: variables, domains, constraints and backtracking",
         "href": "concepts/extra-csp.html#extra-csp"
       }
+    ],
+    "revisionClues": [
+      "Assign values under constraints"
+    ],
+    "revisionSources": [
+      "5001_CHEATSHEET.md"
     ]
   },
   {
@@ -637,7 +683,7 @@
       "c056",
       "c057"
     ],
-    "aliases": "ga genetic algorithm chromosome roulette tournament crossover mutation fitness optimisation optimization",
+    "aliases": "ga genetic algorithm chromosome roulette tournament crossover mutation fitness optimisation optimization Search candidate solutions / optimise",
     "tasks": "choose design modify evaluate data",
     "papers": [],
     "concepts": [
@@ -656,6 +702,12 @@
         "title": "GA crossover and mutation",
         "href": "concepts/c057.html#c057"
       }
+    ],
+    "revisionClues": [
+      "Search candidate solutions / optimise"
+    ],
+    "revisionSources": [
+      "5001_CHEATSHEET.md"
     ]
   },
   {
@@ -671,7 +723,7 @@
       "c035",
       "c036"
     ],
-    "aliases": "market basket support confidence lift association co occurrence temporal",
+    "aliases": "market basket support confidence lift association co occurrence temporal Items occur together / baskets Rule conditions and inferred result / LHS–RHS",
     "tasks": "choose design modify evaluate data",
     "papers": [
       {
@@ -699,6 +751,14 @@
         "title": "Association-rule confidence and lift",
         "href": "concepts/c036.html#c036"
       }
+    ],
+    "revisionClues": [
+      "Items occur together / baskets",
+      "Rule conditions and inferred result / LHS–RHS"
+    ],
+    "revisionSources": [
+      "5001_CHEATSHEET.md",
+      "5001_CHEATSHEET.md"
     ]
   },
   {
@@ -1693,7 +1753,7 @@
       "c152",
       "c153"
     ],
-    "aliases": "pca svd eigenvalue eigenvector loading score variance dimensionality reduction correlated",
+    "aliases": "pca svd eigenvalue eigenvector loading score variance dimensionality reduction correlated Reduce dimensions / variance PCA numeric PC scores →classifier input PCA familiar loan-factor slide / lecture p52 PCA loading plot / lecture p53 PCA Kaiser, variance, scree / lecture pp54–58 PCA communality / lecture p59 Interpret PC loadings / choose variance threshold",
     "tasks": "choose design modify evaluate data",
     "papers": [
       {
@@ -1716,6 +1776,24 @@
         "title": "Eigenvalues / eigenvectors and SVD",
         "href": "concepts/c153.html#c153"
       }
+    ],
+    "revisionClues": [
+      "Reduce dimensions / variance",
+      "PCA numeric PC scores →classifier input",
+      "PCA familiar loan-factor slide / lecture p52",
+      "PCA loading plot / lecture p53",
+      "PCA Kaiser, variance, scree / lecture pp54–58",
+      "PCA communality / lecture p59",
+      "Interpret PC loadings / choose variance threshold"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md",
+      "5002_CHEATSHEET.md",
+      "5002_CHEATSHEET.md",
+      "5002_CHEATSHEET.md",
+      "5002_CHEATSHEET.md",
+      "5002_CHEATSHEET.md",
+      "5002_CHEATSHEET.md"
     ]
   },
   {
@@ -1775,7 +1853,7 @@
     "ids": [
       "c111"
     ],
-    "aliases": "som self organizing map kohonen topology customer grid",
+    "aliases": "som self organizing map kohonen topology customer grid Map neighbourhoods visually",
     "tasks": "choose design modify evaluate data",
     "papers": [],
     "concepts": [
@@ -1784,6 +1862,12 @@
         "title": "Self-organizing maps",
         "href": "concepts/c111.html#c111"
       }
+    ],
+    "revisionClues": [
+      "Map neighbourhoods visually"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
     ]
   },
   {
@@ -1931,7 +2015,7 @@
       "c126",
       "c127"
     ],
-    "aliases": "transformer attention q k v query key value positional encoding multi head",
+    "aliases": "transformer attention q k v query key value positional encoding multi head Attention across sequence",
     "tasks": "choose design modify evaluate data",
     "papers": [],
     "concepts": [
@@ -1945,6 +2029,12 @@
         "title": "Self-attention and multi-head attention",
         "href": "concepts/c127.html#c127"
       }
+    ],
+    "revisionClues": [
+      "Attention across sequence"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
     ]
   },
   {
@@ -2237,7 +2327,7 @@
     "ids": [
       "c133"
     ],
-    "aliases": "mixture experts moe gating neuro fuzzy membership regimes",
+    "aliases": "mixture experts moe gating neuro fuzzy membership regimes Learn plus fuzzy rules",
     "tasks": "choose design modify evaluate data",
     "papers": [],
     "concepts": [
@@ -2246,6 +2336,12 @@
         "title": "Mixture of experts / neuro-fuzzy systems",
         "href": "concepts/c133.html#c133"
       }
+    ],
+    "revisionClues": [
+      "Learn plus fuzzy rules"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
     ]
   },
   {
@@ -2285,6 +2381,1794 @@
         "id": "c026",
         "title": "Neural knowledge graph embeddings",
         "href": "concepts/c026.html#c026"
+      }
+    ]
+  },
+  {
+    "id": "revision-5001-1",
+    "group": "Revision question clues",
+    "cue": "Expert IF–THEN decisions",
+    "method": "Forward chaining; Backward chaining; Reasoning-system architecture",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c012",
+      "c013",
+      "c029"
+    ],
+    "aliases": " Expert IF–THEN decisions",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c012",
+        "title": "Forward chaining",
+        "href": "concepts/c012.html#c012"
+      },
+      {
+        "id": "c013",
+        "title": "Backward chaining",
+        "href": "concepts/c013.html#c013"
+      },
+      {
+        "id": "c029",
+        "title": "Reasoning-system architecture",
+        "href": "concepts/c029.html#c029"
+      }
+    ],
+    "revisionClues": [
+      "Expert IF–THEN decisions"
+    ],
+    "revisionSources": [
+      "5001_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5001-2",
+    "group": "Revision question clues",
+    "cue": "Objects with properties / defaults",
+    "method": "Frames",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c019"
+    ],
+    "aliases": " Objects with properties / defaults",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c019",
+        "title": "Frames",
+        "href": "concepts/c019.html#c019"
+      }
+    ],
+    "revisionClues": [
+      "Objects with properties / defaults"
+    ],
+    "revisionSources": [
+      "5001_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5001-3",
+    "group": "Revision question clues",
+    "cue": "Find path / plan moves",
+    "method": "Search problem formulation; Breadth-first search; Depth-first search; Uniform-cost search / Dijkstra; A* search",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c001",
+      "c002",
+      "c003",
+      "c004",
+      "c005"
+    ],
+    "aliases": " Find path / plan moves",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c001",
+        "title": "Search problem formulation",
+        "href": "concepts/c001.html#c001"
+      },
+      {
+        "id": "c002",
+        "title": "Breadth-first search",
+        "href": "concepts/c002.html#c002"
+      },
+      {
+        "id": "c003",
+        "title": "Depth-first search",
+        "href": "concepts/c003.html#c003"
+      },
+      {
+        "id": "c004",
+        "title": "Uniform-cost search / Dijkstra",
+        "href": "concepts/c004.html#c004"
+      },
+      {
+        "id": "c005",
+        "title": "A* search",
+        "href": "concepts/c005.html#c005"
+      }
+    ],
+    "revisionClues": [
+      "Find path / plan moves"
+    ],
+    "revisionSources": [
+      "5001_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5001-5",
+    "group": "Revision question clues",
+    "cue": "Evidence changes probabilities",
+    "method": "Probabilistic Reasoning: Bayesian Inference",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c016"
+    ],
+    "aliases": " Evidence changes probabilities",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c016",
+        "title": "Probabilistic Reasoning: Bayesian Inference",
+        "href": "concepts/c016.html#c016"
+      }
+    ],
+    "revisionClues": [
+      "Evidence changes probabilities"
+    ],
+    "revisionSources": [
+      "5001_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5001-6",
+    "group": "Revision question clues",
+    "cue": "Independent feature classifier",
+    "method": "Naive Bayes and conditional independence",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c144"
+    ],
+    "aliases": " Independent feature classifier Probability rule versus independent-feature classifier Independent feature classifier",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c144",
+        "title": "Naive Bayes and conditional independence",
+        "href": "concepts/c144.html#c144"
+      }
+    ],
+    "revisionClues": [
+      "Independent feature classifier",
+      "Probability rule versus independent-feature classifier",
+      "Independent feature classifier"
+    ],
+    "revisionSources": [
+      "5001_CHEATSHEET.md",
+      "5001_CHEATSHEET.md",
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5001-7",
+    "group": "Revision question clues",
+    "cue": "Hidden state over time",
+    "method": "HMM: weekly query patterns",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "extra-hmm"
+    ],
+    "aliases": " Hidden state over time",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "extra-hmm",
+        "title": "HMM: weekly query patterns",
+        "href": "concepts/extra-hmm.html#extra-hmm"
+      }
+    ],
+    "revisionClues": [
+      "Hidden state over time"
+    ],
+    "revisionSources": [
+      "5001_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5001-8",
+    "group": "Revision question clues",
+    "cue": "Reuse similar solved cases",
+    "method": "Case-based reasoning",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c015"
+    ],
+    "aliases": " Reuse similar solved cases",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c015",
+        "title": "Case-based reasoning",
+        "href": "concepts/c015.html#c015"
+      }
+    ],
+    "revisionClues": [
+      "Reuse similar solved cases"
+    ],
+    "revisionSources": [
+      "5001_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5001-9",
+    "group": "Revision question clues",
+    "cue": "Entity relationships / graph queries",
+    "method": "Knowledge graph structure and queries; KG traversal and multi-hop queries",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c021",
+      "c022"
+    ],
+    "aliases": " Entity relationships / graph queries",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c021",
+        "title": "Knowledge graph structure and queries",
+        "href": "concepts/c021.html#c021"
+      },
+      {
+        "id": "c022",
+        "title": "KG traversal and multi-hop queries",
+        "href": "concepts/c022.html#c022"
+      }
+    ],
+    "revisionClues": [
+      "Entity relationships / graph queries"
+    ],
+    "revisionSources": [
+      "5001_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5001-10",
+    "group": "Revision question clues",
+    "cue": "Predict missing graph links",
+    "method": "TransE embeddings; TransR embeddings; Bilinear / DistMult embeddings",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c023",
+      "c024",
+      "c025"
+    ],
+    "aliases": " Predict missing graph links",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c023",
+        "title": "TransE embeddings",
+        "href": "concepts/c023.html#c023"
+      },
+      {
+        "id": "c024",
+        "title": "TransR embeddings",
+        "href": "concepts/c024.html#c024"
+      },
+      {
+        "id": "c025",
+        "title": "Bilinear / DistMult embeddings",
+        "href": "concepts/c025.html#c025"
+      }
+    ],
+    "revisionClues": [
+      "Predict missing graph links"
+    ],
+    "revisionSources": [
+      "5001_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5001-11",
+    "group": "Revision question clues",
+    "cue": "Learn from graph neighbours",
+    "method": "Neural knowledge graph embeddings",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c026"
+    ],
+    "aliases": " Learn from graph neighbours",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c026",
+        "title": "Neural knowledge graph embeddings",
+        "href": "concepts/c026.html#c026"
+      }
+    ],
+    "revisionClues": [
+      "Learn from graph neighbours"
+    ],
+    "revisionSources": [
+      "5001_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5001-13",
+    "group": "Revision question clues",
+    "cue": "Recommend from item descriptions",
+    "method": "Content-based recommendation",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c037"
+    ],
+    "aliases": " Recommend from item descriptions",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c037",
+        "title": "Content-based recommendation",
+        "href": "concepts/c037.html#c037"
+      }
+    ],
+    "revisionClues": [
+      "Recommend from item descriptions"
+    ],
+    "revisionSources": [
+      "5001_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5001-14",
+    "group": "Revision question clues",
+    "cue": "Similar users / items",
+    "method": "User-based collaborative filtering; Item-based collaborative filtering",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c038",
+      "c039"
+    ],
+    "aliases": " Similar users / items",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c038",
+        "title": "User-based collaborative filtering",
+        "href": "concepts/c038.html#c038"
+      },
+      {
+        "id": "c039",
+        "title": "Item-based collaborative filtering",
+        "href": "concepts/c039.html#c039"
+      }
+    ],
+    "revisionClues": [
+      "Similar users / items"
+    ],
+    "revisionSources": [
+      "5001_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5001-15",
+    "group": "Revision question clues",
+    "cue": "Sparse ratings latent factors",
+    "method": "Matrix factorization",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c043"
+    ],
+    "aliases": " Sparse ratings latent factors",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c043",
+        "title": "Matrix factorization",
+        "href": "concepts/c043.html#c043"
+      }
+    ],
+    "revisionClues": [
+      "Sparse ratings latent factors"
+    ],
+    "revisionSources": [
+      "5001_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5001-17",
+    "group": "Revision question clues",
+    "cue": "Intent and parameters from text",
+    "method": "Intent classification; Natural language understanding",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c061",
+      "c060"
+    ],
+    "aliases": " Intent and parameters from text",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c061",
+        "title": "Intent classification",
+        "href": "concepts/c061.html#c061"
+      },
+      {
+        "id": "c060",
+        "title": "Natural language understanding",
+        "href": "concepts/c060.html#c060"
+      }
+    ],
+    "revisionClues": [
+      "Intent and parameters from text"
+    ],
+    "revisionSources": [
+      "5001_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5001-18",
+    "group": "Revision question clues",
+    "cue": "Retrieve approved answer",
+    "method": "TF-IDF and cosine similarity",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c062"
+    ],
+    "aliases": " Retrieve approved answer",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c062",
+        "title": "TF-IDF and cosine similarity",
+        "href": "concepts/c062.html#c062"
+      }
+    ],
+    "revisionClues": [
+      "Retrieve approved answer"
+    ],
+    "revisionSources": [
+      "5001_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5001-19",
+    "group": "Revision question clues",
+    "cue": "Retrieve evidence then generate",
+    "method": "Retrieval-augmented generation",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c032"
+    ],
+    "aliases": " Retrieve evidence then generate",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c032",
+        "title": "Retrieval-augmented generation",
+        "href": "concepts/c032.html#c032"
+      }
+    ],
+    "revisionClues": [
+      "Retrieve evidence then generate"
+    ],
+    "revisionSources": [
+      "5001_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5001-20",
+    "group": "Revision question clues",
+    "cue": "Sense →reason →act",
+    "method": "Dialogue management and generation; Agentic orchestration",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c064",
+      "c033"
+    ],
+    "aliases": " Sense →reason →act",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c064",
+        "title": "Dialogue management and generation",
+        "href": "concepts/c064.html#c064"
+      },
+      {
+        "id": "c033",
+        "title": "Agentic orchestration",
+        "href": "concepts/c033.html#c033"
+      }
+    ],
+    "revisionClues": [
+      "Sense →reason →act"
+    ],
+    "revisionSources": [
+      "5001_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5001-21",
+    "group": "Revision question clues",
+    "cue": "Build knowledge: experts versus data",
+    "method": "Knowledge acquisition: elicitation versus discovery",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "extra-knowledge-acquisition"
+    ],
+    "aliases": " Build knowledge: experts versus data",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "extra-knowledge-acquisition",
+        "title": "Knowledge acquisition: elicitation versus discovery",
+        "href": "concepts/extra-knowledge-acquisition.html#extra-knowledge-acquisition"
+      }
+    ],
+    "revisionClues": [
+      "Build knowledge: experts versus data"
+    ],
+    "revisionSources": [
+      "5001_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5001-22",
+    "group": "Revision question clues",
+    "cue": "Retrieve then rank recommendations",
+    "method": "Hybrid recommenders",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c051"
+    ],
+    "aliases": " Retrieve then rank recommendations",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c051",
+        "title": "Hybrid recommenders",
+        "href": "concepts/c051.html#c051"
+      }
+    ],
+    "revisionClues": [
+      "Retrieve then rank recommendations"
+    ],
+    "revisionSources": [
+      "5001_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-25",
+    "group": "Revision question clues",
+    "cue": "Labelled table; explainable rules",
+    "method": "Decision-tree reasoning; Decision-tree splitting and information gain",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c028",
+      "c146"
+    ],
+    "aliases": " Labelled table; explainable rules",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c028",
+        "title": "Decision-tree reasoning",
+        "href": "concepts/c028.html#c028"
+      },
+      {
+        "id": "c146",
+        "title": "Decision-tree splitting and information gain",
+        "href": "concepts/c146.html#c146"
+      }
+    ],
+    "revisionClues": [
+      "Labelled table; explainable rules"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-26",
+    "group": "Revision question clues",
+    "cue": "Similar labelled cases",
+    "method": "K-nearest neighbours",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c143"
+    ],
+    "aliases": " Similar labelled cases",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c143",
+        "title": "K-nearest neighbours",
+        "href": "concepts/c143.html#c143"
+      }
+    ],
+    "revisionClues": [
+      "Similar labelled cases"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-28",
+    "group": "Revision question clues",
+    "cue": "Maximum-margin classification",
+    "method": "Support vector machine: margin, scaling and business choice",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "extra-svm"
+    ],
+    "aliases": " Maximum-margin classification",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "extra-svm",
+        "title": "Support vector machine: margin, scaling and business choice",
+        "href": "concepts/extra-svm.html#extra-svm"
+      }
+    ],
+    "revisionClues": [
+      "Maximum-margin classification"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-29",
+    "group": "Revision question clues",
+    "cue": "Numeric target",
+    "method": "Linear / logistic regression",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c142"
+    ],
+    "aliases": " Numeric target Binary probability",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c142",
+        "title": "Linear / logistic regression",
+        "href": "concepts/c142.html#c142"
+      }
+    ],
+    "revisionClues": [
+      "Numeric target",
+      "Binary probability"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md",
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-31",
+    "group": "Revision question clues",
+    "cue": "Reduce tree instability",
+    "method": "Bagging and bootstrap sampling",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c129"
+    ],
+    "aliases": " Reduce tree instability",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c129",
+        "title": "Bagging and bootstrap sampling",
+        "href": "concepts/c129.html#c129"
+      }
+    ],
+    "revisionClues": [
+      "Reduce tree instability"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-32",
+    "group": "Revision question clues",
+    "cue": "Many diverse trees",
+    "method": "Random forests and feature importance",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c130"
+    ],
+    "aliases": " Many diverse trees",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c130",
+        "title": "Random forests and feature importance",
+        "href": "concepts/c130.html#c130"
+      }
+    ],
+    "revisionClues": [
+      "Many diverse trees"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-33",
+    "group": "Revision question clues",
+    "cue": "Sequentially emphasise errors",
+    "method": "Boosting and AdaBoost",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c131"
+    ],
+    "aliases": " Sequentially emphasise errors Case weights versus learner weights",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c131",
+        "title": "Boosting and AdaBoost",
+        "href": "concepts/c131.html#c131"
+      }
+    ],
+    "revisionClues": [
+      "Sequentially emphasise errors",
+      "Case weights versus learner weights"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md",
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-34",
+    "group": "Revision question clues",
+    "cue": "Combine model predictions",
+    "method": "Ensemble diversity and voting",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c128"
+    ],
+    "aliases": " Combine model predictions",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c128",
+        "title": "Ensemble diversity and voting",
+        "href": "concepts/c128.html#c128"
+      }
+    ],
+    "revisionClues": [
+      "Combine model predictions"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-36",
+    "group": "Revision question clues",
+    "cue": "Reduce dimensions using labels",
+    "method": "Filter / wrapper / embedded feature selection",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "5002 LDA needs its own detailed page; links below are feature-selection context, not a complete LDA lesson. Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c150"
+    ],
+    "aliases": " Reduce dimensions using labels",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c150",
+        "title": "Filter / wrapper / embedded feature selection",
+        "href": "concepts/c150.html#c150"
+      }
+    ],
+    "revisionClues": [
+      "Reduce dimensions using labels"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-37",
+    "group": "Revision question clues",
+    "cue": "Find groups without labels",
+    "method": "K-means and centroid updates",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c156"
+    ],
+    "aliases": " Find groups without labels",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c156",
+        "title": "K-means and centroid updates",
+        "href": "concepts/c156.html#c156"
+      }
+    ],
+    "revisionClues": [
+      "Find groups without labels"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-38",
+    "group": "Revision question clues",
+    "cue": "Nested groups",
+    "method": "Hierarchical clustering and linkage",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c158"
+    ],
+    "aliases": " Nested groups",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c158",
+        "title": "Hierarchical clustering and linkage",
+        "href": "concepts/c158.html#c158"
+      }
+    ],
+    "revisionClues": [
+      "Nested groups"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-39",
+    "group": "Revision question clues",
+    "cue": "Irregular groups / noise",
+    "method": "Clustering vs classification; Cluster evaluation and number of clusters",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "5002 DBSCAN needs its own detailed page; the links are related clustering/evaluation pages. Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c154",
+      "c159"
+    ],
+    "aliases": " Irregular groups / noise",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c154",
+        "title": "Clustering vs classification",
+        "href": "concepts/c154.html#c154"
+      },
+      {
+        "id": "c159",
+        "title": "Cluster evaluation and number of clusters",
+        "href": "concepts/c159.html#c159"
+      }
+    ],
+    "revisionClues": [
+      "Irregular groups / noise"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-40",
+    "group": "Revision question clues",
+    "cue": "General nonlinear prediction",
+    "method": "MLP and backpropagation",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c107"
+    ],
+    "aliases": " General nonlinear prediction Cross-entropy loss / confidence versus accuracy Binary versus categorical cross-entropy / lecture formula DNN layer purposes / zero-parameter layers Dense weights +biases / parameter formula Embedding /sequence /fusion layer purposes",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c107",
+        "title": "MLP and backpropagation",
+        "href": "concepts/c107.html#c107"
+      }
+    ],
+    "revisionClues": [
+      "General nonlinear prediction",
+      "Cross-entropy loss / confidence versus accuracy",
+      "Binary versus categorical cross-entropy / lecture formula",
+      "DNN layer purposes / zero-parameter layers",
+      "Dense weights +biases / parameter formula",
+      "Embedding /sequence /fusion layer purposes"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md",
+      "5002_CHEATSHEET.md",
+      "5002_CHEATSHEET.md",
+      "5002_CHEATSHEET.md",
+      "5002_CHEATSHEET.md",
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-41",
+    "group": "Revision question clues",
+    "cue": "Image spatial patterns",
+    "method": "CNN convolution, padding, stride; CNN dimensions and parameter counts; CNN application design",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c112",
+      "c114",
+      "c163"
+    ],
+    "aliases": " Image spatial patterns Conv2D kernel parameters / output shape Whole-network parameter total / reduction Image brand/type/value heads",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c112",
+        "title": "CNN convolution, padding, stride",
+        "href": "concepts/c112.html#c112"
+      },
+      {
+        "id": "c114",
+        "title": "CNN dimensions and parameter counts",
+        "href": "concepts/c114.html#c114"
+      },
+      {
+        "id": "c163",
+        "title": "CNN application design",
+        "href": "concepts/c163.html#c163"
+      }
+    ],
+    "revisionClues": [
+      "Image spatial patterns",
+      "Conv2D kernel parameters / output shape",
+      "Whole-network parameter total / reduction",
+      "Image brand/type/value heads"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md",
+      "5002_CHEATSHEET.md",
+      "5002_CHEATSHEET.md",
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-42",
+    "group": "Revision question clues",
+    "cue": "Reuse trained image network",
+    "method": "Residual connections; Transfer learning and fine tuning",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c124",
+      "c125"
+    ],
+    "aliases": " Reuse trained image network",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c124",
+        "title": "Residual connections",
+        "href": "concepts/c124.html#c124"
+      },
+      {
+        "id": "c125",
+        "title": "Transfer learning and fine tuning",
+        "href": "concepts/c125.html#c125"
+      }
+    ],
+    "revisionClues": [
+      "Reuse trained image network"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-43",
+    "group": "Revision question clues",
+    "cue": "Ordered data / sequence",
+    "method": "RNN sequence representation; LSTM and stacked recurrent networks",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "5002 GRU needs its own detailed page; the link is related gated-sequence context. Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c117",
+      "c118"
+    ],
+    "aliases": " Ordered data / sequence",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c117",
+        "title": "RNN sequence representation",
+        "href": "concepts/c117.html#c117"
+      },
+      {
+        "id": "c118",
+        "title": "LSTM and stacked recurrent networks",
+        "href": "concepts/c118.html#c118"
+      }
+    ],
+    "revisionClues": [
+      "Ordered data / sequence"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-44",
+    "group": "Revision question clues",
+    "cue": "Longer sequence memory",
+    "method": "LSTM and stacked recurrent networks",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "5002 GRU needs its own detailed page; the link is related gated-sequence context. Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c118"
+    ],
+    "aliases": " Longer sequence memory Sequence with gates",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c118",
+        "title": "LSTM and stacked recurrent networks",
+        "href": "concepts/c118.html#c118"
+      }
+    ],
+    "revisionClues": [
+      "Longer sequence memory",
+      "Sequence with gates"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md",
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-48",
+    "group": "Revision question clues",
+    "cue": "Reconstruction / anomaly",
+    "method": "Autoencoders and reconstruction; Anomaly detection",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c095",
+      "c098"
+    ],
+    "aliases": " Reconstruction / anomaly",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c095",
+        "title": "Autoencoders and reconstruction",
+        "href": "concepts/c095.html#c095"
+      },
+      {
+        "id": "c098",
+        "title": "Anomaly detection",
+        "href": "concepts/c098.html#c098"
+      }
+    ],
+    "revisionClues": [
+      "Reconstruction / anomaly"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-49",
+    "group": "Revision question clues",
+    "cue": "Soft clusters",
+    "method": "Gaussian mixtures / expectation maximization",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c091"
+    ],
+    "aliases": " Soft clusters",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c091",
+        "title": "Gaussian mixtures / expectation maximization",
+        "href": "concepts/c091.html#c091"
+      }
+    ],
+    "revisionClues": [
+      "Soft clusters"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-50",
+    "group": "Revision question clues",
+    "cue": "Align sequences at different speeds",
+    "method": "Spatial / temporal / feature alignment",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "5002 DTW needs its own detailed page; the link is related temporal alignment context. Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c102"
+    ],
+    "aliases": " Align sequences at different speeds",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c102",
+        "title": "Spatial / temporal / feature alignment",
+        "href": "concepts/c102.html#c102"
+      }
+    ],
+    "revisionClues": [
+      "Align sequences at different speeds"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-51",
+    "group": "Revision question clues",
+    "cue": "Frequency content",
+    "method": "Fourier transformation; Filtering and convolution",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c088",
+      "c089"
+    ],
+    "aliases": " Frequency content",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c088",
+        "title": "Fourier transformation",
+        "href": "concepts/c088.html#c088"
+      },
+      {
+        "id": "c089",
+        "title": "Filtering and convolution",
+        "href": "concepts/c089.html#c089"
+      }
+    ],
+    "revisionClues": [
+      "Frequency content"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-52",
+    "group": "Revision question clues",
+    "cue": "Multiple data types",
+    "method": "Multimodal representation and fusion; Spatial / temporal / feature alignment",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c101",
+      "c102"
+    ],
+    "aliases": " Multiple data types",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c101",
+        "title": "Multimodal representation and fusion",
+        "href": "concepts/c101.html#c101"
+      },
+      {
+        "id": "c102",
+        "title": "Spatial / temporal / feature alignment",
+        "href": "concepts/c102.html#c102"
+      }
+    ],
+    "revisionClues": [
+      "Multiple data types"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-53",
+    "group": "Revision question clues",
+    "cue": "Actions and rewards",
+    "method": "Deep-learning decision / control applications",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c162"
+    ],
+    "aliases": " Actions and rewards Robot sorting architecture / hardware and reward feedback Lecture perception–grasp–throw diagram Lecture FIFA deep-RL loop",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c162",
+        "title": "Deep-learning decision / control applications",
+        "href": "concepts/c162.html#c162"
+      }
+    ],
+    "revisionClues": [
+      "Actions and rewards",
+      "Robot sorting architecture / hardware and reward feedback",
+      "Lecture perception–grasp–throw diagram",
+      "Lecture FIFA deep-RL loop"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md",
+      "5002_CHEATSHEET.md",
+      "5002_CHEATSHEET.md",
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-54",
+    "group": "Revision question clues",
+    "cue": "Generate synthetic samples",
+    "method": "Generative models / GAN applications",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c161"
+    ],
+    "aliases": " Generate synthetic samples",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c161",
+        "title": "Generative models / GAN applications",
+        "href": "concepts/c161.html#c161"
+      }
+    ],
+    "revisionClues": [
+      "Generate synthetic samples"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-55",
+    "group": "Revision question clues",
+    "cue": "Remove weak input columns",
+    "method": "Filter / wrapper / embedded feature selection; Forward / backward / recursive feature selection",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c150",
+      "c151"
+    ],
+    "aliases": " Remove weak input columns",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c150",
+        "title": "Filter / wrapper / embedded feature selection",
+        "href": "concepts/c150.html#c150"
+      },
+      {
+        "id": "c151",
+        "title": "Forward / backward / recursive feature selection",
+        "href": "concepts/c151.html#c151"
+      }
+    ],
+    "revisionClues": [
+      "Remove weak input columns"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-72",
+    "group": "Revision question clues",
+    "cue": "Distance-based hidden units / Gaussian responses",
+    "method": "RBF networks",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c109"
+    ],
+    "aliases": " Distance-based hidden units / Gaussian responses",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c109",
+        "title": "RBF networks",
+        "href": "concepts/c109.html#c109"
+      }
+    ],
+    "revisionClues": [
+      "Distance-based hidden units / Gaussian responses"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-5002-73",
+    "group": "Revision question clues",
+    "cue": "Normalised weighted numeric prediction",
+    "method": "General regression neural networks",
+    "condition": "A candidate suggested by the question wording. Check the required output, available data and assumptions before choosing.",
+    "flow": "Identify the required output → choose a matching method → state inputs/knowledge → show its steps → justify and check.",
+    "change": "Do not choose solely from a keyword or replace a requested diagram with a list of model names.",
+    "ids": [
+      "c110"
+    ],
+    "aliases": " Normalised weighted numeric prediction",
+    "tasks": "choose design compare",
+    "papers": [],
+    "concepts": [
+      {
+        "id": "c110",
+        "title": "General regression neural networks",
+        "href": "concepts/c110.html#c110"
+      }
+    ],
+    "revisionClues": [
+      "Normalised weighted numeric prediction"
+    ],
+    "revisionSources": [
+      "5002_CHEATSHEET.md"
+    ]
+  },
+  {
+    "id": "revision-answer-1",
+    "group": "Revision question clues",
+    "cue": "Interpret a decision tree / common characteristics",
+    "method": "Decision-tree reasoning; Decision-tree splitting and information gain",
+    "condition": "Answer the command and target asked for; the same scenario can test different tasks.",
+    "flow": "Follow a class's path → state conditions → distinguish group size from class proportion",
+    "change": "Use case evidence and the requested scope. Do not write every model detail for a short interpretation or comparison question.",
+    "ids": [
+      "c028",
+      "c146"
+    ],
+    "aliases": "Interpret a decision tree / common characteristics",
+    "tasks": "choose design compare calculate",
+    "papers": [],
+    "revisionSources": [
+      "5002_CONCEPT_REFERENCE.md"
+    ],
+    "concepts": [
+      {
+        "id": "c028",
+        "title": "Decision-tree reasoning",
+        "href": "concepts/c028.html#c028"
+      },
+      {
+        "id": "c146",
+        "title": "Decision-tree splitting and information gain",
+        "href": "concepts/c146.html#c146"
+      }
+    ]
+  },
+  {
+    "id": "revision-answer-2",
+    "group": "Revision question clues",
+    "cue": "Compare classifiers for a business objective",
+    "method": "Confusion matrix and classification metrics; Support vector machine: margin, scaling and business choice",
+    "condition": "Answer the command and target asked for; the same scenario can test different tasks.",
+    "flow": "Count/compute relevant errors → explain business consequences → choose with a stated tradeoff",
+    "change": "Use case evidence and the requested scope. Do not write every model detail for a short interpretation or comparison question.",
+    "ids": [
+      "c139",
+      "extra-svm"
+    ],
+    "aliases": "Compare classifiers for a business objective",
+    "tasks": "choose design compare calculate",
+    "papers": [],
+    "revisionSources": [
+      "5002_CONCEPT_REFERENCE.md"
+    ],
+    "concepts": [
+      {
+        "id": "c139",
+        "title": "Confusion matrix and classification metrics",
+        "href": "concepts/c139.html#c139"
+      },
+      {
+        "id": "extra-svm",
+        "title": "Support vector machine: margin, scaling and business choice",
+        "href": "concepts/extra-svm.html#extra-svm"
+      }
+    ]
+  },
+  {
+    "id": "revision-answer-3",
+    "group": "Revision question clues",
+    "cue": "Compare feature importance",
+    "method": "Random forests and feature importance; Boosting and AdaBoost",
+    "condition": "Answer the command and target asked for; the same scenario can test different tasks.",
+    "flow": "Name highest-ranked features in each model → state what changed → explain training differences → propose a test using fewer inputs",
+    "change": "Use case evidence and the requested scope. Do not write every model detail for a short interpretation or comparison question.",
+    "ids": [
+      "c130",
+      "c131"
+    ],
+    "aliases": "Compare feature importance",
+    "tasks": "choose design compare calculate",
+    "papers": [],
+    "revisionSources": [
+      "5002_CONCEPT_REFERENCE.md"
+    ],
+    "concepts": [
+      {
+        "id": "c130",
+        "title": "Random forests and feature importance",
+        "href": "concepts/c130.html#c130"
+      },
+      {
+        "id": "c131",
+        "title": "Boosting and AdaBoost",
+        "href": "concepts/c131.html#c131"
+      }
+    ]
+  },
+  {
+    "id": "revision-answer-4",
+    "group": "Revision question clues",
+    "cue": "Use importance for further modelling",
+    "method": "Filter / wrapper / embedded feature selection; Forward / backward / recursive feature selection",
+    "condition": "Answer the command and target asked for; the same scenario can test different tasks.",
+    "flow": "Remove some low-ranked INPUT columns → train again → compare validation results",
+    "change": "Use case evidence and the requested scope. Do not write every model detail for a short interpretation or comparison question.",
+    "ids": [
+      "c150",
+      "c151"
+    ],
+    "aliases": "Use importance for further modelling",
+    "tasks": "choose design compare calculate",
+    "papers": [],
+    "revisionSources": [
+      "5002_CONCEPT_REFERENCE.md"
+    ],
+    "concepts": [
+      {
+        "id": "c150",
+        "title": "Filter / wrapper / embedded feature selection",
+        "href": "concepts/c150.html#c150"
+      },
+      {
+        "id": "c151",
+        "title": "Forward / backward / recursive feature selection",
+        "href": "concepts/c151.html#c151"
+      }
+    ]
+  },
+  {
+    "id": "revision-answer-5",
+    "group": "Revision question clues",
+    "cue": "Design a sequence predictor",
+    "method": "LSTM and stacked recurrent networks",
+    "condition": "Answer the command and target asked for; the same scenario can test different tasks.",
+    "flow": "Choose sequence model → define one sequence/step/label → prepare data → output layer/loss → explain combination if asked",
+    "change": "Use case evidence and the requested scope. Do not write every model detail for a short interpretation or comparison question.",
+    "ids": [
+      "c118"
+    ],
+    "aliases": "Design a sequence predictor",
+    "tasks": "choose design compare calculate",
+    "papers": [],
+    "revisionSources": [
+      "5002_CONCEPT_REFERENCE.md"
+    ],
+    "concepts": [
+      {
+        "id": "c118",
+        "title": "LSTM and stacked recurrent networks",
+        "href": "concepts/c118.html#c118"
+      }
+    ]
+  },
+  {
+    "id": "revision-answer-6",
+    "group": "Revision question clues",
+    "cue": "How does sequence model output probability?",
+    "method": "LSTM and stacked recurrent networks",
+    "condition": "Answer the command and target asked for; the same scenario can test different tasks.",
+    "flow": "Ordered feature rows →LSTM summary →Dense+sigmoid for binary label; sequence input is not the outcome label",
+    "change": "Use case evidence and the requested scope. Do not write every model detail for a short interpretation or comparison question.",
+    "ids": [
+      "c118"
+    ],
+    "aliases": "How does sequence model output probability?",
+    "tasks": "choose design compare calculate",
+    "papers": [],
+    "revisionSources": [
+      "5002_CONCEPT_REFERENCE.md"
+    ],
+    "concepts": [
+      {
+        "id": "c118",
+        "title": "LSTM and stacked recurrent networks",
+        "href": "concepts/c118.html#c118"
+      }
+    ]
+  },
+  {
+    "id": "revision-answer-7",
+    "group": "Revision question clues",
+    "cue": "Describe training data / preprocessing",
+    "method": "Normalization and preprocessing; Data splits and cross-validation",
+    "condition": "Answer the command and target asked for; the same scenario can test different tasks.",
+    "flow": "Unit of one example →input fields →target label →encoding/scaling/order →train/validation/test split",
+    "change": "Use case evidence and the requested scope. Do not write every model detail for a short interpretation or comparison question.",
+    "ids": [
+      "c136",
+      "c137"
+    ],
+    "aliases": "Describe training data / preprocessing",
+    "tasks": "choose design compare calculate",
+    "papers": [],
+    "revisionSources": [
+      "5002_CONCEPT_REFERENCE.md"
+    ],
+    "concepts": [
+      {
+        "id": "c136",
+        "title": "Normalization and preprocessing",
+        "href": "concepts/c136.html#c136"
+      },
+      {
+        "id": "c137",
+        "title": "Data splits and cross-validation",
+        "href": "concepts/c137.html#c137"
+      }
+    ]
+  },
+  {
+    "id": "revision-answer-8",
+    "group": "Revision question clues",
+    "cue": "Choose/interpret PCA components",
+    "method": "PCA, variance, and principal directions; Eigenvalues / eigenvectors and SVD",
+    "condition": "Answer the command and target asked for; the same scenario can test different tasks.",
+    "flow": "Inspect supplied variance/eigenvalues →justify retained count →interpret loadings →use PC scores as new features",
+    "change": "Use case evidence and the requested scope. Do not write every model detail for a short interpretation or comparison question.",
+    "ids": [
+      "c152",
+      "c153"
+    ],
+    "aliases": "Choose/interpret PCA components",
+    "tasks": "choose design compare calculate",
+    "papers": [],
+    "revisionSources": [
+      "5002_CONCEPT_REFERENCE.md"
+    ],
+    "concepts": [
+      {
+        "id": "c152",
+        "title": "PCA, variance, and principal directions",
+        "href": "concepts/c152.html#c152"
+      },
+      {
+        "id": "c153",
+        "title": "Eigenvalues / eigenvectors and SVD",
+        "href": "concepts/c153.html#c153"
+      }
+    ]
+  },
+  {
+    "id": "revision-answer-9",
+    "group": "Revision question clues",
+    "cue": "Design/critique CNN",
+    "method": "CNN application design",
+    "condition": "Answer the command and target asked for; the same scenario can test different tasks.",
+    "flow": "Required outputs →input shape →layers/shapes →activation/loss →parameter cost →validation",
+    "change": "Use case evidence and the requested scope. Do not write every model detail for a short interpretation or comparison question.",
+    "ids": [
+      "c163"
+    ],
+    "aliases": "Design/critique CNN",
+    "tasks": "choose design compare calculate",
+    "papers": [],
+    "revisionSources": [
+      "5002_CONCEPT_REFERENCE.md"
+    ],
+    "concepts": [
+      {
+        "id": "c163",
+        "title": "CNN application design",
+        "href": "concepts/c163.html#c163"
+      }
+    ]
+  },
+  {
+    "id": "revision-answer-10",
+    "group": "Revision question clues",
+    "cue": "Recommend an approach for rare anomalies",
+    "method": "Anomaly detection",
+    "condition": "Answer the command and target asked for; the same scenario can test different tasks.",
+    "flow": "Label availability/imbalance →suitable method →threshold and false-alarm/miss evaluation",
+    "change": "Use case evidence and the requested scope. Do not write every model detail for a short interpretation or comparison question.",
+    "ids": [
+      "c098"
+    ],
+    "aliases": "Recommend an approach for rare anomalies",
+    "tasks": "choose design compare calculate",
+    "papers": [],
+    "revisionSources": [
+      "5002_CONCEPT_REFERENCE.md"
+    ],
+    "concepts": [
+      {
+        "id": "c098",
+        "title": "Anomaly detection",
+        "href": "concepts/c098.html#c098"
+      }
+    ]
+  },
+  {
+    "id": "revision-answer-11",
+    "group": "Revision question clues",
+    "cue": "Propose reward-driven action learning",
+    "method": "Deep-learning decision / control applications",
+    "condition": "Answer the command and target asked for; the same scenario can test different tasks.",
+    "flow": "State/observation →actions →reward and constraints →training/evaluation process",
+    "change": "Use case evidence and the requested scope. Do not write every model detail for a short interpretation or comparison question.",
+    "ids": [
+      "c162"
+    ],
+    "aliases": "Propose reward-driven action learning",
+    "tasks": "choose design compare calculate",
+    "papers": [],
+    "revisionSources": [
+      "5002_CONCEPT_REFERENCE.md"
+    ],
+    "concepts": [
+      {
+        "id": "c162",
+        "title": "Deep-learning decision / control applications",
+        "href": "concepts/c162.html#c162"
+      }
+    ]
+  },
+  {
+    "id": "revision-answer-12",
+    "group": "Revision question clues",
+    "cue": "Calculate Naive Bayes",
+    "method": "Naive Bayes and conditional independence",
+    "condition": "Answer the command and target asked for; the same scenario can test different tasks.",
+    "flow": "Count priors/conditional frequencies →multiply within class →normalise →choose largest",
+    "change": "Use case evidence and the requested scope. Do not write every model detail for a short interpretation or comparison question.",
+    "ids": [
+      "c144"
+    ],
+    "aliases": "Calculate Naive Bayes",
+    "tasks": "choose design compare calculate",
+    "papers": [],
+    "revisionSources": [
+      "5002_CONCEPT_REFERENCE.md"
+    ],
+    "concepts": [
+      {
+        "id": "c144",
+        "title": "Naive Bayes and conditional independence",
+        "href": "concepts/c144.html#c144"
       }
     ]
   }
