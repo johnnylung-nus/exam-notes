@@ -1048,19 +1048,19 @@
   {
     "id": "c018-q1",
     "concept_id": "c018",
-    "prompt": "Mary is a named person; Female Persons and Persons are groups. Which pair of links matches the lecture network?",
+    "prompt": "The graph gives Persons Legs 2 and John Legs 1. When answering how many legs John has in this graph, how should inheritance be used?",
     "options": [
-      "Mary MemberOf Female Persons; Female Persons SubsetOf Persons",
-      "Mary SubsetOf Female Persons; Female Persons MemberOf Persons",
-      "Mary MemberOf Female Persons; Persons SubsetOf Female Persons",
-      "Mary HasMother Female Persons; Female Persons SisterOf Persons"
+      "Use John’s explicit value 1; do not overwrite it with the general Persons value.",
+      "Always replace John’s value with 2 because general groups are more important.",
+      "Copy Mary’s properties to John because the graph has a SisterOf link.",
+      "Ignore all group properties because one individual has an exception."
     ],
     "answer": 0,
     "explanations": [
-      "MemberOf connects an individual to a group; SubsetOf connects the smaller group to the broader group.",
-      "The roles of individual membership and group inclusion were swapped.",
-      "The second link reverses the group relationship.",
-      "HasMother and SisterOf express family relationships, not these membership links."
+      "An individual’s explicit value is retained; the general property does not erase the exception.",
+      "This reverses the handling of a specific exception.",
+      "A family relationship does not copy all properties between people.",
+      "An exception does not make general information useless for every other case."
     ],
     "sources": [
       {
@@ -1072,24 +1072,24 @@
     ],
     "kind": "application",
     "scope": "lecture",
-    "signature": "9f4f95698b29"
+    "signature": "349d843065df"
   },
   {
     "id": "c018-q2",
     "concept_id": "c018",
-    "prompt": "The lecture graph shows Persons Legs 2, John Legs 1, and Mary SisterOf John. Which reading is supported?",
+    "prompt": "You need to determine whether Mary is a mammal. What does graph traversal mean here?",
     "options": [
-      "John has the explicitly shown Legs value 1; Mary is John’s sister.",
-      "John must have Legs 2 because he belongs to Persons.",
-      "John is Mary’s sister because the SisterOf arrow can always be reversed.",
-      "Mary is John’s mother because the graph also contains HasMother."
+      "Start at Mary and follow the MemberOf/SubsetOf path to Mammals, reading each link’s meaning.",
+      "Copy John’s Legs value to Mary without checking the links.",
+      "Treat every node in the drawing as directly connected to Mary.",
+      "Reverse every arrow so broader groups become members of Mary."
     ],
     "answer": 0,
     "explanations": [
-      "Read each named relationship separately and retain the explicit individual property.",
-      "This overwrites the individual value explicitly drawn on the slide.",
-      "The meaning of SisterOf does not allow this automatic reversal.",
-      "No individual mother relationship between Mary and John is supplied."
+      "Traversal follows the relevant links; the membership meanings justify the conclusion.",
+      "This is unsupported property copying, not following the required path.",
+      "Only the actual drawn links may be used.",
+      "Reversing the links changes their meaning and gives invalid conclusions."
     ],
     "sources": [
       {
@@ -1101,7 +1101,7 @@
     ],
     "kind": "comparison",
     "scope": "lecture",
-    "signature": "07058b7bb3e1"
+    "signature": "f254897d3c5d"
   },
   {
     "id": "c019-q1",

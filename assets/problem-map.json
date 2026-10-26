@@ -2,15 +2,15 @@
   {
     "id": "semantic-drawing",
     "group": "Language & knowledge",
-    "cue": "MemberOf, SubsetOf, HasMother, SisterOf, properties: identify or draw the labelled relationship",
-    "method": "Semantic network: individual/group/relation/value links",
-    "condition": "Read the named relationship and its direction; keep individual membership separate from group inclusion.",
-    "flow": "Identify individuals/groups → choose MemberOf or SubsetOf → add named relations/properties → read arrows → check explicit exceptions.",
-    "change": "Do not replace the semantic-network question with ontology axioms, a frame schema or a system architecture.",
+    "cue": "Semantic network reasoning: inheritance, graph traversal, shared properties, specific exceptions, follow relationships",
+    "method": "Semantic networks: inheritance + graph traversal",
+    "condition": "Use traversal to find the relevant information; apply inheritance only through the appropriate category links and retain explicit exceptions.",
+    "flow": "Identify what is asked → start at the relevant node → follow meaningful links → obtain group information/property → check a specific override.",
+    "change": "MemberOf/SubsetOf and other labels are example relationships; the core concepts are inheritance and graph traversal.",
     "ids": [
       "c018"
     ],
-    "aliases": "semantic graph diagram drawing knowledge representation schema inheritance membership",
+    "aliases": "semantic network inheritance graph traversal traverse shared properties exceptions Mary John MemberOf SubsetOf",
     "tasks": "draw design compare",
     "papers": [],
     "revisionSources": [
