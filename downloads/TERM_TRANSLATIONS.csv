@@ -56,7 +56,6 @@ batch size,,批次大小；每次更新用的樣本數,,,yes
 Bayes' theorem,Bayes theorem; Bayes’ theorem,貝氏定理；用證據更新機率,,,yes
 Bayesian network,BN; Bayesian networks,貝氏網路；機率依賴關係圖,BN,Bayesian Network,yes
 Bayesian personalized ranking,BPR,貝氏個人化排序,BPR,Bayesian Personalized Ranking,yes
-Probabilistic Reasoning: Bayesian Inference,Bayesian inference,機率推理：貝氏推論,,,yes
 beam search,,束搜尋,,,yes
 benchmark,,比較基準；共同測試標準,,,yes
 between-cluster,inter-cluster,群間；不同群之間的關係,,,yes
@@ -495,6 +494,7 @@ principal component analysis,pca; PCA,主成分分析,PCA,Principal Component An
 principal components,,主成分,,,yes
 principal directions,,主方向,,,yes
 prior,priors,先驗機率；看證據之前,,,yes
+Probabilistic Reasoning: Bayesian Inference,Bayesian inference,機率推理：貝氏推論,,,yes
 probabilistic representation,,機率式表示；表達不確定性,,,yes
 probability,,機率,,,yes
 procedural knowledge,,程序性知識；知道怎樣做,,,yes
@@ -617,6 +617,7 @@ standard deviation,,標準差；資料分散程度,,,yes
 standardization,Z-score scaling,標準化；減均值再除標準差,,,yes
 state space,,狀態空間,,,yes
 static look-up table,static lookup table,靜態查表；依預先列好的對應找答案,,,yes
+stereotypical scenarios,stereotypical scenario,典型情境；有通常結構與預設值的熟悉情況,,,yes
 STFT,,短時傅立葉轉換,STFT,Short-Time Fourier Transform,yes
 stochastic gradient descent,sgd; SGD,隨機梯度下降,SGD,Stochastic Gradient Descent,yes
 stride,,步幅,,,yes
