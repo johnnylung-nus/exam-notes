@@ -298,3 +298,8 @@ Do not reduce Day3 query teaching to a generic multi-hop paragraph or only a dru
 ## Explain the disease/protein/drug/trial query — 26 October 2026
 
 Canonical worked explanation: c022.html#drug-query, now in the main print/read flow. Start at the disease, traverse Associated With to proteins and Targeted By to candidate drugs, then retain the SAME drug with the Involved In Phase II trial condition. Define inverse verbal relation: Protein Targeted By Drug equals Drug targets Protein; do not reverse its meaning. Distinguish the two-hop path from the AND condition; output is Drug, not Protein/Trial. Anonymous records are labelled teaching examples, not medical assertions. A missing graph path is not a proof of real-world falsehood; a retrieved trial link does not establish cure, safety or approval. Use current status if required and supplied. Original source slide p.22 is included.
+
+
+## KG traversal must be explained, not listed — 26 October 2026
+
+The Day3 traversal section includes definition (PDF24), seven-type table (25), incomplete graphs (26), roster/FIBA/Olympics application (27–33) and limitations (36). c022 now explains these mechanisms with a small labelled teaching graph and keeps original reference slides. Distinguish query shape/conditions (one-hop, multi-hop, conjunction) from exploration strategy (DFS, BFS, weights, random walk); they can be combined. BFS minimizes hops only under the relevant equal-cost convention, not arbitrary weighted cost. Random walks sample paths; they do not guarantee exhaustive retrieval or shortest paths. Missing graph facts are not real-world negatives. Link to existing algorithm explanations instead of duplicating whole chapters.
