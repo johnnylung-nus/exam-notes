@@ -292,3 +292,8 @@ Do not merely acknowledge requests to improve exam notes: make concrete edits. R
 ## Avoid repeated Day 2/3 review entries — 26 October 2026
 
 MR Day3 starts with a recap of Knowledge Graph structure (c021, PDF pp.8,10) and Ontologies (c020,p.10), already studied in Day2. Remove those two duplicate checklist rows from Day3; retain their source locations as recapReferences metadata. Day3 review starts at KG traversal and multi-hop queries, then TransE, TransR, DistMult and neural graph embeddings. Preserve the existing single concept pages and saved Reviewed state. Do not present a recap as another new topic to study/print.
+
+
+## KG query patterns — 26 October 2026
+
+Do not reduce Day3 query teaching to a generic multi-hop paragraph or only a drug example. Explain the three lecture p.19 patterns: one-hop (one relation), path/multi-hop (connected chain through shared intermediate entities), conjunctive (AND/intersection of conditions on the same candidate). Use the original slide and its basketball questions; do not invent real coach/owner/friend names. Define hop, conjunction, candidate set, intermediate variable and relation direction in plain words. Anonymous candidates are explicitly illustrative. A missing graph fact does not prove a real-world negative. c021 links prominently to the detailed c022 explanation; c022 preserves the drug/trial application only as optional further practice.
