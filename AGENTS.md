@@ -233,3 +233,8 @@ Canonical worked explanation: c022.html#drug-query, now in the main print/read f
 ## KG traversal must be explained, not listed — 26 October 2026
 
 The Day3 traversal section includes definition (PDF24), seven-type table (25), incomplete graphs (26), roster/FIBA/Olympics application (27–33) and limitations (36). c022 now explains these mechanisms with a small labelled teaching graph and keeps original reference slides. Distinguish query shape/conditions (one-hop, multi-hop, conjunction) from exploration strategy (DFS, BFS, weights, random walk); they can be combined. BFS minimizes hops only under the relevant equal-cost convention, not arbitrary weighted cost. Random walks sample paths; they do not guarantee exhaustive retrieval or shortest paths. Missing graph facts are not real-world negatives. Link to existing algorithm explanations instead of duplicating whole chapters.
+
+
+## TransR limitation coverage — 26 October 2026
+
+Keep all four lecture p.55 points explicit: Increased Model Complexity; Computational Overhead; Limited Interpretability & Scalability; Risk of Overfitting. Explain each through relation-specific projection matrices, not a generic disadvantage list. Complexity means additional parameters/choices; overhead means projection operations; interpretability means learned coordinates/matrices are not naturally human-readable; scalability concerns storage/candidate-processing costs; overfitting is particularly relevant for sparsely observed relations. c024#transr-limitations provides the consolidated table and exam implication, replacing duplicate generic implementation prose.
