@@ -257,3 +257,8 @@ This supersedes the earlier 'Semantic-network learning target' emphasis on indiv
 ## Use cases are examinable teaching content — 26 October 2026
 
 Keep the use cases NAMED BY THE LECTURER. A bare technical name is insufficient: explain its meaning in plain English with a short Chinese aid, give a brief concrete example, and connect the scenario requirement to why the representation/method fits. The user explicitly requests examples here; this overrides the generic 'examples only if asked' restriction for these use-case explanations. Stereotypical scenarios means familiar/typical situations with usual roles/properties/defaults, not social prejudice. A hotel-room frame is a labelled teaching example; actual slot values and exceptions override defaults. Do not treat a use-case keyword as proof of suitability or claim generated scenarios are actual exam questions. This pass expands the lecture use cases across all ten knowledge-representation forms using MR Day 2 PDF pp.48–58. Knowledge Graph p.58 provides university entities/facts as its example rather than a separate use-case bullet list; label it accordingly. Save useful tutoring clarifications to the webpages, not just chat.
+
+
+## Use-case heading wording — 26 October 2026
+
+Use the exact heading **Used Cases:** on knowledge-representation pages. Do not use headings such as “The lecture’s uses, in plain words” or “The lecture’s use cases: meaning and scenario clues”. Keep the explanations and examples beneath this concise heading.
