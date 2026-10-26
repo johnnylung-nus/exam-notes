@@ -223,3 +223,8 @@ MR Day3 starts with a recap of Knowledge Graph structure (c021, PDF pp.8,10) and
 ## KG query patterns — 26 October 2026
 
 Do not reduce Day3 query teaching to a generic multi-hop paragraph or only a drug example. Explain the three lecture p.19 patterns: one-hop (one relation), path/multi-hop (connected chain through shared intermediate entities), conjunctive (AND/intersection of conditions on the same candidate). Use the original slide and its basketball questions; do not invent real coach/owner/friend names. Define hop, conjunction, candidate set, intermediate variable and relation direction in plain words. Anonymous candidates are explicitly illustrative. A missing graph fact does not prove a real-world negative. c021 links prominently to the detailed c022 explanation; c022 preserves the drug/trial application only as optional further practice.
+
+
+## Explain the disease/protein/drug/trial query — 26 October 2026
+
+Canonical worked explanation: c022.html#drug-query, now in the main print/read flow. Start at the disease, traverse Associated With to proteins and Targeted By to candidate drugs, then retain the SAME drug with the Involved In Phase II trial condition. Define inverse verbal relation: Protein Targeted By Drug equals Drug targets Protein; do not reverse its meaning. Distinguish the two-hop path from the AND condition; output is Drug, not Protein/Trial. Anonymous records are labelled teaching examples, not medical assertions. A missing graph path is not a proof of real-world falsehood; a retrieved trial link does not establish cure, safety or approval. Use current status if required and supplied. Original source slide p.22 is included.
