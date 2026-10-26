@@ -1136,33 +1136,32 @@
   {
     "id": "c019-q2",
     "concept_id": "c019",
-    "prompt": "A system copies every typical symptom from a disease frame into the current patient’s observations. What should be changed?",
+    "prompt": "The lecture’s Bird frame has Locomotion: Fly (default) and Diet: ?. Which reading is correct?",
     "options": [
-      "Keep reusable disease knowledge separate from observed patient facts",
-      "Delete all disease knowledge because defaults are never useful",
-      "Interpret every unknown patient sign as present",
-      "Replace named slots with unlabelled text only"
+      "Fly is the usual value and may be overridden; the diet is unknown.",
+      "Every bird must fly, and ? means it has no diet.",
+      "Fly is an individual’s name; Diet is a superclass.",
+      "A default and a directly observed fact always have identical status."
     ],
     "answer": 0,
     "explanations": [
-      "Knowledge about typical cases is not evidence that this patient has each symptom.",
-      "Defaults/frames can help if their scope and overrides are clear.",
-      "Unknown findings cannot be fabricated to match a disease.",
-      "Removing structure makes conditions harder to inspect and apply."
+      "A default is a usual value; ? marks a missing/unknown filler.",
+      "This confuses a default with a universal fact and unknown with absent.",
+      "Locomotion and Diet are slots; Fly and ? are their supplied contents.",
+      "The source of a value matters; a default need not hold for a specific case."
     ],
     "sources": [
       {
         "file": "MR-Day 2_JR_v1.pdf",
         "pages": [
           51,
-          53,
-          60
+          53
         ]
       }
     ],
     "kind": "diagnosis",
     "scope": "lecture",
-    "signature": "45278bb85612"
+    "signature": "67fa1407b458"
   },
   {
     "id": "c020-q1",
