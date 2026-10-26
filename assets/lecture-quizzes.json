@@ -1048,63 +1048,60 @@
   {
     "id": "c018-q1",
     "concept_id": "c018",
-    "prompt": "A network contains Canary is-a Bird and Bird is-a Animal. Which category membership follows?",
+    "prompt": "Mary is a named person; Female Persons and Persons are groups. Which pair of links matches the lecture network?",
     "options": [
-      "Canary is an Animal",
-      "Every Animal is a Canary",
-      "Bird is part of one Canary",
-      "All Animal properties must be unique to Canaries"
+      "Mary MemberOf Female Persons; Female Persons SubsetOf Persons",
+      "Mary SubsetOf Female Persons; Female Persons MemberOf Persons",
+      "Mary MemberOf Female Persons; Persons SubsetOf Female Persons",
+      "Mary HasMother Female Persons; Female Persons SisterOf Persons"
     ],
     "answer": 0,
     "explanations": [
-      "Subclass membership propagates through the hierarchy.",
-      "The reverse subclass claim is not implied.",
-      "Is-a is a category relationship, not physical composition.",
-      "Inheritance does not make shared properties exclusive to a subclass."
+      "MemberOf connects an individual to a group; SubsetOf connects the smaller group to the broader group.",
+      "The roles of individual membership and group inclusion were swapped.",
+      "The second link reverses the group relationship.",
+      "HasMother and SisterOf express family relationships, not these membership links."
     ],
     "sources": [
       {
         "file": "MR-Day 2_JR_v1.pdf",
         "pages": [
-          50,
-          53
+          50
         ]
       }
     ],
     "kind": "application",
     "scope": "lecture",
-    "signature": "06355e108f72"
+    "signature": "9f4f95698b29"
   },
   {
     "id": "c018-q2",
     "concept_id": "c018",
-    "prompt": "For modelling an eye and a face, which distinction is correct?",
+    "prompt": "The lecture graph shows Persons Legs 2, John Legs 1, and Mary SisterOf John. Which reading is supported?",
     "options": [
-      "Part-of and is-a always support the same inheritance",
-      "Eye instance-of Face means every face is an eye",
-      "An unlabelled line is enough to infer subtype membership",
-      "Eye part-of Face expresses composition, not Eye is-a Face"
+      "John has the explicitly shown Legs value 1; Mary is John’s sister.",
+      "John must have Legs 2 because he belongs to Persons.",
+      "John is Mary’s sister because the SisterOf arrow can always be reversed.",
+      "Mary is John’s mother because the graph also contains HasMother."
     ],
-    "answer": 3,
+    "answer": 0,
     "explanations": [
-      "Containment does not carry the same class semantics as inheritance.",
-      "This confuses instance membership with object composition.",
-      "Without relation meaning, a line does not establish the intended inference.",
-      "A component is not a subtype of its containing object."
+      "Read each named relationship separately and retain the explicit individual property.",
+      "This overwrites the individual value explicitly drawn on the slide.",
+      "The meaning of SisterOf does not allow this automatic reversal.",
+      "No individual mother relationship between Mary and John is supplied."
     ],
     "sources": [
       {
         "file": "MR-Day 2_JR_v1.pdf",
         "pages": [
-          50,
-          51,
-          53
+          50
         ]
       }
     ],
     "kind": "comparison",
     "scope": "lecture",
-    "signature": "1c5aa9dc6adc"
+    "signature": "07058b7bb3e1"
   },
   {
     "id": "c019-q1",

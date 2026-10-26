@@ -2,40 +2,25 @@
   {
     "id": "semantic-drawing",
     "group": "Language & knowledge",
-    "cue": "Draw entities and relationships: nodes, labelled links, MemberOf, SubsetOf, is-a, inheritance",
-    "method": "Semantic network / knowledge graph; distinguish frame schema and architecture requests",
-    "condition": "Use a network for entity/class relationships; a question explicitly asking for frames requires frames and slots.",
-    "flow": "Extract entities/classes → draw nodes → label directed relations → add properties → test one inference and any exception.",
-    "change": "MemberOf is individual-to-class; SubsetOf is class-to-class. Do not reverse a relation or confuse is-a with part-of.",
+    "cue": "MemberOf, SubsetOf, HasMother, SisterOf, properties: identify or draw the labelled relationship",
+    "method": "Semantic network: individual/group/relation/value links",
+    "condition": "Read the named relationship and its direction; keep individual membership separate from group inclusion.",
+    "flow": "Identify individuals/groups → choose MemberOf or SubsetOf → add named relations/properties → read arrows → check explicit exceptions.",
+    "change": "Do not replace the semantic-network question with ontology axioms, a frame schema or a system architecture.",
     "ids": [
-      "c018",
-      "c019",
-      "extra-knowledge-representation"
+      "c018"
     ],
     "aliases": "semantic graph diagram drawing knowledge representation schema inheritance membership",
     "tasks": "draw design compare",
-    "papers": [
-      "5001 Q1(c): frames, not a semantic-network requirement"
-    ],
+    "papers": [],
     "revisionSources": [
-      "5001_SAMPLE_QA.md",
-      "Practice_Papers/5001_PRACTICE_B.md (generated practice)"
+      "MR-Day 2_JR_v1.pdf · PDF p.50"
     ],
     "concepts": [
       {
         "id": "c018",
         "title": "Semantic networks",
         "href": "concepts/c018.html#c018"
-      },
-      {
-        "id": "c019",
-        "title": "Frames",
-        "href": "concepts/c019.html#c019"
-      },
-      {
-        "id": "extra-knowledge-representation",
-        "title": "Forms of Knowledge Representation",
-        "href": "concepts/extra-knowledge-representation.html#extra-knowledge-representation"
       }
     ]
   },
