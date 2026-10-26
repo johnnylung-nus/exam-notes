@@ -1679,6 +1679,46 @@
       "tables": 2,
       "calculation": false,
       "references": true
+    },
+    {
+      "id": "extra-constraint-representation",
+      "page": "concepts/extra-constraint-representation.html",
+      "title": "Constraint-Based Representation",
+      "words": 376,
+      "svgs": 0,
+      "tables": 1,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "extra-probabilistic-representation",
+      "page": "concepts/extra-probabilistic-representation.html",
+      "title": "Probabilistic Representation",
+      "words": 461,
+      "svgs": 0,
+      "tables": 1,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "extra-case-representation",
+      "page": "concepts/extra-case-representation.html",
+      "title": "Case-Based Representation",
+      "words": 383,
+      "svgs": 0,
+      "tables": 1,
+      "calculation": false,
+      "references": true
+    },
+    {
+      "id": "extra-vector-representation",
+      "page": "concepts/extra-vector-representation.html",
+      "title": "Vector / Embedding Representation",
+      "words": 396,
+      "svgs": 0,
+      "tables": 1,
+      "calculation": false,
+      "references": true
     }
   ],
   "count": 167,

@@ -258,3 +258,8 @@ Keep the use cases NAMED BY THE LECTURER. A bare technical name is insufficient:
 ## Use-case heading wording — 26 October 2026
 
 Use the exact heading **Used Cases:** on knowledge-representation pages. Do not use headings such as “The lecture’s uses, in plain words” or “The lecture’s use cases: meaning and scenario clues”. Keep the explanations and examples beneath this concise heading.
+
+
+## Complete representation sequence — 26 October 2026
+
+MR Day 2 must explicitly include Constraint-Based Representation (PDF p.54), Probabilistic Representation (p.55), Case-Based Representation (p.56), and Vector / Embedding Representation (p.57) AFTER Ontologies and BEFORE Knowledge Graphs (p.58). Each now has its own representation page with original lecture image, format, meanings and Used Cases. These describe knowledge representation; the linked CSP/backtracking, Bayesian inference and case-based reasoning pages explain the associated procedures. Their representation-format and Used Cases content was moved to the canonical representation pages rather than rewritten in multiple places; old anchors link onward. Maintain the complete lecture order and Previous/Next links across this sequence.

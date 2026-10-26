@@ -242,6 +242,34 @@
               "note": ""
             },
             {
+              "conceptId": "extra-constraint-representation",
+              "pages": [
+                54
+              ],
+              "note": "Knowledge representation format; linked method details remain on the existing explanation page."
+            },
+            {
+              "conceptId": "extra-probabilistic-representation",
+              "pages": [
+                55
+              ],
+              "note": "Knowledge representation format; linked method details remain on the existing explanation page."
+            },
+            {
+              "conceptId": "extra-case-representation",
+              "pages": [
+                56
+              ],
+              "note": "Knowledge representation format; linked method details remain on the existing explanation page."
+            },
+            {
+              "conceptId": "extra-vector-representation",
+              "pages": [
+                57
+              ],
+              "note": "Knowledge representation format; linked method details remain on the existing explanation page."
+            },
+            {
               "conceptId": "c021",
               "pages": [
                 58
@@ -3594,6 +3622,38 @@
       "quizCount": 0,
       "quizScope": "lecture",
       "quizGap": "Overview; use the linked concept knowledge checks.",
+      "quizNote": ""
+    },
+    "extra-constraint-representation": {
+      "title": "Constraint-Based Representation",
+      "url": "concepts/extra-constraint-representation.html#extra-constraint-representation",
+      "quizCount": 0,
+      "quizScope": "lecture",
+      "quizGap": "Use the linked method’s knowledge check.",
+      "quizNote": ""
+    },
+    "extra-probabilistic-representation": {
+      "title": "Probabilistic Representation",
+      "url": "concepts/extra-probabilistic-representation.html#extra-probabilistic-representation",
+      "quizCount": 0,
+      "quizScope": "lecture",
+      "quizGap": "Use the linked method’s knowledge check.",
+      "quizNote": ""
+    },
+    "extra-case-representation": {
+      "title": "Case-Based Representation",
+      "url": "concepts/extra-case-representation.html#extra-case-representation",
+      "quizCount": 0,
+      "quizScope": "lecture",
+      "quizGap": "Use the linked method’s knowledge check.",
+      "quizNote": ""
+    },
+    "extra-vector-representation": {
+      "title": "Vector / Embedding Representation",
+      "url": "concepts/extra-vector-representation.html#extra-vector-representation",
+      "quizCount": 0,
+      "quizScope": "lecture",
+      "quizGap": "Use the linked method’s knowledge check.",
       "quizNote": ""
     }
   },

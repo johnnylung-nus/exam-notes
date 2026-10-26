@@ -166,5 +166,9 @@
   "c162": "concepts/c162.html#c162",
   "extra-knowledge-acquisition": "concepts/extra-knowledge-acquisition.html#extra-knowledge-acquisition",
   "extra-csp": "concepts/extra-csp.html#extra-csp",
-  "extra-knowledge-representation": "concepts/extra-knowledge-representation.html#extra-knowledge-representation"
+  "extra-knowledge-representation": "concepts/extra-knowledge-representation.html#extra-knowledge-representation",
+  "extra-constraint-representation": "concepts/extra-constraint-representation.html#extra-constraint-representation",
+  "extra-probabilistic-representation": "concepts/extra-probabilistic-representation.html#extra-probabilistic-representation",
+  "extra-case-representation": "concepts/extra-case-representation.html#extra-case-representation",
+  "extra-vector-representation": "concepts/extra-vector-representation.html#extra-vector-representation"
 }
