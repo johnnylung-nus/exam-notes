@@ -310,6 +310,13 @@
                 84
               ],
               "note": "Original network, CPTs, joint probability, Bayesian inference and Naive Bayes comparison."
+            },
+            {
+              "conceptId": "c140",
+              "pages": [
+                90
+              ],
+              "note": "AUC/ROC reference slide: area and positive-versus-negative ranking interpretation."
             }
           ]
         },
@@ -3453,7 +3460,7 @@
       "quizNote": ""
     },
     "c140": {
-      "title": "ROC and gain/lift charts",
+      "title": "ROC, AUC and gain/lift charts",
       "url": "concepts/c140.html#c140",
       "quizCount": 2,
       "quizScope": "lecture",

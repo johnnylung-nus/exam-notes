@@ -203,3 +203,8 @@ Bayesian Networks is a substantive MR Day 2 lecture topic, PDF pp.71–84; it mu
 ## Extract and explain, do not merely copy — 26 October 2026
 
 The website's value is extracting the IMPORTANT CONCEPTS from lecture material, explaining them clearly, organizing them for recall and exam use, and showing the differences that determine method choice. Original slides/graphics are references and memory aids, not substitutes for teaching. Keep the lecturer's terminology and scope; identify the key mechanism, explain unfamiliar words in plain English, give the requested short example, and connect it to exam scenarios. Naive Bayes must prominently explain its relationship to general Bayesian networks: it IS a special BN and assumes feature independence GIVEN the class. A general BN represents other dependency structures with local CPTs; it does not imply every variable depends on every other variable. Compare assumptions, factorization, probability requirements, parameter/data needs and inference, rather than listing two model names. Canonical comparison: concepts/c144.html#nb-vs-bn; link it from the BN page instead of maintaining separate conflicting explanations.
+
+
+## Explain ROC AUC explicitly — 26 October 2026
+
+Mentioning AUC or warning it is not profit is not enough. c140 must define ROC axes and threshold sweep, area under the curve, positive-versus-negative pairwise ranking (ties half), interpretation of1/0.5 and a numerical example; distinguish ranking from accuracy and probability calibration. Original reference is MR Day2 PDF p.90 / printed91, now included in lecture order. The tiny pairwise example is explicitly original teaching data.
