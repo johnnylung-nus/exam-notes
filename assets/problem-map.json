@@ -1,5 +1,30 @@
 [
   {
+    "id": "knowledge-forms",
+    "group": "Language & knowledge",
+    "cue": "Choose a knowledge representation: facts, rules, slots, inheritance, uncertainty, past cases, vectors or linked entities",
+    "method": "Compare the lecture’s ten forms of knowledge representation",
+    "condition": "Choose what must be stored and how it will be used; a representation and an inference algorithm are different decisions.",
+    "flow": "Identify required knowledge → compare forms → specify structure/fields/relations → state inference procedure → justify with scenario.",
+    "change": "A list of methods is not a design. Show what is stored, a concrete example and how the engine uses it. Logic is one form, not the whole topic.",
+    "ids": [
+      "extra-knowledge-representation"
+    ],
+    "aliases": "forms knowledge representation schema logical rule semantic network frame ontology CSP probabilistic case vector embedding graph database",
+    "tasks": "choose design compare",
+    "papers": [
+      "5001 Q1(c)",
+      "5001 Q2(d)"
+    ],
+    "concepts": [
+      {
+        "id": "extra-knowledge-representation",
+        "title": "Forms of Knowledge Representation",
+        "href": "concepts/extra-knowledge-representation.html#extra-knowledge-representation"
+      }
+    ]
+  },
+  {
     "id": "csp",
     "group": "Search & optimisation",
     "cue": "Assign rooms/times/colours, choose values subject to rules, shared resources, hard/soft constraints",

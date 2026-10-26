@@ -198,12 +198,24 @@
               "note": ""
             },
             {
-              "conceptId": "c017",
+              "conceptId": "extra-knowledge-representation",
               "pages": [
+                43,
                 46,
-                48
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58
               ],
-              "note": ""
+              "note": "Full representation overview; predicate logic is one form, with its detailed page under Day 4."
             },
             {
               "conceptId": "c018",
@@ -3575,6 +3587,14 @@
       "quizScope": "lecture",
       "quizGap": "",
       "quizNote": "Hard/soft distinction links Day 1 CSP to Reasoning Systems day3.pdf p.53; the timetable is an original application."
+    },
+    "extra-knowledge-representation": {
+      "title": "Forms of Knowledge Representation",
+      "url": "concepts/extra-knowledge-representation.html#extra-knowledge-representation",
+      "quizCount": 0,
+      "quizScope": "lecture",
+      "quizGap": "Overview; use the linked concept knowledge checks.",
+      "quizNote": ""
     }
   },
   "supplements": [

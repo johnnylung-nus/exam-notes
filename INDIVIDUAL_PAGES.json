@@ -1669,6 +1669,16 @@
       "tables": 7,
       "calculation": true,
       "references": true
+    },
+    {
+      "id": "extra-knowledge-representation",
+      "page": "concepts/extra-knowledge-representation.html",
+      "title": "Forms of Knowledge Representation",
+      "words": 880,
+      "svgs": 1,
+      "tables": 2,
+      "calculation": false,
+      "references": true
     }
   ],
   "count": 167,
