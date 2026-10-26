@@ -35,7 +35,7 @@ def rebuild(root):
             for i in range(len(self.stack)-1,-1,-1):
                 if self.stack[i][0]==t:self.stack=self.stack[:i];break
         def handle_data(self,s):
-            eligible=any(t=='article' for t,a in self.stack) and not any(t in {'script','style','svg','nav','button','code','pre'} or 'lecture-reference' in a.get('class','') or 'topic-related' in a.get('class','') for t,a in self.stack)
+            eligible=any(t=='article' for t,a in self.stack) and not any(t in {'script','style','svg','math','nav','button','code','pre'} or 'formula-line' in a.get('class','') or 'formula-line' in a.get('class','') or 'lecture-reference' in a.get('class','') or 'topic-related' in a.get('class','') for t,a in self.stack)
             if eligible:
                 def sub(m):
                     key=m[0].lower();family=aliases.get(key);parts=[]

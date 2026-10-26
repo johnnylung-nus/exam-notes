@@ -1,0 +1,674 @@
+{
+  "pages_reviewed": 167,
+  "typeset_pages": 61,
+  "pages": [
+    {
+      "concept": "c001",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c002",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c003",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c004",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c005",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c006",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c007",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c008",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c009",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c010",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c011",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c012",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c013",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c014",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c015",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c016",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c017",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c018",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c019",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c020",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c021",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c022",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c023",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c024",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c025",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c026",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c027",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c028",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c029",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c030",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c031",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c032",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c033",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c034",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c035",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c036",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c037",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c038",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c039",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c040",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c041",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c042",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c043",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c044",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c045",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c046",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c047",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c048",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c049",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c050",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c051",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c052",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c053",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c054",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c055",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c056",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c057",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c058",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c059",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c060",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c061",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c062",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c063",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c064",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c065",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c066",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c067",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c068",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c069",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c070",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c071",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c072",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c073",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c074",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c075",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c076",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c077",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c078",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c079",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c080",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c081",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c082",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c083",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c084",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c085",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c086",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c087",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c088",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c089",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c090",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c091",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c092",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c093",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c094",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c095",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c096",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c097",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c098",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c099",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c100",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c101",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c102",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c103",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c104",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c105",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c106",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c107",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c108",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c109",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c110",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c111",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c112",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c113",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c114",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c115",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c116",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c117",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c118",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c119",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c120",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c121",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c122",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c123",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c124",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c125",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c126",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c127",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c128",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c129",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c130",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c131",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c132",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c133",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c134",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c135",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c136",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c137",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c138",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c139",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c140",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c141",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c142",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c143",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c144",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c145",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c146",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c147",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c148",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c149",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c150",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c151",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c152",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c153",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c154",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c155",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c156",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c157",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c158",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c159",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c160",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "c161",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "c162",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    },
+    {
+      "concept": "c163",
+      "status": "Typeset formula + symbol definitions; existing worked steps preserved"
+    },
+    {
+      "concept": "extra-csp",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "extra-hmm",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "extra-knowledge-acquisition",
+      "status": "Reviewed: qualitative/diagram-based page; no formula imposed"
+    },
+    {
+      "concept": "extra-svm",
+      "status": "Reviewed: retain topic-specific examples/pseudocode; no new formula imposed"
+    }
+  ]
+}
