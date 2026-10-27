@@ -2,3 +2,6 @@
 
 /* Short first-use terminology aids, including print. */
 .term-zh{font-size:.88em;font-weight:400;color:#52615e;font-family:system-ui,"Microsoft JhengHei","PingFang TC",sans-serif}@media print{.term-zh{color:#333}}
+
+/* Exam lookup emphasis: sparse, printable, not full-sentence highlighting. */
+.exam-keyword{font-weight:750;color:#263f57;background:#f7e9b1;border-radius:2px;padding:0 .08em}@media print{.exam-keyword{color:#000!important;background:none!important;font-weight:800}}
