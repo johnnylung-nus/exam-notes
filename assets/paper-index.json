@@ -1,0 +1,2043 @@
+{
+  "version": "paper-locator-1",
+  "groups": [
+    {
+      "code": "MR",
+      "title": "Machine Reasoning"
+    },
+    {
+      "code": "RS",
+      "title": "Reasoning Systems"
+    },
+    {
+      "code": "CG",
+      "title": "Cognitive Systems"
+    },
+    {
+      "code": "PS",
+      "title": "PSUPR"
+    },
+    {
+      "code": "PR",
+      "title": "PRMLS"
+    },
+    {
+      "code": "IS",
+      "title": "ISSM"
+    }
+  ],
+  "concepts": {
+    "c001": {
+      "code": "MR-01",
+      "group": "MR",
+      "title": "Search problem formulation",
+      "url": "concepts/c001.html#c001"
+    },
+    "c002": {
+      "code": "MR-02",
+      "group": "MR",
+      "title": "Breadth-first search",
+      "url": "concepts/c002.html#c002"
+    },
+    "c003": {
+      "code": "MR-03",
+      "group": "MR",
+      "title": "Depth-first search",
+      "url": "concepts/c003.html#c003"
+    },
+    "c004": {
+      "code": "MR-04",
+      "group": "MR",
+      "title": "Uniform-cost search / Dijkstra",
+      "url": "concepts/c004.html#c004"
+    },
+    "c005": {
+      "code": "MR-05",
+      "group": "MR",
+      "title": "A* search",
+      "url": "concepts/c005.html#c005"
+    },
+    "c006": {
+      "code": "MR-06",
+      "group": "MR",
+      "title": "Heuristics and admissibility",
+      "url": "concepts/c006.html#c006"
+    },
+    "c007": {
+      "code": "MR-07",
+      "group": "MR",
+      "title": "Hill climbing",
+      "url": "concepts/c007.html#c007"
+    },
+    "c008": {
+      "code": "MR-08",
+      "group": "MR",
+      "title": "Simulated annealing",
+      "url": "concepts/c008.html#c008"
+    },
+    "c038": {
+      "code": "RS-10",
+      "group": "RS",
+      "title": "User-based collaborative filtering",
+      "url": "concepts/c038.html#c038"
+    },
+    "c039": {
+      "code": "RS-11",
+      "group": "RS",
+      "title": "Item-based collaborative filtering",
+      "url": "concepts/c039.html#c039"
+    },
+    "c040": {
+      "code": "RS-12",
+      "group": "RS",
+      "title": "Similarity and rating prediction",
+      "url": "concepts/c040.html#c040"
+    },
+    "c041": {
+      "code": "RS-13",
+      "group": "RS",
+      "title": "Recommendation evaluation",
+      "url": "concepts/c041.html#c041"
+    },
+    "c042": {
+      "code": "RS-14",
+      "group": "RS",
+      "title": "Sparsity and cold start",
+      "url": "concepts/c042.html#c042"
+    },
+    "c043": {
+      "code": "RS-15",
+      "group": "RS",
+      "title": "Matrix factorization",
+      "url": "concepts/c043.html#c043"
+    },
+    "c044": {
+      "code": "RS-16",
+      "group": "RS",
+      "title": "SGD / ALS training",
+      "url": "concepts/c044.html#c044"
+    },
+    "c045": {
+      "code": "RS-17",
+      "group": "RS",
+      "title": "Recommendation overfitting and regularization",
+      "url": "concepts/c045.html#c045"
+    },
+    "c152": {
+      "code": "PS-19",
+      "group": "PS",
+      "title": "PCA, variance, and principal directions",
+      "url": "concepts/c152.html#c152"
+    },
+    "c153": {
+      "code": "PS-20",
+      "group": "PS",
+      "title": "Eigenvalues / eigenvectors and SVD",
+      "url": "concepts/c153.html#c153"
+    },
+    "c009": {
+      "code": "MR-09",
+      "group": "MR",
+      "title": "Deductive reasoning",
+      "url": "concepts/c009.html#c009"
+    },
+    "c010": {
+      "code": "MR-10",
+      "group": "MR",
+      "title": "Abductive reasoning",
+      "url": "concepts/c010.html#c010"
+    },
+    "c011": {
+      "code": "MR-11",
+      "group": "MR",
+      "title": "Inductive reasoning",
+      "url": "concepts/c011.html#c011"
+    },
+    "c012": {
+      "code": "MR-12",
+      "group": "MR",
+      "title": "Forward chaining",
+      "url": "concepts/c012.html#c012"
+    },
+    "c013": {
+      "code": "MR-13",
+      "group": "MR",
+      "title": "Backward chaining",
+      "url": "concepts/c013.html#c013"
+    },
+    "c014": {
+      "code": "MR-14",
+      "group": "MR",
+      "title": "Conflict resolution in rule systems",
+      "url": "concepts/c014.html#c014"
+    },
+    "c015": {
+      "code": "MR-15",
+      "group": "MR",
+      "title": "Case-based reasoning",
+      "url": "concepts/c015.html#c015"
+    },
+    "c016": {
+      "code": "MR-16",
+      "group": "MR",
+      "title": "Probabilistic Reasoning: Bayesian Inference",
+      "url": "concepts/c016.html#c016"
+    },
+    "c017": {
+      "code": "MR-17",
+      "group": "MR",
+      "title": "First-order / predicate logic",
+      "url": "concepts/c017.html#c017"
+    },
+    "c018": {
+      "code": "MR-18",
+      "group": "MR",
+      "title": "Semantic networks",
+      "url": "concepts/c018.html#c018"
+    },
+    "c019": {
+      "code": "MR-19",
+      "group": "MR",
+      "title": "Frames",
+      "url": "concepts/c019.html#c019"
+    },
+    "c020": {
+      "code": "MR-20",
+      "group": "MR",
+      "title": "Ontologies",
+      "url": "concepts/c020.html#c020"
+    },
+    "c021": {
+      "code": "MR-21",
+      "group": "MR",
+      "title": "Knowledge graph structure and queries",
+      "url": "concepts/c021.html#c021"
+    },
+    "c022": {
+      "code": "MR-22",
+      "group": "MR",
+      "title": "KG traversal and multi-hop queries",
+      "url": "concepts/c022.html#c022"
+    },
+    "c023": {
+      "code": "MR-23",
+      "group": "MR",
+      "title": "TransE embeddings",
+      "url": "concepts/c023.html#c023"
+    },
+    "c024": {
+      "code": "MR-24",
+      "group": "MR",
+      "title": "TransR embeddings",
+      "url": "concepts/c024.html#c024"
+    },
+    "c025": {
+      "code": "MR-25",
+      "group": "MR",
+      "title": "Bilinear / DistMult embeddings",
+      "url": "concepts/c025.html#c025"
+    },
+    "c026": {
+      "code": "MR-26",
+      "group": "MR",
+      "title": "Neural knowledge graph embeddings",
+      "url": "concepts/c026.html#c026"
+    },
+    "c027": {
+      "code": "MR-27",
+      "group": "MR",
+      "title": "Inductive learning and generalization",
+      "url": "concepts/c027.html#c027"
+    },
+    "c028": {
+      "code": "MR-28",
+      "group": "MR",
+      "title": "Decision-tree reasoning",
+      "url": "concepts/c028.html#c028"
+    },
+    "c029": {
+      "code": "RS-01",
+      "group": "RS",
+      "title": "Reasoning-system architecture",
+      "url": "concepts/c029.html#c029"
+    },
+    "c030": {
+      "code": "RS-02",
+      "group": "RS",
+      "title": "Rules + ML integration",
+      "url": "concepts/c030.html#c030"
+    },
+    "c031": {
+      "code": "RS-03",
+      "group": "RS",
+      "title": "Knowledge graph + LLM integration",
+      "url": "concepts/c031.html#c031"
+    },
+    "c032": {
+      "code": "RS-04",
+      "group": "RS",
+      "title": "Retrieval-augmented generation",
+      "url": "concepts/c032.html#c032"
+    },
+    "c033": {
+      "code": "RS-05",
+      "group": "RS",
+      "title": "Agentic orchestration",
+      "url": "concepts/c033.html#c033"
+    },
+    "c058": {
+      "code": "RS-30",
+      "group": "RS",
+      "title": "Symbolic / connectionist / hybrid AI",
+      "url": "concepts/c058.html#c058"
+    },
+    "c034": {
+      "code": "RS-06",
+      "group": "RS",
+      "title": "Market basket analysis",
+      "url": "concepts/c034.html#c034"
+    },
+    "c035": {
+      "code": "RS-07",
+      "group": "RS",
+      "title": "Association-rule support",
+      "url": "concepts/c035.html#c035"
+    },
+    "c036": {
+      "code": "RS-08",
+      "group": "RS",
+      "title": "Association-rule confidence and lift",
+      "url": "concepts/c036.html#c036"
+    },
+    "c037": {
+      "code": "RS-09",
+      "group": "RS",
+      "title": "Content-based recommendation",
+      "url": "concepts/c037.html#c037"
+    },
+    "c046": {
+      "code": "RS-18",
+      "group": "RS",
+      "title": "Implicit feedback and preferences",
+      "url": "concepts/c046.html#c046"
+    },
+    "c047": {
+      "code": "RS-19",
+      "group": "RS",
+      "title": "Jaccard similarity",
+      "url": "concepts/c047.html#c047"
+    },
+    "c048": {
+      "code": "RS-20",
+      "group": "RS",
+      "title": "Negative sampling",
+      "url": "concepts/c048.html#c048"
+    },
+    "c049": {
+      "code": "RS-21",
+      "group": "RS",
+      "title": "Confidence-weighted implicit MF",
+      "url": "concepts/c049.html#c049"
+    },
+    "c050": {
+      "code": "RS-22",
+      "group": "RS",
+      "title": "Bayesian personalized ranking",
+      "url": "concepts/c050.html#c050"
+    },
+    "c051": {
+      "code": "RS-23",
+      "group": "RS",
+      "title": "Hybrid recommenders",
+      "url": "concepts/c051.html#c051"
+    },
+    "c052": {
+      "code": "RS-24",
+      "group": "RS",
+      "title": "Deep collaborative filtering",
+      "url": "concepts/c052.html#c052"
+    },
+    "c053": {
+      "code": "RS-25",
+      "group": "RS",
+      "title": "Sequence-based recommendation",
+      "url": "concepts/c053.html#c053"
+    },
+    "c054": {
+      "code": "RS-26",
+      "group": "RS",
+      "title": "Graph-based recommendation",
+      "url": "concepts/c054.html#c054"
+    },
+    "c055": {
+      "code": "RS-27",
+      "group": "RS",
+      "title": "Genetic algorithm representation and fitness",
+      "url": "concepts/c055.html#c055"
+    },
+    "c056": {
+      "code": "RS-28",
+      "group": "RS",
+      "title": "GA selection operators",
+      "url": "concepts/c056.html#c056"
+    },
+    "c057": {
+      "code": "RS-29",
+      "group": "RS",
+      "title": "GA crossover and mutation",
+      "url": "concepts/c057.html#c057"
+    },
+    "c060": {
+      "code": "CG-02",
+      "group": "CG",
+      "title": "Natural language understanding",
+      "url": "concepts/c060.html#c060"
+    },
+    "c061": {
+      "code": "CG-03",
+      "group": "CG",
+      "title": "Intent classification",
+      "url": "concepts/c061.html#c061"
+    },
+    "c063": {
+      "code": "CG-05",
+      "group": "CG",
+      "title": "Slot detection and information extraction",
+      "url": "concepts/c063.html#c063"
+    },
+    "c064": {
+      "code": "CG-06",
+      "group": "CG",
+      "title": "Dialogue management and generation",
+      "url": "concepts/c064.html#c064"
+    },
+    "c065": {
+      "code": "CG-07",
+      "group": "CG",
+      "title": "LLM tools and agents",
+      "url": "concepts/c065.html#c065"
+    },
+    "c062": {
+      "code": "CG-04",
+      "group": "CG",
+      "title": "TF-IDF and cosine similarity",
+      "url": "concepts/c062.html#c062"
+    },
+    "c082": {
+      "code": "CG-24",
+      "group": "CG",
+      "title": "RAG and knowledge-graph cognition",
+      "url": "concepts/c082.html#c082"
+    },
+    "c059": {
+      "code": "CG-01",
+      "group": "CG",
+      "title": "Cognitive-system architecture",
+      "url": "concepts/c059.html#c059"
+    },
+    "c078": {
+      "code": "CG-20",
+      "group": "CG",
+      "title": "Multimodal cognition",
+      "url": "concepts/c078.html#c078"
+    },
+    "c066": {
+      "code": "CG-08",
+      "group": "CG",
+      "title": "Vision cognition pipeline",
+      "url": "concepts/c066.html#c066"
+    },
+    "c067": {
+      "code": "CG-09",
+      "group": "CG",
+      "title": "Marr’s three levels",
+      "url": "concepts/c067.html#c067"
+    },
+    "c068": {
+      "code": "CG-10",
+      "group": "CG",
+      "title": "Detection vs segmentation",
+      "url": "concepts/c068.html#c068"
+    },
+    "c069": {
+      "code": "CG-11",
+      "group": "CG",
+      "title": "Visual attention and context",
+      "url": "concepts/c069.html#c069"
+    },
+    "c070": {
+      "code": "CG-12",
+      "group": "CG",
+      "title": "Vision-language models",
+      "url": "concepts/c070.html#c070"
+    },
+    "c071": {
+      "code": "CG-13",
+      "group": "CG",
+      "title": "Audio sampling and coding",
+      "url": "concepts/c071.html#c071"
+    },
+    "c072": {
+      "code": "CG-14",
+      "group": "CG",
+      "title": "Spectrogram and audio features",
+      "url": "concepts/c072.html#c072"
+    },
+    "c073": {
+      "code": "CG-15",
+      "group": "CG",
+      "title": "Speech recognition",
+      "url": "concepts/c073.html#c073"
+    },
+    "c075": {
+      "code": "CG-17",
+      "group": "CG",
+      "title": "Whisper",
+      "url": "concepts/c075.html#c075"
+    },
+    "c076": {
+      "code": "CG-18",
+      "group": "CG",
+      "title": "Wav2Vec self-supervised learning",
+      "url": "concepts/c076.html#c076"
+    },
+    "c074": {
+      "code": "CG-16",
+      "group": "CG",
+      "title": "Text-to-speech",
+      "url": "concepts/c074.html#c074"
+    },
+    "c077": {
+      "code": "CG-19",
+      "group": "CG",
+      "title": "Audio/system evaluation",
+      "url": "concepts/c077.html#c077"
+    },
+    "c079": {
+      "code": "CG-21",
+      "group": "CG",
+      "title": "LLM reasoning and chain of thought",
+      "url": "concepts/c079.html#c079"
+    },
+    "c080": {
+      "code": "CG-22",
+      "group": "CG",
+      "title": "Validity, soundness, and reasoning failure",
+      "url": "concepts/c080.html#c080"
+    },
+    "c081": {
+      "code": "CG-23",
+      "group": "CG",
+      "title": "Soar architecture",
+      "url": "concepts/c081.html#c081"
+    },
+    "c083": {
+      "code": "IS-01",
+      "group": "IS",
+      "title": "Signals, sensors, and sensing pipeline",
+      "url": "concepts/c083.html#c083"
+    },
+    "c084": {
+      "code": "IS-02",
+      "group": "IS",
+      "title": "Sampling and aliasing",
+      "url": "concepts/c084.html#c084"
+    },
+    "c085": {
+      "code": "IS-03",
+      "group": "IS",
+      "title": "Periodic / even / odd signals",
+      "url": "concepts/c085.html#c085"
+    },
+    "c086": {
+      "code": "IS-04",
+      "group": "IS",
+      "title": "Superposition and signal decomposition",
+      "url": "concepts/c086.html#c086"
+    },
+    "c087": {
+      "code": "IS-05",
+      "group": "IS",
+      "title": "Time and frequency representation",
+      "url": "concepts/c087.html#c087"
+    },
+    "c088": {
+      "code": "IS-06",
+      "group": "IS",
+      "title": "Fourier transformation",
+      "url": "concepts/c088.html#c088"
+    },
+    "c089": {
+      "code": "IS-07",
+      "group": "IS",
+      "title": "Filtering and convolution",
+      "url": "concepts/c089.html#c089"
+    },
+    "c090": {
+      "code": "IS-08",
+      "group": "IS",
+      "title": "Signal distributions and statistics",
+      "url": "concepts/c090.html#c090"
+    },
+    "c091": {
+      "code": "IS-09",
+      "group": "IS",
+      "title": "Gaussian mixtures / expectation maximization",
+      "url": "concepts/c091.html#c091"
+    },
+    "c092": {
+      "code": "IS-10",
+      "group": "IS",
+      "title": "Basis vectors and energy compaction",
+      "url": "concepts/c092.html#c092"
+    },
+    "c093": {
+      "code": "IS-11",
+      "group": "IS",
+      "title": "Supervised representation learning",
+      "url": "concepts/c093.html#c093"
+    },
+    "c094": {
+      "code": "IS-12",
+      "group": "IS",
+      "title": "Self-supervised representation learning",
+      "url": "concepts/c094.html#c094"
+    },
+    "c095": {
+      "code": "IS-13",
+      "group": "IS",
+      "title": "Autoencoders and reconstruction",
+      "url": "concepts/c095.html#c095"
+    },
+    "c096": {
+      "code": "IS-14",
+      "group": "IS",
+      "title": "Denoising autoencoders",
+      "url": "concepts/c096.html#c096"
+    },
+    "c097": {
+      "code": "IS-15",
+      "group": "IS",
+      "title": "Contrastive learning",
+      "url": "concepts/c097.html#c097"
+    },
+    "c098": {
+      "code": "IS-16",
+      "group": "IS",
+      "title": "Anomaly detection",
+      "url": "concepts/c098.html#c098"
+    },
+    "c099": {
+      "code": "IS-17",
+      "group": "IS",
+      "title": "Single-modality sensing",
+      "url": "concepts/c099.html#c099"
+    },
+    "c100": {
+      "code": "IS-18",
+      "group": "IS",
+      "title": "Data augmentation for sensors",
+      "url": "concepts/c100.html#c100"
+    },
+    "c101": {
+      "code": "IS-19",
+      "group": "IS",
+      "title": "Multimodal representation and fusion",
+      "url": "concepts/c101.html#c101"
+    },
+    "c102": {
+      "code": "IS-20",
+      "group": "IS",
+      "title": "Spatial / temporal / feature alignment",
+      "url": "concepts/c102.html#c102"
+    },
+    "c103": {
+      "code": "IS-21",
+      "group": "IS",
+      "title": "End-to-end sense-making design",
+      "url": "concepts/c103.html#c103"
+    },
+    "c104": {
+      "code": "PR-01",
+      "group": "PR",
+      "title": "Artificial neuron, weights, bias, activation",
+      "url": "concepts/c104.html#c104"
+    },
+    "c105": {
+      "code": "PR-02",
+      "group": "PR",
+      "title": "Perceptron and linear separability",
+      "url": "concepts/c105.html#c105"
+    },
+    "c106": {
+      "code": "PR-03",
+      "group": "PR",
+      "title": "ADALINE and delta rule",
+      "url": "concepts/c106.html#c106"
+    },
+    "c107": {
+      "code": "PR-04",
+      "group": "PR",
+      "title": "MLP and backpropagation",
+      "url": "concepts/c107.html#c107"
+    },
+    "c108": {
+      "code": "PR-05",
+      "group": "PR",
+      "title": "Activation-function choices",
+      "url": "concepts/c108.html#c108"
+    },
+    "c109": {
+      "code": "PR-06",
+      "group": "PR",
+      "title": "RBF networks",
+      "url": "concepts/c109.html#c109"
+    },
+    "c110": {
+      "code": "PR-07",
+      "group": "PR",
+      "title": "General regression neural networks",
+      "url": "concepts/c110.html#c110"
+    },
+    "c111": {
+      "code": "PR-08",
+      "group": "PR",
+      "title": "Self-organizing maps",
+      "url": "concepts/c111.html#c111"
+    },
+    "c112": {
+      "code": "PR-09",
+      "group": "PR",
+      "title": "CNN convolution, padding, stride",
+      "url": "concepts/c112.html#c112"
+    },
+    "c113": {
+      "code": "PR-10",
+      "group": "PR",
+      "title": "Pooling",
+      "url": "concepts/c113.html#c113"
+    },
+    "c114": {
+      "code": "PR-11",
+      "group": "PR",
+      "title": "CNN dimensions and parameter counts",
+      "url": "concepts/c114.html#c114"
+    },
+    "c163": {
+      "code": "PS-30",
+      "group": "PS",
+      "title": "CNN application design",
+      "url": "concepts/c163.html#c163"
+    },
+    "c115": {
+      "code": "PR-12",
+      "group": "PR",
+      "title": "Multi-input / multi-output architectures",
+      "url": "concepts/c115.html#c115"
+    },
+    "c116": {
+      "code": "PR-13",
+      "group": "PR",
+      "title": "Shared layers / encoder architectures",
+      "url": "concepts/c116.html#c116"
+    },
+    "c117": {
+      "code": "PR-14",
+      "group": "PR",
+      "title": "RNN sequence representation",
+      "url": "concepts/c117.html#c117"
+    },
+    "c118": {
+      "code": "PR-15",
+      "group": "PR",
+      "title": "LSTM and stacked recurrent networks",
+      "url": "concepts/c118.html#c118"
+    },
+    "c119": {
+      "code": "PR-16",
+      "group": "PR",
+      "title": "Vanishing / exploding gradients",
+      "url": "concepts/c119.html#c119"
+    },
+    "c120": {
+      "code": "PR-17",
+      "group": "PR",
+      "title": "Xavier / He initialization",
+      "url": "concepts/c120.html#c120"
+    },
+    "c123": {
+      "code": "PR-20",
+      "group": "PR",
+      "title": "Batch normalization",
+      "url": "concepts/c123.html#c123"
+    },
+    "c124": {
+      "code": "PR-21",
+      "group": "PR",
+      "title": "Residual connections",
+      "url": "concepts/c124.html#c124"
+    },
+    "c121": {
+      "code": "PR-18",
+      "group": "PR",
+      "title": "L1 / L2 regularization",
+      "url": "concepts/c121.html#c121"
+    },
+    "c122": {
+      "code": "PR-19",
+      "group": "PR",
+      "title": "Dropout",
+      "url": "concepts/c122.html#c122"
+    },
+    "c125": {
+      "code": "PR-22",
+      "group": "PR",
+      "title": "Transfer learning and fine tuning",
+      "url": "concepts/c125.html#c125"
+    },
+    "c126": {
+      "code": "PR-23",
+      "group": "PR",
+      "title": "Transformer / positional encoding",
+      "url": "concepts/c126.html#c126"
+    },
+    "c127": {
+      "code": "PR-24",
+      "group": "PR",
+      "title": "Self-attention and multi-head attention",
+      "url": "concepts/c127.html#c127"
+    },
+    "c128": {
+      "code": "PR-25",
+      "group": "PR",
+      "title": "Ensemble diversity and voting",
+      "url": "concepts/c128.html#c128"
+    },
+    "c129": {
+      "code": "PR-26",
+      "group": "PR",
+      "title": "Bagging and bootstrap sampling",
+      "url": "concepts/c129.html#c129"
+    },
+    "c130": {
+      "code": "PR-27",
+      "group": "PR",
+      "title": "Random forests and feature importance",
+      "url": "concepts/c130.html#c130"
+    },
+    "c131": {
+      "code": "PR-28",
+      "group": "PR",
+      "title": "Boosting and AdaBoost",
+      "url": "concepts/c131.html#c131"
+    },
+    "c132": {
+      "code": "PR-29",
+      "group": "PR",
+      "title": "Gradient boosting",
+      "url": "concepts/c132.html#c132"
+    },
+    "c133": {
+      "code": "PR-30",
+      "group": "PR",
+      "title": "Mixture of experts / neuro-fuzzy systems",
+      "url": "concepts/c133.html#c133"
+    },
+    "c134": {
+      "code": "PS-01",
+      "group": "PS",
+      "title": "Pattern recognition workflow",
+      "url": "concepts/c134.html#c134"
+    },
+    "c135": {
+      "code": "PS-02",
+      "group": "PS",
+      "title": "Supervised / unsupervised / reinforcement learning",
+      "url": "concepts/c135.html#c135"
+    },
+    "c136": {
+      "code": "PS-03",
+      "group": "PS",
+      "title": "Normalization and preprocessing",
+      "url": "concepts/c136.html#c136"
+    },
+    "c137": {
+      "code": "PS-04",
+      "group": "PS",
+      "title": "Data splits and cross-validation",
+      "url": "concepts/c137.html#c137"
+    },
+    "c141": {
+      "code": "PS-08",
+      "group": "PS",
+      "title": "Hyperparameter tuning and generalization",
+      "url": "concepts/c141.html#c141"
+    },
+    "c138": {
+      "code": "PS-05",
+      "group": "PS",
+      "title": "Imbalanced data and augmentation",
+      "url": "concepts/c138.html#c138"
+    },
+    "c139": {
+      "code": "PS-06",
+      "group": "PS",
+      "title": "Confusion matrix and classification metrics",
+      "url": "concepts/c139.html#c139"
+    },
+    "c140": {
+      "code": "PS-07",
+      "group": "PS",
+      "title": "ROC, AUC and gain/lift charts",
+      "url": "concepts/c140.html#c140"
+    },
+    "c142": {
+      "code": "PS-09",
+      "group": "PS",
+      "title": "Linear / logistic regression",
+      "url": "concepts/c142.html#c142"
+    },
+    "c143": {
+      "code": "PS-10",
+      "group": "PS",
+      "title": "K-nearest neighbours",
+      "url": "concepts/c143.html#c143"
+    },
+    "c144": {
+      "code": "PS-11",
+      "group": "PS",
+      "title": "Naive Bayes and conditional independence",
+      "url": "concepts/c144.html#c144"
+    },
+    "c145": {
+      "code": "PS-12",
+      "group": "PS",
+      "title": "Laplace correction",
+      "url": "concepts/c145.html#c145"
+    },
+    "c146": {
+      "code": "PS-13",
+      "group": "PS",
+      "title": "Decision-tree splitting and information gain",
+      "url": "concepts/c146.html#c146"
+    },
+    "c147": {
+      "code": "PS-14",
+      "group": "PS",
+      "title": "Gain ratio / Gini",
+      "url": "concepts/c147.html#c147"
+    },
+    "c148": {
+      "code": "PS-15",
+      "group": "PS",
+      "title": "Tree pruning",
+      "url": "concepts/c148.html#c148"
+    },
+    "c149": {
+      "code": "PS-16",
+      "group": "PS",
+      "title": "Curse of dimensionality",
+      "url": "concepts/c149.html#c149"
+    },
+    "c150": {
+      "code": "PS-17",
+      "group": "PS",
+      "title": "Filter / wrapper / embedded feature selection",
+      "url": "concepts/c150.html#c150"
+    },
+    "c151": {
+      "code": "PS-18",
+      "group": "PS",
+      "title": "Forward / backward / recursive feature selection",
+      "url": "concepts/c151.html#c151"
+    },
+    "c154": {
+      "code": "PS-21",
+      "group": "PS",
+      "title": "Clustering vs classification",
+      "url": "concepts/c154.html#c154"
+    },
+    "c155": {
+      "code": "PS-22",
+      "group": "PS",
+      "title": "Distances and standardization for clustering",
+      "url": "concepts/c155.html#c155"
+    },
+    "c156": {
+      "code": "PS-23",
+      "group": "PS",
+      "title": "K-means and centroid updates",
+      "url": "concepts/c156.html#c156"
+    },
+    "c157": {
+      "code": "PS-24",
+      "group": "PS",
+      "title": "K-means++ initialization",
+      "url": "concepts/c157.html#c157"
+    },
+    "c158": {
+      "code": "PS-25",
+      "group": "PS",
+      "title": "Hierarchical clustering and linkage",
+      "url": "concepts/c158.html#c158"
+    },
+    "c159": {
+      "code": "PS-26",
+      "group": "PS",
+      "title": "Cluster evaluation and number of clusters",
+      "url": "concepts/c159.html#c159"
+    },
+    "c160": {
+      "code": "PS-27",
+      "group": "PS",
+      "title": "Recognition, detection, and segmentation applications",
+      "url": "concepts/c160.html#c160"
+    },
+    "c161": {
+      "code": "PS-28",
+      "group": "PS",
+      "title": "Generative models / GAN applications",
+      "url": "concepts/c161.html#c161"
+    },
+    "c162": {
+      "code": "PS-29",
+      "group": "PS",
+      "title": "Deep-learning decision / control applications",
+      "url": "concepts/c162.html#c162"
+    },
+    "extra-csp": {
+      "code": "MR-29",
+      "group": "MR",
+      "title": "CSP: variables, domains, constraints and backtracking",
+      "url": "concepts/extra-csp.html#extra-csp"
+    },
+    "extra-knowledge-representation": {
+      "code": "MR-30",
+      "group": "MR",
+      "title": "Forms of Knowledge Representation",
+      "url": "concepts/extra-knowledge-representation.html#extra-knowledge-representation"
+    },
+    "extra-constraint-representation": {
+      "code": "MR-31",
+      "group": "MR",
+      "title": "Constraint-Based Representation",
+      "url": "concepts/extra-constraint-representation.html#extra-constraint-representation"
+    },
+    "extra-probabilistic-representation": {
+      "code": "MR-32",
+      "group": "MR",
+      "title": "Probabilistic Representation",
+      "url": "concepts/extra-probabilistic-representation.html#extra-probabilistic-representation"
+    },
+    "extra-case-representation": {
+      "code": "MR-33",
+      "group": "MR",
+      "title": "Case-Based Representation",
+      "url": "concepts/extra-case-representation.html#extra-case-representation"
+    },
+    "extra-vector-representation": {
+      "code": "MR-34",
+      "group": "MR",
+      "title": "Vector / Embedding Representation",
+      "url": "concepts/extra-vector-representation.html#extra-vector-representation"
+    },
+    "extra-bayesian-network": {
+      "code": "MR-35",
+      "group": "MR",
+      "title": "Bayesian Networks",
+      "url": "concepts/extra-bayesian-network.html#extra-bayesian-network"
+    },
+    "extra-knowledge-acquisition": {
+      "code": "MR-36",
+      "group": "MR",
+      "title": "Knowledge acquisition: elicitation versus discovery",
+      "url": "concepts/extra-knowledge-acquisition.html#extra-knowledge-acquisition"
+    },
+    "extra-tensors": {
+      "code": "MR-37",
+      "group": "MR",
+      "title": "Tensors and Shapes",
+      "url": "concepts/extra-tensors.html#extra-tensors"
+    },
+    "extra-classification-regression": {
+      "code": "MR-38",
+      "group": "MR",
+      "title": "Classification and Regression",
+      "url": "concepts/extra-classification-regression.html#extra-classification-regression"
+    },
+    "extra-hmm": {
+      "code": "CG-25",
+      "group": "CG",
+      "title": "HMM: weekly query patterns",
+      "url": "concepts/extra-hmm.html#extra-hmm"
+    },
+    "extra-svm": {
+      "code": "PS-31",
+      "group": "PS",
+      "title": "Support vector machine: margin, scaling and business choice",
+      "url": "concepts/extra-svm.html#extra-svm"
+    }
+  },
+  "scenarios": [
+    {
+      "cue": "Bayesian network, DAG, CPT, multiple dependent uncertain variables, priors, evidence, alarm/burglary",
+      "method": "Bayesian Networks — directed graph + conditional probability tables",
+      "ids": [
+        "extra-bayesian-network"
+      ]
+    },
+    {
+      "cue": "Semantic network reasoning: inheritance, graph traversal, shared properties, specific exceptions, follow relationships",
+      "method": "Semantic networks: inheritance + graph traversal",
+      "ids": [
+        "c018"
+      ]
+    },
+    {
+      "cue": "Choose a knowledge representation: facts, rules, slots, inheritance, uncertainty, past cases, vectors or linked entities",
+      "method": "Compare the lecture’s ten forms of knowledge representation",
+      "ids": [
+        "extra-knowledge-representation"
+      ]
+    },
+    {
+      "cue": "Assign rooms/times/colours, choose values subject to rules, shared resources, hard/soft constraints",
+      "method": "Constraint satisfaction problem (CSP) + backtracking",
+      "ids": [
+        "extra-csp"
+      ]
+    },
+    {
+      "cue": "Slots, state, missing details, follow-up, change a reminder interval",
+      "method": "Intent + slot extraction + dialogue-state management",
+      "ids": [
+        "c060",
+        "c061",
+        "c063",
+        "c064"
+      ]
+    },
+    {
+      "cue": "Bot, Q&A, FAQ, approved answers, similar question",
+      "method": "FAQ retrieval: question representation + similarity ranking",
+      "ids": [
+        "c062",
+        "c064"
+      ]
+    },
+    {
+      "cue": "Knowledge representation schema, slots, defaults, inheritance, entities and attributes",
+      "method": "Frames; relate frames with a semantic network",
+      "ids": [
+        "c019",
+        "c018"
+      ]
+    },
+    {
+      "cue": "Shared vocabulary, type constraints, relationship queries, multi-hop facts",
+      "method": "Ontology + knowledge graph; graph traversal for connected questions",
+      "ids": [
+        "c020",
+        "c021",
+        "c022"
+      ]
+    },
+    {
+      "cue": "IF–THEN, expert rules, known facts, justify a decision",
+      "method": "Rule-based reasoning; forward or backward chaining",
+      "ids": [
+        "c009",
+        "c012",
+        "c013",
+        "c014",
+        "c017"
+      ]
+    },
+    {
+      "cue": "Observed symptoms, possible cause, similar previous case",
+      "method": "Abduction / Probabilistic Reasoning: Bayesian Inference / case-based reasoning",
+      "ids": [
+        "c010",
+        "c015",
+        "c016"
+      ]
+    },
+    {
+      "cue": "Design reasoning solution, components, internal data structures, static lookup replacement",
+      "method": "Knowledge-based architecture; hybrid rules + ML when perception is needed",
+      "ids": [
+        "c029",
+        "c030",
+        "c058"
+      ]
+    },
+    {
+      "cue": "Acquire expert knowledge, elicit rules, discover patterns from records",
+      "method": "Knowledge elicitation versus inductive learning / discovery",
+      "ids": [
+        "extra-knowledge-acquisition",
+        "c011",
+        "c027"
+      ]
+    },
+    {
+      "cue": "Answer from documents, grounded response, current facts, connected evidence",
+      "method": "Retrieval-augmented generation; KG + LLM if relations matter",
+      "ids": [
+        "c031",
+        "c032",
+        "c082"
+      ]
+    },
+    {
+      "cue": "Call tools, execute a workflow, choose actions, multi-step planning",
+      "method": "LLM tool use / agentic orchestration",
+      "ids": [
+        "c033",
+        "c065",
+        "c079",
+        "c080"
+      ]
+    },
+    {
+      "cue": "Cognitive model, perception–memory–reasoning–action, eleven functions",
+      "method": "Cognitive-system architecture; Soar where specified",
+      "ids": [
+        "c059",
+        "c081"
+      ]
+    },
+    {
+      "cue": "Hidden state, observations, transition, emission, classify a weekly sequence",
+      "method": "Hidden Markov model (HMM)",
+      "ids": [
+        "extra-hmm",
+        "c090"
+      ]
+    },
+    {
+      "cue": "State space, actions, goal, route, reasoning engine",
+      "method": "Formulate search → BFS / DFS / Dijkstra / A*",
+      "ids": [
+        "c001",
+        "c002",
+        "c003",
+        "c004",
+        "c005",
+        "c006"
+      ]
+    },
+    {
+      "cue": "Local optimum, stuck, no need for full path, improve a candidate",
+      "method": "Hill climbing; simulated annealing for controlled escape",
+      "ids": [
+        "c007",
+        "c008"
+      ]
+    },
+    {
+      "cue": "Optimise combinations, chromosome, fitness, selection, crossover, mutation",
+      "method": "Genetic algorithm",
+      "ids": [
+        "c055",
+        "c056",
+        "c057"
+      ]
+    },
+    {
+      "cue": "Products bought together, baskets, support, confidence, diagnostic associations",
+      "method": "Association-rule mining",
+      "ids": [
+        "c034",
+        "c035",
+        "c036"
+      ]
+    },
+    {
+      "cue": "Recommend with item attributes, new item, user profile",
+      "method": "Content-based recommendation",
+      "ids": [
+        "c037",
+        "c051"
+      ]
+    },
+    {
+      "cue": "Ratings, similar users/items, collaborative filtering, sparse voluntary feedback",
+      "method": "User-based / item-based CF; assess overlap first",
+      "ids": [
+        "c038",
+        "c039",
+        "c040",
+        "c042"
+      ]
+    },
+    {
+      "cue": "Missing ratings, latent factors, large sparse rating matrix",
+      "method": "Matrix factorization; SGD / ALS training",
+      "ids": [
+        "c043",
+        "c044",
+        "c045"
+      ]
+    },
+    {
+      "cue": "Clicks, views, purchases, implicit feedback, unobserved items",
+      "method": "Confidence-weighted implicit MF / BPR; negative sampling",
+      "ids": [
+        "c046",
+        "c047",
+        "c048",
+        "c049",
+        "c050"
+      ]
+    },
+    {
+      "cue": "Next item, session history, connected users/items, nonlinear preferences",
+      "method": "Sequence / graph / deep collaborative recommendation",
+      "ids": [
+        "c052",
+        "c053",
+        "c054"
+      ]
+    },
+    {
+      "cue": "Evaluate recommendations, top-K, predicted rating, overfitting",
+      "method": "RMSE/MAE for rating error; ranking metrics for top-K",
+      "ids": [
+        "c041",
+        "c045"
+      ]
+    },
+    {
+      "cue": "Image label, object location, bounding boxes, pixel area, segmentation",
+      "method": "Classification / detection / segmentation",
+      "ids": [
+        "c066",
+        "c067",
+        "c068",
+        "c069",
+        "c160"
+      ]
+    },
+    {
+      "cue": "Ask about an image, language + scene, generate synthetic images",
+      "method": "Vision-language model; GAN for generation where requested",
+      "ids": [
+        "c070",
+        "c161"
+      ]
+    },
+    {
+      "cue": "Speech to text, spoken bot, multilingual recording, few transcripts",
+      "method": "ASR; Whisper / Wav2Vec as lecture options; TTS for spoken output",
+      "ids": [
+        "c071",
+        "c072",
+        "c073",
+        "c074",
+        "c075",
+        "c076",
+        "c077"
+      ]
+    },
+    {
+      "cue": "Multiple sensors, camera + sound, conflicting measurements, alignment",
+      "method": "Multimodal fusion + spatial/temporal/feature alignment",
+      "ids": [
+        "c078",
+        "c099",
+        "c101",
+        "c102",
+        "c103",
+        "c115",
+        "c116"
+      ]
+    },
+    {
+      "cue": "Sensor waveform, sample rate, aliasing, units, sign, thresholds",
+      "method": "Acquisition/sampling pipeline + preprocessing checks",
+      "ids": [
+        "c083",
+        "c084",
+        "c085",
+        "c136"
+      ]
+    },
+    {
+      "cue": "Frequency peaks, periodic components, filter noise, convolution",
+      "method": "Time/frequency representation; Fourier transform + filtering",
+      "ids": [
+        "c086",
+        "c087",
+        "c088",
+        "c089"
+      ]
+    },
+    {
+      "cue": "Several overlapping populations, soft membership, Gaussian components",
+      "method": "Gaussian mixture model + expectation maximization",
+      "ids": [
+        "c090",
+        "c091"
+      ]
+    },
+    {
+      "cue": "Compact representation, reconstruct signal, denoise, unlabelled sensor data",
+      "method": "Basis/autoencoder/self-supervised/contrastive representation",
+      "ids": [
+        "c092",
+        "c093",
+        "c094",
+        "c095",
+        "c096",
+        "c097",
+        "c100"
+      ]
+    },
+    {
+      "cue": "Very few faults, only two anomalies, rare abnormal event",
+      "method": "Anomaly detection with a normal baseline; cautious rare-event evaluation",
+      "ids": [
+        "c098",
+        "c138",
+        "c149"
+      ]
+    },
+    {
+      "cue": "Predict a labelled outcome, discover groups, choose an action by reward",
+      "method": "Supervised / unsupervised / reinforcement learning",
+      "ids": [
+        "c134",
+        "c135",
+        "c154"
+      ]
+    },
+    {
+      "cue": "Continuous target, probability, straight-line boundary, local neighbours",
+      "method": "Linear/logistic regression, perceptron/ADALINE, KNN",
+      "ids": [
+        "c104",
+        "c105",
+        "c106",
+        "c142",
+        "c143"
+      ]
+    },
+    {
+      "cue": "Categorical maintenance records, class counts, posterior, independent features",
+      "method": "Naive Bayes; Laplace correction for zero counts",
+      "ids": [
+        "c144",
+        "c145",
+        "c016"
+      ]
+    },
+    {
+      "cue": "Explain purchase rules, feature split, entropy, information gain, many tiny leaves",
+      "method": "Decision tree; gain ratio/Gini; pruning",
+      "ids": [
+        "c028",
+        "c146",
+        "c147",
+        "c148"
+      ]
+    },
+    {
+      "cue": "Unstable single tree, feature importance, bootstrap, vote",
+      "method": "Bagging / random forest",
+      "ids": [
+        "c128",
+        "c129",
+        "c130"
+      ]
+    },
+    {
+      "cue": "Reweight mistakes, weak learners, AdaBoost, sequential correction",
+      "method": "AdaBoost / gradient boosting",
+      "ids": [
+        "c131",
+        "c132"
+      ]
+    },
+    {
+      "cue": "Too many variables, irrelevant inputs, select features, dimensionality harms distance",
+      "method": "Filter / wrapper / embedded selection; forward/backward/RFE",
+      "ids": [
+        "c149",
+        "c150",
+        "c151"
+      ]
+    },
+    {
+      "cue": "Correlated variables, fewer dimensions, retain variance, eigenvalues/loadings",
+      "method": "PCA; eigenvectors/eigenvalues and SVD connection",
+      "ids": [
+        "c152",
+        "c153"
+      ]
+    },
+    {
+      "cue": "Find segments without labels, centroids, hierarchical groups, choose K",
+      "method": "K-means / K-means++ / hierarchical clustering",
+      "ids": [
+        "c155",
+        "c156",
+        "c157",
+        "c158",
+        "c159"
+      ]
+    },
+    {
+      "cue": "Map similar customers to nearby grid cells, topology, winning neuron",
+      "method": "Self-organizing map (SOM)",
+      "ids": [
+        "c111"
+      ]
+    },
+    {
+      "cue": "Nonlinear prediction, hidden layer, weights, bias, backpropagation",
+      "method": "Multilayer perceptron; RBF / GRNN for their taught local-response designs",
+      "ids": [
+        "c107",
+        "c108",
+        "c109",
+        "c110"
+      ]
+    },
+    {
+      "cue": "Image CNN, padding/stride, feature maps, pooling, huge dense layer",
+      "method": "CNN dimensions + parameter accounting; lean architecture",
+      "ids": [
+        "c112",
+        "c113",
+        "c114",
+        "c163"
+      ]
+    },
+    {
+      "cue": "History matters, sequential purchases, time steps, long dependencies",
+      "method": "RNN / LSTM; stacked sequence model where justified",
+      "ids": [
+        "c117",
+        "c118",
+        "c115"
+      ]
+    },
+    {
+      "cue": "Attention weights, token context, order, query/key/value",
+      "method": "Transformer with positional encoding and self-attention",
+      "ids": [
+        "c126",
+        "c127"
+      ]
+    },
+    {
+      "cue": "Loss spikes, gradients vanish/explode, deep model not learning",
+      "method": "Initialisation, gradient diagnosis, normalization/residual connections",
+      "ids": [
+        "c119",
+        "c120",
+        "c123",
+        "c124"
+      ]
+    },
+    {
+      "cue": "Training improves, validation worsens, memorisation, limited labelled data",
+      "method": "Regularisation / dropout / early stopping; cautious transfer learning",
+      "ids": [
+        "c121",
+        "c122",
+        "c125",
+        "c141"
+      ]
+    },
+    {
+      "cue": "High accuracy but misses rare buyers/faults, confusion matrix, business costs",
+      "method": "Confusion-matrix metrics + threshold/cost trade-off",
+      "ids": [
+        "c139",
+        "c140",
+        "extra-svm"
+      ]
+    },
+    {
+      "cue": "Preprocessing, leakage, small dataset, validation, tune hyperparameters",
+      "method": "Training-only preprocessing + valid splits/cross-validation",
+      "ids": [
+        "c136",
+        "c137",
+        "c141"
+      ]
+    },
+    {
+      "cue": "Rare class, imbalance, augmentation, synthetic samples",
+      "method": "Class weighting / resampling / valid augmentation + matched metrics",
+      "ids": [
+        "c138",
+        "c100",
+        "c098"
+      ]
+    },
+    {
+      "cue": "Robot sorting, actions change environment, reward, safe learning",
+      "method": "Deep reinforcement learning / perception-to-control pipeline",
+      "ids": [
+        "c162",
+        "c135",
+        "c101",
+        "c103"
+      ]
+    },
+    {
+      "cue": "Different operating regimes, specialist models, fuzzy rules",
+      "method": "Mixture of experts / neuro-fuzzy model",
+      "ids": [
+        "c133"
+      ]
+    },
+    {
+      "cue": "Predict a missing relation, entity embedding, relation-specific projection",
+      "method": "TransE / TransR / bilinear or neural KG embeddings",
+      "ids": [
+        "c023",
+        "c024",
+        "c025",
+        "c026"
+      ]
+    },
+    {
+      "cue": "Expert IF–THEN decisions",
+      "method": "Forward chaining; Backward chaining; Reasoning-system architecture",
+      "ids": [
+        "c012",
+        "c013",
+        "c029"
+      ]
+    },
+    {
+      "cue": "Objects with properties / defaults",
+      "method": "Frames",
+      "ids": [
+        "c019"
+      ]
+    },
+    {
+      "cue": "Find path / plan moves",
+      "method": "Search problem formulation; Breadth-first search; Depth-first search; Uniform-cost search / Dijkstra; A* search",
+      "ids": [
+        "c001",
+        "c002",
+        "c003",
+        "c004",
+        "c005"
+      ]
+    },
+    {
+      "cue": "Evidence changes probabilities",
+      "method": "Probabilistic Reasoning: Bayesian Inference",
+      "ids": [
+        "c016"
+      ]
+    },
+    {
+      "cue": "Independent feature classifier",
+      "method": "Naive Bayes and conditional independence",
+      "ids": [
+        "c144"
+      ]
+    },
+    {
+      "cue": "Hidden state over time",
+      "method": "HMM: weekly query patterns",
+      "ids": [
+        "extra-hmm"
+      ]
+    },
+    {
+      "cue": "Reuse similar solved cases",
+      "method": "Case-based reasoning",
+      "ids": [
+        "c015"
+      ]
+    },
+    {
+      "cue": "Entity relationships / graph queries",
+      "method": "Knowledge graph structure and queries; KG traversal and multi-hop queries",
+      "ids": [
+        "c021",
+        "c022"
+      ]
+    },
+    {
+      "cue": "Predict missing graph links",
+      "method": "TransE embeddings; TransR embeddings; Bilinear / DistMult embeddings",
+      "ids": [
+        "c023",
+        "c024",
+        "c025"
+      ]
+    },
+    {
+      "cue": "Learn from graph neighbours",
+      "method": "Neural knowledge graph embeddings",
+      "ids": [
+        "c026"
+      ]
+    },
+    {
+      "cue": "Recommend from item descriptions",
+      "method": "Content-based recommendation",
+      "ids": [
+        "c037"
+      ]
+    },
+    {
+      "cue": "Similar users / items",
+      "method": "User-based collaborative filtering; Item-based collaborative filtering",
+      "ids": [
+        "c038",
+        "c039"
+      ]
+    },
+    {
+      "cue": "Sparse ratings latent factors",
+      "method": "Matrix factorization",
+      "ids": [
+        "c043"
+      ]
+    },
+    {
+      "cue": "Intent and parameters from text",
+      "method": "Intent classification; Natural language understanding",
+      "ids": [
+        "c061",
+        "c060"
+      ]
+    },
+    {
+      "cue": "Retrieve approved answer",
+      "method": "TF-IDF and cosine similarity",
+      "ids": [
+        "c062"
+      ]
+    },
+    {
+      "cue": "Retrieve evidence then generate",
+      "method": "Retrieval-augmented generation",
+      "ids": [
+        "c032"
+      ]
+    },
+    {
+      "cue": "Sense →reason →act",
+      "method": "Dialogue management and generation; Agentic orchestration",
+      "ids": [
+        "c064",
+        "c033"
+      ]
+    },
+    {
+      "cue": "Build knowledge: experts versus data",
+      "method": "Knowledge acquisition: elicitation versus discovery",
+      "ids": [
+        "extra-knowledge-acquisition"
+      ]
+    },
+    {
+      "cue": "Retrieve then rank recommendations",
+      "method": "Hybrid recommenders",
+      "ids": [
+        "c051"
+      ]
+    },
+    {
+      "cue": "Labelled table; explainable rules",
+      "method": "Decision-tree reasoning; Decision-tree splitting and information gain",
+      "ids": [
+        "c028",
+        "c146"
+      ]
+    },
+    {
+      "cue": "Similar labelled cases",
+      "method": "K-nearest neighbours",
+      "ids": [
+        "c143"
+      ]
+    },
+    {
+      "cue": "Maximum-margin classification",
+      "method": "Support vector machine: margin, scaling and business choice",
+      "ids": [
+        "extra-svm"
+      ]
+    },
+    {
+      "cue": "Numeric target",
+      "method": "Linear / logistic regression",
+      "ids": [
+        "c142"
+      ]
+    },
+    {
+      "cue": "Reduce tree instability",
+      "method": "Bagging and bootstrap sampling",
+      "ids": [
+        "c129"
+      ]
+    },
+    {
+      "cue": "Many diverse trees",
+      "method": "Random forests and feature importance",
+      "ids": [
+        "c130"
+      ]
+    },
+    {
+      "cue": "Sequentially emphasise errors",
+      "method": "Boosting and AdaBoost",
+      "ids": [
+        "c131"
+      ]
+    },
+    {
+      "cue": "Combine model predictions",
+      "method": "Ensemble diversity and voting",
+      "ids": [
+        "c128"
+      ]
+    },
+    {
+      "cue": "Reduce dimensions using labels",
+      "method": "Filter / wrapper / embedded feature selection",
+      "ids": [
+        "c150"
+      ]
+    },
+    {
+      "cue": "Find groups without labels",
+      "method": "K-means and centroid updates",
+      "ids": [
+        "c156"
+      ]
+    },
+    {
+      "cue": "Nested groups",
+      "method": "Hierarchical clustering and linkage",
+      "ids": [
+        "c158"
+      ]
+    },
+    {
+      "cue": "Irregular groups / noise",
+      "method": "Clustering vs classification; Cluster evaluation and number of clusters",
+      "ids": [
+        "c154",
+        "c159"
+      ]
+    },
+    {
+      "cue": "General nonlinear prediction",
+      "method": "MLP and backpropagation",
+      "ids": [
+        "c107"
+      ]
+    },
+    {
+      "cue": "Image spatial patterns",
+      "method": "CNN convolution, padding, stride; CNN dimensions and parameter counts; CNN application design",
+      "ids": [
+        "c112",
+        "c114",
+        "c163"
+      ]
+    },
+    {
+      "cue": "Reuse trained image network",
+      "method": "Residual connections; Transfer learning and fine tuning",
+      "ids": [
+        "c124",
+        "c125"
+      ]
+    },
+    {
+      "cue": "Ordered data / sequence",
+      "method": "RNN sequence representation; LSTM and stacked recurrent networks",
+      "ids": [
+        "c117",
+        "c118"
+      ]
+    },
+    {
+      "cue": "Longer sequence memory",
+      "method": "LSTM and stacked recurrent networks",
+      "ids": [
+        "c118"
+      ]
+    },
+    {
+      "cue": "Reconstruction / anomaly",
+      "method": "Autoencoders and reconstruction; Anomaly detection",
+      "ids": [
+        "c095",
+        "c098"
+      ]
+    },
+    {
+      "cue": "Soft clusters",
+      "method": "Gaussian mixtures / expectation maximization",
+      "ids": [
+        "c091"
+      ]
+    },
+    {
+      "cue": "Align sequences at different speeds",
+      "method": "Spatial / temporal / feature alignment",
+      "ids": [
+        "c102"
+      ]
+    },
+    {
+      "cue": "Frequency content",
+      "method": "Fourier transformation; Filtering and convolution",
+      "ids": [
+        "c088",
+        "c089"
+      ]
+    },
+    {
+      "cue": "Multiple data types",
+      "method": "Multimodal representation and fusion; Spatial / temporal / feature alignment",
+      "ids": [
+        "c101",
+        "c102"
+      ]
+    },
+    {
+      "cue": "Actions and rewards",
+      "method": "Deep-learning decision / control applications",
+      "ids": [
+        "c162"
+      ]
+    },
+    {
+      "cue": "Generate synthetic samples",
+      "method": "Generative models / GAN applications",
+      "ids": [
+        "c161"
+      ]
+    },
+    {
+      "cue": "Remove weak input columns",
+      "method": "Filter / wrapper / embedded feature selection; Forward / backward / recursive feature selection",
+      "ids": [
+        "c150",
+        "c151"
+      ]
+    },
+    {
+      "cue": "Distance-based hidden units / Gaussian responses",
+      "method": "RBF networks",
+      "ids": [
+        "c109"
+      ]
+    },
+    {
+      "cue": "Normalised weighted numeric prediction",
+      "method": "General regression neural networks",
+      "ids": [
+        "c110"
+      ]
+    },
+    {
+      "cue": "Interpret a decision tree / common characteristics",
+      "method": "Decision-tree reasoning; Decision-tree splitting and information gain",
+      "ids": [
+        "c028",
+        "c146"
+      ]
+    },
+    {
+      "cue": "Compare classifiers for a business objective",
+      "method": "Confusion matrix and classification metrics; Support vector machine: margin, scaling and business choice",
+      "ids": [
+        "c139",
+        "extra-svm"
+      ]
+    },
+    {
+      "cue": "Compare feature importance",
+      "method": "Random forests and feature importance; Boosting and AdaBoost",
+      "ids": [
+        "c130",
+        "c131"
+      ]
+    },
+    {
+      "cue": "Use importance for further modelling",
+      "method": "Filter / wrapper / embedded feature selection; Forward / backward / recursive feature selection",
+      "ids": [
+        "c150",
+        "c151"
+      ]
+    },
+    {
+      "cue": "Design a sequence predictor",
+      "method": "LSTM and stacked recurrent networks",
+      "ids": [
+        "c118"
+      ]
+    },
+    {
+      "cue": "How does sequence model output probability?",
+      "method": "LSTM and stacked recurrent networks",
+      "ids": [
+        "c118"
+      ]
+    },
+    {
+      "cue": "Describe training data / preprocessing",
+      "method": "Normalization and preprocessing; Data splits and cross-validation",
+      "ids": [
+        "c136",
+        "c137"
+      ]
+    },
+    {
+      "cue": "Choose/interpret PCA components",
+      "method": "PCA, variance, and principal directions; Eigenvalues / eigenvectors and SVD",
+      "ids": [
+        "c152",
+        "c153"
+      ]
+    },
+    {
+      "cue": "Design/critique CNN",
+      "method": "CNN application design",
+      "ids": [
+        "c163"
+      ]
+    },
+    {
+      "cue": "Recommend an approach for rare anomalies",
+      "method": "Anomaly detection",
+      "ids": [
+        "c098"
+      ]
+    },
+    {
+      "cue": "Propose reward-driven action learning",
+      "method": "Deep-learning decision / control applications",
+      "ids": [
+        "c162"
+      ]
+    },
+    {
+      "cue": "Calculate Naive Bayes",
+      "method": "Naive Bayes and conditional independence",
+      "ids": [
+        "c144"
+      ]
+    }
+  ]
+}
