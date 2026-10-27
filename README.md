@@ -330,3 +330,18 @@ Bold keywords alone do not make a long paragraph usable in an exam. Prefer short
 A request to improve the notes must cause concrete webpage edits, not another acknowledgement or only added bold text. Applied a presentation pass to all174 concept pages:305 long prose blocks split into short points;292 supporting implementation/model-answer sections moved into optional details. Keep core mechanisms, formulas, worked calculations and diagrams visible. Supporting detail is omitted from default printing; “Print supporting explanations” can include it on a concept or exam pack. Existing section anchors remain; incoming hash links open the needed details. This structural pass retains the technical wording; do not call it a new complete lecture-source audit. EXAM_READABILITY_REVIEW.json records per-page changes.
 
 Begin concise explanations with what a concept DOES, its input/output and decisive mechanism, then the minimum useful example/formula with symbol meanings. c025 opens with triple → matching-coordinate products → sum → compatibility score. DistMult is hᵀRᵣt only when Rᵣ is diagonal; a general full relation matrix is RESCAL. Raw scores are not probabilities/truth and have no universal cutoff. Avoid appending duplicate summaries; replace/reorganize instead. The user’s example illustrates desired simplicity, not permission to repeat technical mistakes.
+
+
+## Required presentation standard — 27 October 2026
+
+Follow the user's reference for highlighting, point form, explanation logic and layout:
+- Start with what the concept DOES, in one plain sentence; connect input → operation → output.
+- Explain the meaning before notation. Give the formula only where useful, define every symbol, then show one concise example/calculation and interpret the result.
+- Use short points, one idea per point. Bold the decisive exam keywords or contrast, not whole paragraphs or every technical word.
+- Use a clear teaching sequence appropriate to the concept: purpose → mechanism → result → key limitation/choice. Do not impose identical headings or a compulsory template on unrelated topics.
+- Make comparison, Pros/Cons, conditions and cause → consequence easy to scan. Use a compact table when it reduces reading.
+- Keep the main exam answer visible and compact; put secondary explanation behind optional detail. Do not repeat the same definition, calculation or warning in several sections.
+- Retain useful original lecture graphics and source notation; explain what the reader must notice. A copied slide is not a substitute for an organized explanation.
+- Keep typography/spacing compact, mobile readable and A4 friendly, with clear hierarchy and no oversized decorative blocks.
+- Preserve technical accuracy when simplifying: a compatibility score is not automatically a truth probability; DistMult uses a diagonal relation matrix. A reference shows presentation preferences, not an authoritative technical answer key.
+This is a standing requirement across all concept pages and future conversations; apply it during editing, not only acknowledge it in chat.
