@@ -286,3 +286,7 @@ Use the lecture's teaching flow for concept pages:
 4. **Used Cases:** Explain which problem/scenario it suits and why, using the lecturer's use cases where present. Include a short example and exam-selection clues; do not invent uses merely to fill a heading.
 
 This is the default explanation sequence, not a requirement to create empty or irrelevant sections. Preserve topic-specific structure, short points, selective bold keywords, compact tables/layout and A4 readability. Do not duplicate material across stages or replace explanation with copied slides. Apply this flow during future edits and substantive revisions of existing pages.
+
+
+## Word exam notes are the preferred deliverable — 27 October 2026
+The user requested editable topical Word files for a paper-only exam. See WORD_NOTES.md for the six subject files, master index and preservation rules. Preserve user edits; do not overwrite edited Word documents by rebuilding from HTML. All future exam navigation must work on printed paper using topic codes and real page references.

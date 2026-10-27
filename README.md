@@ -372,3 +372,7 @@ All 36 selected core lecture files were checked at source-section/page-reference
 
 ## Paper-only open-book exam lookup — 27 October 2026
 The exam permits paper notes, pen and calculator; web search/click navigation is not available in the exam. Every topic must show a stable paper code, with scenario/keyword and alphabetical topic indexes printed at the front of the selected exam pack. assets/paper-index.json is the permanent code register: never renumber/reuse published codes when inserting/excluding topics. Six divider groups: MR Machine Reasoning, RS Reasoning Systems, CG Cognitive Systems, PS PSUPR, PR PRMLS, IS ISSM. Repeat the code beside subsection headings and show target codes on printed cross-references. Codes are topic locators, NOT physical page numbers; do not invent pagination. Preserve saved review/selection state. Index and dividers are navigation only, not duplicated explanations.
+
+
+## Word exam notes are the preferred deliverable — 27 October 2026
+The user requested editable topical Word files for a paper-only exam. See WORD_NOTES.md for the six subject files, master index and preservation rules. Preserve user edits; do not overwrite edited Word documents by rebuilding from HTML. All future exam navigation must work on printed paper using topic codes and real page references.

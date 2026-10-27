@@ -1,0 +1,1264 @@
+{
+  "date": "2026-10-27",
+  "delivery": "Editable Word notes in adjacent outputs/Exam Word Notes 2026-10-27",
+  "documents": {
+    "00 Master Exam Index.docx": 9,
+    "01 Machine Reasoning.docx": 90,
+    "02 Reasoning Systems.docx": 67,
+    "03 Cognitive Systems.docx": 52,
+    "04 PSUPR.docx": 75,
+    "05 PRMLS.docx": 63,
+    "06 ISSM.docx": 42
+  },
+  "topics": [
+    {
+      "id": "c001",
+      "code": "MR-01",
+      "title": "Search problem formulation",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c003",
+      "code": "MR-03",
+      "title": "Depth-first search",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c002",
+      "code": "MR-02",
+      "title": "Breadth-first search",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c004",
+      "code": "MR-04",
+      "title": "Uniform-cost search / Dijkstra",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c006",
+      "code": "MR-06",
+      "title": "Heuristics and admissibility",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c007",
+      "code": "MR-07",
+      "title": "Hill climbing",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c005",
+      "code": "MR-05",
+      "title": "A* search",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "extra-csp",
+      "code": "MR-29",
+      "title": "CSP: variables, domains, constraints and backtracking",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c009",
+      "code": "MR-09",
+      "title": "Deductive reasoning",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c010",
+      "code": "MR-10",
+      "title": "Abductive reasoning",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c011",
+      "code": "MR-11",
+      "title": "Inductive reasoning",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c012",
+      "code": "MR-12",
+      "title": "Forward chaining",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c013",
+      "code": "MR-13",
+      "title": "Backward chaining",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c014",
+      "code": "MR-14",
+      "title": "Conflict resolution in rule systems",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c015",
+      "code": "MR-15",
+      "title": "Case-based reasoning",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c016",
+      "code": "MR-16",
+      "title": "Probabilistic Reasoning: Bayesian Inference",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "extra-knowledge-representation",
+      "code": "MR-30",
+      "title": "Forms of Knowledge Representation",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c017",
+      "code": "MR-17",
+      "title": "First-order / predicate logic",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c018",
+      "code": "MR-18",
+      "title": "Semantic networks",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c019",
+      "code": "MR-19",
+      "title": "Frames",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c020",
+      "code": "MR-20",
+      "title": "Ontologies",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "extra-constraint-representation",
+      "code": "MR-31",
+      "title": "Constraint-Based Representation",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "extra-probabilistic-representation",
+      "code": "MR-32",
+      "title": "Probabilistic Representation",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "extra-case-representation",
+      "code": "MR-33",
+      "title": "Case-Based Representation",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "extra-vector-representation",
+      "code": "MR-34",
+      "title": "Vector / Embedding Representation",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c021",
+      "code": "MR-21",
+      "title": "Knowledge graph structure and queries",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "extra-knowledge-acquisition",
+      "code": "MR-36",
+      "title": "Knowledge acquisition: elicitation versus discovery",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c028",
+      "code": "MR-28",
+      "title": "Decision-tree reasoning",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "extra-bayesian-network",
+      "code": "MR-35",
+      "title": "Bayesian Networks",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c022",
+      "code": "MR-22",
+      "title": "KG traversal and multi-hop queries",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c023",
+      "code": "MR-23",
+      "title": "TransE embeddings",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c024",
+      "code": "MR-24",
+      "title": "TransR embeddings",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "extra-tensors",
+      "code": "MR-37",
+      "title": "Tensors and Shapes",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c025",
+      "code": "MR-25",
+      "title": "Bilinear / DistMult embeddings",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c026",
+      "code": "MR-26",
+      "title": "Neural knowledge graph embeddings",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c027",
+      "code": "MR-27",
+      "title": "Inductive learning and generalization",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "extra-classification-regression",
+      "code": "MR-38",
+      "title": "Classification and Regression",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "MR-39",
+      "code": "MR-39",
+      "title": "Neural network explainability",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c008",
+      "code": "MR-08",
+      "title": "Simulated annealing",
+      "group": "MR",
+      "file": "01 Machine Reasoning.docx"
+    },
+    {
+      "id": "c029",
+      "code": "RS-01",
+      "title": "Reasoning-system architecture",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c030",
+      "code": "RS-02",
+      "title": "Rules + ML integration",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c031",
+      "code": "RS-03",
+      "title": "Knowledge graph + LLM integration",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c032",
+      "code": "RS-04",
+      "title": "Retrieval-augmented generation",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c033",
+      "code": "RS-05",
+      "title": "Agentic orchestration",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c034",
+      "code": "RS-06",
+      "title": "Market basket analysis",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c035",
+      "code": "RS-07",
+      "title": "Association-rule support",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c036",
+      "code": "RS-08",
+      "title": "Association-rule confidence and lift",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c037",
+      "code": "RS-09",
+      "title": "Content-based recommendation",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c038",
+      "code": "RS-10",
+      "title": "User-based collaborative filtering",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c039",
+      "code": "RS-11",
+      "title": "Item-based collaborative filtering",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c040",
+      "code": "RS-12",
+      "title": "Similarity and rating prediction",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c041",
+      "code": "RS-13",
+      "title": "Recommendation evaluation",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c042",
+      "code": "RS-14",
+      "title": "Sparsity and cold start",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c043",
+      "code": "RS-15",
+      "title": "Matrix factorization",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c044",
+      "code": "RS-16",
+      "title": "SGD / ALS training",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c045",
+      "code": "RS-17",
+      "title": "Recommendation overfitting and regularization",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c046",
+      "code": "RS-18",
+      "title": "Implicit feedback and preferences",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c047",
+      "code": "RS-19",
+      "title": "Jaccard similarity",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c048",
+      "code": "RS-20",
+      "title": "Negative sampling",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c049",
+      "code": "RS-21",
+      "title": "Confidence-weighted implicit MF",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c050",
+      "code": "RS-22",
+      "title": "Bayesian personalized ranking",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c051",
+      "code": "RS-23",
+      "title": "Hybrid recommenders",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c052",
+      "code": "RS-24",
+      "title": "Deep collaborative filtering",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c053",
+      "code": "RS-25",
+      "title": "Sequence-based recommendation",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c054",
+      "code": "RS-26",
+      "title": "Graph-based recommendation",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c055",
+      "code": "RS-27",
+      "title": "Genetic algorithm representation and fitness",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c056",
+      "code": "RS-28",
+      "title": "GA selection operators",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c057",
+      "code": "RS-29",
+      "title": "GA crossover and mutation",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c058",
+      "code": "RS-30",
+      "title": "Symbolic / connectionist / hybrid AI",
+      "group": "RS",
+      "file": "02 Reasoning Systems.docx"
+    },
+    {
+      "id": "c059",
+      "code": "CG-01",
+      "title": "Cognitive-system architecture",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c060",
+      "code": "CG-02",
+      "title": "Natural language understanding",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c061",
+      "code": "CG-03",
+      "title": "Intent classification",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c062",
+      "code": "CG-04",
+      "title": "TF-IDF and cosine similarity",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c063",
+      "code": "CG-05",
+      "title": "Slot detection and information extraction",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c064",
+      "code": "CG-06",
+      "title": "Dialogue management and generation",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c082",
+      "code": "CG-24",
+      "title": "RAG and knowledge-graph cognition",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c065",
+      "code": "CG-07",
+      "title": "LLM tools and agents",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c066",
+      "code": "CG-08",
+      "title": "Vision cognition pipeline",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c067",
+      "code": "CG-09",
+      "title": "Marr’s three levels",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c068",
+      "code": "CG-10",
+      "title": "Detection vs segmentation",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c070",
+      "code": "CG-12",
+      "title": "Vision-language models",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c069",
+      "code": "CG-11",
+      "title": "Visual attention and context",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c071",
+      "code": "CG-13",
+      "title": "Audio sampling and coding",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c072",
+      "code": "CG-14",
+      "title": "Spectrogram and audio features",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c073",
+      "code": "CG-15",
+      "title": "Speech recognition",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c074",
+      "code": "CG-16",
+      "title": "Text-to-speech",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c075",
+      "code": "CG-17",
+      "title": "Whisper",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c076",
+      "code": "CG-18",
+      "title": "Wav2Vec self-supervised learning",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c077",
+      "code": "CG-19",
+      "title": "Audio/system evaluation",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c079",
+      "code": "CG-21",
+      "title": "LLM reasoning and chain of thought",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c078",
+      "code": "CG-20",
+      "title": "Multimodal cognition",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c080",
+      "code": "CG-22",
+      "title": "Validity, soundness, and reasoning failure",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c081",
+      "code": "CG-23",
+      "title": "Soar architecture",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "extra-hmm",
+      "code": "CG-25",
+      "title": "HMM: weekly query patterns",
+      "group": "CG",
+      "file": "03 Cognitive Systems.docx"
+    },
+    {
+      "id": "c134",
+      "code": "PS-01",
+      "title": "Pattern recognition workflow",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c135",
+      "code": "PS-02",
+      "title": "Supervised / unsupervised / reinforcement learning",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c136",
+      "code": "PS-03",
+      "title": "Normalization and preprocessing",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c137",
+      "code": "PS-04",
+      "title": "Data splits and cross-validation",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c138",
+      "code": "PS-05",
+      "title": "Imbalanced data and augmentation",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c139",
+      "code": "PS-06",
+      "title": "Confusion matrix and classification metrics",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c140",
+      "code": "PS-07",
+      "title": "ROC, AUC and gain/lift charts",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c141",
+      "code": "PS-08",
+      "title": "Hyperparameter tuning and generalization",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c142",
+      "code": "PS-09",
+      "title": "Linear / logistic regression",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c143",
+      "code": "PS-10",
+      "title": "K-nearest neighbours",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c144",
+      "code": "PS-11",
+      "title": "Naive Bayes and conditional independence",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c145",
+      "code": "PS-12",
+      "title": "Laplace correction",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c146",
+      "code": "PS-13",
+      "title": "Decision-tree splitting and information gain",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c147",
+      "code": "PS-14",
+      "title": "Gain ratio / Gini",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c148",
+      "code": "PS-15",
+      "title": "Tree pruning",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "extra-svm",
+      "code": "PS-31",
+      "title": "Support vector machine: margin, scaling and business choice",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c149",
+      "code": "PS-16",
+      "title": "Curse of dimensionality",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c150",
+      "code": "PS-17",
+      "title": "Filter / wrapper / embedded feature selection",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c151",
+      "code": "PS-18",
+      "title": "Forward / backward / recursive feature selection",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c152",
+      "code": "PS-19",
+      "title": "PCA, variance, and principal directions",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c153",
+      "code": "PS-20",
+      "title": "Eigenvalues / eigenvectors and SVD",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "PS-32",
+      "code": "PS-32",
+      "title": "Linear Discriminant Analysis",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c154",
+      "code": "PS-21",
+      "title": "Clustering vs classification",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c155",
+      "code": "PS-22",
+      "title": "Distances and standardization for clustering",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c156",
+      "code": "PS-23",
+      "title": "K-means and centroid updates",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c157",
+      "code": "PS-24",
+      "title": "K-means++ initialization",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c158",
+      "code": "PS-25",
+      "title": "Hierarchical clustering and linkage",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "PS-33",
+      "code": "PS-33",
+      "title": "DBSCAN density based clustering",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c159",
+      "code": "PS-26",
+      "title": "Cluster evaluation and number of clusters",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c160",
+      "code": "PS-27",
+      "title": "Recognition, detection, and segmentation applications",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c161",
+      "code": "PS-28",
+      "title": "Generative models / GAN applications",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c162",
+      "code": "PS-29",
+      "title": "Deep-learning decision / control applications",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c163",
+      "code": "PS-30",
+      "title": "CNN application design",
+      "group": "PS",
+      "file": "04 PSUPR.docx"
+    },
+    {
+      "id": "c104",
+      "code": "PR-01",
+      "title": "Artificial neuron, weights, bias, activation",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c105",
+      "code": "PR-02",
+      "title": "Perceptron and linear separability",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c106",
+      "code": "PR-03",
+      "title": "ADALINE and delta rule",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c107",
+      "code": "PR-04",
+      "title": "MLP and backpropagation",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c108",
+      "code": "PR-05",
+      "title": "Activation-function choices",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c109",
+      "code": "PR-06",
+      "title": "RBF networks",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c110",
+      "code": "PR-07",
+      "title": "General regression neural networks",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c111",
+      "code": "PR-08",
+      "title": "Self-organizing maps",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c112",
+      "code": "PR-09",
+      "title": "CNN convolution, padding, stride",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c113",
+      "code": "PR-10",
+      "title": "Pooling",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c114",
+      "code": "PR-11",
+      "title": "CNN dimensions and parameter counts",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c115",
+      "code": "PR-12",
+      "title": "Multi-input / multi-output architectures",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c116",
+      "code": "PR-13",
+      "title": "Shared layers / encoder architectures",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c117",
+      "code": "PR-14",
+      "title": "RNN sequence representation",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c118",
+      "code": "PR-15",
+      "title": "LSTM and stacked recurrent networks",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c119",
+      "code": "PR-16",
+      "title": "Vanishing / exploding gradients",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c120",
+      "code": "PR-17",
+      "title": "Xavier / He initialization",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c121",
+      "code": "PR-18",
+      "title": "L1 / L2 regularization",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c122",
+      "code": "PR-19",
+      "title": "Dropout",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c123",
+      "code": "PR-20",
+      "title": "Batch normalization",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c124",
+      "code": "PR-21",
+      "title": "Residual connections",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c126",
+      "code": "PR-23",
+      "title": "Transformer / positional encoding",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c127",
+      "code": "PR-24",
+      "title": "Self-attention and multi-head attention",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c128",
+      "code": "PR-25",
+      "title": "Ensemble diversity and voting",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c129",
+      "code": "PR-26",
+      "title": "Bagging and bootstrap sampling",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c130",
+      "code": "PR-27",
+      "title": "Random forests and feature importance",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c131",
+      "code": "PR-28",
+      "title": "Boosting and AdaBoost",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c132",
+      "code": "PR-29",
+      "title": "Gradient boosting",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c133",
+      "code": "PR-30",
+      "title": "Mixture of experts / neuro-fuzzy systems",
+      "group": "PR",
+      "file": "05 PRMLS.docx"
+    },
+    {
+      "id": "c083",
+      "code": "IS-01",
+      "title": "Signals, sensors, and sensing pipeline",
+      "group": "IS",
+      "file": "06 ISSM.docx"
+    },
+    {
+      "id": "c084",
+      "code": "IS-02",
+      "title": "Sampling and aliasing",
+      "group": "IS",
+      "file": "06 ISSM.docx"
+    },
+    {
+      "id": "c085",
+      "code": "IS-03",
+      "title": "Periodic / even / odd signals",
+      "group": "IS",
+      "file": "06 ISSM.docx"
+    },
+    {
+      "id": "c086",
+      "code": "IS-04",
+      "title": "Superposition and signal decomposition",
+      "group": "IS",
+      "file": "06 ISSM.docx"
+    },
+    {
+      "id": "c087",
+      "code": "IS-05",
+      "title": "Time and frequency representation",
+      "group": "IS",
+      "file": "06 ISSM.docx"
+    },
+    {
+      "id": "c088",
+      "code": "IS-06",
+      "title": "Fourier transformation",
+      "group": "IS",
+      "file": "06 ISSM.docx"
+    },
+    {
+      "id": "c089",
+      "code": "IS-07",
+      "title": "Filtering and convolution",
+      "group": "IS",
+      "file": "06 ISSM.docx"
+    },
+    {
+      "id": "c090",
+      "code": "IS-08",
+      "title": "Signal distributions and statistics",
+      "group": "IS",
+      "file": "06 ISSM.docx"
+    },
+    {
+      "id": "c091",
+      "code": "IS-09",
+      "title": "Gaussian mixtures / expectation maximization",
+      "group": "IS",
+      "file": "06 ISSM.docx"
+    },
+    {
+      "id": "c092",
+      "code": "IS-10",
+      "title": "Basis vectors and energy compaction",
+      "group": "IS",
+      "file": "06 ISSM.docx"
+    },
+    {
+      "id": "c093",
+      "code": "IS-11",
+      "title": "Supervised representation learning",
+      "group": "IS",
+      "file": "06 ISSM.docx"
+    },
+    {
+      "id": "c094",
+      "code": "IS-12",
+      "title": "Self-supervised representation learning",
+      "group": "IS",
+      "file": "06 ISSM.docx"
+    },
+    {
+      "id": "c095",
+      "code": "IS-13",
+      "title": "Autoencoders and reconstruction",
+      "group": "IS",
+      "file": "06 ISSM.docx"
+    },
+    {
+      "id": "c096",
+      "code": "IS-14",
+      "title": "Denoising autoencoders",
+      "group": "IS",
+      "file": "06 ISSM.docx"
+    },
+    {
+      "id": "c097",
+      "code": "IS-15",
+      "title": "Contrastive learning",
+      "group": "IS",
+      "file": "06 ISSM.docx"
+    },
+    {
+      "id": "c098",
+      "code": "IS-16",
+      "title": "Anomaly detection",
+      "group": "IS",
+      "file": "06 ISSM.docx"
+    },
+    {
+      "id": "c099",
+      "code": "IS-17",
+      "title": "Single-modality sensing",
+      "group": "IS",
+      "file": "06 ISSM.docx"
+    },
+    {
+      "id": "c100",
+      "code": "IS-18",
+      "title": "Data augmentation for sensors",
+      "group": "IS",
+      "file": "06 ISSM.docx"
+    },
+    {
+      "id": "c101",
+      "code": "IS-19",
+      "title": "Multimodal representation and fusion",
+      "group": "IS",
+      "file": "06 ISSM.docx"
+    },
+    {
+      "id": "c102",
+      "code": "IS-20",
+      "title": "Spatial / temporal / feature alignment",
+      "group": "IS",
+      "file": "06 ISSM.docx"
+    },
+    {
+      "id": "IS-22",
+      "code": "IS-22",
+      "title": "Dynamic Time Warping for temporal alignment",
+      "group": "IS",
+      "file": "06 ISSM.docx"
+    },
+    {
+      "id": "c103",
+      "code": "IS-21",
+      "title": "End-to-end sense-making design",
+      "group": "IS",
+      "file": "06 ISSM.docx"
+    }
+  ],
+  "nativeEquations": 99,
+  "diagrams": 196,
+  "preserveUserEdits": true
+}
