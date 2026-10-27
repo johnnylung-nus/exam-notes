@@ -253,3 +253,10 @@ All concept explanations need short highlighted exam phrases: core mechanism, co
 ## Lecture-style exam presentation — 27 October 2026
 
 Bold keywords alone do not make a long paragraph usable in an exam. Prefer short points with one idea each; explicit Pros / Cons; compact comparisons; and cause → consequence. Keep the lecturer’s key terms and make the decisive contrast visible before examples. c025 was rewritten accordingly: full matrix vs diagonal, cross-dimension vs matching-dimension interactions, symmetry limitation, memory/computation/scalability. Put secondary mathematical caveats in deeper detail; do not reproduce a source error without clarification. This supersedes retaining long prose merely because highlights have been added.
+
+
+## Exam-reading restructure applied — 27 October 2026
+
+A request to improve the notes must cause concrete webpage edits, not another acknowledgement or only added bold text. Applied a presentation pass to all174 concept pages:305 long prose blocks split into short points;292 supporting implementation/model-answer sections moved into optional details. Keep core mechanisms, formulas, worked calculations and diagrams visible. Supporting detail is omitted from default printing; “Print supporting explanations” can include it on a concept or exam pack. Existing section anchors remain; incoming hash links open the needed details. This structural pass retains the technical wording; do not call it a new complete lecture-source audit. EXAM_READABILITY_REVIEW.json records per-page changes.
+
+Begin concise explanations with what a concept DOES, its input/output and decisive mechanism, then the minimum useful example/formula with symbol meanings. c025 opens with triple → matching-coordinate products → sum → compatibility score. DistMult is hᵀRᵣt only when Rᵣ is diagonal; a general full relation matrix is RESCAL. Raw scores are not probabilities/truth and have no universal cutoff. Avoid appending duplicate summaries; replace/reorganize instead. The user’s example illustrates desired simplicity, not permission to repeat technical mistakes.

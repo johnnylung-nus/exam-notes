@@ -5,3 +5,5 @@
 
 /* Exam lookup emphasis: sparse, printable, not full-sentence highlighting. */
 .exam-keyword{font-weight:750;color:#263f57;background:#f7e9b1;border-radius:2px;padding:0 .08em}@media print{.exam-keyword{color:#000!important;background:none!important;font-weight:800}}
+
+.exam-points{padding-left:20px}.exam-points>li{margin:5px 0;line-height:1.4}.exam-supporting{margin:8px 0;padding:6px 10px;border:1px solid #ddd4c5;background:#faf8f3}.exam-supporting>summary{font-size:12px;cursor:pointer;color:#53616c}.exam-supporting>section{margin:8px 0!important}.exam-supporting>section>h3{display:none}.supporting-print-control{font-size:12px;display:inline-flex;gap:6px;align-items:center}@media print{body:not(.include-supporting-notes) .exam-supporting{display:none!important}.exam-points>li{margin:1mm 0}.exam-supporting{border:0;padding:0;background:white}.exam-supporting>summary{display:none}}
