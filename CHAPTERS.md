@@ -111,3 +111,7 @@ Exam-pack exclusions remove topics only from combined printing; retain their not
 
 ## Machine Reasoning Day 4 prediction — 27 October 2026
 Added the missing Classification and Regression overview (PDF pp.25–40), with KNN classification/regression, worked prediction/MSE, polynomial features and scenario selection. Day 4 links to existing KNN, regression and classification-metric pages; explanations remain canonical, not duplicated per lecture.
+
+
+### Day 4 agenda correction — 27 October 2026
+Lecture-order headings must match the lecturer’s numbered agenda, with canonical concept links underneath. Day 4 now follows 4.1.1–4.3.2; deduction/predicate logic are recap only, simulated annealing a supporting mention. Neural-network learning, ensemble/clustering, evaluation and workshop applications were missing from the old outline. Explainability pp.76–79 remains explicitly flagged as a dedicated-notes gap. Reviewed state is untouched.
