@@ -1641,6 +1641,14 @@
               ],
               "note": "Shared canonical notes; see source section and coverage notes.",
               "mappingKind": "existing-note"
+            },
+            {
+              "conceptId": "c136",
+              "pages": [
+                89
+              ],
+              "note": "Regression workshop missing-value handling.",
+              "mappingKind": "added-source-link"
             }
           ],
           "agenda": [
@@ -1665,7 +1673,7 @@
                 "c027",
                 "c135"
               ],
-              "coverageNote": "",
+              "coverageNote": "PDF pp.4–7 recap deduction and predicate logic. These stay as supporting recap links, not main agenda topics.",
               "references": {
                 "c011": [
                   7,
@@ -1682,7 +1690,8 @@
                 "c135": [
                   14
                 ]
-              }
+              },
+              "parentHeading": "4.1 Inductive Reasoning and Learning"
             },
             {
               "title": "4.1.2 Machine Learning Tasks and Models",
@@ -1738,7 +1747,7 @@
                 "c154",
                 "c156"
               ],
-              "coverageNote": "",
+              "coverageNote": "The shared linear-regression page also covers logistic regression from PSUPR. Day 4 teaches linear and polynomial regression; polynomial regression and MSE are in the Classification & Regression overview.",
               "references": {
                 "extra-classification-regression": [
                   25,
@@ -1813,7 +1822,7 @@
                 "c139",
                 "c137"
               ],
-              "coverageNote": "",
+              "coverageNote": "Select metrics for the application. The regression MSE calculation is in the Classification & Regression overview.",
               "references": {
                 "c139": [
                   57,
@@ -1847,7 +1856,7 @@
                 "c105",
                 "c107"
               ],
-              "coverageNote": "",
+              "coverageNote": "Simulated annealing is only a supporting mention on PDF p.74, not a main Day 4 topic.",
               "references": {
                 "c104": [
                   68
@@ -1862,7 +1871,8 @@
                   73,
                   74
                 ]
-              }
+              },
+              "parentHeading": "4.2 Neural Network Learning"
             },
             {
               "title": "4.2.2 Explainability",
@@ -1887,8 +1897,13 @@
                 85,
                 86
               ],
-              "conceptIds": [],
-              "coverageNote": "PDF pp.82–86: Online Retail data → customer features (RFM) → construct K-means clusters → define and justify a classification target. The workshop is an application of the shared concepts below."
+              "conceptIds": [
+                "c154",
+                "c156",
+                "extra-classification-regression"
+              ],
+              "coverageNote": "Online Retail workshop: define customer features (RFM), construct clusters and justify a classification target. Reuse these concepts; the exact notebook walkthrough is not reproduced.",
+              "parentHeading": "4.3 Workshop: Machine Learning Tasks & Models"
             },
             {
               "title": "4.3.2 Regression",
@@ -1898,8 +1913,18 @@
                 89,
                 90
               ],
-              "conceptIds": [],
-              "coverageNote": "PDF pp.87–89: California Housing → compare KNN regressors, linear / polynomial regression and MLP; handle missing values and compare parameters. The workshop is an application, not a new regression definition."
+              "conceptIds": [
+                "c143",
+                "extra-classification-regression",
+                "c107",
+                "c136"
+              ],
+              "coverageNote": "California Housing workshop: compare KNN, linear / polynomial regression and MLP; handle missing values. Reuse these concepts; the exact notebook walkthrough is not reproduced.",
+              "references": {
+                "c136": [
+                  89
+                ]
+              }
             }
           ],
           "recapReferences": [

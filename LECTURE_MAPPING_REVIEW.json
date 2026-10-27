@@ -6,9 +6,9 @@
     "pdfPages": 2206,
     "sections": 174,
     "oldLinks": 194,
-    "newLinks": 252,
-    "addedSourceLinks": 58,
-    "coverageNotes": 48,
+    "newLinks": 253,
+    "addedSourceLinks": 59,
+    "coverageNotes": 52,
     "unmappedConcepts": [
       "c008",
       "extra-hmm",
@@ -126,10 +126,36 @@
       "pageCount": 91,
       "sections": 7,
       "previousLinks": 16,
-      "currentLinks": 16,
-      "addedLinks": [],
+      "currentLinks": 17,
+      "addedLinks": [
+        "c136"
+      ],
       "supportingReferences": [],
       "coverageNotes": [
+        {
+          "section": "4.1.1 Machine Learning Basics",
+          "pages": "4–15",
+          "note": "PDF pp.4–7 recap deduction and predicate logic. These stay as supporting recap links, not main agenda topics.",
+          "hasRelatedNotes": true
+        },
+        {
+          "section": "4.1.2 Machine Learning Tasks and Models",
+          "pages": "16–55",
+          "note": "The shared linear-regression page also covers logistic regression from PSUPR. Day 4 teaches linear and polynomial regression; polynomial regression and MSE are in the Classification & Regression overview.",
+          "hasRelatedNotes": true
+        },
+        {
+          "section": "4.1.3 Performance Evaluation",
+          "pages": "56–64",
+          "note": "Select metrics for the application. The regression MSE calculation is in the Classification & Regression overview.",
+          "hasRelatedNotes": true
+        },
+        {
+          "section": "4.2.1 Neural Networks: Basic Concepts",
+          "pages": "65–74",
+          "note": "Simulated annealing is only a supporting mention on PDF p.74, not a main Day 4 topic.",
+          "hasRelatedNotes": true
+        },
         {
           "section": "4.2.2 Explainability",
           "pages": "75–80",
@@ -139,14 +165,14 @@
         {
           "section": "4.3.1 Classification and Clustering",
           "pages": "81–86",
-          "note": "PDF pp.82–86: Online Retail data → customer features (RFM) → construct K-means clusters → define and justify a classification target. The workshop is an application of the shared concepts below.",
-          "hasRelatedNotes": false
+          "note": "Online Retail workshop: define customer features (RFM), construct clusters and justify a classification target. Reuse these concepts; the exact notebook walkthrough is not reproduced.",
+          "hasRelatedNotes": true
         },
         {
           "section": "4.3.2 Regression",
           "pages": "87–90",
-          "note": "PDF pp.87–89: California Housing → compare KNN regressors, linear / polynomial regression and MLP; handle missing values and compare parameters. The workshop is an application, not a new regression definition.",
-          "hasRelatedNotes": false
+          "note": "California Housing workshop: compare KNN, linear / polynomial regression and MLP; handle missing values. Reuse these concepts; the exact notebook walkthrough is not reproduced.",
+          "hasRelatedNotes": true
         }
       ]
     },
