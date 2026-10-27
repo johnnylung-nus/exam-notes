@@ -364,6 +364,14 @@
               "note": ""
             },
             {
+              "conceptId": "extra-tensors",
+              "pages": [
+                58,
+                59
+              ],
+              "note": "Foundation explanation for the tensor notation in RESCAL; small examples added for tutoring."
+            },
+            {
               "conceptId": "c025",
               "pages": [
                 57,
@@ -3691,6 +3699,14 @@
       "quizCount": 0,
       "quizScope": "lecture",
       "quizGap": "Dedicated network explanation and worked lecture inference.",
+      "quizNote": ""
+    },
+    "extra-tensors": {
+      "title": "Tensors and Shapes",
+      "url": "concepts/extra-tensors.html#extra-tensors",
+      "quizCount": 0,
+      "quizScope": "lecture",
+      "quizGap": "Foundation explanation linked to the RESCAL lecture.",
       "quizNote": ""
     }
   },

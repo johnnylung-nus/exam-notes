@@ -312,3 +312,8 @@ The Day3 traversal section includes definition (PDF24), seven-type table (25), i
 ## TransR limitation coverage — 26 October 2026
 
 Keep all four lecture p.55 points explicit: Increased Model Complexity; Computational Overhead; Limited Interpretability & Scalability; Risk of Overfitting. Explain each through relation-specific projection matrices, not a generic disadvantage list. Complexity means additional parameters/choices; overhead means projection operations; interpretability means learned coordinates/matrices are not naturally human-readable; scalability concerns storage/candidate-processing costs; overfitting is particularly relevant for sparsely observed relations. c024#transr-limitations provides the consolidated table and exam implication, replacing duplicate generic implementation prose.
+
+
+## Tensor foundation — 27 October 2026
+
+The user needs elementary concepts that lecture terminology assumes. Tensors and Shapes now has a dedicated page extra-tensors, placed before RESCAL/DistMult in MR Day3 with a clear foundation label. Explain scalar0D/vector1D/matrix2D as special tensors; tensor is NOT restricted to3D+. Distinguish axis count, shape, element count, matrix rank and embedding dimension. Connect H×W×C image shapes and E×E×R knowledge-graph tensor slices to their actual meanings. Mark tutoring examples as such rather than invented lecture claims. Existing neural/KG pages link to the same foundation page.
