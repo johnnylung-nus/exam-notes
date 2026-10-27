@@ -107,3 +107,7 @@ Exam-pack exclusions remove topics only from combined printing; retain their not
 ## CSP added to MR Day 1 — 25 October 2026
 
 `concepts/extra-csp.html` fills the missing Day 1 CSP workshop (PDF pp.76–89): identify variables/domains/constraints, distinguish mandatory hard rules from soft preferences, and trace backtracking including undo/domain restoration. Uses the actual Singapore map-colouring prefix and labelled computed continuation, plus an original timetable example and N-Queens formulation. Hard/soft cross-reference is RS day3.pdf p.53, not a claim those labels were fully explained in MR’s CSP slides. Linked from all indexes and lecture order, with three MCQs. Keep CSP as one shared page.
+
+
+## Machine Reasoning Day 4 prediction — 27 October 2026
+Added the missing Classification and Regression overview (PDF pp.25–40), with KNN classification/regression, worked prediction/MSE, polynomial features and scenario selection. Day 4 links to existing KNN, regression and classification-metric pages; explanations remain canonical, not duplicated per lecture.

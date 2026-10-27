@@ -172,5 +172,6 @@
   "extra-case-representation": "concepts/extra-case-representation.html#extra-case-representation",
   "extra-vector-representation": "concepts/extra-vector-representation.html#extra-vector-representation",
   "extra-bayesian-network": "concepts/extra-bayesian-network.html#extra-bayesian-network",
-  "extra-tensors": "concepts/extra-tensors.html#extra-tensors"
+  "extra-tensors": "concepts/extra-tensors.html#extra-tensors",
+  "extra-classification-regression": "concepts/extra-classification-regression.html#extra-classification-regression"
 }

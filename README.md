@@ -356,3 +356,7 @@ Use the lecture's teaching flow for concept pages:
 4. **Used Cases:** Explain which problem/scenario it suits and why, using the lecturer's use cases where present. Include a short example and exam-selection clues; do not invent uses merely to fill a heading.
 
 This is the default explanation sequence, not a requirement to create empty or irrelevant sections. Preserve topic-specific structure, short points, selective bold keywords, compact tables/layout and A4 readability. Do not duplicate material across stages or replace explanation with copied slides. Apply this flow during future edits and substantive revisions of existing pages.
+
+
+## Machine Reasoning Day 4 prediction — 27 October 2026
+Added the missing Classification and Regression overview (PDF pp.25–40), with KNN classification/regression, worked prediction/MSE, polynomial features and scenario selection. Day 4 links to existing KNN, regression and classification-metric pages; explanations remain canonical, not duplicated per lecture.

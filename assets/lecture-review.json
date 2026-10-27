@@ -1,5 +1,5 @@
 {
-  "assetVersion": "exam-reading-16",
+  "assetVersion": "mr-day4-prediction-17",
   "groups": [
     {
       "id": "machine-reasoning",
@@ -469,6 +469,61 @@
                 63
               ],
               "note": ""
+            },
+            {
+              "conceptId": "extra-classification-regression",
+              "pages": [
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "note": "Classification vs regression; KNN voting/averaging; linear and polynomial regression; evaluation."
+            },
+            {
+              "conceptId": "c143",
+              "pages": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "note": "Same canonical explanation; also taught in Machine Reasoning Day 4."
+            },
+            {
+              "conceptId": "c139",
+              "pages": [
+                33,
+                34
+              ],
+              "note": "Same canonical explanation; also taught in Machine Reasoning Day 4."
+            },
+            {
+              "conceptId": "c142",
+              "pages": [
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "note": "Same canonical explanation; also taught in Machine Reasoning Day 4."
             },
             {
               "conceptId": "c028",
@@ -3707,6 +3762,14 @@
       "quizCount": 0,
       "quizScope": "lecture",
       "quizGap": "Foundation explanation linked to the RESCAL lecture.",
+      "quizNote": ""
+    },
+    "extra-classification-regression": {
+      "title": "Classification and Regression",
+      "url": "concepts/extra-classification-regression.html#extra-classification-regression",
+      "quizCount": 0,
+      "quizScope": "MR Day 4: prediction, KNN and regression",
+      "quizGap": "Lecture-scoped questions pending",
       "quizNote": ""
     }
   },
