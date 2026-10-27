@@ -360,3 +360,7 @@ Use the lecture's teaching flow for concept pages:
 4. **Used Cases:** Explain which problem/scenario it suits and why, using the lecturer's use cases where present. Include a short example and exam-selection clues; do not invent uses merely to fill a heading.
 
 This is the default explanation sequence, not a requirement to create empty or irrelevant sections. Preserve topic-specific structure, short points, selective bold keywords, compact tables/layout and A4 readability. Do not duplicate material across stages or replace explanation with copied slides. Apply this flow during future edits and substantive revisions of existing pages.
+
+
+## Full lecture outline and concept mapping audit — 27 October 2026
+All 36 selected core lecture files were checked at source-section/page-reference level against the canonical Concept Index. Use lecture-review.json agenda sections and LECTURE_MAPPING_REVIEW.json. Preserve source headings/order; distinguish recap, workshop application, existing shared explanation and missing/partial coverage. Never infer completeness from a linked page or promote a passing mention to a main agenda topic. Existing concepts may recur across lectures but retain one canonical page and one saved review/print state. Reciprocal lecture references now appear in the indexes and concept-page context. This audit does not certify exhaustive correctness/completeness of all text, images, calculations or quizzes; recorded gaps must stay visible until resolved.

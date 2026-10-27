@@ -364,3 +364,7 @@ Added the missing Classification and Regression overview (PDF pp.25–40), with 
 
 ### Day 4 agenda correction — 27 October 2026
 Lecture-order headings must match the lecturer’s numbered agenda, with canonical concept links underneath. Day 4 now follows 4.1.1–4.3.2; deduction/predicate logic are recap only, simulated annealing a supporting mention. Neural-network learning, ensemble/clustering, evaluation and workshop applications were missing from the old outline. Explainability pp.76–79 remains explicitly flagged as a dedicated-notes gap. Reviewed state is untouched.
+
+
+## Full lecture outline and concept mapping audit — 27 October 2026
+All 36 selected core lecture files were checked at source-section/page-reference level against the canonical Concept Index. Use lecture-review.json agenda sections and LECTURE_MAPPING_REVIEW.json. Preserve source headings/order; distinguish recap, workshop application, existing shared explanation and missing/partial coverage. Never infer completeness from a linked page or promote a passing mention to a main agenda topic. Existing concepts may recur across lectures but retain one canonical page and one saved review/print state. Reciprocal lecture references now appear in the indexes and concept-page context. This audit does not certify exhaustive correctness/completeness of all text, images, calculations or quizzes; recorded gaps must stay visible until resolved.
