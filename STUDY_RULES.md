@@ -349,3 +349,14 @@ Follow the user's reference for highlighting, point form, explanation logic and 
 - Keep typography/spacing compact, mobile readable and A4 friendly, with clear hierarchy and no oversized decorative blocks.
 - Preserve technical accuracy when simplifying: a compatibility score is not automatically a truth probability; DistMult uses a diagonal relation matrix. A reference shows presentation preferences, not an authoritative technical answer key.
 This is a standing requirement across all concept pages and future conversations; apply it during editing, not only acknowledge it in chat.
+
+
+## Default teaching flow — user's clarification, 27 October 2026
+
+Use the lecture's teaching flow for concept pages:
+1. **What is it?** Explain the concept plainly: what it does, the problem it addresses, and its key mechanism. Explain unfamiliar terms rather than only naming them.
+2. **Calculation / worked example / graphics.** Where relevant, give the general formula, define every symbol, substitute values, and interpret the result. Prefer a clear original lecture example or diagram with its source; explain what to notice. Label added teaching examples. For qualitative topics use a meaningful worked scenario/flow instead of forcing an equation.
+3. **Pros and Cons.** Extract the important advantages and limitations; state the reason and practical consequence in short points. Avoid generic lists unrelated to the mechanism.
+4. **Used Cases:** Explain which problem/scenario it suits and why, using the lecturer's use cases where present. Include a short example and exam-selection clues; do not invent uses merely to fill a heading.
+
+This is the default explanation sequence, not a requirement to create empty or irrelevant sections. Preserve topic-specific structure, short points, selective bold keywords, compact tables/layout and A4 readability. Do not duplicate material across stages or replace explanation with copied slides. Apply this flow during future edits and substantive revisions of existing pages.
