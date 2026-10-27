@@ -318,3 +318,8 @@ The user needs elementary concepts that lecture terminology assumes. Tensors and
 ## Exam keyword emphasis — 27 October 2026
 
 All concept explanations need short highlighted exam phrases: core mechanism, contrast, assumption, limitation, data issue, metric and selection clue. Use strong.exam-keyword: bold/pale emphasis on screen, bold black without colour fill in print. Prefer decisive phrases over repeatedly highlighting model names. At most three new highlights per paragraph/bullet/table cell; no full-sentence highlighting. Do not alter formulas, SVGs, references or existing bold text. EXAM_KEYWORD_REVIEW.json records coverage across174 concept pages. Text preservation was verified by removing added markup and comparing with original content. This is a presentation pass, not a new source-completeness claim. Maintain this emphasis during future edits.
+
+
+## Lecture-style exam presentation — 27 October 2026
+
+Bold keywords alone do not make a long paragraph usable in an exam. Prefer short points with one idea each; explicit Pros / Cons; compact comparisons; and cause → consequence. Keep the lecturer’s key terms and make the decisive contrast visible before examples. c025 was rewritten accordingly: full matrix vs diagonal, cross-dimension vs matching-dimension interactions, symmetry limitation, memory/computation/scalability. Put secondary mathematical caveats in deeper detail; do not reproduce a source error without clarification. This supersedes retaining long prose merely because highlights have been added.
